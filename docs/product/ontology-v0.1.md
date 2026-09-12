@@ -1,11 +1,11 @@
 # Latent Threads ontology v0.1
 
-**Status: PROPOSED — reviewable contract for the first implementation.**  
-Prepared 12 September 2026. This is a design proposal; it is neither a verified content dataset nor a finalized taxonomy.
+**Status: PM-reviewed implementation baseline for LT-005, 12 September 2026.**
+This is the v0.1 design contract; executable validation and source-backed content remain separate tickets. It is neither a verified content dataset nor a permanent taxonomy.
 
 ## Product boundary
 
-The model answers **“How does X get done?”** through the contributions people make, then gives the explorer a route into knowledge, capabilities, tools and learning. It supports a small bundled JavaScript application. The first playable example is proposed as **Produce and release a song**; Ugandan coffee is the proposed second example. The six endeavors below pressure-test the model; they are not six simultaneous content commitments.
+The model answers **“How does X get done?”** through the contributions people make, then gives the explorer a route into knowledge, capabilities, tools and learning. It supports a small bundled JavaScript application. Lincoln confirmed **Produce and release a song** first and Ugandan coffee second on 12 September 2026. The six endeavors below pressure-test the model; they are not six simultaneous content commitments.
 
 The authoritative direction comes from the [research brief](../ideation/latent-threads-export/02-product-research-brief.md), [project snapshot](../ideation/latent-threads-export/04-project-snapshot.json) and original user decisions in transcript turns [2–4](../ideation/latent-threads-export/01-conversation-transcript.md). In particular: endeavors are central; roles extend beyond professions; collaboration follows from contributions in context; geographic gaps should be visible; and learning resources belong beside concepts. The current project request favors a self-contained JavaScript app and progressive delivery, superseding the earlier assistant proposal to begin with Postgres.
 
@@ -222,15 +222,15 @@ The first runtime can load the bundle once and build maps by ID, outgoing/incomi
 
 This supports a static-site deployment without a backend, accounts or database service. Introduce a SQLite build artifact/browser adapter only if measured bundle size, loading or queries justify it; do not bring SQLite/WASM, Postgres or a graph server into the first slice by default. Schema and stable IDs stay independent of the renderer and storage engine.
 
-**First implementation:** executable schema/validator, one small reviewed song dataset, context-preserving traversal, source details, basic concept→learning links, the four geographic scopes with honest unknown fallback, and a visible trail. The UI can use typography, whitespace, restrained color and motion inspired by Windows Phone; graph type and evidence state must also have text so color is not the only signal.
+**First implementation:** executable schema/validator, one small reviewed song dataset, context-preserving traversal, source details, basic concept→learning links, schema/query support for the four geographic scopes with honest unknown fallback, and a visible trail. The user-facing geography lens is Wave 2, after sourced local content. The UI can use typography, whitespace, restrained color and motion inspired by Windows Phone; graph type and evidence state must also have text so color is not the only signal.
 
 **Deferred:** five more complete endeavor datasets, real people and team rosters, organizations/facilities, degrees/certifications/pathways, occupation imports, salaries/demand, automated recommendation scores, historical topology, nested endeavors, resource scraping, user-edited facts and multiuser sync. The first data pack should not add pseudo-nodes solely to suggest those features already exist.
 
 ## Consequential decisions to revisit with the PM
 
-- Song first and coffee second are proposed sequencing defaults. User preference can change that order without rebuilding the model.
+- Song first and coffee second are user-confirmed sequencing decisions. The model keeps content order independent of its structure.
 - A curriculum-like exploration must remain evidence-grounded and accessible to teenagers, while avoiding implying that linked courses alone constitute an employment or licensing pathway.
 - A country lens will initially show many **unverified** labels. Filling local evidence is a research task, and the release story should accurately describe its coverage.
 - The initial broad role model intentionally delays imported occupation taxonomy and credential logic. Revisit those boundaries when a verified content case requires them, not as a prerequisite to the first playable graph.
 
-The next approval is a PM review of this proposed contract and an executable-schema ticket. No additional user decision is required to implement these reversible defaults.
+PM review found the contract sufficient for the first implementation: all six conceptual stress tests are covered, contribution context is explicit, and the fixture is clearly separated from publishable evidence. LT-005 implements the executable schema; LT-006 curates source-backed content. No additional user decision is required for those bounded tasks.

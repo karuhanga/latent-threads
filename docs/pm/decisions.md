@@ -1,0 +1,17 @@
+# Decision log
+
+Record consequential decisions here, with date, authority and why. Live status belongs on the [kanban](https://www.notion.so/3d907031acb58172be89cad68e89e362); the short working handoff is [CONTEXT.md](CONTEXT.md).
+
+| Date | Decision | Authority and reason |
+|---|---|---|
+| 2026-09-12 | Repo docs; Notion tracking only | Explicit user preference, confirmed after discussion. Specs, ticket definitions, decisions and durable context are versioned with code. |
+| 2026-09-12 | Song first, Ugandan coffee second | Explicit user selection. Complete one exploration loop before expanding into local relevance. |
+| 2026-09-12 | Windows Phone visual inspiration | Explicit user preference. Typography, flat color, space and purposeful motion, while maintaining accessibility. |
+| 2026-09-12 | React + TypeScript + Vite, Node 24, normalized JSON | PM implementation baseline for a small static read-only graph; avoids database operations and supports reviewable data diffs. |
+| 2026-09-12 | GitHub Actions → Pages | PM recommended deployment using the user's existing public repository. Build and publish only dist; implementation and live deployment pending. |
+| 2026-09-12 | Bounded neighborhood before semantic zoom | PM scope decision: prove understandable exploration before global map complexity. Renderer chosen during LT-007. |
+| 2026-09-12 | Geography/time schema now, geography UI in Wave 2 | PM scope decision. Avoid ungrounded local claims; coffee supplies the second content test. |
+| 2026-09-12 | v0.1 ontology accepted for implementation | PM reviewed agent output and all six conceptual stress tests. Executable validation and factual curation remain separate. |
+| 2026-09-12 | Preserve user's initial Git history | The initial public commit includes ideation and ontology draft. Do not rewrite or remove it. Site deployment excludes raw docs. |
+
+No paid purchase, custom domain, broader backend, or indefinite background automation has been authorized or started. A proposed bounded build goal is to complete and demonstrate Wave 1, with a visible preview at each checkpoint and publication to the existing Pages destination after checks pass.

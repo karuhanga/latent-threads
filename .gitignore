@@ -1,1 +1,15 @@
-/.idea/
+.idea/
+.DS_Store
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+*.log
+.local/
+
+# Avoid adding new personal ideation exports by accident; existing tracked files stay tracked.
+docs/ideation/
