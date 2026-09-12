@@ -38,9 +38,14 @@ export interface TaxonomyMapping {
   id: string; roleId: string; scheme: string; code: string; sourceId: string; sourceVersion: string;
   mappingRelation: 'exact' | 'close' | 'broader' | 'narrower';
 }
+export interface OrganizationExample {
+  id: string; name: string; summary: string; url: string;
+  contributionId: string; placeId: string; placeContext: string; editorialStatus: EditorialStatus;
+}
 export interface Catalog {
-  schemaVersion: '0.1'; nodes: Node[]; contributions: Contribution[]; relations: Relation[];
+  schemaVersion: '0.1' | '0.2'; nodes: Node[]; contributions: Contribution[]; relations: Relation[];
   sources: Source[]; evidence: Evidence[]; places: Place[];
   presenceAssessments: PresenceAssessment[]; taxonomyMappings: TaxonomyMapping[];
+  organizationExamples?: OrganizationExample[];
 }
 export type Entity = Node | (Contribution & { type: 'contribution'; label: string; summary: string });

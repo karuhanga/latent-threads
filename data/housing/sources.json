@@ -1,0 +1,92 @@
+[
+  {
+    "id": "source:housing-architect",
+    "title": "Architects",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/architecture-and-engineering/architects.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-surveyor",
+    "title": "Surveyors",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/architecture-and-engineering/surveyors.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-carpenter",
+    "title": "Carpenters",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-electrician",
+    "title": "Electricians",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-manager",
+    "title": "Construction Managers",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/management/construction-managers.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-plumber",
+    "title": "Plumbers, Pipefitters, and Steamfitters",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-mason",
+    "title": "Masonry Workers",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/construction-and-extraction/brickmasons-blockmasons-and-stonemasons.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties; general work descriptions only, no local license or wage claims"
+  },
+  {
+    "id": "source:housing-energy",
+    "title": "Energy in buildings",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/nature-environment/energy-buildings/content-section-0",
+    "publisher": "The Open University",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "Course description, learning outcomes, open access and contents"
+  },
+  {
+    "id": "source:housing-editorial",
+    "title": "Housing route editorial design",
+    "kind": "internal_editorial",
+    "locator": "docs/research/housing.md",
+    "publisher": "Latent Threads",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "pinpoint": "Six overlapping areas of work, not a complete construction specification"
+  }
+]

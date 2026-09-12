@@ -38,11 +38,24 @@ export function createGraph(catalog: Catalog) {
   function getContributions(id: string): Contribution[] {
     return catalog.contributions.filter(c => c.id === id || c.roleId === id || c.stageId === id || c.endeavorId === id);
   }
+  const places = new Map(catalog.places.map(place => [place.id, place]));
+  const contributionsById = new Map(catalog.contributions.map(contribution => [contribution.id, contribution]));
   return {
     catalog,
     getNode: (id: string) => entities.get(id),
     getStages: (id: string) => catalog.nodes.filter(n => n.type === 'stage' && n.endeavorId === id).sort((a, b) => (a.displayOrder ?? 0) - (b.displayOrder ?? 0)),
     getContributions,
+    getOrganizationExamples(id: string) {
+      const entity = entities.get(id);
+      if (!entity || !['endeavor', 'stage', 'contribution'].includes(entity.type)) return [];
+      const contributionIds = new Set(getContributions(id).map(contribution => contribution.id));
+      return (catalog.organizationExamples ?? []).flatMap(example => {
+        if (example.editorialStatus !== 'published' || !contributionIds.has(example.contributionId)) return [];
+        const contribution = contributionsById.get(example.contributionId);
+        const place = places.get(example.placeId);
+        return contribution?.editorialStatus === 'published' && place ? [{ ...example, contribution, place }] : [];
+      });
+    },
     getEvidence: (id: string) => catalog.evidence.filter(e => e.subjectId === id).map(e => ({ ...e, source: evidence.get(e.sourceId)! })),
     getPresence: (subjectId: string, placeId: string) => catalog.presenceAssessments.find(p => p.subjectId === subjectId && p.placeId === placeId) ?? { subjectId, placeId, state: 'unknown' as const, scopeNote: 'Local presence unverified' },
     getNeighborhood(id: string, { limit = 10, offset = 0 }: { limit?: number; offset?: number } = {}): Neighborhood {

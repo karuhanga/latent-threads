@@ -1,0 +1,18 @@
+[
+  {
+    "id": "relation:shared-nist-teaches-measurement",
+    "type": "teaches",
+    "fromId": "resource:nist-si-units",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published",
+    "summary": "Explains quantities, units and how a number and unit express a measured value."
+  },
+  {
+    "id": "relation:shared-mixing-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:song-mix",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published",
+    "summary": "Digital mixing uses meters to compare audio signal levels."
+  }
+]

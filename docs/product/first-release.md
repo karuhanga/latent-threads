@@ -37,3 +37,6 @@ Use stable IDs, explicit relationship meanings, claim-level provenance and check
 This repository document is the current PM scope. The preserved ideation is historical context. User decisions in that conversation: endeavor-centered discovery; contextual contributions; local relevance; learning links; history; ontology before content/application integration. Current user direction adds progressive releases, bundled JS/static delivery, Git from the beginning and Windows Phone visual inspiration.
 Local references: docs/ideation/latent-threads-export/02-product-research-brief.md, 04-project-snapshot.json and 01-conversation-transcript.md (user turns 2–4).
 Tracking: [Notion kanban](https://www.notion.so/3d907031acb58172be89cad68e89e362).
+
+## Approved expansion
+The later user-approved [Wave 2 plan](wave-2.md) supersedes the earlier coffee-only expansion and deferral of the other verticals. Build coffee, housing, clothing, diagnostic testing and mobile apps in progressive checkpoints, with lightweight organization examples for local context.

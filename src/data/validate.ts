@@ -1,7 +1,7 @@
 import type { Catalog } from './types.ts';
 
 type Row = Record<string, unknown>;
-const collections = ['nodes', 'contributions', 'relations', 'sources', 'evidence', 'places', 'presenceAssessments', 'taxonomyMappings'] as const;
+const collections = ['nodes', 'contributions', 'relations', 'sources', 'evidence', 'places', 'presenceAssessments', 'taxonomyMappings', 'organizationExamples'] as const;
 const nodeTypes = ['endeavor', 'stage', 'artifact', 'service', 'role', 'capability', 'knowledge', 'tool', 'learning_resource'];
 const statuses = ['draft', 'illustrative', 'published'];
 const pairs: Record<string, string[]> = {
@@ -21,7 +21,25 @@ function date(x: unknown): boolean {
 }
 function url(x: unknown, release: boolean): boolean {
   if (typeof x !== 'string') return false;
-  try { const u = new URL(x); return ['https:', 'http:'].includes(u.protocol) && (!release || !/(^|\.)(example\.(com|org|net)|localhost)$/.test(u.hostname)); }
+  try {
+    const u = new URL(x);
+    if (!['https:', 'http:'].includes(u.protocol) || u.username || u.password) return false;
+    if (!release) return true;
+    const host = u.hostname.toLowerCase().replace(/\.$/, '');
+    if (/(^|\.)(example\.(com|org|net)|localhost)$/.test(host) || /\.(local|localhost|test|invalid|example)$/.test(host)) return false;
+    if (host.startsWith('[')) {
+      const address = host.slice(1, -1);
+      return !/^(::(?:1)?|::ffff:.*|f[cd].*|fe[89ab].*|ff.*|2001:db8:.*)$/.test(address);
+    }
+    if (!host.includes('.')) return false;
+    if (/^\d+\.\d+\.\d+\.\d+$/.test(host)) {
+      const [a = 0, b = 0, c = 0] = host.split('.').map(Number);
+      if ([0, 10, 127].includes(a) || a >= 224 || (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31)
+        || (a === 192 && b === 168) || (a === 100 && b >= 64 && b <= 127)
+        || (a === 192 && b === 0 && c === 2) || (a === 198 && b === 51 && c === 100) || (a === 203 && b === 0 && c === 113)) return false;
+    }
+    return true;
+  }
   catch { return false; }
 }
 
@@ -31,14 +49,15 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
   const errors: string[] = [];
   const fail = (r: Row | string, reason: string) => errors.push(`${typeof r === 'string' ? r : String(r.id ?? '(missing id)')}: ${reason}`);
   if (!obj(input)) return ['catalog: expected an object'];
-  if (input.schemaVersion !== '0.1') fail('catalog', 'unsupported schemaVersion');
+  if (input.schemaVersion !== '0.1' && input.schemaVersion !== '0.2') fail('catalog', 'unsupported schemaVersion');
   const rows = {} as Record<(typeof collections)[number], Row[]>;
   for (const key of collections) {
-    const value = input[key];
+    const value = key === 'organizationExamples' && input[key] === undefined ? [] : input[key];
     if (!Array.isArray(value)) { fail(key, 'expected array'); rows[key] = []; continue; }
     rows[key] = value.filter(obj);
     if (rows[key].length !== value.length) fail(key, 'records must be objects');
   }
+  if (input.schemaVersion === '0.1' && rows.organizationExamples.length) fail('organizationExamples', 'requires schemaVersion 0.2');
   const all = new Map<string, Row>(); const category = new Map<string, string>();
   for (const key of collections) for (const row of rows[key]) {
     if (!nonempty(row.id) || !/^[a-z_]+:[a-z0-9][a-z0-9-]*$/.test(row.id)) { fail(row, 'invalid namespaced ID'); continue; }
@@ -104,6 +123,16 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     required(c, ['action']); if (c.label !== undefined) required(c, ['label']); reference(c, 'endeavorId', ['endeavor']); reference(c, 'stageId', ['stage']); reference(c, 'roleId', ['role']);
     if (all.get(String(c.stageId))?.endeavorId !== c.endeavorId) fail(c, 'stage/endeavor context mismatch');
   }
+  for (const example of rows.organizationExamples) {
+    if (typeof example.id !== 'string' || !example.id.startsWith('example:')) fail(example, 'organization example ID must use example: namespace');
+    required(example, ['name', 'summary', 'placeContext']);
+    oneOf(example, 'editorialStatus', statuses);
+    if (release && example.editorialStatus !== 'published') fail(example, 'release contains unpublished record');
+    if (!url(example.url, release || example.editorialStatus === 'published')) fail(example, 'invalid or non-public organization URL');
+    reference(example, 'contributionId', ['contribution']);
+    reference(example, 'placeId', ['places']);
+    if (example.editorialStatus === 'published' && all.get(String(example.contributionId))?.editorialStatus !== 'published') fail(example, 'published example needs a published contribution');
+  }
   const assertions = new Set<string>();
   for (const r of rows.relations) {
     oneOf(r, 'type', Object.keys(pairs));
@@ -145,7 +174,7 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     if (s.kind === 'external' && !url(s.locator, release)) fail(s, 'invalid or placeholder source URL');
   }
   for (const e of rows.evidence) {
-    reference(e, 'subjectId', [...nodeTypes, 'contribution', 'relations', 'presenceAssessments', 'taxonomyMappings']); reference(e, 'sourceId', ['sources']);
+    reference(e, 'subjectId', [...nodeTypes, 'contribution', 'relations', 'presenceAssessments', 'taxonomyMappings', 'organizationExamples']); reference(e, 'sourceId', ['sources']);
     required(e, ['claim']); oneOf(e, 'support', ['direct', 'inference', 'illustrative']); oneOf(e, 'reviewStatus', ['pending', 'reviewed', 'contested']);
     if (e.reviewStatus === 'reviewed') { required(e, ['reviewer']); timestamp(e, 'reviewedAt'); }
     if (e.support === 'inference' || e.reviewStatus === 'contested') required(e, ['notes']);
@@ -162,6 +191,7 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     const structuralEditorial = ['stage', 'endeavor'].includes(String(r.type)) || (r.type === 'produces' && category.get(String(r.fromId)) === 'endeavor');
     covered(r, !structuralEditorial);
   }
+  for (const example of rows.organizationExamples) if (example.editorialStatus === 'published') covered(example, true);
   const assessments = new Set<string>();
   for (const p of rows.presenceAssessments) {
     reference(p, 'subjectId', [...nodeTypes, 'relations']); reference(p, 'placeId', ['places']);

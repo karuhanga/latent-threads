@@ -18,7 +18,7 @@ test('display preferences remain usable with corrupt, unavailable or partial sto
 });
 
 test('conventional activity names stay distinct from professional roles and full actions', async () => {
-  const catalog = await loadCatalog();
+  const catalog = await loadCatalog(new URL('../data/song/', import.meta.url));
   const graph = createGraph(catalog);
   assert.equal(graph.getNode('contribution:song-produce').label, 'Production');
   assert.equal(graph.getNode('role:music-producer').label, 'Music producer');

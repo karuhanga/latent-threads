@@ -1,0 +1,588 @@
+[
+  {
+    "id": "evidence:coffee-endeavor-coffee-cup-sca-courses",
+    "subjectId": "endeavor:coffee-cup",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "SCA connects farm-to-cup learning with green coffee, roasting and brewing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-endeavor-coffee-cup-editorial",
+    "subjectId": "endeavor:coffee-cup",
+    "sourceId": "source:coffee-editorial",
+    "claim": "The six groups are a navigation choice, not a mandatory or complete supply chain.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-artifact-coffee-cup-bluebottle-pour-over",
+    "subjectId": "artifact:coffee-cup",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The guide finishes by serving brewed coffee in a mug.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-harvest-ucda-robusta",
+    "subjectId": "stage:coffee-harvest",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "The handbook describes selective harvesting of ripe coffee cherries.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-harvest-editorial",
+    "subjectId": "stage:coffee-harvest",
+    "sourceId": "source:coffee-editorial",
+    "claim": "Reading group 1: Harvesting. Ordering is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-processing-ucda-arabica",
+    "subjectId": "stage:coffee-processing",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "The handbook distinguishes wet and dry coffee processing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-processing-editorial",
+    "subjectId": "stage:coffee-processing",
+    "sourceId": "source:coffee-editorial",
+    "claim": "Reading group 2: Processing. Ordering is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-quality-sca-courses",
+    "subjectId": "stage:coffee-quality",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "Green coffee training includes grading, defects and sample assessment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-quality-editorial",
+    "subjectId": "stage:coffee-quality",
+    "sourceId": "source:coffee-editorial",
+    "claim": "Reading group 3: Quality assessment. Ordering is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-export-ugacof",
+    "subjectId": "stage:coffee-export",
+    "sourceId": "source:coffee-ugacof",
+    "claim": "Ugacof describes green-coffee processing, warehousing and export from Uganda.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-export-editorial",
+    "subjectId": "stage:coffee-export",
+    "sourceId": "source:coffee-editorial",
+    "claim": "Reading group 4: Export. Ordering is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-roasting-diedrich-roaster",
+    "subjectId": "stage:coffee-roasting",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "The manual describes heating green beans and monitoring roast development.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-roasting-editorial",
+    "subjectId": "stage:coffee-roasting",
+    "sourceId": "source:coffee-editorial",
+    "claim": "Reading group 5: Roasting. Ordering is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-brewing-bluebottle-pour-over",
+    "subjectId": "stage:coffee-brewing",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The guide explains grinding, brewing and serving a cup.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-stage-coffee-brewing-editorial",
+    "subjectId": "stage:coffee-brewing",
+    "sourceId": "source:coffee-editorial",
+    "claim": "Reading group 6: Brewing. Ordering is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-role-coffee-grower-ucda-robusta",
+    "subjectId": "role:coffee-grower",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "UCDA addresses coffee farmers, crop management and selective harvesting.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-role-coffee-processor-ucda-arabica",
+    "subjectId": "role:coffee-processor",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "Post-harvest work includes pulping, washing and drying coffee.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-role-coffee-quality-assessor-sca-courses",
+    "subjectId": "role:coffee-quality-assessor",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "SCA covers grading, defect recognition and professional sample evaluation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-role-coffee-exporter-ugacof",
+    "subjectId": "role:coffee-exporter",
+    "sourceId": "source:coffee-ugacof",
+    "claim": "Ugacof identifies its business as green-coffee export from Uganda.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-role-coffee-roaster-diedrich-roaster",
+    "subjectId": "role:coffee-roaster",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "The manual describes qualified operators controlling and observing the roast.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-role-coffee-barista-sca-courses",
+    "subjectId": "role:coffee-barista",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "Barista training covers drink preparation and service fundamentals.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-capability-coffee-selective-harvesting-ucda-robusta",
+    "subjectId": "capability:coffee-selective-harvesting",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "UCDA recommends selecting ripe cherries while leaving immature fruit.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-capability-coffee-quality-assessment-sca-courses",
+    "subjectId": "capability:coffee-quality-assessment",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "Green coffee courses teach grading, defects and sample assessment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-capability-coffee-roast-control-diedrich-roaster",
+    "subjectId": "capability:coffee-roast-control",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "Roasting instructions connect heat and airflow adjustments with bean development.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-capability-coffee-pour-over-brewing-bluebottle-brewing",
+    "subjectId": "capability:coffee-pour-over-brewing",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "Pour-over technique controls water delivery and contact with grounds.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-knowledge-coffee-ripeness-ucda-robusta",
+    "subjectId": "knowledge:coffee-ripeness",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "The handbook says coffee berries ripen progressively.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-knowledge-coffee-moisture-ucda-arabica",
+    "subjectId": "knowledge:coffee-moisture",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "UCDA discusses drying and preventing moisture absorption during storage.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-knowledge-coffee-extraction-bluebottle-brewing",
+    "subjectId": "knowledge:coffee-extraction",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "Blue Bottle explains extraction as coffee solubles dissolving in water.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-tool-coffee-pulper-ucda-arabica",
+    "subjectId": "tool:coffee-pulper",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "A pulping machine removes fresh cherry skin during washed processing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-tool-coffee-roaster-diedrich-roaster",
+    "subjectId": "tool:coffee-roaster",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "The manual describes the roasting drum, heat and airflow controls.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-tool-coffee-grinder-bluebottle-brewing",
+    "subjectId": "tool:coffee-grinder",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "The brewing guide discusses grinding coffee to the appropriate size.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-tool-coffee-brewing-scale-bluebottle-brewing",
+    "subjectId": "tool:coffee-brewing-scale",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "A scale helps establish a coffee-to-water ratio.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-resource-coffee-bluebottle-pour-over-bluebottle-pour-over",
+    "subjectId": "resource:coffee-bluebottle-pour-over",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The public guide explains preparation and staged pouring without an account.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-contribution-coffee-harvest-ucda-robusta",
+    "subjectId": "contribution:coffee-harvest",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "The handbook describes farmers selectively hand-picking ripe cherries.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-contribution-coffee-process-ucda-arabica",
+    "subjectId": "contribution:coffee-process",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "UCDA describes pulping, fermentation, washing and drying in full-wash processing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-contribution-coffee-grade-sca-courses",
+    "subjectId": "contribution:coffee-grade",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "SCA green-coffee training includes grading and defect identification.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-contribution-coffee-export-ugacof",
+    "subjectId": "contribution:coffee-export",
+    "sourceId": "source:coffee-ugacof",
+    "claim": "Ugacof reports processing, warehousing and exporting green coffee from Uganda.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-contribution-coffee-roast-diedrich-roaster",
+    "subjectId": "contribution:coffee-roast",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "The manual describes heat, airflow, observation and discharge into a cooling bin.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-contribution-coffee-brew-bluebottle-pour-over",
+    "subjectId": "contribution:coffee-brew",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The barista-method guide describes grinding, measuring, pouring and serving.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-output-bluebottle-pour-over",
+    "subjectId": "relation:coffee-output",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "Brewing ends with a cup of coffee for drinking.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-brew-output-bluebottle-pour-over",
+    "subjectId": "relation:coffee-brew-output",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The pour-over procedure produces the served drink.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-harvest-skill-ucda-robusta",
+    "subjectId": "relation:coffee-harvest-skill",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "Selective harvesting uses recognition and picking of ripe cherries.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-harvest-ripeness-ucda-robusta",
+    "subjectId": "relation:coffee-harvest-ripeness",
+    "sourceId": "source:coffee-ucda-robusta",
+    "claim": "Progressive ripening explains why cherries are selected rather than stripped.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-process-pulper-ucda-arabica",
+    "subjectId": "relation:coffee-process-pulper",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "Washed processing uses a pulper to remove cherry skin.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-process-moisture-ucda-arabica",
+    "subjectId": "relation:coffee-process-moisture",
+    "sourceId": "source:coffee-ucda-arabica",
+    "claim": "Drying and storage require attention to coffee moisture.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-grade-skill-sca-courses",
+    "subjectId": "relation:coffee-grade-skill",
+    "sourceId": "source:coffee-sca-courses",
+    "claim": "Grading draws on defect recognition and quality assessment skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-roast-skill-diedrich-roaster",
+    "subjectId": "relation:coffee-roast-skill",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "The described roasting work adjusts heat and airflow.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-roast-machine-diedrich-roaster",
+    "subjectId": "relation:coffee-roast-machine",
+    "sourceId": "source:coffee-diedrich-roaster",
+    "claim": "The roasting procedure uses the machine’s drum and controls.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-brew-skill-bluebottle-brewing",
+    "subjectId": "relation:coffee-brew-skill",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "Pour-over preparation uses controlled water delivery and timing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-brew-grinder-bluebottle-brewing",
+    "subjectId": "relation:coffee-brew-grinder",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "Coffee is ground to suit the brewing method.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-brew-scale-bluebottle-brewing",
+    "subjectId": "relation:coffee-brew-scale",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "The method uses a scale for coffee and water quantities.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-brew-measurement-bluebottle-brewing",
+    "subjectId": "relation:coffee-brew-measurement",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "The coffee-to-water ratio is set using measured quantities.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-brew-extraction-bluebottle-brewing",
+    "subjectId": "relation:coffee-brew-extraction",
+    "sourceId": "source:coffee-bluebottle-brewing",
+    "claim": "Pouring, grind and temperature affect extraction into the water.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-guide-brewing-bluebottle-pour-over",
+    "subjectId": "relation:coffee-guide-brewing",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The guide teaches a staged pour-over method.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-relation-coffee-guide-extraction-bluebottle-pour-over",
+    "subjectId": "relation:coffee-guide-extraction",
+    "sourceId": "source:coffee-bluebottle-pour-over",
+    "claim": "The guide relates grind and water temperature to extraction.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:coffee-example-coffee-kyagalanyi-processing-kyagalanyi",
+    "subjectId": "example:coffee-kyagalanyi-processing",
+    "sourceId": "source:coffee-kyagalanyi",
+    "claim": "Volcafe’s Uganda page identifies Kyagalanyi and its processing operations.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review",
+    "reviewAfter": "2027-03-12",
+    "notes": "Organization self-description checked for this activity and place only; no supplier relationship or endorsement is inferred."
+  },
+  {
+    "id": "evidence:coffee-example-coffee-ugacof-export-ugacof",
+    "subjectId": "example:coffee-ugacof-export",
+    "sourceId": "source:coffee-ugacof",
+    "claim": "The company profile identifies Ugacof’s Uganda green-coffee export business.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review",
+    "reviewAfter": "2027-03-12",
+    "notes": "Organization self-description checked for this activity and place only; no supplier relationship or endorsement is inferred."
+  },
+  {
+    "id": "evidence:coffee-example-coffee-endiro-brewing-endiro",
+    "subjectId": "example:coffee-endiro-brewing",
+    "sourceId": "source:coffee-endiro",
+    "claim": "Endiro’s FAQ identifies pour-over service in its Uganda coffee shops.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review",
+    "reviewAfter": "2027-03-12",
+    "notes": "Organization self-description checked for this activity and place only; no supplier relationship or endorsement is inferred."
+  }
+]

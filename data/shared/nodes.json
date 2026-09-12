@@ -1,0 +1,32 @@
+[
+  {
+    "id": "knowledge:measurement",
+    "type": "knowledge",
+    "label": "Measurement",
+    "summary": "Expressing a quantity using a number and a reference unit, so values can be compared.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "capability:project-planning",
+    "type": "capability",
+    "label": "Project planning",
+    "summary": "Defining the work and organizing tasks and resources to meet a project\u2019s requirements.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "resource:nist-si-units",
+    "type": "learning_resource",
+    "label": "Understanding measurement units",
+    "summary": "A short introduction to quantities, units and the structure of the International System of Units.",
+    "editorialStatus": "published",
+    "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+    "provider": "NIST",
+    "format": "article",
+    "learnerLevel": "Introductory",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12"
+  }
+]

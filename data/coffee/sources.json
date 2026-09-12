@@ -1,0 +1,102 @@
+[
+  {
+    "id": "source:coffee-ucda-robusta",
+    "title": "Robusta Coffee Handbook",
+    "kind": "external",
+    "locator": "https://ugandacoffee.go.ug/sites/default/files/2022-03/Robusta%20Coffee%20Handbook.pdf",
+    "publisher": "Uganda Coffee Development Authority",
+    "pinpoint": "Preface; chapter 8, printed pp. 89–90 (PDF pp. 99–100).",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-ucda-arabica",
+    "title": "Arabica Coffee Handbook",
+    "kind": "external",
+    "locator": "https://ugandacoffee.go.ug/sites/default/files/2022-03/Arabic%20Coffee%20Handbook.pdf",
+    "publisher": "Uganda Coffee Development Authority",
+    "pinpoint": "Post-harvest handling, printed pp. 85–89 (PDF pp. 93–97).",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-sca-courses",
+    "title": "Coffee skills courses",
+    "kind": "external",
+    "locator": "https://sca.coffee/education/courses",
+    "publisher": "Specialty Coffee Association",
+    "pinpoint": "Introduction, Barista Skills and Green Coffee sections.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-diedrich-roaster",
+    "title": "IR Series Installation & Operation Manual (2017)",
+    "kind": "external",
+    "locator": "https://www.diedrichroasters.com/wp-content/uploads/2017/05/IR-Series-Installation-Operation-Manual-2017.pdf",
+    "publisher": "Diedrich Roasters",
+    "pinpoint": "Professional-operator notice; section 9.2, printed pp. 19–20 (PDF pp. 22–23).",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-bluebottle-pour-over",
+    "title": "How to Make Pour Over Coffee",
+    "kind": "external",
+    "locator": "https://bluebottlecoffee.com/us/eng/brew-guides/pour-over",
+    "publisher": "Blue Bottle Coffee",
+    "pinpoint": "Public illustrated guide, introduction and steps 1–8.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-bluebottle-brewing",
+    "title": "Pour Over Coffee vs. Coffeemaker",
+    "kind": "external",
+    "locator": "https://blog.bluebottlecoffee.com/posts/coffee-maker-vs-pour-over",
+    "publisher": "Blue Bottle Coffee",
+    "pinpoint": "Extraction explanation; grind guidance; Use a Scale to Find the Right Brew Ratio.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-kyagalanyi",
+    "title": "Kyagalanyi Coffee Ltd — Uganda",
+    "kind": "external",
+    "locator": "https://www.volcafe.com/network/uganda/",
+    "publisher": "Volcafe",
+    "pinpoint": "Uganda business description, processing facilities and office address.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-ugacof",
+    "title": "UGACOF LTD",
+    "kind": "external",
+    "locator": "https://group.sucafina.com/network/ugacof-ltd/",
+    "publisher": "Sucafina",
+    "pinpoint": "About company, product type and Uganda address.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-endiro",
+    "title": "Wholesale FAQ",
+    "kind": "external",
+    "locator": "https://www.endirocoffee.com/wholesale-faq",
+    "publisher": "Endiro Coffee",
+    "pinpoint": "Recommended brew method; What does tree-to-cup mean?",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-editorial",
+    "title": "Coffee pack research and editorial review",
+    "kind": "internal_editorial",
+    "locator": "docs/research/coffee.md",
+    "publisher": "Latent Threads",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "pinpoint": "Scope, framing and review limits."
+  }
+]

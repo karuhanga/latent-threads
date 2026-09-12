@@ -1,0 +1,221 @@
+[
+  {
+    "id": "endeavor:coffee-cup",
+    "type": "endeavor",
+    "label": "Coffee production and brewing",
+    "summary": "Follow coffee from harvested fruit to a brewed cup, through processing, quality assessment, export and roasting.",
+    "editorialStatus": "published",
+    "aliases": [
+      "coffee",
+      "farm to cup",
+      "make coffee"
+    ],
+    "notes": "Six editorial reading stages. Processing methods and commercial routes vary; quality assessment can recur. Uganda examples are independent, not a traced shipment to a particular café."
+  },
+  {
+    "id": "artifact:coffee-cup",
+    "type": "artifact",
+    "label": "Cup of coffee",
+    "summary": "A drink prepared by brewing ground coffee with water.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "stage:coffee-harvest",
+    "type": "stage",
+    "label": "Harvesting",
+    "summary": "Select ripe coffee fruit from the trees.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:coffee-cup",
+    "displayOrder": 1
+  },
+  {
+    "id": "stage:coffee-processing",
+    "type": "stage",
+    "label": "Processing",
+    "summary": "Remove fruit layers and dry coffee using a chosen processing method.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:coffee-cup",
+    "displayOrder": 2
+  },
+  {
+    "id": "stage:coffee-quality",
+    "type": "stage",
+    "label": "Quality assessment",
+    "summary": "Inspect green beans and evaluate samples for quality.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:coffee-cup",
+    "displayOrder": 3
+  },
+  {
+    "id": "stage:coffee-export",
+    "type": "stage",
+    "label": "Export",
+    "summary": "Prepare green coffee for overseas buyers.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:coffee-cup",
+    "displayOrder": 4
+  },
+  {
+    "id": "stage:coffee-roasting",
+    "type": "stage",
+    "label": "Roasting",
+    "summary": "Heat green beans and monitor their development during the roast.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:coffee-cup",
+    "displayOrder": 5
+  },
+  {
+    "id": "stage:coffee-brewing",
+    "type": "stage",
+    "label": "Brewing",
+    "summary": "Grind coffee and brew it into a drink.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:coffee-cup",
+    "displayOrder": 6
+  },
+  {
+    "id": "role:coffee-grower",
+    "type": "role",
+    "label": "Coffee grower",
+    "summary": "Cultivates coffee plants and harvests their fruit.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:coffee-processor",
+    "type": "role",
+    "label": "Coffee processor",
+    "summary": "Handles harvested coffee using processing equipment and drying methods.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:coffee-quality-assessor",
+    "type": "role",
+    "label": "Coffee quality assessor",
+    "summary": "Checks green beans and evaluates coffee samples.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:coffee-exporter",
+    "type": "role",
+    "label": "Coffee exporter",
+    "summary": "Sells coffee from an origin country to overseas markets.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:coffee-roaster",
+    "type": "role",
+    "label": "Coffee roaster",
+    "summary": "Operates roasting equipment and monitors developing coffee.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:coffee-barista",
+    "type": "role",
+    "label": "Barista",
+    "summary": "Prepares coffee drinks and serves customers.",
+    "editorialStatus": "published",
+    "aliases": [
+      "café worker",
+      "coffee maker"
+    ]
+  },
+  {
+    "id": "capability:coffee-selective-harvesting",
+    "type": "capability",
+    "label": "Selective coffee harvesting",
+    "summary": "Recognize ripe cherries and pick them selectively.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:coffee-quality-assessment",
+    "type": "capability",
+    "label": "Coffee quality assessment",
+    "summary": "Recognize defects and assess green coffee samples.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:coffee-roast-control",
+    "type": "capability",
+    "label": "Roast control",
+    "summary": "Adjust heat and airflow while observing a coffee roast.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:coffee-pour-over-brewing",
+    "type": "capability",
+    "label": "Pour-over brewing",
+    "summary": "Control water flow and timing as water passes through coffee grounds.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "knowledge:coffee-ripeness",
+    "type": "knowledge",
+    "label": "Coffee cherry ripeness",
+    "summary": "Coffee fruit on a plant can ripen at different times.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "knowledge:coffee-moisture",
+    "type": "knowledge",
+    "label": "Moisture in coffee",
+    "summary": "Drying removes moisture; poor storage can let dried coffee take up moisture again.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "knowledge:coffee-extraction",
+    "type": "knowledge",
+    "label": "Coffee extraction",
+    "summary": "Water dissolves soluble material from coffee grounds; grind size, temperature and pouring affect the result.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "tool:coffee-pulper",
+    "type": "tool",
+    "label": "Coffee pulper",
+    "summary": "Removes the outer skin from fresh coffee cherries.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:coffee-roaster",
+    "type": "tool",
+    "label": "Coffee roasting machine",
+    "summary": "Heats coffee beans with controls for the roasting process.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:coffee-grinder",
+    "type": "tool",
+    "label": "Coffee grinder",
+    "summary": "Breaks roasted coffee into grounds for brewing.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:coffee-brewing-scale",
+    "type": "tool",
+    "label": "Coffee brewing scale",
+    "summary": "Measures coffee and water quantities during brewing.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "resource:coffee-bluebottle-pour-over",
+    "type": "learning_resource",
+    "label": "How to make pour-over coffee",
+    "summary": "An illustrated introduction to preparing a hand-brewed cup, with grind, timing and water-quantity guidance.",
+    "editorialStatus": "published",
+    "url": "https://bluebottlecoffee.com/us/eng/brew-guides/pour-over",
+    "provider": "Blue Bottle Coffee",
+    "format": "illustrated guide",
+    "learnerLevel": "Beginner",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "One brewer’s method, not a universal recipe. Reading is free; equipment is not included. No open reuse license was verified."
+  }
+]

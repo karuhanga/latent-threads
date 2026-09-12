@@ -1,0 +1,114 @@
+[
+  {
+    "id": "relation:coffee-output",
+    "type": "produces",
+    "fromId": "endeavor:coffee-cup",
+    "toId": "artifact:coffee-cup",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brew-output",
+    "type": "produces",
+    "fromId": "contribution:coffee-brew",
+    "toId": "artifact:coffee-cup",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-harvest-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:coffee-harvest",
+    "toId": "capability:coffee-selective-harvesting",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-harvest-ripeness",
+    "type": "draws_on",
+    "fromId": "capability:coffee-selective-harvesting",
+    "toId": "knowledge:coffee-ripeness",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-process-pulper",
+    "type": "uses",
+    "fromId": "contribution:coffee-process",
+    "toId": "tool:coffee-pulper",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-process-moisture",
+    "type": "draws_on",
+    "fromId": "contribution:coffee-process",
+    "toId": "knowledge:coffee-moisture",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-grade-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:coffee-grade",
+    "toId": "capability:coffee-quality-assessment",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-roast-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:coffee-roast",
+    "toId": "capability:coffee-roast-control",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-roast-machine",
+    "type": "uses",
+    "fromId": "contribution:coffee-roast",
+    "toId": "tool:coffee-roaster",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brew-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:coffee-brew",
+    "toId": "capability:coffee-pour-over-brewing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brew-grinder",
+    "type": "uses",
+    "fromId": "contribution:coffee-brew",
+    "toId": "tool:coffee-grinder",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brew-scale",
+    "type": "uses",
+    "fromId": "contribution:coffee-brew",
+    "toId": "tool:coffee-brewing-scale",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brew-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:coffee-brew",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brew-extraction",
+    "type": "draws_on",
+    "fromId": "capability:coffee-pour-over-brewing",
+    "toId": "knowledge:coffee-extraction",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-guide-brewing",
+    "type": "teaches",
+    "fromId": "resource:coffee-bluebottle-pour-over",
+    "toId": "capability:coffee-pour-over-brewing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-guide-extraction",
+    "type": "teaches",
+    "fromId": "resource:coffee-bluebottle-pour-over",
+    "toId": "knowledge:coffee-extraction",
+    "editorialStatus": "published"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "endeavor:home-building",
+    "type": "endeavor",
+    "label": "Home construction",
+    "summary": "Explore how a home takes shape through design, site work, structure, building services and finishing.",
+    "editorialStatus": "published",
+    "aliases": [
+      "housing",
+      "build a house",
+      "construction"
+    ],
+    "notes": "A compact exploration of selected contributions. The stages overlap and do not prescribe a complete building method or jurisdiction-specific requirements."
+  },
+  {
+    "id": "artifact:home",
+    "type": "artifact",
+    "label": "A home",
+    "summary": "A building designed as a place for people to live.",
+    "editorialStatus": "published",
+    "aliases": [
+      "house",
+      "housing"
+    ]
+  },
+  {
+    "id": "stage:housing-design",
+    "type": "stage",
+    "label": "Design",
+    "summary": "Plan the spaces and requirements.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:home-building",
+    "displayOrder": 0
+  },
+  {
+    "id": "stage:housing-site",
+    "type": "stage",
+    "label": "Site survey",
+    "summary": "Understand the site through measurements.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:home-building",
+    "displayOrder": 1
+  },
+  {
+    "id": "stage:housing-structure",
+    "type": "stage",
+    "label": "Structure",
+    "summary": "Build the walls and supporting framework.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:home-building",
+    "displayOrder": 2
+  },
+  {
+    "id": "stage:housing-services",
+    "type": "stage",
+    "label": "Building services",
+    "summary": "Install electrical and plumbing systems.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:home-building",
+    "displayOrder": 3
+  },
+  {
+    "id": "stage:housing-finishing",
+    "type": "stage",
+    "label": "Finishing",
+    "summary": "Fit the details that make spaces usable.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:home-building",
+    "displayOrder": 4
+  },
+  {
+    "id": "stage:housing-coordination",
+    "type": "stage",
+    "label": "Project coordination",
+    "summary": "Organize people, budgets and schedules throughout the build.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:home-building",
+    "displayOrder": 5
+  },
+  {
+    "id": "role:architect",
+    "type": "role",
+    "label": "Architect",
+    "summary": "Plans spaces and prepares drawings for buildings.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:land-surveyor",
+    "type": "role",
+    "label": "Land surveyor",
+    "summary": "Measures land features and documents boundaries.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:mason",
+    "type": "role",
+    "label": "Mason",
+    "summary": "Builds structures from brick, block, stone or concrete.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:carpenter",
+    "type": "role",
+    "label": "Carpenter",
+    "summary": "Builds and fits frameworks, structures and fixtures.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:electrician",
+    "type": "role",
+    "label": "Electrician",
+    "summary": "Installs and maintains electrical systems in buildings.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:plumber",
+    "type": "role",
+    "label": "Plumber",
+    "summary": "Installs and tests pipes and plumbing fixtures.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:construction-manager",
+    "type": "role",
+    "label": "Construction manager",
+    "summary": "Coordinates construction work, schedules and budgets.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:architectural-drawing",
+    "type": "capability",
+    "label": "Architectural drawing",
+    "summary": "Representing a building design with scaled drawings.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "tool:cad",
+    "type": "tool",
+    "label": "CAD software",
+    "summary": "Software used to produce designs and technical drawings.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:total-station",
+    "type": "tool",
+    "label": "Total station",
+    "summary": "A surveying instrument used to determine positions on a site.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:bricklaying",
+    "type": "capability",
+    "label": "Bricklaying",
+    "summary": "Placing and aligning bricks to form masonry structures.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "tool:spirit-level",
+    "type": "tool",
+    "label": "Level",
+    "summary": "A tool used to check alignment during construction.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:blueprint-reading",
+    "type": "capability",
+    "label": "Reading construction drawings",
+    "summary": "Interpreting building plans to guide construction work.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "knowledge:building-heat-loss",
+    "type": "knowledge",
+    "label": "Heat loss in buildings",
+    "summary": "Understanding how heat escapes a building and how insulation can reduce the loss.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "resource:openlearn-building-energy",
+    "type": "learning_resource",
+    "label": "Energy in buildings",
+    "summary": "Explore heat loss, insulation and energy use in buildings, using examples from the UK.",
+    "editorialStatus": "published",
+    "url": "https://www.open.edu/openlearn/nature-environment/energy-buildings/content-section-0",
+    "provider": "The Open University",
+    "format": "course",
+    "learnerLevel": "Advanced",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "UK examples; course content can be read without signing in. Registration is used to track progress. No professional qualification is implied."
+  }
+]

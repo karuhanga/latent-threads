@@ -6,7 +6,7 @@
 
 - Act as technical PM: scope tickets, direct agents, make routine reversible decisions and ask for input when a consequential product, account/access or spending decision needs it. The user wants progressive, visible progress and conversation with PM rather than a large final reveal.
 - **The repository is the source of truth for all substantial documentation, specifications, decisions and durable context.** Notion is only the kanban and live tracking surface. Write important memory down; do not leave it solely in chat or substantial Notion prose.
-- Start with **produce and release a song**, then **coffee from Uganda to a European café**. The remaining seed endeavors are ontology stress tests and later content, not simultaneous implementation commitments.
+- Music is deployed. Wave 2 adds coffee, housing, clothing, diagnostic testing and mobile apps, delivered in three visible checkpoints. See the active scope below.
 - Center “How does X get done?” and exploration through contextual contributions into roles, knowledge, capabilities, tools and learning. Roles include creative, informal and trade work. The original audience includes the user's high-school sisters and the user.
 - UI inspiration is Windows Phone: strong typography, flat color, generous space, restrained chrome and purposeful movement. Preserve keyboard/mobile usability, visible focus, labels and reduced-motion support.
 - Prefer a small, self-contained JavaScript application, Git from the outset and the easiest deployment story. The user explicitly supports bounded subagents and asks us to obtain/use needed tooling.
@@ -45,7 +45,7 @@ User requested global catalog framing, a randomly arranged large/small tile wall
 - LT-001–LT-011 and LT-020 accepted by PM. Original visual checkpoint A `847e7fb`, sourced exploration B `15d6ea2`, discovery/learning C `8ded5ff`; user review revision `d84d0c4`. User feedback informed the revision; no subsequent user acceptance is claimed.
 - Data: 31 nodes + 8 contextual contributions, 6 stages, 24 relations, 70 evidence records and 3 learning resources. All 45 tests, data/type checks, reproducible build and exact-source CI passed. Revised desktop/mobile, keyboard, automatic/manual movement, preference persistence, catalog search and independent entity views were reviewed. Hosted home, global Surprise, refreshed skill deep link and exact release provenance verified. Detailed evidence/limits: [LT-020 review](lt-020-review.md); historical [Wave 1 review](wave-1-review.md).
 - Public origin is https://github.com/karuhanga/latent-threads.git. Git pushes/browser work; gh CLI authentication is unnecessary. Billing issue resolved. Publisher works with system Git ahead of bundled fallback tools in README PATH. Pages uses gh-pages root, .nojekyll, no runtime backend.
-- Repo docs/specs remain authoritative; Notion LT-020 tracking is complete. Both builders handed off and no recurring automation exists. Do not automatically begin Wave 2 or Rabbit Hole.
+- Repo docs/specs remain authoritative; Notion LT-020 tracking is complete. Both builders handed off and no recurring automation exists. The original Wave 1 stop is superseded by the active Wave 2 goal below. Do not begin Rabbit Hole.
 
 ## Agent dispatch and truth protocol
 
@@ -55,6 +55,12 @@ Keep three kinds of truth separate: original ideation records what was discussed
 
 At each checkpoint or handoff, update this snapshot with the actual completed result, checks, meaningful decisions, open facts and one concrete next action. Store detailed decisions/spec changes in their canonical repository files and link them here. Reflect live status in Notion. Preserve original ideation and do not claim unrun checks, unseen previews, user approvals, commits, deployments or background work.
 
-## Next action and unresolved facts
+## Active goal and next action
 
-**Next action:** Await Lincoln’s review of the deployed LT-020 revision. No implementation blocker or account action remains. Coffee/local relevance and the separately recorded Rabbit Hole idea remain future scope.
+Lincoln accepted the five new verticals: coffee, housing, clothing, diagnostic testing and mobile apps alongside music. Active goal “let’s go” means complete/test/deploy all five with progressive checkpoints, not coffee alone. See [Wave 2](../product/wave-2.md) and LT-021–027. The earlier stop-for-review and coffee-only sequencing are superseded by this authorization.
+
+Organizations stay lightweight: contextual examples linking actual activities to places, without deep profiles or a broad country filter. PM approved the minimal v0.2 extension recorded in Wave 2. Previous app deployment d84d0c4 / 12c0bb2 remains the verified baseline until new checkpoints are published.
+
+Checkpoint one accepted and shown locally: song/shared/housing/coffee enabled, 83 nodes, 22 activities, 56 relations, three Uganda examples. All 57 tests, type/data checks and build pass; desktop/mobile/keyboard/examples reviewed. See wave-2-review.md. LT-021–023 Done; LT-024 clothing and LT-025 diagnostics In progress with the two builders. They research while PM prepares publication, holding file writes until the checkpoint source is isolated. Next: publish and verify checkpoint one, then integrate/review clothing and diagnostics. Mobile apps and the second cross-domain shared skill remain required. No access blocker known.
+
+[Active Wave 2 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb5815ca00e000cc3c1a19b) tracks LT-021–027.

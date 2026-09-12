@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "0.2",
+  "packs": [
+    "song",
+    "shared",
+    "housing",
+    "coffee"
+  ]
+}

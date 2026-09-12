@@ -6,7 +6,7 @@ import { discoveryPool, pickDiscovery, shuffleDiscovery } from '../src/discovery
 import { followNavigation, normalizeRoute, restoreNavigation, revisitTrail, withNavigationState } from '../src/navigation.ts';
 import { routeToHash } from '../src/routing.ts';
 
-const graph = createGraph(await loadCatalog());
+const graph = createGraph(await loadCatalog(new URL('../data/song/', import.meta.url)));
 const home = () => restoreNavigation('#/', null, graph);
 const explore = (entityId, contextContributionId) => ({ kind: 'explore', entityId, ...(contextContributionId ? { contextContributionId } : {}) });
 const follow = (snapshot, entityId) => followNavigation(snapshot, explore(entityId), graph);

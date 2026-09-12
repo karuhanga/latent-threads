@@ -1,0 +1,32 @@
+[
+  {
+    "id": "source:shared-nist-si",
+    "title": "SI Units",
+    "kind": "external",
+    "locator": "https://www.nist.gov/pml/owm/metric-si/si-units",
+    "publisher": "NIST",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "Useful Definitions"
+  },
+  {
+    "id": "source:shared-pmi-projects",
+    "title": "What is project management?",
+    "kind": "external",
+    "locator": "https://www.pmi.org/about/what-is-project-management",
+    "publisher": "Project Management Institute",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What is project management? and Project Management Approaches"
+  },
+  {
+    "id": "source:shared-ableton-meters",
+    "title": "Mixing \u2014 Ableton Live Manual",
+    "kind": "external",
+    "locator": "https://www.ableton.com/en/manual/mixing/",
+    "publisher": "Ableton",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "18.1 mixer meters and 18.1.1 decibel scale"
+  }
+]

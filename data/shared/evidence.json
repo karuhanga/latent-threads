@@ -1,0 +1,52 @@
+[
+  {
+    "id": "evidence:knowledge-measurement",
+    "subjectId": "knowledge:measurement",
+    "sourceId": "source:shared-nist-si",
+    "claim": "Expressing a quantity using a number and a reference unit, so values can be compared.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:capability-project-planning",
+    "subjectId": "capability:project-planning",
+    "sourceId": "source:shared-pmi-projects",
+    "claim": "Defining the work and organizing tasks and resources to meet a project\u2019s requirements.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:resource-nist-si-units",
+    "subjectId": "resource:nist-si-units",
+    "sourceId": "source:shared-nist-si",
+    "claim": "A short introduction to quantities, units and the structure of the International System of Units.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-shared-nist-teaches-measurement",
+    "subjectId": "relation:shared-nist-teaches-measurement",
+    "sourceId": "source:shared-nist-si",
+    "claim": "Explains quantities, units and how a number and unit express a measured value.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:shared-mixing-measurement",
+    "subjectId": "relation:shared-mixing-measurement",
+    "sourceId": "source:shared-ableton-meters",
+    "claim": "Live\u2019s mixer displays peak/RMS levels and a decibel scale, supporting measurement as a concept used in digital mixing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  }
+]

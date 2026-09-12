@@ -1,0 +1,14 @@
+.organization-examples { border-top: 1px solid var(--line); margin-top: 27px; padding-top: 20px; }
+.organization-examples > .eyebrow { color: var(--blue); font-size: 10px; }
+.organization-examples > ul { list-style: none; padding: 0; margin: 17px 0 0; }
+.organization-examples > ul > li + li { border-top: 1px solid var(--line); padding-top: 20px; margin-top: 20px; }
+.example-place { font: 10px/1.5 var(--mono); color: var(--muted); margin-bottom: 8px; }
+.organization-examples h4 { font-size: 22px; line-height: 1.25; letter-spacing: -.03em; overflow-wrap: anywhere; }
+.organization-examples h4 a { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-block: 5px; }
+.organization-examples h4 a:hover { color: var(--blue); }
+.organization-examples .arrow-icon { width: 16px; height: 16px; flex-basis: 16px; }
+.example-summary, .example-place-context { font-size: 12px; line-height: 1.65; margin-top: 11px; overflow-wrap: anywhere; }
+.example-place-context { color: var(--muted); }
+.example-activity { font-size: 11px; line-height: 1.6; margin-top: 12px; }
+.example-activity a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; display: inline-block; padding-block: 5px; }
+@media (max-width: 800px) { .organization-examples { max-width: 590px; } }

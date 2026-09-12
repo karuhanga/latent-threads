@@ -4,7 +4,7 @@ import { loadCatalog } from '../scripts/load-catalog.mjs';
 import { createGraph } from '../src/data/graph.ts';
 import { discoveryPool, makeDiscoveryWall, runWallTransition, searchDiscovery } from '../src/discovery.ts';
 
-const catalog = await loadCatalog();
+const catalog = await loadCatalog(new URL('../data/song/', import.meta.url));
 const graph = createGraph(catalog);
 function seededRandom(seed = 7) {
   return () => { seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0; return seed / 4294967296; };

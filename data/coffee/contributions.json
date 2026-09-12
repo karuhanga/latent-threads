@@ -1,0 +1,60 @@
+[
+  {
+    "id": "contribution:coffee-harvest",
+    "label": "Coffee harvesting",
+    "endeavorId": "endeavor:coffee-cup",
+    "stageId": "stage:coffee-harvest",
+    "roleId": "role:coffee-grower",
+    "action": "Select ripe coffee cherries by hand, leaving immature fruit to develop.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:coffee-process",
+    "label": "Washed coffee processing",
+    "endeavorId": "endeavor:coffee-cup",
+    "stageId": "stage:coffee-processing",
+    "roleId": "role:coffee-processor",
+    "action": "For a washed route, pulp cherries, manage fermentation and washing, then dry the parchment coffee.",
+    "editorialStatus": "published",
+    "notes": "A selected processing route. Natural processing and other methods also exist."
+  },
+  {
+    "id": "contribution:coffee-grade",
+    "label": "Green coffee grading",
+    "endeavorId": "endeavor:coffee-cup",
+    "stageId": "stage:coffee-quality",
+    "roleId": "role:coffee-quality-assessor",
+    "action": "Grade green beans and assess samples for quality and defects.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:coffee-export",
+    "label": "Green coffee export",
+    "endeavorId": "endeavor:coffee-cup",
+    "stageId": "stage:coffee-export",
+    "roleId": "role:coffee-exporter",
+    "action": "Prepare and sell green coffee from Uganda for overseas markets.",
+    "editorialStatus": "published",
+    "notes": "A general export activity; no named buyer, shipment or organization-to-organization route is asserted."
+  },
+  {
+    "id": "contribution:coffee-roast",
+    "label": "Coffee roasting",
+    "endeavorId": "endeavor:coffee-cup",
+    "stageId": "stage:coffee-roasting",
+    "roleId": "role:coffee-roaster",
+    "action": "Adjust a roasting machine’s heat and airflow, observe bean development, then cool the roasted coffee.",
+    "editorialStatus": "published",
+    "notes": "Describes professional work; machine settings and operating instructions are outside this overview."
+  },
+  {
+    "id": "contribution:coffee-brew",
+    "label": "Pour-over coffee brewing",
+    "endeavorId": "endeavor:coffee-cup",
+    "stageId": "stage:coffee-brewing",
+    "roleId": "role:coffee-barista",
+    "action": "Grind coffee, measure coffee and water, and brew a pour-over cup for serving.",
+    "editorialStatus": "published",
+    "notes": "Pour-over is one brewing method; the linked guide does not define every café’s recipe."
+  }
+]

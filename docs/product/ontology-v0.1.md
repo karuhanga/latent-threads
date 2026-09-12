@@ -240,3 +240,6 @@ PM review found the contract sufficient for the first implementation: all six co
 ## Display refinement — LT-020
 
 Contributions may carry an optional nonempty `label` for their conventional activity name (Production, Recording, Mixing). The full `action` still states the specific contribution and its evidence; roleId continues to identify the person’s role. Labels are editorial names, not new factual relationship claims. The UI calls contributions Activities and knowledge Concepts. Shared concepts, skills, tools and roles are independent nodes; process membership belongs to stages and contextual contributions.
+
+## Wave 2 extension
+[Wave 2](wave-2.md) specifies v0.2: optional contextual organization example records and aggregate pack loading. Existing node/relation semantics remain. This supersedes only the blanket organization-example deferral; full organization/facility profiles remain deferred.

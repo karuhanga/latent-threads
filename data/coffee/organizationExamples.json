@@ -1,0 +1,32 @@
+[
+  {
+    "id": "example:coffee-kyagalanyi-processing",
+    "name": "Kyagalanyi Coffee Ltd (Volcafe)",
+    "summary": "Processes washed coffee and operates wet and dry mills in Uganda.",
+    "url": "https://www.volcafe.com/network/uganda/",
+    "contributionId": "contribution:coffee-process",
+    "placeId": "place:uganda",
+    "placeContext": "Operates in Uganda, with an office in Namanve, Kampala.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "example:coffee-ugacof-export",
+    "name": "Ugacof",
+    "summary": "Processes and exports green coffee from Uganda.",
+    "url": "https://group.sucafina.com/network/ugacof-ltd/",
+    "contributionId": "contribution:coffee-export",
+    "placeId": "place:uganda",
+    "placeContext": "Processes and warehouses coffee in Kampala for export from Uganda.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "example:coffee-endiro-brewing",
+    "name": "Endiro Coffee",
+    "summary": "Offers pour-over alongside other coffee brewing methods at its cafés.",
+    "url": "https://www.endirocoffee.com/wholesale-faq",
+    "contributionId": "contribution:coffee-brew",
+    "placeId": "place:uganda",
+    "placeContext": "Brews and serves coffee at its cafés in Uganda.",
+    "editorialStatus": "published"
+  }
+]

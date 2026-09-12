@@ -1,0 +1,114 @@
+[
+  {
+    "id": "relation:housing-output",
+    "type": "produces",
+    "fromId": "endeavor:home-building",
+    "toId": "artifact:home",
+    "editorialStatus": "published",
+    "summary": "A home is the outcome explored by this construction route."
+  },
+  {
+    "id": "relation:housing-design-drawing",
+    "type": "requires_capability",
+    "fromId": "contribution:housing-design",
+    "toId": "capability:architectural-drawing",
+    "editorialStatus": "published",
+    "summary": "Drawing is part of preparing architectural plans."
+  },
+  {
+    "id": "relation:housing-design-cad",
+    "type": "uses",
+    "fromId": "contribution:housing-design",
+    "toId": "tool:cad",
+    "editorialStatus": "published",
+    "summary": "Architects use computer-aided design for plans."
+  },
+  {
+    "id": "relation:housing-survey-instrument",
+    "type": "uses",
+    "fromId": "contribution:housing-survey",
+    "toId": "tool:total-station",
+    "editorialStatus": "published",
+    "summary": "Surveyors use total stations when measuring sites."
+  },
+  {
+    "id": "relation:housing-survey-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:housing-survey",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published",
+    "summary": "Land surveying measures distances and angles."
+  },
+  {
+    "id": "relation:housing-masonry-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:housing-masonry",
+    "toId": "capability:bricklaying",
+    "editorialStatus": "published",
+    "summary": "Bricklaying is one skill used to build masonry walls."
+  },
+  {
+    "id": "relation:housing-masonry-level",
+    "type": "uses",
+    "fromId": "contribution:housing-masonry",
+    "toId": "tool:spirit-level",
+    "editorialStatus": "published",
+    "summary": "Masons use levels to align structures."
+  },
+  {
+    "id": "relation:housing-framing-plans",
+    "type": "requires_capability",
+    "fromId": "contribution:housing-framing",
+    "toId": "capability:blueprint-reading",
+    "editorialStatus": "published",
+    "summary": "Carpenters follow building plans when constructing frameworks."
+  },
+  {
+    "id": "relation:housing-framing-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:housing-framing",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published",
+    "summary": "Carpenters measure materials before shaping them."
+  },
+  {
+    "id": "relation:housing-electrical-plans",
+    "type": "requires_capability",
+    "fromId": "contribution:housing-electrical",
+    "toId": "capability:blueprint-reading",
+    "editorialStatus": "published",
+    "summary": "Electricians read technical diagrams and blueprints."
+  },
+  {
+    "id": "relation:housing-plumbing-plans",
+    "type": "requires_capability",
+    "fromId": "contribution:housing-plumbing",
+    "toId": "capability:blueprint-reading",
+    "editorialStatus": "published",
+    "summary": "Plumbers read blueprints for installation work."
+  },
+  {
+    "id": "relation:housing-management-planning",
+    "type": "requires_capability",
+    "fromId": "contribution:housing-manage",
+    "toId": "capability:project-planning",
+    "editorialStatus": "published",
+    "summary": "Construction managers plan work timetables and allocate resources."
+  },
+  {
+    "id": "relation:housing-energy-learning",
+    "type": "teaches",
+    "fromId": "resource:openlearn-building-energy",
+    "toId": "knowledge:building-heat-loss",
+    "editorialStatus": "published",
+    "summary": "Course outcomes include heat loss and insulation."
+  },
+  {
+    "id": "relation:housing-design-heat",
+    "type": "draws_on",
+    "fromId": "contribution:housing-design",
+    "toId": "knowledge:building-heat-loss",
+    "editorialStatus": "published",
+    "summary": "Heat loss is a useful consideration when exploring building design."
+  }
+]

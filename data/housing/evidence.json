@@ -1,0 +1,453 @@
+[
+  {
+    "id": "evidence:endeavor-home-building",
+    "subjectId": "endeavor:home-building",
+    "sourceId": "source:housing-editorial",
+    "claim": "Explore how a home takes shape through design, site work, structure, building services and finishing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:artifact-home",
+    "subjectId": "artifact:home",
+    "sourceId": "source:housing-architect",
+    "claim": "A building designed as a place for people to live.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-output",
+    "subjectId": "relation:housing-output",
+    "sourceId": "source:housing-editorial",
+    "claim": "A home is the outcome explored by this construction route.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:stage-housing-design",
+    "subjectId": "stage:housing-design",
+    "sourceId": "source:housing-editorial",
+    "claim": "Plan the spaces and requirements.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:stage-housing-site",
+    "subjectId": "stage:housing-site",
+    "sourceId": "source:housing-editorial",
+    "claim": "Understand the site through measurements.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:stage-housing-structure",
+    "subjectId": "stage:housing-structure",
+    "sourceId": "source:housing-editorial",
+    "claim": "Build the walls and supporting framework.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:stage-housing-services",
+    "subjectId": "stage:housing-services",
+    "sourceId": "source:housing-editorial",
+    "claim": "Install electrical and plumbing systems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:stage-housing-finishing",
+    "subjectId": "stage:housing-finishing",
+    "sourceId": "source:housing-editorial",
+    "claim": "Fit the details that make spaces usable.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:stage-housing-coordination",
+    "subjectId": "stage:housing-coordination",
+    "sourceId": "source:housing-editorial",
+    "claim": "Organize people, budgets and schedules throughout the build.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-architect",
+    "subjectId": "role:architect",
+    "sourceId": "source:housing-architect",
+    "claim": "Plans spaces and prepares drawings for buildings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-land-surveyor",
+    "subjectId": "role:land-surveyor",
+    "sourceId": "source:housing-surveyor",
+    "claim": "Measures land features and documents boundaries.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-mason",
+    "subjectId": "role:mason",
+    "sourceId": "source:housing-mason",
+    "claim": "Builds structures from brick, block, stone or concrete.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-carpenter",
+    "subjectId": "role:carpenter",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Builds and fits frameworks, structures and fixtures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-electrician",
+    "subjectId": "role:electrician",
+    "sourceId": "source:housing-electrician",
+    "claim": "Installs and maintains electrical systems in buildings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-plumber",
+    "subjectId": "role:plumber",
+    "sourceId": "source:housing-plumber",
+    "claim": "Installs and tests pipes and plumbing fixtures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:role-construction-manager",
+    "subjectId": "role:construction-manager",
+    "sourceId": "source:housing-manager",
+    "claim": "Coordinates construction work, schedules and budgets.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-design",
+    "subjectId": "contribution:housing-design",
+    "sourceId": "source:housing-architect",
+    "claim": "Translate the client\u2019s requirements into building plans and drawings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-survey",
+    "subjectId": "contribution:housing-survey",
+    "sourceId": "source:housing-surveyor",
+    "claim": "Measure the site and record its features and boundaries.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-masonry",
+    "subjectId": "contribution:housing-masonry",
+    "sourceId": "source:housing-mason",
+    "claim": "Build and align masonry walls from the plans.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-framing",
+    "subjectId": "contribution:housing-framing",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Measure, shape and assemble the building framework.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-electrical",
+    "subjectId": "contribution:housing-electrical",
+    "sourceId": "source:housing-electrician",
+    "claim": "Install and inspect wiring and lighting systems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-plumbing",
+    "subjectId": "contribution:housing-plumbing",
+    "sourceId": "source:housing-plumber",
+    "claim": "Install pipes and fixtures and test the installed system.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-joinery",
+    "subjectId": "contribution:housing-joinery",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Fit interior fixtures such as cabinets and molding.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:contribution-housing-manage",
+    "subjectId": "contribution:housing-manage",
+    "sourceId": "source:housing-manager",
+    "claim": "Coordinate trades, schedules and budgets as the project progresses.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:capability-architectural-drawing",
+    "subjectId": "capability:architectural-drawing",
+    "sourceId": "source:housing-architect",
+    "claim": "Representing a building design with scaled drawings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:tool-cad",
+    "subjectId": "tool:cad",
+    "sourceId": "source:housing-architect",
+    "claim": "Software used to produce designs and technical drawings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:tool-total-station",
+    "subjectId": "tool:total-station",
+    "sourceId": "source:housing-surveyor",
+    "claim": "A surveying instrument used to determine positions on a site.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:capability-bricklaying",
+    "subjectId": "capability:bricklaying",
+    "sourceId": "source:housing-mason",
+    "claim": "Placing and aligning bricks to form masonry structures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:tool-spirit-level",
+    "subjectId": "tool:spirit-level",
+    "sourceId": "source:housing-mason",
+    "claim": "A tool used to check alignment during construction.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:capability-blueprint-reading",
+    "subjectId": "capability:blueprint-reading",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Interpreting building plans to guide construction work.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:knowledge-building-heat-loss",
+    "subjectId": "knowledge:building-heat-loss",
+    "sourceId": "source:housing-energy",
+    "claim": "Understanding how heat escapes a building and how insulation can reduce the loss.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:resource-openlearn-building-energy",
+    "subjectId": "resource:openlearn-building-energy",
+    "sourceId": "source:housing-energy",
+    "claim": "Explore heat loss, insulation and energy use in buildings, using examples from the UK.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-design-drawing",
+    "subjectId": "relation:housing-design-drawing",
+    "sourceId": "source:housing-architect",
+    "claim": "Drawing is part of preparing architectural plans.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-design-cad",
+    "subjectId": "relation:housing-design-cad",
+    "sourceId": "source:housing-architect",
+    "claim": "Architects use computer-aided design for plans.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-survey-instrument",
+    "subjectId": "relation:housing-survey-instrument",
+    "sourceId": "source:housing-surveyor",
+    "claim": "Surveyors use total stations when measuring sites.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-survey-measurement",
+    "subjectId": "relation:housing-survey-measurement",
+    "sourceId": "source:housing-surveyor",
+    "claim": "Land surveying measures distances and angles.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-masonry-skill",
+    "subjectId": "relation:housing-masonry-skill",
+    "sourceId": "source:housing-mason",
+    "claim": "Bricklaying is one skill used to build masonry walls.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-masonry-level",
+    "subjectId": "relation:housing-masonry-level",
+    "sourceId": "source:housing-mason",
+    "claim": "Masons use levels to align structures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-framing-plans",
+    "subjectId": "relation:housing-framing-plans",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Carpenters follow building plans when constructing frameworks.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-framing-measurement",
+    "subjectId": "relation:housing-framing-measurement",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Carpenters measure materials before shaping them.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-electrical-plans",
+    "subjectId": "relation:housing-electrical-plans",
+    "sourceId": "source:housing-electrician",
+    "claim": "Electricians read technical diagrams and blueprints.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-plumbing-plans",
+    "subjectId": "relation:housing-plumbing-plans",
+    "sourceId": "source:housing-plumber",
+    "claim": "Plumbers read blueprints for installation work.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-management-planning",
+    "subjectId": "relation:housing-management-planning",
+    "sourceId": "source:housing-manager",
+    "claim": "Construction managers plan work timetables and allocate resources.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-energy-learning",
+    "subjectId": "relation:housing-energy-learning",
+    "sourceId": "source:housing-energy",
+    "claim": "Course outcomes include heat loss and insulation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM"
+  },
+  {
+    "id": "evidence:relation-housing-design-heat",
+    "subjectId": "relation:housing-design-heat",
+    "sourceId": "source:housing-energy",
+    "claim": "Heat loss is a useful consideration when exploring building design.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex PM",
+    "notes": "Editorial connection from the course\u2019s building-energy topics to the design activity; not a claim that every architect performs the same energy analysis."
+  }
+]

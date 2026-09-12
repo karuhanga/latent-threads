@@ -6,6 +6,7 @@ import { Arrow } from './VisualMarks.tsx';
 import { ClaimQualifier, SourceEvidence } from './SourceEvidence.tsx';
 import { accessLabels, learningFor, licenseLabels, safeExternalUrl } from './learning.ts';
 import { usePreferences } from '../preferences.tsx';
+import { OrganizationExamples } from './OrganizationExamples.tsx';
 import './learning.css';
 
 const href = (entityId: string) => routeToHash({ kind: 'explore', entityId });
@@ -78,6 +79,7 @@ export function DetailPanel({ entity, graph }: { entity: Entity; graph: Graph })
         </div>
       )}
       <LearningSection entity={entity} graph={graph} />
+      <OrganizationExamples entityId={entity.id} graph={graph} />
       <SourceEvidence key={entity.id} subjectId={entity.id} graph={graph} />
     </aside>
   );

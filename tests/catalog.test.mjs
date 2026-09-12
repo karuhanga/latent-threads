@@ -4,7 +4,7 @@ import { loadCatalog } from '../scripts/load-catalog.mjs';
 import { validateCatalog } from '../src/data/validate.ts';
 import { createGraph } from '../src/data/graph.ts';
 
-const data = await loadCatalog();
+const data = await loadCatalog(new URL('../data/song/', import.meta.url));
 const copy = () => structuredClone(data);
 const hasError = (d, pattern, options) => assert.ok(validateCatalog(d, options).some(e => pattern.test(e)), `Expected ${pattern}`);
 

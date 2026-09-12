@@ -23,3 +23,11 @@ These files hold versioned scope and acceptance criteria. Use the [Notion kanban
 - [LT-019 — Resolve name and domain before brand investment](LT-019.md) (Later)
 
 - [LT-020 — Refine discovery and independent connections from user review](LT-020.md) (Wave 1 review)
+
+- [LT-021 — Support multiple catalog packs and lightweight organization examples](LT-021.md) (Wave 2)
+- [LT-022 — Curate coffee and Uganda organization examples](LT-022.md) (Wave 2)
+- [LT-023 — Curate housing and construction exploration](LT-023.md) (Wave 2)
+- [LT-024 — Curate clothing and manufacturing exploration](LT-024.md) (Wave 2)
+- [LT-025 — Curate diagnostic testing exploration](LT-025.md) (Wave 2)
+- [LT-026 — Curate mobile app development exploration](LT-026.md) (Wave 2)
+- [LT-027 — Review and deploy the six-domain catalog](LT-027.md) (Wave 2)

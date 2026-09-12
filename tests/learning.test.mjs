@@ -3,7 +3,7 @@ import test from 'node:test';
 import { loadCatalog } from '../scripts/load-catalog.mjs';
 import { accessLabels, evidenceLabels, learningFor, licenseLabels, safeExternalUrl } from '../src/components/learning.ts';
 
-const catalog = await loadCatalog();
+const catalog = await loadCatalog(new URL('../data/song/', import.meta.url));
 
 test('curated learning cards follow teaching relations across the three checked resources', () => {
   const expected = [

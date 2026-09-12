@@ -1,0 +1,74 @@
+[
+  {
+    "id": "contribution:housing-design",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-design",
+    "roleId": "role:architect",
+    "label": "Architectural design",
+    "action": "Translate the client\u2019s requirements into building plans and drawings.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-survey",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-site",
+    "roleId": "role:land-surveyor",
+    "label": "Land surveying",
+    "action": "Measure the site and record its features and boundaries.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-masonry",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-structure",
+    "roleId": "role:mason",
+    "label": "Masonry",
+    "action": "Build and align masonry walls from the plans.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-framing",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-structure",
+    "roleId": "role:carpenter",
+    "label": "Framing",
+    "action": "Measure, shape and assemble the building framework.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-electrical",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-services",
+    "roleId": "role:electrician",
+    "label": "Electrical installation",
+    "action": "Install and inspect wiring and lighting systems.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-plumbing",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-services",
+    "roleId": "role:plumber",
+    "label": "Plumbing installation",
+    "action": "Install pipes and fixtures and test the installed system.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-joinery",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-finishing",
+    "roleId": "role:carpenter",
+    "label": "Interior joinery",
+    "action": "Fit interior fixtures such as cabinets and molding.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:housing-manage",
+    "endeavorId": "endeavor:home-building",
+    "stageId": "stage:housing-coordination",
+    "roleId": "role:construction-manager",
+    "label": "Construction management",
+    "action": "Coordinate trades, schedules and budgets as the project progresses.",
+    "editorialStatus": "published"
+  }
+]
