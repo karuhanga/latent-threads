@@ -43,3 +43,11 @@ Final production preview at port 4180: desktop mobile-app endeavor; all six cata
 Motion helpers and reduced-motion behavior remain covered by the passing automated suite; the existing motion implementation was unchanged. Manual Shuffle was observed at checkpoint two. OS reduced-motion mode was not newly emulated in this final browser pass. Source details remain hidden by default; no new trail, hierarchy, country filter or organization directory was introduced.
 
 All five new verticals meet their content contracts. LT-027 publication and exact hosted verification remain before goal completion.
+
+## Final publication and acceptance
+
+Source `6a5f51170b7272ee5e972ccf94b46c768ca6b6d3`, deployment `7ee42b226495da19338e7fe951e482d3573f8861`. The isolated publisher repeated the locked install, all 68 tests, TypeScript, data validation and build. [Exact-source CI](https://github.com/karuhanga/latent-threads/actions/runs/34684373896) and [Pages deployment](https://github.com/karuhanga/latent-threads/actions/runs/34684388811) succeeded. Public release.json reports the exact reviewed source. Refreshed hosted Mobile app development displays all six stages; coffee brewing still displays its Endiro Uganda example. Global home displays mixed domains and Surprise opens a valid entity. The live home was left open for review.
+
+PM accepts LT-027 and the complete five-new-vertical outcome: coffee, housing, clothing, diagnostics and mobile apps alongside music. All six are discoverable, have contextual work and learning, and belong to one connected graph. The catalog retains the agreed uncluttered presentation and lightweight organizations. No paid service or backend was introduced. Later handoff changes are documentation only and do not require republishing app assets. Stop for user review; no user acceptance of this final version is claimed.
+
+Notion live verification: LT-021–027 all Done with completion evidence links. Deferred LT-014 bookmarks remains Backlog, outside the authorized release.
