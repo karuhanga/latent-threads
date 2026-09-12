@@ -5,7 +5,8 @@
     "stageId": "stage:song-writing",
     "roleId": "role:songwriter",
     "action": "Develop and revise a melody and words that give the song its identity.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Songwriting"
   },
   {
     "id": "contribution:song-arrange",
@@ -13,7 +14,8 @@
     "stageId": "stage:song-shaping",
     "roleId": "role:arranger",
     "action": "Choose instruments, harmonies and tempo to give the composition a particular musical character.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Arrangement"
   },
   {
     "id": "contribution:song-produce",
@@ -21,7 +23,8 @@
     "stageId": "stage:song-shaping",
     "roleId": "role:music-producer",
     "action": "Develop the arrangement and plan recording sessions so the project has a shared creative direction.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Production"
   },
   {
     "id": "contribution:song-perform",
@@ -29,7 +32,8 @@
     "stageId": "stage:song-recording",
     "roleId": "role:session-musician",
     "action": "Play and adapt instrumental parts to give the recording the performance it needs.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Performance"
   },
   {
     "id": "contribution:song-record",
@@ -37,7 +41,8 @@
     "stageId": "stage:song-recording",
     "roleId": "role:recording-engineer",
     "action": "Position microphones and capture takes so musical performances become recorded material.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Recording"
   },
   {
     "id": "contribution:song-mix",
@@ -45,7 +50,8 @@
     "stageId": "stage:song-mixing",
     "roleId": "role:mixing-engineer",
     "action": "Balance the recorded parts into a coherent mix so the musical focus is clear.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Mixing"
   },
   {
     "id": "contribution:song-master",
@@ -53,7 +59,8 @@
     "stageId": "stage:song-mastering",
     "roleId": "role:mastering-engineer",
     "action": "Refine the mix’s overall balance so it is prepared for release and different playback settings.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Mastering"
   },
   {
     "id": "contribution:song-release",
@@ -61,6 +68,7 @@
     "stageId": "stage:song-release",
     "roleId": "role:independent-artist",
     "action": "Prepare audio, credits and artwork for a distributor to deliver the release to Spotify listeners.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "label": "Distribution"
   }
 ]

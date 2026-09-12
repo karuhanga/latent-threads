@@ -236,3 +236,7 @@ This supports a static-site deployment without a backend, accounts or database s
 - The initial broad role model intentionally delays imported occupation taxonomy and credential logic. Revisit those boundaries when a verified content case requires them, not as a prerequisite to the first playable graph.
 
 PM review found the contract sufficient for the first implementation: all six conceptual stress tests are covered, contribution context is explicit, and the fixture is clearly separated from publishable evidence. LT-005 implements the executable schema; LT-006 curates source-backed content. No additional user decision is required for those bounded tasks.
+
+## Display refinement — LT-020
+
+Contributions may carry an optional nonempty `label` for their conventional activity name (Production, Recording, Mixing). The full `action` still states the specific contribution and its evidence; roleId continues to identify the person’s role. Labels are editorial names, not new factual relationship claims. The UI calls contributions Activities and knowledge Concepts. Shared concepts, skills, tools and roles are independent nodes; process membership belongs to stages and contextual contributions.

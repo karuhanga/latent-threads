@@ -21,3 +21,5 @@ These files hold versioned scope and acceptance criteria. Use the [Notion kanban
 - [LT-017 — Refine evidence-backed historical exploration](LT-017.md) (Later)
 - [LT-018 — Evaluate semantic zoom and richer exploration lenses](LT-018.md) (Later)
 - [LT-019 — Resolve name and domain before brand investment](LT-019.md) (Later)
+
+- [LT-020 — Refine discovery and independent connections from user review](LT-020.md) (Wave 1 review)

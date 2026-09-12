@@ -1,10 +1,23 @@
 import type { Graph } from '../data/graph.ts';
 import { evidenceLabels, sourceUrl } from './learning.ts';
+import { usePreferences } from '../preferences.tsx';
 import './learning.css';
+
+/** Detailed attribution includes how a claim is supported. */
+export function ClaimQualifier({ subjectId, graph }: { subjectId: string; graph: Graph }) {
+  const { showDetails } = usePreferences();
+  if (!showDetails) return null;
+  const evidence = graph.getEvidence(subjectId);
+  const label = evidence.some(item => item.reviewStatus === 'contested') ? 'Contested'
+    : evidence.some(item => item.support === 'inference') ? 'Includes interpretation' : undefined;
+  return label ? <span className="claim-qualifier">{label}</span> : null;
+}
 
 export function SourceEvidence({ subjectId, graph, title = 'Sources and reasoning' }: {
   subjectId: string; graph: Graph; title?: string;
 }) {
+  const { showDetails } = usePreferences();
+  if (!showDetails) return null;
   const items = graph.getEvidence(subjectId);
   return (
     <details className="source-evidence" key={subjectId}>

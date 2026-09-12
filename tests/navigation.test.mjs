@@ -103,7 +103,7 @@ test('long sessions keep a bounded, restorable trail', () => {
 
 test('discovery stays in the real mixed catalog and manual shuffle changes available choices', () => {
   const pool = discoveryPool(graph);
-  assert.deepEqual([...new Set(pool.map((entity) => entity.type))].sort(), ['capability', 'endeavor', 'knowledge', 'role', 'tool']);
+  assert.deepEqual([...new Set(pool.map((entity) => entity.type))].sort(), ['artifact', 'capability', 'contribution', 'endeavor', 'knowledge', 'learning_resource', 'role', 'stage', 'tool']);
   const current = ['role:mixing-engineer', 'knowledge:sound-waves', 'tool:daw'];
   const shuffled = shuffleDiscovery(graph, current, () => 0.5);
   assert.deepEqual(shuffled.map((id) => graph.getNode(id)?.type), ['role', 'knowledge', 'tool']);

@@ -101,7 +101,7 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     }
   }
   for (const c of rows.contributions) {
-    required(c, ['action']); reference(c, 'endeavorId', ['endeavor']); reference(c, 'stageId', ['stage']); reference(c, 'roleId', ['role']);
+    required(c, ['action']); if (c.label !== undefined) required(c, ['label']); reference(c, 'endeavorId', ['endeavor']); reference(c, 'stageId', ['stage']); reference(c, 'roleId', ['role']);
     if (all.get(String(c.stageId))?.endeavorId !== c.endeavorId) fail(c, 'stage/endeavor context mismatch');
   }
   const assertions = new Set<string>();

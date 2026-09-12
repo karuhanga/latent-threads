@@ -2,13 +2,14 @@
   {
     "id": "endeavor:song-release",
     "type": "endeavor",
-    "label": "Produce and release a song",
+    "label": "Music production and release",
     "summary": "Follow a musical idea into a recording and out to listeners. Write, shape, record, mix, master and release: one way to break this down, with roles that can overlap.",
     "editorialStatus": "published",
     "aliases": [
       "song",
       "music production",
-      "make a song"
+      "make a song",
+      "Produce and release a song"
     ]
   },
   {
@@ -22,56 +23,74 @@
   {
     "id": "stage:song-writing",
     "type": "stage",
-    "label": "Write the song",
+    "label": "Songwriting",
     "summary": "Explore the choices behind the words and melody.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:song-release",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "aliases": [
+      "Write the song"
+    ]
   },
   {
     "id": "stage:song-shaping",
     "type": "stage",
-    "label": "Shape the sound",
+    "label": "Production",
     "summary": "Explore the arrangement and the direction of the recording.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:song-release",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "aliases": [
+      "Shape the sound"
+    ]
   },
   {
     "id": "stage:song-recording",
     "type": "stage",
-    "label": "Capture the performance",
+    "label": "Recording",
     "summary": "Explore the performed parts and how they are recorded.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:song-release",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "aliases": [
+      "Capture the performance"
+    ]
   },
   {
     "id": "stage:song-mixing",
     "type": "stage",
-    "label": "Mix the tracks",
+    "label": "Mixing",
     "summary": "Explore how separate recorded parts become a balanced whole.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:song-release",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "aliases": [
+      "Mix the tracks"
+    ]
   },
   {
     "id": "stage:song-mastering",
     "type": "stage",
-    "label": "Prepare the master",
+    "label": "Mastering",
     "summary": "Explore the final attention given to the mixed recording.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:song-release",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "aliases": [
+      "Prepare the master"
+    ]
   },
   {
     "id": "stage:song-release",
     "type": "stage",
-    "label": "Release to listeners",
+    "label": "Distribution",
     "summary": "Explore the work of getting a finished recording to an audience.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:song-release",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "aliases": [
+      "Release to listeners"
+    ]
   },
   {
     "id": "role:songwriter",

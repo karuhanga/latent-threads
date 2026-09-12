@@ -20,3 +20,5 @@ On 12 September 2026 Lincoln explicitly set the bounded goal: complete, test and
 - Publishing tooling correction: bundled fallback/git did not reuse the working system Git authentication. Keep /usr/bin before bundled fallback tools in this machine’s PATH; no credential copying or new account permission is needed. Checked source 15d6ea2 was published through system Git and Pages verified.
 
 - Wave 1 navigation: optional `?via=` in the focal hash preserves a contribution when copying or refreshing a concept link. The bounded 30-entry trail stays in browser history state; this does not add persistent bookmarks or serialized shared trails.
+
+- 12 September user review supersedes prototype UI: global animated mixed tile discovery; catalog-explicit search; generic home/header; no visible trail; sources/attribution off by default behind discreet Settings; conventional activity naming; independent concepts/skills/tools/roles, endeavor containment only for process stages/contextual contributions. Automatic rotation approved, with pause and reduced-motion behavior. LT-020 records implementation scope.

@@ -11,7 +11,7 @@ export interface Node {
   licenseStatus?: 'open' | 'restricted' | 'unknown'; licenseUrl?: string; accessReviewedAt?: string;
 }
 export interface Contribution {
-  id: string; endeavorId: string; stageId: string; roleId: string; action: string;
+  id: string; endeavorId: string; stageId: string; roleId: string; action: string; label?: string;
   editorialStatus: EditorialStatus; notes?: string; validTime?: ValidTime;
 }
 export type RelationType = 'produces' | 'depends_on' | 'uses' | 'requires_capability' | 'draws_on' | 'teaches' | 'hands_off_to' | 'coordinates_with' | 'specializes' | 'part_of';

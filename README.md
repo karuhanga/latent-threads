@@ -20,9 +20,9 @@ Lincoln confirmed song first, Ugandan coffee second. Wave 1 has three visible ch
 
 1. A responsive visual shell inspired by Windows Phone typography, color and spacing.
 2. A sourced song journey connecting stages, contextual contributions, roles and concepts.
-3. Mixed discovery, search, exploration trails, learning links and a verified demo.
+3. Global discovery, catalog search, learning links and a verified demo.
 
-The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The complete song exploration, search, trails and learning cards are live at https://karuhanga.github.io/latent-threads/. [Release review](docs/pm/wave-1-review.md) records verification and limits.
+The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The catalog now opens with a randomized tile wall and optional automatic shuffle. Search and Surprise me cover every published item. Skills, concepts, tools and roles have independent connections; process stages belong to endeavors. A discreet Settings control enables sources and detailed information, hidden by default. Browser Back remains available without a visible trail. The first dataset covers music production and release; coffee follows separately. [Original release review](docs/pm/wave-1-review.md) and [LT-020 review](docs/pm/lt-020-review.md) record verification and limits.
 
 ## Technical context
 

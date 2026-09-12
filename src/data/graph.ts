@@ -4,11 +4,11 @@ export interface Connection { entity: Entity; label: string; evidenceId: string;
 export interface Neighborhood { items: Connection[]; total: number; offset: number; limit: number }
 export const typeLabels: Record<Entity['type'], string> = {
   endeavor: 'Endeavor', stage: 'Stage', artifact: 'Artifact', service: 'Service', role: 'Role',
-  contribution: 'Contribution', capability: 'Skill', knowledge: 'Knowledge', tool: 'Tool', learning_resource: 'Learning resource',
+  contribution: 'Activity', capability: 'Skill', knowledge: 'Concept', tool: 'Tool', learning_resource: 'Learning resource',
 };
 const wording: Record<RelationType, [string, string]> = {
   produces: ['Produces', 'Made through'], depends_on: ['Depends on', 'Supports'],
-  uses: ['Uses', 'Used in this contribution'], requires_capability: ['Calls on', 'Practised in this contribution'],
+  uses: ['Uses', 'Used in'], requires_capability: ['Uses skill', 'Applied in'],
   draws_on: ['Draws on', 'Helps explain'], teaches: ['Teaches', 'Learn this with'],
   hands_off_to: ['Hands work to', 'Receives work from'], coordinates_with: ['Coordinates in this endeavor with', 'Coordinates in this endeavor with'],
   specializes: ['A more specific role than', 'A more specific role'], part_of: ['Part of', 'Includes'],
@@ -17,7 +17,7 @@ const wording: Record<RelationType, [string, string]> = {
 export function createGraph(catalog: Catalog) {
   const entities = new Map<string, Entity>(catalog.nodes.map(n => [n.id, n]));
   for (const c of catalog.contributions) entities.set(c.id, {
-    ...c, type: 'contribution', label: `${entities.get(c.roleId)?.label ?? 'Contributor'} at work`, summary: c.action,
+    ...c, type: 'contribution', label: c.label ?? c.action, summary: c.action,
   });
   const adjacency = new Map<string, Connection[]>();
   function connect(from: string, to: string, label: string, reverse: string, evidenceId: string, relationId?: string) {
@@ -25,10 +25,10 @@ export function createGraph(catalog: Catalog) {
     adjacency.set(from, [...(adjacency.get(from) ?? []), { entity: b, label, evidenceId, relationId }]);
     adjacency.set(to, [...(adjacency.get(to) ?? []), { entity: a, label: reverse, evidenceId, relationId }]);
   }
-  for (const n of catalog.nodes) if (n.type === 'stage' && n.endeavorId) connect(n.endeavorId, n.id, 'Explore this stage', 'Part of this endeavor', n.id);
+  for (const n of catalog.nodes) if (n.type === 'stage' && n.endeavorId) connect(n.endeavorId, n.id, 'Stage', 'Part of', n.id);
   for (const c of catalog.contributions) {
-    connect(c.stageId, c.id, 'Contribution in this stage', 'Happens in this stage', c.id);
-    connect(c.id, c.roleId, 'A contribution by', 'Contributes in this context', c.id);
+    connect(c.stageId, c.id, 'Activity', 'Stage', c.id);
+    connect(c.id, c.roleId, 'Role', 'Activities', c.id);
   }
   for (const r of catalog.relations) {
     const labels = wording[r.type];

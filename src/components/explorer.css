@@ -1,0 +1,12 @@
+.catalog-explorer-heading { grid-template-columns: minmax(0, 1fr); gap: 0; padding-top: 36px; }
+.catalog-explorer-heading h1 { max-width: 1000px; }
+.catalog-explorer-heading .claim-qualifier { margin-top: 13px; }
+.process-parent { display: inline-block; color: var(--muted); font-size: 12px; line-height: 1.5; padding-block: 12px 0; text-decoration: underline; text-underline-offset: 3px; }
+.process-parent:hover { color: var(--blue); }
+.connection-label .claim-qualifier { font-size: 9px; margin-top: 4px; }
+.empty-connections a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.catalog-explorer-heading + .explorer-layout .view-controls button { padding-bottom: 11px; }
+@media (max-width: 480px) {
+  .catalog-explorer-heading { padding-top: 27px; }
+  .catalog-explorer-heading h1 { font-size: clamp(40px, 12vw, 58px); overflow-wrap: anywhere; }
+}

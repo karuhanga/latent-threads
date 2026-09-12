@@ -9,6 +9,9 @@ Ship a small usable increment at each checkpoint. Notion holds priorities, depen
 ## What follows
 Wave 2: source Ugandan coffee, deliver the geography evidence lens, then consider local bookmarks. Later: stress-tested expansion to the remaining endeavors, selective external taxonomy imports, history, semantic zoom and naming/domain diligence.
 Each later item is a refinement placeholder and must be split into bounded implementation tickets before assignment. Ticket specifications are in [docs/tickets](../tickets/).
+
+- **Rabbit Hole** — A more dynamic, LLM-driven exploratory interface for when someone reaches a point where the curated catalog does not suffice. Added at Lincoln’s request on 12 September 2026. Deferred for later discussion and scoping; not part of current implementation.
+
 ## Agent dispatch
 PM owns integration, prioritization, review and user communication. Delegate one bounded ticket at a time, naming allowed files, dependencies, acceptance criteria and required evidence. Agent roles: Platform, Data model, Content research, UI and Quality. The Agent field contains an actual dispatched agent only; Role alone is a planned responsibility.
 Limit implementation work in progress to two builder agents plus PM/review. Separate file ownership where work can proceed in parallel. Schema changes require a brief contract note before consumers adopt them. Do not let two agents edit the same files without explicit coordination.

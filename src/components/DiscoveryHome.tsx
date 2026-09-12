@@ -1,12 +1,13 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { typeLabels, type Graph } from '../data/graph.ts';
-import { discoveryPool, pickDiscovery, shuffleDiscovery } from '../discovery.ts';
+import { discoveryPool, makeDiscoveryWall, pickDiscovery, runWallTransition, searchDiscovery, type WallPhase } from '../discovery.ts';
+import { usePreferences } from '../preferences.tsx';
 import { routeToHash } from '../routing.ts';
-import { Arrow, SoundRings, Waveform } from './VisualMarks.tsx';
+import { Arrow } from './VisualMarks.tsx';
 import './discovery.css';
 
-const SONG_ID = 'endeavor:song-release';
 const entityHref = (entityId: string) => routeToHash({ kind: 'explore', entityId });
+const ROTATION_MS = 7_000;
 
 export function DiscoveryHome({ graph, query, onQueryChange, onSurprise }: {
   graph: Graph;
@@ -14,15 +15,64 @@ export function DiscoveryHome({ graph, query, onQueryChange, onSurprise }: {
   onQueryChange: (query: string) => void;
   onSurprise: (entityId: string) => void;
 }) {
-  const [wallIds, setWallIds] = useState(['role:mixing-engineer', 'knowledge:sound-waves', 'tool:daw']);
-  const [shuffleCount, setShuffleCount] = useState(0);
+  const { autoShuffle } = usePreferences();
+  const [wall, setWall] = useState(() => makeDiscoveryWall(graph));
+  const [phase, setPhase] = useState<WallPhase>('idle');
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [hidden, setHidden] = useState(() => document.hidden);
+  const [reducedMotion, setReducedMotion] = useState(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  const [manualCount, setManualCount] = useState(0);
   const [resultLimit, setResultLimit] = useState(8);
   const previousSurprise = useRef<string | undefined>(undefined);
   const firstResult = useRef<HTMLAnchorElement>(null);
   const searchInput = useRef<HTMLInputElement>(null);
-  const [role, knowledge, tool] = wallIds.map((id) => graph.getNode(id));
-  const results = graph.searchNodes(query, { limit: 50 });
+  const wallElement = useRef<HTMLUListElement>(null);
+  const cancelTransition = useRef<(() => void) | undefined>(undefined);
+  const transitionKind = useRef<'auto' | 'manual'>('auto');
+  const interaction = useRef({ hovered: false, focused: false });
+  const current = useRef({ autoShuffle, query, reducedMotion });
+  current.current = { autoShuffle, query, reducedMotion };
+  const results = searchDiscovery(graph, query);
   const hasQuery = query.trim().length > 0;
+
+  function stopTransition() { cancelTransition.current?.(); cancelTransition.current = undefined; }
+
+  function safeToSwap(manual: boolean) {
+    if (document.hidden || wallElement.current?.contains(document.activeElement) || wallElement.current?.matches(':hover')) return false;
+    if (manual) return true;
+    return current.current.autoShuffle && !current.current.reducedMotion && !current.current.query.trim()
+      && !interaction.current.hovered && !interaction.current.focused;
+  }
+
+  function shuffle(manual = false) {
+    stopTransition();
+    transitionKind.current = manual ? 'manual' : 'auto';
+    cancelTransition.current = runWallTransition({
+      isSafe: () => safeToSwap(manual),
+      onSwap: () => { setWall((previous) => makeDiscoveryWall(graph, previous)); if (manual) setManualCount((count) => count + 1); },
+      onPhase: setPhase,
+      instant: current.current.reducedMotion,
+    });
+  }
+
+  useEffect(() => {
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const visibilityChanged = () => { if (document.hidden) stopTransition(); setHidden(document.hidden); };
+    const motionChanged = () => { if (media.matches) stopTransition(); setReducedMotion(media.matches); };
+    document.addEventListener('visibilitychange', visibilityChanged);
+    media.addEventListener('change', motionChanged);
+    return () => { document.removeEventListener('visibilitychange', visibilityChanged); media.removeEventListener('change', motionChanged); stopTransition(); };
+  }, []);
+
+  useEffect(() => {
+    if (!autoShuffle || hovered || focused || hidden || reducedMotion || hasQuery) {
+      if (transitionKind.current === 'auto') stopTransition();
+      return;
+    }
+    const timer = window.setInterval(() => shuffle(), ROTATION_MS);
+    return () => window.clearInterval(timer);
+  }, [autoShuffle, hovered, focused, hidden, reducedMotion, hasQuery]);
 
   function updateQuery(next: string) { onQueryChange(next); setResultLimit(8); }
   function clearQuery() { updateQuery(''); searchInput.current?.focus(); }
@@ -31,84 +81,66 @@ export function DiscoveryHome({ graph, query, onQueryChange, onSurprise }: {
     if (pick) { previousSurprise.current = pick.id; onSurprise(pick.id); }
   }
 
-  return (
-    <>
-      <section className="home-hero" aria-labelledby="home-heading">
-        <div>
-          <p className="eyebrow blue-text">A LITTLE CURIOSITY OPENS A LOT</p>
-          <h1 id="home-heading">How does a <span>song</span><br />get made?</h1>
-        </div>
-        <div className="hero-aside">
-          <span className="index-label">001 / START ANYWHERE</span>
-          <p>Behind the things we love are people, ideas and tools.</p>
-          <p className="secondary-copy">Pick a thread. See where it takes you.</p>
-          <a className="text-link" href={entityHref(SONG_ID)}>Let’s find out <Arrow /></a>
-        </div>
-      </section>
+  const rotationLabel = !autoShuffle ? 'Auto shuffle off' : reducedMotion ? 'Reduced motion · auto shuffle paused'
+    : hovered || focused || hidden || hasQuery ? 'Auto shuffle paused' : 'Auto shuffle on';
 
-      <section className="discovery-search" aria-labelledby="search-heading">
-        <div className="discovery-search-heading"><h2 id="search-heading">What caught your ear?</h2><p>Search this song’s people, ideas and tools.</p></div>
-        <form role="search" onSubmit={(event) => { event.preventDefault(); firstResult.current?.focus(); }}>
-          <label className="discovery-sr-only" htmlFor="thread-search">Search people, ideas and tools</label>
+  return (
+    <section className="catalog-discovery" aria-labelledby="discovery-heading"
+      onPointerEnter={() => { interaction.current.hovered = true; stopTransition(); setHovered(true); }}
+      onPointerLeave={() => { interaction.current.hovered = false; setHovered(false); }}
+      onPointerDownCapture={stopTransition}
+      onFocusCapture={() => { interaction.current.focused = true; stopTransition(); setFocused(true); }}
+      onBlurCapture={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) { interaction.current.focused = false; setFocused(false); } }}>
+      <h1 id="discovery-heading" className="discovery-sr-only">Explore the catalog</h1>
+      <div className="catalog-toolbar">
+        <form className="catalog-search" role="search" onSubmit={(event) => { event.preventDefault(); firstResult.current?.focus(); }}>
+          <label htmlFor="thread-search">Search the catalog</label>
           <div className="search-input-row">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6.5" /><path d="m15 15 6 6" /></svg>
-            <input ref={searchInput} id="thread-search" type="search" autoComplete="off" placeholder="Try sound, songwriter or DAW" value={query} onChange={(event) => updateQuery(event.target.value)} onKeyDown={(event) => { if (event.key === 'Escape') clearQuery(); }} aria-describedby="search-hint" aria-controls="discovery-results" />
+            <input ref={searchInput} id="thread-search" type="search" autoComplete="off" placeholder="What would you like to explore?" value={query} onChange={(event) => updateQuery(event.target.value)} onKeyDown={(event) => { if (event.key === 'Escape') clearQuery(); }} aria-describedby="search-hint" aria-controls="discovery-results" />
             {query && <button className="search-clear" type="button" onClick={clearQuery}>Clear</button>}
-            <button className="search-submit" type="submit" aria-label="Go to search results"><Arrow /></button>
+            <button className="search-submit" type="submit" aria-label="Go to catalog search results"><Arrow /></button>
           </div>
-          <p id="search-hint" className="search-hint">One song. Many connections. Search a name or part of a name.</p>
+          <p id="search-hint" className="search-hint">Endeavors, activities, roles, skills, concepts and tools</p>
         </form>
-        <div id="discovery-results">
-          <p className={hasQuery ? 'search-status' : 'discovery-sr-only'} role="status">{hasQuery ? `${results.length} ${results.length === 1 ? 'thread' : 'threads'} found` : ''}</p>
-          {hasQuery && (results.length ? <>
-            <ul className="search-results">{results.slice(0, resultLimit).map((entity, index) => <li key={entity.id}>
-              <a ref={index === 0 ? firstResult : undefined} href={entityHref(entity.id)}>
-                <span className={`result-type result-type-${entity.type}`}>{typeLabels[entity.type]}</span>
-                <div><h3>{entity.label}</h3><p>{entity.summary}</p></div><Arrow diagonal />
-              </a>
-            </li>)}</ul>
-            {results.length > resultLimit && <button type="button" className="discovery-action search-more" onClick={() => setResultLimit((count) => count + 8)}>Show more threads <span aria-hidden="true">+</span></button>}
-          </> : <div className="search-empty"><h3>No thread found for “{query.trim()}”.</h3><p>This collection starts with making a song. Try <button type="button" onClick={() => updateQuery('sound')}>sound</button>, <button type="button" onClick={() => updateQuery('engineer')}>engineer</button> or <button type="button" onClick={clearQuery}>browse the wall below</button>.</p></div>)}
+        <div className="catalog-controls">
+          <div className="discovery-actions"><button type="button" className="discovery-action" onClick={() => { updateQuery(''); shuffle(true); }}>Shuffle <span aria-hidden="true">↻</span></button><button type="button" className="discovery-action surprise-action" onClick={surprise}>Surprise me <Arrow diagonal /></button></div>
+          <p className="rotation-status"><span className={autoShuffle && !reducedMotion ? 'rotation-dot' : 'rotation-dot rotation-off'} aria-hidden="true" />{rotationLabel}</p>
         </div>
-      </section>
+      </div>
 
-      <section className="curiosity-section" aria-labelledby="curiosity-heading">
-        <div className="section-heading discovery-wall-heading">
-          <div><h2 id="curiosity-heading">Follow your curiosity</h2><p>Different ways into the same story</p></div>
-          <div className="discovery-actions"><button type="button" className="discovery-action" onClick={() => { setWallIds((ids) => shuffleDiscovery(graph, ids)); setShuffleCount((count) => count + 1); }}>Shuffle the wall <span aria-hidden="true">↻</span></button><button type="button" className="discovery-action surprise-action" onClick={surprise}>Surprise me <Arrow diagonal /></button></div>
-        </div>
-        <p className="discovery-sr-only" role="status">{shuffleCount > 0 ? `Wall shuffled. Now showing ${role?.label}, ${knowledge?.label} and ${tool?.label}.` : ''}</p>
-        <div className="curiosity-grid">
-          <a className="curiosity-tile tile-featured" href={entityHref(SONG_ID)}>
-            <div className="tile-top"><span className="eyebrow">ENDEAVOR</span><Arrow diagonal /></div>
-            <h3>A song.<br />From an idea<br />to your headphones.</h3>
-            <Waveform />
-            <div className="tile-bottom"><span>Follow the process</span><span aria-hidden="true">01</span></div>
-          </a>
-          {role && <a className="curiosity-tile tile-role" href={entityHref(role.id)}>
-            <div className="tile-top"><span className="eyebrow">ROLE</span><Arrow diagonal /></div>
-            <div className="mixing-mark" aria-hidden="true"><i /><i /><i /></div>
-            <h3 className="discovery-entity-title">{role.label}</h3><p>Meet a person behind the process.</p>
-          </a>}
-          {knowledge && <a className="curiosity-tile tile-knowledge" href={entityHref(knowledge.id)}>
-            <div className="tile-top"><span className="eyebrow">KNOWLEDGE</span><Arrow diagonal /></div>
-            <SoundRings /><h3 className="discovery-entity-title">{knowledge.label}</h3><p>Find an idea behind the music.</p>
-          </a>}
-          {tool && <a className="curiosity-tile tile-tool" href={entityHref(tool.id)}>
-            <div className="tile-top"><span className="eyebrow">TOOL</span><Arrow diagonal /></div>
-            <h3>{tool.id === 'tool:daw' ? <>A studio.<br />Inside a computer.</> : tool.label}</h3>
-            <div className="tile-bottom"><span>{tool.id === 'tool:daw' ? tool.label : 'Meet a tool in the process'}</span><div className="track-mark" aria-hidden="true"><i /><i /><i /></div></div>
-          </a>}
-        </div>
-      </section>
-      <section className="thread-invitation" aria-labelledby="thread-heading">
-        <div><span className="eyebrow">ONE CONNECTION CAN CHANGE YOUR DIRECTION</span><h2 id="thread-heading">There’s always another thread.</h2></div>
-        <ol className="sample-trail" aria-label="An example exploration">
-          <li><a href={entityHref(SONG_ID)}>A song</a><span aria-hidden="true">→</span></li>
-          <li><a href={entityHref('stage:song-mixing')}>Mix the tracks</a><span aria-hidden="true">→</span></li>
-          <li><a href={entityHref('contribution:song-mix')}>Mixing engineer at work <Arrow diagonal /></a></li>
-        </ol>
-      </section>
-    </>
+      <div id="discovery-results">
+        <p className={hasQuery ? 'search-status' : 'discovery-sr-only'} role="status">{hasQuery ? `${results.length} ${results.length === 1 ? 'catalog item' : 'catalog items'} found` : ''}</p>
+        {hasQuery && (results.length ? <>
+          <ul className="search-results">{results.slice(0, resultLimit).map((entity, index) => <li key={entity.id}>
+            <a ref={index === 0 ? firstResult : undefined} href={entityHref(entity.id)}>
+              <span className={`result-type result-type-${entity.type}`}>{typeLabels[entity.type]}</span>
+              <div><h2>{entity.label}</h2><p>{entity.summary}</p></div><Arrow diagonal />
+            </a>
+          </li>)}</ul>
+          {results.length > resultLimit && <button type="button" className="discovery-action search-more" onClick={() => setResultLimit((count) => count + 8)}>Show more results <span aria-hidden="true">+</span></button>}
+        </> : <div className="search-empty"><h2>No catalog items found for “{query.trim()}”.</h2><p>Try another name, a shorter word, or <button type="button" onClick={clearQuery}>return to the tile wall</button>.</p></div>)}
+      </div>
+
+      {!hasQuery && <>
+        <p className="discovery-sr-only" role="status">{manualCount ? `Wall shuffled ${manualCount === 1 ? 'once' : `${manualCount} times`}.` : ''}</p>
+        {wall.tiles.length ? <ul ref={wallElement} onPointerEnter={stopTransition} className={`catalog-wall wall-layout-${wall.layout} wall-phase-${phase}${wall.tiles.length < 7 ? ' catalog-wall-sparse' : ''}`} aria-label="Explore catalog items">
+          {wall.tiles.map((tile, index) => {
+            const entity = graph.getNode(tile.entityId);
+            if (!entity) return null;
+            return <li key={tile.slot} className={`catalog-tile-slot tile-size-${tile.size}`} style={{ gridArea: tile.slot, '--tile-delay': `${index * 30}ms` } as CSSProperties}>
+              <a className={`catalog-tile catalog-tile-${entity.type}`} href={entityHref(entity.id)} aria-label={`${typeLabels[entity.type]}: ${entity.label}`}>
+                <div className="catalog-tile-face">
+                  <div className="catalog-tile-top"><span>{typeLabels[entity.type]}</span><Arrow diagonal /></div>
+                  <h2>{entity.label}</h2>
+                  {tile.size === 'large' && <p>{entity.summary}</p>}
+                  <div className="catalog-tile-mark" aria-hidden="true"><i /><i /><i /></div>
+                </div>
+              </a>
+            </li>;
+          })}
+        </ul> : <p className="search-empty">No published catalog items are available yet.</p>}
+      </>}
+    </section>
   );
 }

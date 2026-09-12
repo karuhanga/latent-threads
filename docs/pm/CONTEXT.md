@@ -19,21 +19,25 @@ Wave 1 is one sourced song journey, approximately 30–50 browsable entities: 5�
 
 1. **Visual foundation:** runnable app and a reviewable visual shell showing the design direction.
 2. **Song exploration:** follow a song through stages and contextual contributions without losing orientation.
-3. **Discovery and learning:** search, a mixed curiosity surface, visible exploration trail, contextual learning/evidence and a verified production preview.
+3. **Discovery and learning:** search, a mixed curiosity surface, catalog search, contextual learning/evidence and a verified production preview.
 
 A five-minute release review should let the user find two distinct contributions, explain one connection, reach an unfamiliar concept, open a useful learning resource and return. Geography/time enter the schema in Wave 1; the user-facing geography lens follows sourced coffee content in Wave 2. World contains Africa; Kenya and Uganda are siblings. Missing evidence means unknown, never absence.
 
-Accounts, sync, generative chat, assessments, user editing, salary dashboards, bulk occupation imports, historical slider, full semantic zoom, automatic tile flipping, persistent/shared trails and offline reopening are deferred.
+Accounts, sync, generative chat, assessments, user editing, salary dashboards, bulk occupation imports, historical slider, full semantic zoom, persistent/shared trails and offline reopening are deferred.
 
 ## Canonical references
 
 - [First release](../product/first-release.md): scope and acceptance; [delivery plan](delivery-plan.md): sequencing and checkpoints; [deployment](../product/deployment.md): architecture/deployment decisions and access state.
 - [Ontology v0.1](../product/ontology-v0.1.md): PM-reviewed implementation contract. Artifact differs from endeavor; contribution binds one role, stage and endeavor; typed relations and source evidence constrain content.
-- [Ticket specifications](../tickets/): repository copies of LT-001 through LT-019 define substantive scope and acceptance. Read the relevant file alongside live Notion dependencies/status before starting.
+- [Ticket specifications](../tickets/): repository copies of LT-001 through LT-020 define substantive scope and acceptance. Read the relevant file alongside live Notion dependencies/status before starting.
 - [AGENTS.md](../../AGENTS.md): execution rules. Original discussion is preserved under `docs/ideation/`; do not rewrite it or treat illustrative claims as verified content.
 - [Public repository](https://github.com/karuhanga/latent-threads), [Notion HQ](https://www.notion.so/3d907031acb58172be89cad68e89e362), [Notion board](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb581ad800e000c9778c18b).
 
-The first-release, delivery-plan, deployment, decision log and LT-001–LT-019 specification files now exist in the repository. Notion documentation pages and cards now link to these canonical files. Any older document saying scope or substantial context lives in Notion is superseded by the confirmed repository/Notion split above.
+The first-release, delivery-plan, deployment, decision log and LT-001–LT-020 specification files now exist in the repository. Notion documentation pages and cards now link to these canonical files. Any older document saying scope or substantial context lives in Notion is superseded by the confirmed repository/Notion split above.
+
+## Review revision — LT-020
+
+User requested global catalog framing, a randomly arranged large/small tile wall with Windows Phone style motion, global Shuffle/Surprise, optional source details, conventional activity names, and no visible trail or forced endeavor hierarchy. Implemented by two bounded builders and PM. The current data still has one endeavor; no extra content was invented. Automatic shuffle is approximately seven seconds and pauses during interaction; both display preferences persist locally. Repo specs and decisions reflect this revised direction.
 
 ## Last verified progress and access
 
@@ -53,4 +57,4 @@ At each checkpoint or handoff, update this snapshot with the actual completed re
 
 ## Next action and unresolved facts
 
-**Next action:** Wait for Lincoln’s review of the deployed demo. Suggested walkthrough and known boundaries are in wave-1-review.md. No blockers or requested account actions remain. Coffee/local relevance is next planned scope, not started work.
+**Next action:** Publish the reviewed LT-020 revision. Both builders have handed off; PM integration checks pass all 45 tests, data validation, typecheck and production build. Browser review verified manual/automatic shuffle, stable focused tiles, user pause, mobile catalog search and independent skill navigation. Previous Wave 1 deployment is still the hosted baseline until the new release is verified. Coffee content remains separate.
