@@ -649,5 +649,796 @@
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-09-12",
     "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-depth-endeavor-clothing-tshirt-textile-technology",
+    "subjectId": "endeavor:clothing-tshirt",
+    "sourceId": "source:clothing-textile-technology",
+    "claim": "Material science connects with textile product development, production and quality.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-endeavor-clothing-tshirt-design-process",
+    "subjectId": "endeavor:clothing-tshirt",
+    "sourceId": "source:clothing-design-process",
+    "claim": "Prototype and sample evaluation can lead to design adjustments.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-endeavor-clothing-tshirt-depth-editorial",
+    "subjectId": "endeavor:clothing-tshirt",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A shirt for a community festival. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-artifact-clothing-tshirt-construction",
+    "subjectId": "artifact:clothing-tshirt",
+    "sourceId": "source:clothing-construction",
+    "claim": "T-shirt assembly uses matched body and sleeve parts plus neckline trim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-artifact-clothing-tshirt-depth-editorial",
+    "subjectId": "artifact:clothing-tshirt",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Turn it inside out. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-fabric-knit-machinery",
+    "subjectId": "stage:clothing-fabric",
+    "sourceId": "source:clothing-knit-machinery",
+    "claim": "Circular knitting combines yarn feeding, loop formation and fabric take-up.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-fabric-depth-editorial",
+    "subjectId": "stage:clothing-fabric",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Before there are sleeves. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-design-design-process",
+    "subjectId": "stage:clothing-design",
+    "sourceId": "source:clothing-design-process",
+    "claim": "Design work uses sketches, fabric choices, prototypes and evaluation on models.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-design-depth-editorial",
+    "subjectId": "stage:clothing-design",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A neckline on paper and in fabric. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-cutting-construction",
+    "subjectId": "stage:clothing-cutting",
+    "sourceId": "source:clothing-construction",
+    "claim": "Spreading, marker layout and matched cut-part bundles support garment assembly.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-cutting-cutter",
+    "subjectId": "stage:clothing-cutting",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Work orders specify dimensions and quantities; pieces may be marked for identification.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-cutting-depth-editorial",
+    "subjectId": "stage:clothing-cutting",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: One missing sleeve. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-sewing-sewing-operator",
+    "subjectId": "stage:clothing-sewing",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Operators match pieces and monitor stitching, thread breaks and machine problems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-sewing-depth-editorial",
+    "subjectId": "stage:clothing-sewing",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A pause at the shoulder. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-quality-quality",
+    "subjectId": "stage:clothing-quality",
+    "sourceId": "source:clothing-quality",
+    "claim": "Garment evaluation considers fit, seam integrity and fabric qualities, not only dimensions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-quality-depth-editorial",
+    "subjectId": "stage:clothing-quality",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: The right size, an uneven hem. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-retail-retail",
+    "subjectId": "stage:clothing-retail",
+    "sourceId": "source:clothing-retail",
+    "claim": "Retail tasks include identifying needs, locating merchandise, answering questions and processing purchases.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-stage-clothing-retail-depth-editorial",
+    "subjectId": "stage:clothing-retail",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Choosing at the stall. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-knitting-operator-knitting-operator",
+    "subjectId": "role:clothing-knitting-operator",
+    "sourceId": "source:clothing-knitting-operator",
+    "claim": "Tasks include threading, monitoring, checking specifications, adjustments and reporting malfunctions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-knitting-operator-depth-editorial",
+    "subjectId": "role:clothing-knitting-operator",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A recurring mark in the roll. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-designer-designer",
+    "subjectId": "role:clothing-designer",
+    "sourceId": "source:clothing-designer",
+    "claim": "Designers document construction/material choices and modify designs after sample review.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-designer-depth-editorial",
+    "subjectId": "role:clothing-designer",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Make the revision explicit. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-cutter-cutter",
+    "subjectId": "role:clothing-cutter",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutters use work orders, templates, cutting lines and product identification.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-cutter-depth-editorial",
+    "subjectId": "role:clothing-cutter",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Two similar sizes. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-sewing-operator-sewing-operator",
+    "subjectId": "role:clothing-sewing-operator",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Matching, guiding fabric and monitoring defects are sewing-operator responsibilities.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-sewing-operator-depth-editorial",
+    "subjectId": "role:clothing-sewing-operator",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Keep the pair together. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-quality-inspector-inspector",
+    "subjectId": "role:clothing-quality-inspector",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspection includes dimensional comparison, status marking and reporting production problems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-quality-inspector-depth-editorial",
+    "subjectId": "role:clothing-quality-inspector",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A finding someone can act on. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-retail-salesperson-retail",
+    "subjectId": "role:clothing-retail-salesperson",
+    "sourceId": "source:clothing-retail",
+    "claim": "Salespeople explain merchandise and payment/exchange policies and process purchases.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-role-clothing-retail-salesperson-depth-editorial",
+    "subjectId": "role:clothing-retail-salesperson",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Check before promising. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-garment-design-design-process",
+    "subjectId": "capability:clothing-garment-design",
+    "sourceId": "source:clothing-design-process",
+    "claim": "Design develops through drawings, selected fabrics, prototypes and adjustments.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-garment-design-depth-editorial",
+    "subjectId": "capability:clothing-garment-design",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Compare two sleeve shapes. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-pattern-cutting-cutter",
+    "subjectId": "capability:clothing-pattern-cutting",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Template placement, measurements, quantities and marked cutting lines inform cutting.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-pattern-cutting-depth-editorial",
+    "subjectId": "capability:clothing-pattern-cutting",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Plan before cutting. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-machine-sewing-sewing-operator",
+    "subjectId": "capability:clothing-machine-sewing",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Machine sewing includes guiding parts and monitoring stitching.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-machine-sewing-pillowcase",
+    "subjectId": "capability:clothing-machine-sewing",
+    "sourceId": "source:clothing-pillowcase",
+    "claim": "The project offers a small sewn item with a sequenced construction process.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-machine-sewing-depth-editorial",
+    "subjectId": "capability:clothing-machine-sewing",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A practice seam before the garment. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-quality-inspection-inspector",
+    "subjectId": "capability:clothing-quality-inspection",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspection compares dimensions with specifications and communicates defects.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-capability-clothing-quality-inspection-depth-editorial",
+    "subjectId": "capability:clothing-quality-inspection",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Replace a vague comment. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-knit-structure-knit-basics",
+    "subjectId": "knowledge:clothing-knit-structure",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "Knit loops form courses and wales; jersey faces differ and structure permits stretch.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-knit-structure-depth-editorial",
+    "subjectId": "knowledge:clothing-knit-structure",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Follow the tiny columns. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-pattern-yield-construction",
+    "subjectId": "knowledge:clothing-pattern-yield",
+    "sourceId": "source:clothing-construction",
+    "claim": "Pattern yield concerns fabric utilisation within a marker layout.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-pattern-yield-depth-editorial",
+    "subjectId": "knowledge:clothing-pattern-yield",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Same parts, different gaps. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-seam-integrity-knit-considerations",
+    "subjectId": "knowledge:clothing-seam-integrity",
+    "sourceId": "source:clothing-knit-considerations",
+    "claim": "Knit seam quality includes suitable stretch, secure stitches and no gaping or skipped/broken stitches.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-seam-integrity-depth-editorial",
+    "subjectId": "knowledge:clothing-seam-integrity",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A join that opens up. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-knitting-machine-knit-machinery",
+    "subjectId": "tool:clothing-knitting-machine",
+    "sourceId": "source:clothing-knit-machinery",
+    "claim": "Circular machines connect yarn supply, needles, fabric tube formation and take-up.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-knitting-machine-depth-editorial",
+    "subjectId": "tool:clothing-knitting-machine",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Trace the material path. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-fabric-shears-sewing-supplies",
+    "subjectId": "tool:clothing-fabric-shears",
+    "sourceId": "source:clothing-sewing-supplies",
+    "claim": "Dressmaking shears support fabric cutting; bent handles help cloth lie flat.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-fabric-shears-depth-editorial",
+    "subjectId": "tool:clothing-fabric-shears",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Keep the cloth supported. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-sewing-machine-sewing-operator",
+    "subjectId": "tool:clothing-sewing-machine",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Machines join/reinforce material; operators manage thread, guidance and stitch monitoring.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-sewing-machine-depth-editorial",
+    "subjectId": "tool:clothing-sewing-machine",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Same machine, another join. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-ruler-sewing-supplies",
+    "subjectId": "tool:clothing-ruler",
+    "sourceId": "source:clothing-sewing-supplies",
+    "claim": "Small rulers can measure hems; grid rulers support straight-line layout.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-tool-clothing-ruler-depth-editorial",
+    "subjectId": "tool:clothing-ruler",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Name the measurement. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-resource-clothing-knit-basics-knit-basics",
+    "subjectId": "resource:clothing-knit-basics",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "Public article covers loop structure, knit terminology, stitches and machinery; reading access reviewed.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-resource-clothing-knit-basics-depth-editorial",
+    "subjectId": "resource:clothing-knit-basics",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Recognise what you are wearing. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-resource-clothing-garment-construction-construction",
+    "subjectId": "resource:clothing-garment-construction",
+    "sourceId": "source:clothing-construction",
+    "claim": "Public overview covers garment components, patterns, assembly and material utilisation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-resource-clothing-garment-construction-depth-editorial",
+    "subjectId": "resource:clothing-garment-construction",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Read a shirt as components. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-textile-technology-textile-technology",
+    "subjectId": "knowledge:clothing-textile-technology",
+    "sourceId": "source:clothing-textile-technology",
+    "claim": "The field connects fibre science, fabric formation, product development, production and performance evaluation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-textile-technology-depth-editorial",
+    "subjectId": "knowledge:clothing-textile-technology",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Start with the material question. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-knitted-fabric-technology-knitted-fabric-study",
+    "subjectId": "knowledge:clothing-knitted-fabric-technology",
+    "sourceId": "source:clothing-knitted-fabric-study",
+    "claim": "TT 341 covers knitted production, yarn suitability, machinery, properties and quality.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-knowledge-clothing-knitted-fabric-technology-depth-editorial",
+    "subjectId": "knowledge:clothing-knitted-fabric-technology",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: From a loop to a production question. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-resource-clothing-pillowcase-pillowcase",
+    "subjectId": "resource:clothing-pillowcase",
+    "sourceId": "source:clothing-pillowcase",
+    "claim": "The public guide specifies woven materials, sequenced sewing/pressing and a decorative variation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-resource-clothing-pillowcase-depth-editorial",
+    "subjectId": "resource:clothing-pillowcase",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A first useful object. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-knit-knitting-operator",
+    "subjectId": "contribution:clothing-knit",
+    "sourceId": "source:clothing-knitting-operator",
+    "claim": "Product inspection informs adjustment; operators monitor machines and report malfunctions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-knit-depth-editorial",
+    "subjectId": "contribution:clothing-knit",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Catch the change early. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-design-designer",
+    "subjectId": "contribution:clothing-design",
+    "sourceId": "source:clothing-designer",
+    "claim": "Drawings/specifications express construction choices; sample review prompts revision.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-design-depth-editorial",
+    "subjectId": "contribution:clothing-design",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Approve a clear version. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-cut-cutter",
+    "subjectId": "contribution:clothing-cut",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutters read quantities, position templates and mark identification.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-cut-construction",
+    "subjectId": "contribution:clothing-cut",
+    "sourceId": "source:clothing-construction",
+    "claim": "T-shirt cutting prepares body, sleeve and trim components for matched assembly.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-cut-depth-editorial",
+    "subjectId": "contribution:clothing-cut",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: A batch ready to match. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-sew-knit-considerations",
+    "subjectId": "contribution:clothing-sew",
+    "sourceId": "source:clothing-knit-considerations",
+    "claim": "Samples help select techniques; knit seam stitches should suit stretch and remain even.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-sew-depth-editorial",
+    "subjectId": "contribution:clothing-sew",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Try the join on a sample. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-inspect-inspector",
+    "subjectId": "contribution:clothing-inspect",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspection uses specifications, dimensional checks, item status and reported findings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-inspect-depth-editorial",
+    "subjectId": "contribution:clothing-inspect",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: Record the affected shirt. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-sell-retail",
+    "subjectId": "contribution:clothing-sell",
+    "sourceId": "source:clothing-retail",
+    "claim": "Sales work joins needs assessment, product selection, information and payment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-contribution-clothing-sell-depth-editorial",
+    "subjectId": "contribution:clothing-sell",
+    "sourceId": "source:clothing-depth-editorial",
+    "claim": "Original scenario: An alternative that fits the request. See research note for the distinction between illustrative choices and sourced mechanisms.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-relation-clothing-knitted-study-field-knitted-fabric-study",
+    "subjectId": "relation:clothing-knitted-study-field",
+    "sourceId": "source:clothing-knitted-fabric-study",
+    "claim": "Knitted Fabric Technology is a subject in the Textile Technology catalogue.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:clothing-depth-relation-clothing-structure-knitted-study-knitted-fabric-study",
+    "subjectId": "relation:clothing-structure-knitted-study",
+    "sourceId": "source:clothing-knitted-fabric-study",
+    "claim": "Loop structure is placed within the study of knitted fabric production and properties.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "Editorial conceptual nesting based on the course scope and CottonWorks loop explanation; not a claim of a named provider module."
+  },
+  {
+    "id": "evidence:clothing-depth-relation-clothing-learn-machine-sewing-pillowcase",
+    "subjectId": "relation:clothing-learn-machine-sewing",
+    "sourceId": "source:clothing-pillowcase",
+    "claim": "The project teaches machine-sewn joins through pillowcase construction.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
   }
 ]

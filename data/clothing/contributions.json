@@ -6,7 +6,17 @@
     "stageId": "stage:clothing-fabric",
     "roleId": "role:clothing-knitting-operator",
     "action": "Set up and monitor a knitting machine, adjusting it to produce the specified fabric.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Here the operator runs the knitting process against the intended fabric specification. Checking the emerging material helps decide whether production can continue as set up or whether adjustment or repair attention is needed. Output and machine behaviour are considered together.",
+      "example": {
+        "title": "Catch the change early",
+        "body": "The next section of festival fabric looks different from the approved sample. The operator pauses to investigate the change before more material is produced."
+      },
+      "inputs": "Yarn, a knitting machine and the required fabric specification.",
+      "outputs": "Knitted fabric and observations about whether it meets the specification.",
+      "decision": "Does the emerging fabric justify continuing, adjusting the setup or requesting repair help?"
+    }
   },
   {
     "id": "contribution:clothing-design",
@@ -15,7 +25,17 @@
     "stageId": "stage:clothing-design",
     "roleId": "role:clothing-designer",
     "action": "Sketch the garment, choose materials and specify its construction.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "For this shirt, design work turns the intended appearance into choices that can be communicated and checked. A sample is compared with that intent, then the drawings or construction specification are revised when needed. The decision is made concrete in the next version.",
+      "example": {
+        "title": "Approve a clear version",
+        "body": "The organiser chooses the revised neckline after viewing two samples. The designer records that choice in the next specification so the maker can identify the approved version."
+      },
+      "inputs": "The garment idea, material choices and sample feedback.",
+      "outputs": "Drawings and a specification describing the selected design.",
+      "decision": "Which sample changes should be carried into the next design version?"
+    }
   },
   {
     "id": "contribution:clothing-cut",
@@ -24,7 +44,17 @@
     "stageId": "stage:clothing-cutting",
     "roleId": "role:clothing-cutter",
     "action": "Arrange the fabric and cut the body, sleeve and trim pieces for the T-shirt.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The cutter checks what parts and quantities are needed before placing the patterns and following the cut lines. In this T-shirt route, the output is identified body, sleeve and trim pieces that can be matched for sewing. Layout and completeness both matter.",
+      "example": {
+        "title": "A batch ready to match",
+        "body": "The cutter checks the festival order against the finished bundles. A missing size label is corrected before the body pieces and sleeves move to sewing."
+      },
+      "inputs": "Fabric, patterns or marker layout, required dimensions and quantities.",
+      "outputs": "Identified cut pieces ready to be matched into garments.",
+      "decision": "Does this layout produce every required piece at the specified size?"
+    }
   },
   {
     "id": "contribution:clothing-sew",
@@ -33,7 +63,17 @@
     "stageId": "stage:clothing-sewing",
     "roleId": "role:clothing-sewing-operator",
     "action": "Match the garment pieces and sew them together, checking the stitching as work proceeds.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The sewing work joins the chosen parts while checking that the seam suits the fabric. For knits, stitch behaviour and fabric stretch belong in the same decision. A sample join can expose a problem before the approach is repeated across the garment.",
+      "example": {
+        "title": "Try the join on a sample",
+        "body": "The maker evaluates a sample seam in the festival fabric and finds uneven stitching. They revisit the setup before applying that join to the next shirt."
+      },
+      "inputs": "Matched garment pieces, thread and the intended seam construction.",
+      "outputs": "Joined parts with stitching checked as work proceeds.",
+      "decision": "Does the sample join behave appropriately for this fabric before the operation is repeated?"
+    }
   },
   {
     "id": "contribution:clothing-inspect",
@@ -42,7 +82,17 @@
     "stageId": "stage:clothing-quality",
     "roleId": "role:clothing-quality-inspector",
     "action": "Measure the finished garment against specifications and check its construction for defects.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "In this activity, the inspector compares the garment with its stated dimensions and checks the relevant construction features. Findings are recorded against the affected item so that acceptance, rejection or follow-up has a concrete basis. A single good measurement cannot resolve every defect.",
+      "example": {
+        "title": "Record the affected shirt",
+        "body": "One festival shirt has a sleeve measurement outside its specification. The inspector identifies that shirt and reports the finding so it can be reviewed separately from the batch."
+      },
+      "inputs": "A garment, its requirements and suitable measuring tools.",
+      "outputs": "Recorded findings and the item’s inspection status.",
+      "decision": "Does the garment meet the checked requirements, or must the finding be referred for follow-up?"
+    }
   },
   {
     "id": "contribution:clothing-sell",
@@ -51,7 +101,16 @@
     "stageId": "stage:clothing-retail",
     "roleId": "role:clothing-retail-salesperson",
     "action": "Help a customer select clothing, answer product questions and complete the purchase.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The salesperson establishes what the customer is looking for, locates a suitable option and answers product or policy questions. If the customer chooses to buy, the transaction completes that encounter. A recommendation should follow the request and the available stock.",
+      "example": {
+        "title": "An alternative that fits the request",
+        "body": "A customer’s first-choice size is unavailable at the festival stall. The salesperson explains the options and lets the customer choose whether another shirt meets their needs."
+      },
+      "inputs": "The customer’s request, available garments and product/policy information.",
+      "outputs": "An informed product choice and, when agreed, a completed purchase.",
+      "decision": "Which available option answers the customer’s request, and what information needs checking?"
+    }
   }
 ]
-

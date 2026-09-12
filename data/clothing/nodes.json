@@ -13,7 +13,14 @@
       "fashion",
       "make a T-shirt"
     ],
-    "notes": "A selected cut-and-sew route. Design and quality work can recur; no particular factory, country or supplier chain is represented."
+    "notes": "A selected cut-and-sew route. Design and quality work can recur; no particular factory, country or supplier chain is represented.",
+    "details": {
+      "explanation": "A T-shirt connects decisions about material, shape, assembly and sale. This route follows a knitted, cut-and-sewn garment. Design samples and quality findings can send work back for revision, so the six stages are a way to explore the work rather than a fixed production timetable.",
+      "example": {
+        "title": "A shirt for a community festival",
+        "body": "A festival organiser wants a simple blue shirt. The sample looks right, but the sleeves need more room; the design is revised before the main batch is cut."
+      }
+    }
   },
   {
     "id": "artifact:clothing-tshirt",
@@ -24,7 +31,14 @@
     "aliases": [
       "tee",
       "tee shirt"
-    ]
+    ],
+    "details": {
+      "explanation": "The finished shirt brings separately prepared parts into one wearable object. In the construction route shown here, body and sleeve pieces are matched with neckline trim before assembly. Looking at those joins reveals work that a plain front view can hide.",
+      "example": {
+        "title": "Turn it inside out",
+        "body": "A reader turns the festival shirt inside out and follows the join around a sleeve. That line makes the separate sleeve piece easier to recognise."
+      }
+    }
   },
   {
     "id": "stage:clothing-fabric",
@@ -33,7 +47,14 @@
     "summary": "Knit yarn into fabric.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:clothing-tshirt",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "details": {
+      "explanation": "Fabric production changes yarn into a continuous textile. In circular weft knitting, needles form loops around a cylinder while feeding and take-up systems manage the yarn and growing fabric. Machine arrangement therefore helps determine what material later cutting work receives.",
+      "example": {
+        "title": "Before there are sleeves",
+        "body": "A roll for the festival shirts reaches the cutting room. It contains fabric, not shirt-shaped pieces; the body and sleeves will be defined by a later layout."
+      }
+    }
   },
   {
     "id": "stage:clothing-design",
@@ -42,7 +63,14 @@
     "summary": "Develop the garment’s appearance, materials and construction details.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:clothing-tshirt",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "details": {
+      "explanation": "Design develops an idea through material choices and samples. A drawing can describe the intended appearance, while a prototype reveals how the garment looks on a body. Comparing the two gives the designer something specific to revise.",
+      "example": {
+        "title": "A neckline on paper and in fabric",
+        "body": "The festival shirt has a wide neckline in the first sketch. After seeing a sample, the organiser chooses a narrower version and asks for the drawing to be updated."
+      }
+    }
   },
   {
     "id": "stage:clothing-cutting",
@@ -51,7 +79,14 @@
     "summary": "Lay out and cut garment pieces.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:clothing-tshirt",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "details": {
+      "explanation": "Cutting turns a layout into separate pieces. Fabric is arranged before cutting, and a marker places the required shapes within the available material. The useful result is a complete set of parts that can be identified and matched during assembly.",
+      "example": {
+        "title": "One missing sleeve",
+        "body": "The batch contains enough bodies but one fewer sleeve pair. Checking the planned quantities against the cut bundles catches the shortage before the sewing run begins."
+      }
+    }
   },
   {
     "id": "stage:clothing-sewing",
@@ -60,7 +95,14 @@
     "summary": "Join cut parts into the garment.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:clothing-tshirt",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "details": {
+      "explanation": "Sewing gives the garment its joined shape. Parts have to be matched before stitching, and the work is monitored as it proceeds. A broken thread or defective stitch can interrupt that progress even when the correct pieces were cut.",
+      "example": {
+        "title": "A pause at the shoulder",
+        "body": "Halfway along a shoulder join, the thread breaks. The operator checks the incomplete seam before moving the shirt on, rather than treating machine movement as proof of a finished join."
+      }
+    }
   },
   {
     "id": "stage:clothing-quality",
@@ -69,7 +111,14 @@
     "summary": "Check the garment’s dimensions, appearance and construction.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:clothing-tshirt",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "details": {
+      "explanation": "Quality assessment asks whether the garment meets its requirements. Size is one part of that question; fit, fabric appearance and seam quality also matter. A shirt can have the requested dimensions while still showing a construction problem.",
+      "example": {
+        "title": "The right size, an uneven hem",
+        "body": "The festival sample matches the requested width. Its hem looks uneven, so the reviewer records a separate construction issue instead of letting the size check settle every question."
+      }
+    }
   },
   {
     "id": "stage:clothing-retail",
@@ -78,49 +127,98 @@
     "summary": "Help customers choose and purchase clothing.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:clothing-tshirt",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "details": {
+      "explanation": "Retail connects a finished garment with a customer’s needs. Selection advice, product information and payment are related parts of the work. A useful recommendation starts with what the customer wants and the merchandise that is actually available.",
+      "example": {
+        "title": "Choosing at the stall",
+        "body": "A customer wants a looser festival shirt and asks about available sizes. The salesperson checks the stock and shows an alternative before the customer decides whether to buy."
+      }
+    }
   },
   {
     "id": "role:clothing-knitting-operator",
     "type": "role",
     "label": "Textile knitting operator",
     "summary": "Sets up, monitors and adjusts machines that knit fabric.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The operator keeps a knitting process aligned with the intended output. Setting up yarn paths, monitoring production and checking the fabric belong together: an observed defect can prompt an adjustment or a report that repair help is needed.",
+      "example": {
+        "title": "A recurring mark in the roll",
+        "body": "An operator notices the same unwanted mark appearing repeatedly in the festival fabric. They flag the affected output and report the machine issue for attention."
+      }
+    }
   },
   {
     "id": "role:clothing-designer",
     "type": "role",
     "label": "Fashion designer",
     "summary": "Develops garment ideas, selects materials and specifies construction.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A fashion designer makes choices legible to people producing the garment. Drawings and specifications describe materials, colours and construction, while sample review checks whether those choices achieve the intended effect. The deliverable can change as a sample is evaluated.",
+      "example": {
+        "title": "Make the revision explicit",
+        "body": "The organiser approves a shorter sleeve on the sample. The designer changes the specification as well as the sketch so the approved version is clear to the maker."
+      }
+    }
   },
   {
     "id": "role:clothing-cutter",
     "type": "role",
     "label": "Garment cutter",
     "summary": "Cuts fabric to the required shapes using patterns and cutting tools.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A garment cutter interprets required dimensions and quantities, positions patterns and marks or follows cutting lines. Accuracy includes keeping track of which pieces were cut, so the output can be identified as well as shaped.",
+      "example": {
+        "title": "Two similar sizes",
+        "body": "The cutter has layouts for two neighbouring sizes. They keep the resulting pieces identified so a small sleeve is not accidentally grouped with a larger body."
+      }
+    }
   },
   {
     "id": "role:clothing-sewing-operator",
     "type": "role",
     "label": "Sewing machine operator",
     "summary": "Uses a sewing machine to join and finish garment parts.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The operator prepares and guides parts through the sewing machine while watching the join being formed. Matching pieces and noticing thread or stitch problems are part of producing a usable seam, alongside controlling the machine itself.",
+      "example": {
+        "title": "Keep the pair together",
+        "body": "Two nearly identical sleeves arrive beside one body. The operator checks the matching pieces before sewing, then watches the stitching as the first sleeve is joined."
+      }
+    }
   },
   {
     "id": "role:clothing-quality-inspector",
     "type": "role",
     "label": "Garment quality inspector",
     "summary": "Checks garments against dimensions and construction requirements.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An inspector compares the product with specifications and makes deviations visible. Measurements, recorded findings and acceptance or rejection markings communicate the result. In this clothing route, that general inspection work is applied to garment dimensions and construction.",
+      "example": {
+        "title": "A finding someone can act on",
+        "body": "An inspector records that the left sleeve differs from the specified length and identifies the affected shirt. The note gives the maker a precise issue to examine."
+      }
+    }
   },
   {
     "id": "role:clothing-retail-salesperson",
     "type": "role",
     "label": "Retail salesperson",
     "summary": "Helps customers choose merchandise and complete purchases.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The salesperson helps translate a customer’s request into a choice among available products. They answer merchandise questions, explain relevant store policies and handle the purchase. Knowing when to check information is part of giving a useful answer.",
+      "example": {
+        "title": "Check before promising",
+        "body": "A buyer asks whether another size can be exchanged later. The salesperson checks the stall’s exchange policy and explains it before taking payment for the shirt."
+      }
+    }
   },
   {
     "id": "capability:clothing-garment-design",
@@ -128,7 +226,14 @@
     "label": "Garment design",
     "summary": "Translate an idea into apparel drawings and material choices.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Garment design combines visual judgement with decisions that can be made into clothing. A useful design communicates the selected shape and materials, then responds to what a sample reveals. The skill is exercised through choices and revisions, not just a polished drawing.",
+      "example": {
+        "title": "Compare two sleeve shapes",
+        "body": "A learner draws two sleeve shapes for the same festival shirt and annotates the intended difference. Reviewing a sample gives them a reason to keep one and revise the other."
+      }
+    }
   },
   {
     "id": "capability:clothing-pattern-cutting",
@@ -136,7 +241,15 @@
     "label": "Pattern cutting",
     "summary": "Position a pattern, mark cutting lines and cut fabric accurately.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "This skill brings together reading a pattern, positioning it, marking the required outline and controlling the cut. The layout must also account for the required dimensions and number of pieces; a neat edge alone does not establish that the right part was made.",
+      "example": {
+        "title": "Plan before cutting",
+        "body": "A learner uses paper shapes to plan the front, back and two sleeves. Counting the required pieces reveals that the first layout left out a sleeve."
+      },
+      "practice": "Arrange paper garment shapes on a paper rectangle. Compare two layouts while keeping the number and orientation of pieces the same."
+    }
   },
   {
     "id": "capability:clothing-machine-sewing",
@@ -144,7 +257,14 @@
     "label": "Machine sewing",
     "summary": "Align garment parts and guide them through a sewing machine.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Machine sewing involves aligning the intended pieces and guiding them consistently as stitches form. It also requires noticing when the result departs from the intended join. Practising on a small project makes those handling and observation skills easier to isolate.",
+      "example": {
+        "title": "A practice seam before the garment",
+        "body": "A learner joins two woven scraps and notices the edges no longer match at the end. They inspect that result before starting the pillowcase project."
+      }
+    }
   },
   {
     "id": "capability:clothing-quality-inspection",
@@ -152,7 +272,14 @@
     "label": "Garment inspection",
     "summary": "Identify defects and compare a garment with its requirements.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Inspection turns a broad judgement into a comparison that can be checked. The inspector identifies the relevant requirement, observes or measures the item, and records the discrepancy. A useful finding describes the affected feature rather than only calling the whole garment poor.",
+      "example": {
+        "title": "Replace a vague comment",
+        "body": "Instead of writing “bad shirt”, a reviewer identifies the uneven left sleeve join on one sample. That description gives the maker a location and a problem to investigate."
+      }
+    }
   },
   {
     "id": "knowledge:clothing-knit-structure",
@@ -165,7 +292,15 @@
       "knitted fabric",
       "jersey",
       "knit loops"
-    ]
+    ],
+    "details": {
+      "explanation": "Knit fabric is built from connected loops. Their arrangement allows the fabric to change shape; rows are called courses and columns are wales. Recognising that structure helps explain why two knitted fabrics can feel and stretch differently despite sharing a colour.",
+      "example": {
+        "title": "Follow the tiny columns",
+        "body": "Under a bright light, a reader examines the blue shirt and spots columns of small V-shaped stitches. Turning it over reveals a different-looking reverse surface."
+      },
+      "practice": "Look closely at both sides of a knitted garment. Find a row or column of loops and compare the visible patterns."
+    }
   },
   {
     "id": "knowledge:clothing-pattern-yield",
@@ -177,7 +312,15 @@
     "aliases": [
       "fabric utilization",
       "marker layout"
-    ]
+    ],
+    "details": {
+      "explanation": "Pattern yield expresses how much laid-out fabric becomes cut pieces. Moving shapes closer together can reduce unused gaps, but the comparison is only useful when the layout still makes the required parts. Yield describes material use; it does not certify the finished shirt.",
+      "example": {
+        "title": "Same parts, different gaps",
+        "body": "Two paper layouts contain the same front, back and sleeves. One groups a sleeve beside a curved edge and leaves a smaller unused gap without removing any part."
+      },
+      "practice": "Keep an identical set of paper pieces and compare the unused space in two layouts. Treat this as a layout exercise, not a production yield prediction."
+    }
   },
   {
     "id": "knowledge:clothing-seam-integrity",
@@ -185,35 +328,70 @@
     "label": "Seam integrity",
     "summary": "How well a garment’s stitched joins hold together.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "A seam needs to hold the joined fabric together while suiting its stretch. Even stitching and the absence of broken or skipped stitches are useful observations. A smooth-looking line alone does not answer whether the join behaves appropriately for the fabric.",
+      "example": {
+        "title": "A join that opens up",
+        "body": "Two sample seams look tidy on the table. When the maker evaluates them with the fabric, one shows gaps between the layers; that sample needs further attention."
+      }
+    }
   },
   {
     "id": "tool:clothing-knitting-machine",
     "type": "tool",
     "label": "Knitting machine",
     "summary": "Uses needles to form fabric from yarn loops.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A knitting machine coordinates yarn supply with needles that form loops. In a circular weft machine, those needles work around a cylinder and the resulting fabric is taken up as a tube. Feeding and take-up are part of the mechanism, not separate afterthoughts.",
+      "example": {
+        "title": "Trace the material path",
+        "body": "A learner studies a machine diagram and follows the yarn from its supply to the needles, then follows the fabric away from them to the roll."
+      }
+    }
   },
   {
     "id": "tool:clothing-fabric-shears",
     "type": "tool",
     "label": "Fabric shears",
     "summary": "A hand tool for cutting fabric along a shape or marked line.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Fabric shears cut through cloth while following an intended outline. Sharp blades and a handle shape that lets the fabric stay flat help the cutting task. They serve a different purpose from small scissors kept nearby for trimming thread.",
+      "example": {
+        "title": "Keep the cloth supported",
+        "body": "While planning a sleeve cut, a maker chooses dressmaking shears that sit comfortably against the table. The fabric can remain supported along the marked outline."
+      }
+    }
   },
   {
     "id": "tool:clothing-sewing-machine",
     "type": "tool",
     "label": "Sewing machine",
     "summary": "Joins material with stitches formed by a needle and thread.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The sewing machine forms stitches as material passes beneath its needle and presser foot. Thread supply, fabric guidance and the chosen operation work together. A machine can join or reinforce material, while the operator still checks the resulting stitching.",
+      "example": {
+        "title": "Same machine, another join",
+        "body": "After practising on scraps, a learner uses the machine for a pillowcase seam. They still watch how the layers travel instead of assuming the previous sample guarantees this result."
+      }
+    }
   },
   {
     "id": "tool:clothing-ruler",
     "type": "tool",
     "label": "Ruler",
     "summary": "Measures lengths for cutting and checking garment pieces.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A ruler supports straight-line layout and checks of small dimensions. In sewing, a small ruler can help compare a hem depth, while a grid ruler helps mark straight lines. Its reading has to be tied to the feature being checked.",
+      "example": {
+        "title": "Name the measurement",
+        "body": "A reviewer checks the depth of a folded hem and writes down that feature with the reading. Another person can then understand what the number describes."
+      }
+    }
   },
   {
     "id": "resource:clothing-knit-basics",
@@ -228,7 +406,20 @@
     "access": "free",
     "licenseStatus": "restricted",
     "accessReviewedAt": "2026-09-12",
-    "notes": "Public reading was accessible without an account. The page reserves copyright; linked videos and equipment are separate."
+    "notes": "Public reading was accessible without an account. The page reserves copyright; linked videos and equipment are separate.",
+    "resourceKind": "article",
+    "preparation": "Read online without equipment. A knitted garment or fabric scrap is useful for comparing the illustrations; this is an optional observation exercise.",
+    "outcomes": [
+      "Recognize courses, wales and basic knit stitches.",
+      "Relate loop structure to fabric stretch."
+    ],
+    "details": {
+      "explanation": "This illustrated introduction helps a reader connect visible fabric patterns with the loops that form them. It explains knit terminology before exploring stitch variations and machinery. Use the text and images for observation; the linked videos are additional material.",
+      "example": {
+        "title": "Recognise what you are wearing",
+        "body": "A reader opens the article beside an old T-shirt and compares its two surfaces with the jersey illustrations, adding names to details they had previously overlooked."
+      }
+    }
   },
   {
     "id": "resource:clothing-garment-construction",
@@ -243,6 +434,85 @@
     "access": "free",
     "licenseStatus": "restricted",
     "accessReviewedAt": "2026-09-12",
-    "notes": "Public reading was accessible without an account. The page reserves copyright; linked videos and equipment are separate."
+    "notes": "Public reading was accessible without an account. The page reserves copyright; linked videos and equipment are separate.",
+    "resourceKind": "article",
+    "preparation": "No equipment is needed to read the overview. It introduces industrial assembly and cutting; practical machine operation requires separate instruction and equipment.",
+    "outcomes": [
+      "Explain how cut parts become a T-shirt.",
+      "Describe a marker layout and pattern yield."
+    ],
+    "details": {
+      "explanation": "The article connects finished garments with the parts and layout work behind them. It offers an industrial overview of assembly, patterns and material utilisation. That makes it useful for understanding the journey, while hands-on sewing needs a more specific project.",
+      "example": {
+        "title": "Read a shirt as components",
+        "body": "After reading, a learner sketches a shirt as separate body, sleeve and trim pieces, then writes one question about how the parts would be matched."
+      }
+    }
+  },
+  {
+    "id": "knowledge:clothing-textile-technology",
+    "type": "knowledge",
+    "kind": "field",
+    "label": "Textile technology",
+    "summary": "Study how textile materials, production and performance connect.",
+    "editorialStatus": "published",
+    "aliases": [
+      "textile study",
+      "textiles technology"
+    ],
+    "details": {
+      "explanation": "Textile technology studies how material choices and production methods affect textile products. It connects fibre knowledge, fabric formation and performance evaluation with development and manufacturing. Clothing is one application; the field also includes textiles used for other purposes.",
+      "example": {
+        "title": "Start with the material question",
+        "body": "A learner comparing two blue fabrics asks why their behaviour differs. Textile technology gives them a route into the material and process choices behind the finished appearance."
+      }
+    }
+  },
+  {
+    "id": "knowledge:clothing-knitted-fabric-technology",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Knitted fabric technology",
+    "summary": "Study knitting processes, fabric properties and production quality.",
+    "editorialStatus": "published",
+    "aliases": [
+      "knitting technology",
+      "knitted textile study"
+    ],
+    "details": {
+      "explanation": "This subject examines how knitting processes relate to the fabric they produce. Machinery, yarn suitability, fabric properties and defects can be studied together. It connects the small-scale idea of a loop with questions about producing consistent material.",
+      "example": {
+        "title": "From a loop to a production question",
+        "body": "After recognising loops in a shirt, a learner asks how a machine keeps making the intended fabric. The question leads from Knit structure into Knitted fabric technology."
+      }
+    }
+  },
+  {
+    "id": "resource:clothing-pillowcase",
+    "type": "learning_resource",
+    "label": "Designer pillowcase",
+    "summary": "A practical woven-fabric project for learning machine sewing and pressing.",
+    "editorialStatus": "published",
+    "url": "https://extension.usu.edu/sewing/research/designer-pillowcase",
+    "provider": "Utah State University Extension",
+    "format": "Illustrated web guide with PDF option",
+    "learnerLevel": "Beginner project; basic machine familiarity",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "resourceKind": "guide",
+    "preparation": "Use firmly woven cotton or cotton-blend fabric, matching thread, a sewing machine, an iron and basic sewing supplies. Learn your machine controls first. This project uses woven fabric, not stretch-knit T-shirt construction.",
+    "outcomes": [
+      "Follow a sequence that joins a pillowcase body and border.",
+      "Practise machine-sewn seams and pressing."
+    ],
+    "notes": "Public instructions opened without an account. Materials and equipment are separate. No reuse license or credential was verified; no source images or pattern were copied.",
+    "details": {
+      "explanation": "This making guide uses a pillowcase to practise joining fabric and pressing seams through a complete project. The instructions specify woven fabric and include a decorative variation. It is a useful sewing exercise with a different material and purpose from the T-shirt route.",
+      "example": {
+        "title": "A first useful object",
+        "body": "A learner chooses two coordinating woven fabrics and follows the guide to make a pillowcase. They compare the finished joins with their earlier practice seam."
+      }
+    }
   }
 ]

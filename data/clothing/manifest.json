@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.2",
+  "schemaVersion": "0.3",
   "files": {
     "nodes": "nodes.json",
     "contributions": "contributions.json",
@@ -12,4 +12,3 @@
     "organizationExamples": "organizationExamples.json"
   }
 }
-

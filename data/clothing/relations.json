@@ -131,6 +131,26 @@
     "fromId": "resource:clothing-garment-construction",
     "toId": "knowledge:clothing-pattern-yield",
     "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-knitted-study-field",
+    "type": "part_of",
+    "fromId": "knowledge:clothing-knitted-fabric-technology",
+    "toId": "knowledge:clothing-textile-technology",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-structure-knitted-study",
+    "type": "part_of",
+    "fromId": "knowledge:clothing-knit-structure",
+    "toId": "knowledge:clothing-knitted-fabric-technology",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-learn-machine-sewing",
+    "type": "teaches",
+    "fromId": "resource:clothing-pillowcase",
+    "toId": "capability:clothing-machine-sewing",
+    "editorialStatus": "published"
   }
 ]
-

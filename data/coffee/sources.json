@@ -25,7 +25,7 @@
     "kind": "external",
     "locator": "https://sca.coffee/education/courses",
     "publisher": "Specialty Coffee Association",
-    "pinpoint": "Introduction, Barista Skills and Green Coffee sections.",
+    "pinpoint": "Introduction; Barista Skills, Brewing, Green Coffee and Roasting sections.",
     "retrievedAt": "2026-09-12",
     "reuseStatus": "link_only"
   },
@@ -98,5 +98,95 @@
     "retrievedAt": "2026-09-12",
     "reuseStatus": "unreviewed",
     "pinpoint": "Scope, framing and review limits."
+  },
+  {
+    "id": "source:coffee-codex-processes",
+    "title": "Coffee processing definitions and stages (CAC/RCP 69-2009)",
+    "kind": "external",
+    "locator": "https://www.fao.org/input/download/standards/11250/CXP_069e.pdf",
+    "publisher": "Codex Alimentarius / FAO",
+    "pinpoint": "Definitions, printed pp. 1–5; harvesting and post-harvest paragraphs 12–21. Only processing definitions and work sequence used; no contamination thresholds or treatment claims.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-fao-processing",
+    "title": "Arabica coffee manual for Lao PDR: Harvesting and processing",
+    "kind": "external",
+    "locator": "https://www.fao.org/4/ae939e/ae939e08.htm",
+    "publisher": "Food and Agriculture Organization of the United Nations",
+    "pinpoint": "Chapter 6: wet/dry processing, drying, hulling, sorting and storage. General processing mechanisms are used; Laos-specific circumstances are not attributed to Uganda.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-ucdavis-research",
+    "title": "Coffee Center: Faculty research",
+    "kind": "external",
+    "locator": "https://coffeecenter.ucdavis.edu/faculty-research",
+    "publisher": "University of California, Davis",
+    "pinpoint": "Interdisciplinary research areas, including fermentation, post-harvest, roasting, brewing and sensory research.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-baratza-adjustments",
+    "title": "Switching Grind Settings with Confidence",
+    "kind": "external",
+    "locator": "https://www.baratza.com/en-au/blog/product-guides/switching-grind-settings-with-confidence",
+    "publisher": "Baratza",
+    "pinpoint": "Why Grind Adjustments Matter; Tracking Your Grind Settings; Recognizing When Adjustments Are Really Needed. Model-specific adjustment operations omitted.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-diedrich-cupping",
+    "title": "Onyx Coffee Lab completes factory acceptance testing at Diedrich",
+    "kind": "external",
+    "locator": "https://www.diedrichroasters.com/onyx-coffee-lab-completes-successful-factory-acceptance-testing-at-diedrich/",
+    "publisher": "Diedrich Roasters",
+    "pinpoint": "From the Roaster to the Cupping Table; matching an established profile. A documented example of evaluating roast data and cup results, not a universal organization workflow.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-diedrich-training",
+    "title": "Inside Roast Summit May 2026 at the Diedrich Education Facility",
+    "kind": "external",
+    "locator": "https://www.diedrichroasters.com/roast-summit-chicago-may-2026/",
+    "publisher": "Diedrich Roasters",
+    "pinpoint": "Training discussion of equipment, batch size, time, temperature, airflow, development and tasting.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:coffee-diedrich-engineering",
+    "title": "Evolving the DR-280",
+    "kind": "external",
+    "locator": "https://www.diedrichroasters.com/evolving-the-dr-280/",
+    "publisher": "Diedrich Roasters",
+    "pinpoint": "New Drum and Airflow Design for Enhanced Heat Transfer; controls and roast curves. No model specifications or performance superiority claims reused.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:wave3-coffee-editorial",
+    "title": "Wave 3 coffee depth: editorial examples and review",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-coffee.md",
+    "publisher": "Latent Threads",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "pinpoint": "Original scenario rationale, suggested preparation and study hierarchy."
+  },
+  {
+    "id": "source:coffee-fao-moisture",
+    "title": "Coffee post-harvest handling and processing in Kenya",
+    "kind": "external",
+    "locator": "https://www.fao.org/4/x6939e/X6939e11.htm",
+    "publisher": "Food and Agriculture Organization of the United Nations",
+    "pinpoint": "Drying and Coffee Storage. Only the physical connection between moisture removal, rewetting and storage is used; historical Kenyan structures, numerical recommendations and current local-presence claims are not adopted.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
   }
 ]

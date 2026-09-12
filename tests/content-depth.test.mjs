@@ -7,7 +7,7 @@ import { searchDiscovery } from '../src/discovery.ts';
 const catalog = await loadCatalog();
 const graph = createGraph(catalog);
 // The first reviewed slice. Final release must extend this explicit gate to every domain.
-const reviewedPacks = ['shared', 'song', 'housing'];
+const reviewedPacks = ['shared', 'song', 'housing', 'coffee', 'clothing'];
 for (const name of reviewedPacks) {
   const pack = await loadCatalog(new URL(`../data/${name}/`, import.meta.url));
   test(`${name}: every published page has explanation and an example beyond its tile summary`, () => {

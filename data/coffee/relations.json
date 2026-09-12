@@ -110,5 +110,47 @@
     "fromId": "resource:coffee-bluebottle-pour-over",
     "toId": "knowledge:coffee-extraction",
     "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-processing-science",
+    "type": "part_of",
+    "fromId": "knowledge:coffee-processing",
+    "toId": "knowledge:coffee-science",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-brewing-science",
+    "type": "part_of",
+    "fromId": "knowledge:coffee-brewing",
+    "toId": "knowledge:coffee-science",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-moisture-processing",
+    "type": "part_of",
+    "fromId": "knowledge:coffee-moisture",
+    "toId": "knowledge:coffee-processing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-extraction-brewing",
+    "type": "part_of",
+    "fromId": "knowledge:coffee-extraction",
+    "toId": "knowledge:coffee-brewing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-handbook-processing",
+    "type": "teaches",
+    "fromId": "resource:coffee-ucda-postharvest",
+    "toId": "knowledge:coffee-processing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:coffee-handbook-moisture",
+    "type": "teaches",
+    "fromId": "resource:coffee-ucda-postharvest",
+    "toId": "knowledge:coffee-moisture",
+    "editorialStatus": "published"
   }
 ]

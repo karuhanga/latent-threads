@@ -98,6 +98,84 @@
     "pinpoint": "Scope, framing and limits.",
     "retrievedAt": "2026-09-12",
     "reuseStatus": "unreviewed"
+  },
+  {
+    "id": "source:clothing-textile-technology",
+    "title": "B.S. Textile Technology",
+    "kind": "external",
+    "locator": "https://textiles.ncsu.edu/academics/undergraduate/textile-technology/",
+    "publisher": "NC State University, Wilson College of Textiles",
+    "pinpoint": "What is textile technology?; You will learn about",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-knitted-fabric-study",
+    "title": "Textile Technology course descriptions",
+    "kind": "external",
+    "locator": "https://catalog.ncsu.edu/course-descriptions/tt/",
+    "publisher": "NC State University",
+    "pinpoint": "TT 341 Knitted Fabric Technology; subject scope, not admission or qualification advice",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-knit-machinery",
+    "title": "Knit Machinery: Flat, Circular, and Seamless",
+    "kind": "external",
+    "locator": "https://cottonworks.com/learning-hub/knitting/knit-machinery/",
+    "publisher": "Cotton Incorporated",
+    "pinpoint": "Circular Weft Knitting Machines: yarn supply, feeding, needles, fabric tube and take-up",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-knit-considerations",
+    "title": "Considerations for Knit Fabrics",
+    "kind": "external",
+    "locator": "https://extension.usu.edu/sewing/files/3pub__6760052.pdf",
+    "publisher": "Utah State University Extension",
+    "pinpoint": "Pages 1–2: stretch/recovery, fabric selection, sampling and plain-seam quality; no numerical method reproduced",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-sewing-supplies",
+    "title": "Basic Sewing Supplies",
+    "kind": "external",
+    "locator": "https://extension.usu.edu/sewing/research/basic-sewing-supplies",
+    "publisher": "Utah State University Extension",
+    "pinpoint": "Dressmaker shears; hem gauge; ruler with grid",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-pillowcase",
+    "title": "Designer Pillowcase",
+    "kind": "external",
+    "locator": "https://extension.usu.edu/sewing/research/designer-pillowcase",
+    "publisher": "Utah State University Extension",
+    "pinpoint": "Supplies; pattern markings; assembly and pressing steps; public page reviewed without an account",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-design-process",
+    "title": "Fashion Designers",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/arts-and-design/fashion-designers.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "pinpoint": "What Fashion Designers Do: fabric choices, prototypes, samples and revisions; general work context only",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-depth-editorial",
+    "title": "Wave 3 clothing editorial rationale",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-clothing.md",
+    "pinpoint": "Scope, original examples and expanded-claim source mapping",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed"
   }
 ]
-

@@ -6,7 +6,17 @@
     "stageId": "stage:coffee-harvest",
     "roleId": "role:coffee-grower",
     "action": "Select ripe coffee cherries by hand, leaving immature fruit to develop.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Selective harvesting controls which fruit enters the next operation. Picking ripe cherries and separating unsuitable material gives processing a more consistent input. The available processing and drying capacity also matters when planning how quickly a harvest can be handled.",
+      "example": {
+        "title": "A basket for today's processing",
+        "body": "A picking team sees more ripe fruit than the drying area can accommodate that day. They coordinate the amount gathered with the capacity to handle it afterwards."
+      },
+      "inputs": "Coffee plants carrying fruit at different stages of ripeness.",
+      "outputs": "A collected crop of selected ripe cherries.",
+      "decision": "Which cherries are ready, and how much can the next operations handle?"
+    }
   },
   {
     "id": "contribution:coffee-process",
@@ -16,7 +26,17 @@
     "roleId": "role:coffee-processor",
     "action": "For a washed route, pulp cherries, manage fermentation and washing, then dry the parchment coffee.",
     "editorialStatus": "published",
-    "notes": "A selected processing route. Natural processing and other methods also exist."
+    "notes": "A selected processing route. Natural processing and other methods also exist.",
+    "details": {
+      "explanation": "In the selected washed route, pulping removes the outer fruit while mucilage remains around the parchment. Fermentation makes that layer removable by washing; drying then prepares the parchment coffee for subsequent handling. Each operation changes the input to the next, so the work is more than passing cherries through a single machine.",
+      "example": {
+        "title": "After the pulper",
+        "body": "A processor checks a batch after pulping and still sees mucilage around the parchment. The next task is to manage its removal before the coffee moves to drying."
+      },
+      "inputs": "Selected fresh cherries for a washed process.",
+      "outputs": "Dried parchment coffee ready for later handling.",
+      "decision": "Whether the batch is ready to move from mucilage removal and washing into drying."
+    }
   },
   {
     "id": "contribution:coffee-grade",
@@ -25,7 +45,17 @@
     "stageId": "stage:coffee-quality",
     "roleId": "role:coffee-quality-assessor",
     "action": "Grade green beans and assess samples for quality and defects.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Grading examines the beans and the defects present in a sample. Sample evaluation adds information about quality that can guide selection and purchase. The work is to turn observations into a usable assessment, rather than assume that every bag with a similar appearance contains equivalent coffee.",
+      "example": {
+        "title": "An assessment for a buyer",
+        "body": "An assessor compares two submitted samples and records their different defects. Those observations become part of the information used when considering which coffee to buy."
+      },
+      "inputs": "Green coffee and samples submitted for evaluation.",
+      "outputs": "A grading and quality assessment of the sample.",
+      "decision": "How the observed defects and sample quality affect its evaluation."
+    }
   },
   {
     "id": "contribution:coffee-export",
@@ -35,7 +65,17 @@
     "roleId": "role:coffee-exporter",
     "action": "Prepare and sell green coffee from Uganda for overseas markets.",
     "editorialStatus": "published",
-    "notes": "A general export activity; no named buyer, shipment or organization-to-organization route is asserted."
+    "notes": "A general export activity; no named buyer, shipment or organization-to-organization route is asserted.",
+    "details": {
+      "explanation": "This activity concerns preparing and selling green coffee beyond Uganda. Commercial work connects an available coffee product with an overseas sale. In the Ugacof example, processing and warehousing form part of the business that prepares green coffee for export.",
+      "example": {
+        "title": "Preparing an overseas offer",
+        "body": "An exporter prepares an offer for a quantity of green coffee held in Uganda. The buyer will make separate decisions about what happens after purchase."
+      },
+      "inputs": "Green coffee available in Uganda for overseas sale.",
+      "outputs": "Green coffee prepared and sold for an overseas market.",
+      "decision": "Which available coffee to offer for the sale."
+    }
   },
   {
     "id": "contribution:coffee-roast",
@@ -45,7 +85,17 @@
     "roleId": "role:coffee-roaster",
     "action": "Adjust a roasting machine’s heat and airflow, observe bean development, then cool the roasted coffee.",
     "editorialStatus": "published",
-    "notes": "Describes professional work; machine settings and operating instructions are outside this overview."
+    "notes": "Describes professional work; machine settings and operating instructions are outside this overview.",
+    "details": {
+      "explanation": "Roasting decisions connect the chosen batch and equipment with changes over time. Temperature, airflow and roast development affect the result; tasting afterwards gives the roaster feedback about that result. Comparing the process record with the cup helps turn the next adjustment into a deliberate choice.",
+      "example": {
+        "title": "A second attempt at a target",
+        "body": "A roaster tastes a trial batch and decides to revisit its development. They compare the record with the next attempt and taste both before choosing a production approach."
+      },
+      "inputs": "Green coffee, roasting equipment and an intended result.",
+      "outputs": "Roasted coffee and observations for evaluating the batch.",
+      "decision": "Which development adjustment to try after comparing the roast with its taste target."
+    }
   },
   {
     "id": "contribution:coffee-brew",
@@ -55,6 +105,16 @@
     "roleId": "role:coffee-barista",
     "action": "Grind coffee, measure coffee and water, and brew a pour-over cup for serving.",
     "editorialStatus": "published",
-    "notes": "Pour-over is one brewing method; the linked guide does not define every café’s recipe."
+    "notes": "Pour-over is one brewing method; the linked guide does not define every café’s recipe.",
+    "details": {
+      "explanation": "A pour-over turns a measured recipe into a drink through grinding, pouring and timing. Comparing the actual preparation with the plan helps explain the result. If the cup changes, the next decision might concern grind, temperature or pouring; keeping notes helps identify a useful adjustment.",
+      "example": {
+        "title": "A brew that ran differently",
+        "body": "A barista notices that a familiar pour-over took longer than usual. They check their preparation notes before deciding whether the next cup needs a different grind or pouring pattern."
+      },
+      "inputs": "Roasted coffee, water, a recipe and pour-over equipment.",
+      "outputs": "A brewed cup and observations about the preparation.",
+      "decision": "Which preparation variable to revisit after tasting and comparing the brew with the recipe."
+    }
   }
 ]

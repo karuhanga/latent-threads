@@ -10,14 +10,28 @@
       "farm to cup",
       "make coffee"
     ],
-    "notes": "Six editorial reading stages. Processing methods and commercial routes vary; quality assessment can recur. Uganda examples are independent, not a traced shipment to a particular café."
+    "notes": "Six editorial reading stages. Processing methods and commercial routes vary; quality assessment can recur. Uganda examples are independent, not a traced shipment to a particular café.",
+    "details": {
+      "explanation": "A cup brings together several transformations. Harvesting selects fruit; processing separates and dries the seed; roasting develops its colour and flavour; brewing transfers soluble material into water. Between those transformations, people evaluate quality and trade green coffee. Following the work explains why changing a café recipe addresses a different question from changing how coffee was dried.",
+      "example": {
+        "title": "Following one cup backward",
+        "body": "You enjoy a café's pour-over and ask what happened before the kettle was switched on. Tracing the cup backward leads from grinding and roasting to the handling of harvested cherries."
+      }
+    }
   },
   {
     "id": "artifact:coffee-cup",
     "type": "artifact",
     "label": "Cup of coffee",
     "summary": "A drink prepared by brewing ground coffee with water.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The served drink is the result of extracting material from roasted, ground coffee into water. In pour-over brewing, a filter holds the grounds while the liquid collects below. The cup therefore contains the result of a preparation method, rather than the whole ground bean.",
+      "example": {
+        "title": "The filter and the cup",
+        "body": "After a pour-over finishes, a barista lifts away the dripper. The wet grounds stay in the filter while the brewed drink is ready to serve."
+      }
+    }
   },
   {
     "id": "stage:coffee-harvest",
@@ -26,7 +40,14 @@
     "summary": "Select ripe coffee fruit from the trees.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:coffee-cup",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "details": {
+      "explanation": "Fruit on a coffee plant does not all ripen together. A selective harvest gathers ripe cherries while leaving others to develop. This makes harvesting a series of choices about the fruit entering processing, rather than simply clearing every branch in one pass.",
+      "example": {
+        "title": "Returning to a branch",
+        "body": "A picker takes the ripe cherries from a branch today. Several green cherries remain, so the branch will still have fruit to inspect on a later round."
+      }
+    }
   },
   {
     "id": "stage:coffee-processing",
@@ -35,7 +56,14 @@
     "summary": "Remove fruit layers and dry coffee using a chosen processing method.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:coffee-cup",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "details": {
+      "explanation": "Processing changes harvested fruit into coffee that can be stored and prepared for roasting. In a washed route, the outer fruit is removed before the parchment coffee is dried; a natural route dries the whole cherry first. Later hulling removes the dried covering. The order matters because the material being dried is different.",
+      "example": {
+        "title": "Two drying surfaces",
+        "body": "At a training visit, you see whole cherries on one drying surface and parchment coffee on another. Asking what was removed earlier reveals two different processing routes."
+      }
+    }
   },
   {
     "id": "stage:coffee-quality",
@@ -44,7 +72,14 @@
     "summary": "Inspect green beans and evaluate samples for quality.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:coffee-cup",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "details": {
+      "explanation": "Quality work examines both beans and prepared samples. Visible sorting can identify some defects, but appearance cannot reveal every unwanted flavour. Looking and tasting therefore answer different questions about a coffee before it is selected for further use or sale.",
+      "example": {
+        "title": "Looks similar, tastes different",
+        "body": "Two green coffee samples look similar on a table. When prepared for tasting, one has an unwanted flavour that was not apparent during visual inspection."
+      }
+    }
   },
   {
     "id": "stage:coffee-export",
@@ -53,7 +88,14 @@
     "summary": "Prepare green coffee for overseas buyers.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:coffee-cup",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "details": {
+      "explanation": "Export connects coffee prepared in its country of origin with an overseas market. In this route, the traded material is green coffee. Processing, warehousing and commercial preparation can sit together within an exporting business, even though they remain distinct kinds of work.",
+      "example": {
+        "title": "Before the overseas sale",
+        "body": "A coffee business has green beans in its warehouse and an overseas sales opportunity. The commercial task is to connect that prepared product with the buyer's order."
+      }
+    }
   },
   {
     "id": "stage:coffee-roasting",
@@ -62,7 +104,14 @@
     "summary": "Heat green beans and monitor their development during the roast.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:coffee-cup",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "details": {
+      "explanation": "Roasting uses heat to change the bean's structure and chemistry, developing the colour and flavour associated with roasted coffee. Production decisions include how the roast develops over time. Evaluation can continue after cooling, when the resulting coffee is tasted and compared with the intended profile.",
+      "example": {
+        "title": "Comparing two roasts",
+        "body": "A roastery prepares two batches from the same green coffee. After cooling and brewing samples, the team compares them against the flavour they want to serve."
+      }
+    }
   },
   {
     "id": "stage:coffee-brewing",
@@ -71,42 +120,84 @@
     "summary": "Grind coffee and brew it into a drink.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:coffee-cup",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "details": {
+      "explanation": "Brewing connects a recipe to extraction: how much coffee material the water takes from the grounds. Grind size, water temperature and the way water is delivered affect the result. Measuring a recipe and tasting its output makes a change interpretable; an unfamiliar cup does not automatically mean the grinder setting is wrong.",
+      "example": {
+        "title": "One change to the next cup",
+        "body": "A brewer keeps the same coffee and water quantities but changes the grind setting. They record the new brew time and compare the taste before deciding whether to keep it."
+      }
+    }
   },
   {
     "id": "role:coffee-grower",
     "type": "role",
     "label": "Coffee grower",
     "summary": "Cultivates coffee plants and harvests their fruit.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "At harvest, the grower's work includes deciding which fruit is ready and how it is gathered. Keeping ripe cherries separate from unsuitable material helps define the crop handed into processing. The harvest task requires repeated attention as fruit develops at different times.",
+      "example": {
+        "title": "A mixed branch",
+        "body": "A grower inspecting a branch finds ripe and immature cherries together. The harvest basket receives the ripe fruit, while the younger fruit remains on the plant."
+      }
+    }
   },
   {
     "id": "role:coffee-processor",
     "type": "role",
     "label": "Coffee processor",
     "summary": "Handles harvested coffee using processing equipment and drying methods.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A processor manages the transition from fresh cherry to dried coffee. The work joins several operations: removing fruit material, handling the chosen washing or drying route, and preparing coffee for storage. Their decisions depend on which material is being handled at each step.",
+      "example": {
+        "title": "Knowing what enters the dryer",
+        "body": "A processor receives parchment coffee from washing. They identify it as a different drying input from intact cherries, and plan the next handling step accordingly."
+      }
+    }
   },
   {
     "id": "role:coffee-quality-assessor",
     "type": "role",
     "label": "Coffee quality assessor",
     "summary": "Checks green beans and evaluates coffee samples.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An assessor uses grading and sample evaluation to describe coffee quality. Recognising defects is one responsibility; relating observations to an assessment is another. The deliverable is a considered evaluation of the sample, which can inform a buying or quality decision.",
+      "example": {
+        "title": "Turning observations into an assessment",
+        "body": "An assessor finds several defects while examining a green coffee sample. They record the observations before deciding how those findings affect the sample's overall assessment."
+      }
+    }
   },
   {
     "id": "role:coffee-exporter",
     "type": "role",
     "label": "Coffee exporter",
     "summary": "Sells coffee from an origin country to overseas markets.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The exporter carries the commercial work of selling coffee across borders. A Ugandan example combines this with processing and warehousing green coffee. Following the role helps distinguish the product being traded from the later roasting and brewing that make a drink.",
+      "example": {
+        "title": "An order for green coffee",
+        "body": "An overseas customer enquires about green coffee. The exporter discusses the coffee available for sale, while the eventual roast and café recipe remain separate decisions."
+      }
+    }
   },
   {
     "id": "role:coffee-roaster",
     "type": "role",
     "label": "Coffee roaster",
     "summary": "Operates roasting equipment and monitors developing coffee.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A roaster connects equipment operation with the desired result in the cup. Following a profile is part of the work; checking the result through tasting can show whether that target was reached. A batch record and a prepared sample give complementary ways to discuss the outcome.",
+      "example": {
+        "title": "A profile with a taste target",
+        "body": "A roaster wants to reproduce a coffee customers already enjoy. They compare the new batch's roast record and prepared sample with the established target before accepting the result."
+      }
+    }
   },
   {
     "id": "role:coffee-barista",
@@ -117,7 +208,14 @@
     "aliases": [
       "café worker",
       "coffee maker"
-    ]
+    ],
+    "details": {
+      "explanation": "A barista brings preparation and service together. Brewing knowledge supports making the drink, while workflow and cleaning help organise work behind the bar. Consistency involves both controlling the preparation and managing the sequence of tasks needed to serve it.",
+      "example": {
+        "title": "Two orders at the bar",
+        "body": "A barista has two drinks to prepare. They arrange the preparation steps, check the recipe for each drink and keep the work area ready for the next order."
+      }
+    }
   },
   {
     "id": "capability:coffee-selective-harvesting",
@@ -125,7 +223,14 @@
     "label": "Selective coffee harvesting",
     "summary": "Recognize ripe cherries and pick them selectively.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "This skill combines recognising ripe cherries with choosing what to pick. It includes leaving immature fruit and keeping unwanted material out of the gathered crop. The point is to select the input to processing, one handful at a time.",
+      "example": {
+        "title": "Checking a handful",
+        "body": "A picker notices a green cherry among a handful of ripe fruit. Before adding the handful to the basket, they separate the immature cherry."
+      }
+    }
   },
   {
     "id": "capability:coffee-quality-assessment",
@@ -133,7 +238,14 @@
     "label": "Coffee quality assessment",
     "summary": "Recognize defects and assess green coffee samples.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Assessment turns an inspection into a reasoned judgement about a sample. It draws on recognising defects, grading coffee and understanding how it was processed. Those observations provide a basis for discussing quality rather than relying only on the appearance of a bag.",
+      "example": {
+        "title": "Comparing sample notes",
+        "body": "Two assessors discuss the same sample. They refer to the defects each recorded and the grading approach, making their disagreement specific enough to investigate."
+      }
+    }
   },
   {
     "id": "capability:coffee-roast-control",
@@ -141,7 +253,14 @@
     "label": "Roast control",
     "summary": "Adjust heat and airflow while observing a coffee roast.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Roast control means connecting changes in time, temperature and airflow with the coffee being produced. Batch size and equipment also matter. Comparing a roast's development with the result in a tasting helps decide which adjustment is worth exploring next.",
+      "example": {
+        "title": "Comparing across machines",
+        "body": "A roaster moves a coffee to a different machine. Instead of assuming an identical setting gives an identical result, they compare the developing roast and its prepared sample."
+      }
+    }
   },
   {
     "id": "capability:coffee-pour-over-brewing",
@@ -149,7 +268,14 @@
     "label": "Pour-over brewing",
     "summary": "Control water flow and timing as water passes through coffee grounds.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Pour-over brewing involves controlling how water reaches the grounds, as well as choosing quantities. A scale and timer make the sequence observable. The skill is to carry out a chosen recipe and notice where the actual preparation differs from that plan.",
+      "example": {
+        "title": "Keeping track of a pour",
+        "body": "A learner weighs the water added during each pour and watches the timer. Their notes show which part of the sequence ran longer than the recipe suggested."
+      }
+    }
   },
   {
     "id": "knowledge:coffee-ripeness",
@@ -157,7 +283,14 @@
     "label": "Coffee cherry ripeness",
     "summary": "Coffee fruit on a plant can ripen at different times.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "Ripeness describes the fruit's stage of development. Because coffee cherries do not all reach that stage together, harvest timing affects the mixture collected. Selective picking uses that difference to separate ready fruit from fruit still developing.",
+      "example": {
+        "title": "One tree, several stages",
+        "body": "You look closely at a fruiting coffee branch and notice different stages of ripeness. That observation explains why a selective picker does not remove everything at once."
+      }
+    }
   },
   {
     "id": "knowledge:coffee-moisture",
@@ -165,7 +298,14 @@
     "label": "Moisture in coffee",
     "summary": "Drying removes moisture; poor storage can let dried coffee take up moisture again.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "Drying reduces the water in coffee so it can move into later handling and storage. That condition can change again: dried coffee can take up moisture from its surroundings. Drying and storage therefore belong to the same practical question—how to keep the coffee in suitable condition after harvest.",
+      "example": {
+        "title": "Dry yesterday, damp today",
+        "body": "A storekeeper finds that a batch of dried coffee has been exposed to damp conditions. The earlier drying step alone is not enough to explain its present condition."
+      }
+    }
   },
   {
     "id": "knowledge:coffee-extraction",
@@ -173,35 +313,70 @@
     "label": "Coffee extraction",
     "summary": "Water dissolves soluble material from coffee grounds; grind size, temperature and pouring affect the result.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "Extraction is the transfer of soluble material from coffee grounds into water. Grind size influences that process and how water flows; temperature and pouring also affect it. This gives a brewer several possible explanations for a changed cup. Comparing preparations means paying attention to those variables rather than treating one grind number as the recipe.",
+      "example": {
+        "title": "A cup that changed",
+        "body": "Your usual coffee tastes different today. You compare the grind setting, water temperature and pouring notes with yesterday's brew before choosing one variable to adjust."
+      }
+    }
   },
   {
     "id": "tool:coffee-pulper",
     "type": "tool",
     "label": "Coffee pulper",
     "summary": "Removes the outer skin from fresh coffee cherries.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A pulper mechanically removes fruit material from fresh cherries. Some sticky mucilage can remain around the parchment afterwards, so pulping does not finish a washed process. It also differs from hulling, which removes a dried covering later.",
+      "example": {
+        "title": "Looking just after pulping",
+        "body": "A learner expects clean green beans to leave a pulper. Seeing parchment coffee with mucilage still attached helps them understand why washing and later hulling are separate operations."
+      }
+    }
   },
   {
     "id": "tool:coffee-roaster",
     "type": "tool",
     "label": "Coffee roasting machine",
     "summary": "Heats coffee beans with controls for the roasting process.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A roasting machine provides a controlled way to transfer heat to coffee. Drum and airflow design affect that transfer, while the controls let an operator manage development. Equipment characteristics are therefore part of understanding a roast, alongside the coffee and the intended result.",
+      "example": {
+        "title": "Reading a roast curve",
+        "body": "A trainee compares a roast curve with the machine's control record. The curve gives them a way to ask how changes in heat and airflow shaped that batch."
+      }
+    }
   },
   {
     "id": "tool:coffee-grinder",
     "type": "tool",
     "label": "Coffee grinder",
     "summary": "Breaks roasted coffee into grounds for brewing.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The grinder makes grounds suitable for a brewing method, and its setting changes their size. That affects water flow and extraction. A useful brewing note therefore includes both the grinder and its setting, so an adjustment can be understood in the context of the equipment used.",
+      "example": {
+        "title": "A setting with context",
+        "body": "You write down the grinder model as well as its setting after a successful brew. Next time, the note identifies the equipment behind the number."
+      }
+    }
   },
   {
     "id": "tool:coffee-brewing-scale",
     "type": "tool",
     "label": "Coffee brewing scale",
     "summary": "Measures coffee and water quantities during brewing.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A brewing scale makes the amounts of coffee and water visible as measurements. This lets a brewer repeat a ratio or deliberately change it. During a pour-over, it also shows how much water has been added at a particular point.",
+      "example": {
+        "title": "Repeating a cup",
+        "body": "A brewer wants to repeat yesterday's coffee-to-water ratio. They use the scale to match both quantities instead of estimating them by the height in a scoop or kettle."
+      }
+    }
   },
   {
     "id": "resource:coffee-bluebottle-pour-over",
@@ -216,6 +391,93 @@
     "access": "free",
     "licenseStatus": "unknown",
     "accessReviewedAt": "2026-09-12",
-    "notes": "One brewer’s method, not a universal recipe. Reading is free; equipment is not included. No open reuse license was verified."
+    "notes": "One brewer’s method, not a universal recipe. Reading is free; equipment is not included. No open reuse license was verified.",
+    "details": {
+      "explanation": "This illustrated guide walks through one pour-over recipe, from preparing the filter and grounds to measured pours and serving. It is useful for seeing how a timed sequence becomes an actual cup. Reading needs only the page; brewing along needs the listed equipment and ingredients.",
+      "example": {
+        "title": "Reading before brewing",
+        "body": "You first read the guide and make an equipment list. On a later attempt, you follow its pours and write down where your timing differed."
+      }
+    },
+    "resourceKind": "guide",
+    "preparation": "Read online. To brew along, have coffee, water, a grinder, dripper and filter, kettle, scale, timer and cup or carafe.",
+    "outcomes": [
+      "Follow a measured pour-over sequence.",
+      "Use timing and water quantities to compare a brew with the recipe."
+    ]
+  },
+  {
+    "id": "knowledge:coffee-science",
+    "type": "knowledge",
+    "kind": "field",
+    "label": "Coffee science",
+    "summary": "Study coffee through biology, chemistry, engineering and sensory research.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Coffee science brings several disciplines to questions about the same crop and drink. Research can examine fermentation, storage, roasting chemistry or sensory experience. Moving between these areas helps connect a practical observation, such as a changed cup, with a question that can be investigated.",
+      "example": {
+        "title": "From taste to a research question",
+        "body": "You notice a difference between two coffees and ask where to investigate it. Processing conditions, roasting and brewing become distinct questions, each calling on a different kind of knowledge."
+      }
+    }
+  },
+  {
+    "id": "knowledge:coffee-processing",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Coffee processing",
+    "summary": "Study the handling that turns harvested coffee fruit into dried coffee.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Studying processing means following what happens to the fruit, seed and surrounding layers after harvest. Wet and dry routes arrange those transformations differently. This area connects equipment choices and drying with the condition of the coffee passed to later work.",
+      "example": {
+        "title": "Drawing two routes",
+        "body": "You draw a washed route beside a natural route and mark when each removes the fruit. The comparison reveals why their drying inputs differ."
+      }
+    }
+  },
+  {
+    "id": "knowledge:coffee-brewing",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Coffee brewing",
+    "summary": "Study brewing methods, recipes and the extraction that produces a drink.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Brewing study connects equipment and recipes with extraction. It asks how a preparation is carried out, how the result is assessed and which variable to change. That knowledge gives a practical brewing skill an explanation as well as a sequence to follow.",
+      "example": {
+        "title": "Explaining a recipe step",
+        "body": "A learner follows a pour-over recipe and asks why it specifies a grind size. Exploring extraction connects that instruction to what the water does with the grounds."
+      }
+    }
+  },
+  {
+    "id": "resource:coffee-ucda-postharvest",
+    "type": "learning_resource",
+    "label": "Arabica Coffee Handbook: post-harvest handling",
+    "summary": "A public handbook chapter comparing processing, drying and storage practices.",
+    "editorialStatus": "published",
+    "url": "https://ugandacoffee.go.ug/sites/default/files/2022-03/Arabic%20Coffee%20Handbook.pdf",
+    "provider": "Uganda Coffee Development Authority",
+    "format": "handbook chapter (PDF)",
+    "resourceKind": "guide",
+    "learnerLevel": "Introductory reading",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "preparation": "Open the PDF and begin at printed pages 85–89 (PDF pages 93–97). Paper is enough to map the routes; practical processing needs appropriate facilities and supervised training.",
+    "outcomes": [
+      "Distinguish wet and dry processing routes.",
+      "Explain the connection between drying and storage moisture."
+    ],
+    "notes": "Selected chapter of the 2019 Arabica Coffee Handbook; the URL's 2022 date is not the edition date. Introductory level and paper mapping are editorial suggestions. Free public access verified; no open reuse license or credential verified.",
+    "details": {
+      "explanation": "This chapter shows how harvested Arabica coffee is handled through processing, drying and storage. Its diagrams and descriptions make the different routes easier to follow. Start by mapping the sequence on paper, then use the chapter to identify what changes at each step.",
+      "example": {
+        "title": "Marking the drying step",
+        "body": "You read the chapter and draw each processing route. Beside the drying step, you write whether the material is whole fruit or parchment coffee."
+      },
+      "practice": "Draw two processing routes from the chapter and label the material entering each drying step."
+    }
   }
 ]
