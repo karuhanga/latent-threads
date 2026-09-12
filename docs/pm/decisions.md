@@ -7,6 +7,7 @@ Record consequential decisions here, with date, authority and why. Live status b
 | 2026-09-12 | Repo docs; Notion tracking only | Explicit user preference, confirmed after discussion. Specs, ticket definitions, decisions and durable context are versioned with code. |
 | 2026-09-12 | Song first, Ugandan coffee second | Explicit user selection. Complete one exploration loop before expanding into local relevance. |
 | 2026-09-12 | Windows Phone visual inspiration | Explicit user preference. Typography, flat color, space and purposeful motion, while maintaining accessibility. |
+| 2026-09-12 | Keep Checkpoint A visual direction | After viewing the preview, Lincoln said “loving the direction!” Preserve its typography, flat colors and focused composition while integrating real content. |
 | 2026-09-12 | React + TypeScript + Vite, Node 24, normalized JSON | PM implementation baseline for a small static read-only graph; avoids database operations and supports reviewable data diffs. |
 | 2026-09-12 | Local build → gh-pages branch → Pages | Supersedes the initial custom Actions recommendation after Lincoln proposed local builds. Use the same public repository, publish dist contents plus .nojekyll and retain source-commit evidence. Custom workflow automation can follow. Actual branch publishing remains unverified; its availability cannot be inferred from the failed custom runner preflight. |
 | 2026-09-12 | Bounded neighborhood before semantic zoom | PM scope decision: prove understandable exploration before global map complexity. Renderer chosen during LT-007. |

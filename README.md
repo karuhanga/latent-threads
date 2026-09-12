@@ -2,7 +2,7 @@
 
 An interactive map of how people get things done. Explore endeavors, the roles and contributions behind them, the knowledge and tools involved, and something worth learning next.
 
-**Stage:** runnable app foundation under review; visual shell and sourced song content are in active delivery.
+**Stage:** playable sourced song exploration; discovery, trails and learning details are next.
 
 - [Project HQ](https://www.notion.so/3d907031acb58172be89cad68e89e362)
 - [Wave 1 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb581ad800e000c9778c18b)
@@ -57,7 +57,7 @@ pnpm check
 pnpm preview
 ```
 
-`check` runs `typecheck`, Node's test runner and `build`; each is also available separately. `validate:data` checks the source catalog and generates an ignored bundle; dev/build also run it. On a fresh checkout run `pnpm validate:data` before a standalone typecheck. Open `http://127.0.0.1:4173/latent-threads/`, follow the exploration route, refresh, and try an invalid hash such as `#/unknown` to verify recovery to home. The current page is a foundation preview with no release content.
+`check` runs `typecheck`, Node's test runner and `build`; each is also available separately. `validate:data` checks the source catalog and generates an ignored bundle; dev/build also run it. On a fresh checkout run `pnpm validate:data` before a standalone typecheck. Open `http://127.0.0.1:4173/latent-threads/`, follow the exploration route, refresh, and try an invalid hash such as `#/unknown` to verify recovery to home. The current page uses the validated song release catalog.
 
 Vite's base defaults to `/latent-threads/`. To verify another hosting path, use `pnpm build --base=/another-path/` and `pnpm preview --base=/another-path/`. Rebuild with `pnpm build` before publishing to the actual repository path. CI checks the app; publication remains the local-build/`gh-pages` flow owned by LT-011.
 

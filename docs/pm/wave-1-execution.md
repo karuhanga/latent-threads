@@ -19,7 +19,7 @@ Each checkpoint records the exact reviewed source commit, preview URL, checks an
 | Checkpoint | Required demonstration | Result |
 |---|---|---|
 | A: visual foundation | Home and explorer composition; desktop and 360px; keyboard focus; fixture label; reduced motion | Accepted: real Chrome/in-app previews, screenshots shown in task. Width/scrollWidth 1280/1280 and 360/360. Tab/Enter stage traversal and visible focus passed. Reduced-motion CSS inspected; runtime preference QA follows. |
-| B: follow a song | Two distinct sourced contribution paths; stage/context preserved; labeled connections; back/home | Pending |
+| B: follow a song | Two distinct sourced contribution paths; stage/context preserved; labeled connections; back/home | Accepted: PM walked mixing → audio mixing → sound waves and songwriter → songwriting → harmony → Ableton. Context and sourced inference notes visible. Team shows scoped actions; 360px has no horizontal overflow. 21 tests/typecheck/validation/build pass. |
 | C: discover and learn | Alias/partial/empty search; multi-hop trail; browser history; refreshed deep link; three learning cards; source/access/license review | Pending |
 | Hosted release | Same reviewed build on Pages; real home and refreshed deep link; correct subpath assets; source/deployment commit recorded | Pending |
 
