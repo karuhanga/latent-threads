@@ -155,7 +155,7 @@ function main() {
   const release = prepareRelease();
   console.log(`Review output: ${release.siteDirectory}\n${release.files.map(f => `  ${f}`).join('\n')}`);
   if (dryRun) {
-    console.log('Dry run complete. No remote reads, commits or pushes were performed. Temporary output is retained for review.');
+    console.log('Dry run complete. No project deployment commit or GitHub publication was performed. Temporary output is retained for review.');
     return;
   }
   const author = git(release.root, ['var', 'GIT_COMMITTER_IDENT']).output.match(/^(.*) <([^>]+)> \d+ [+-]\d+$/);

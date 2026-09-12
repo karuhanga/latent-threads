@@ -41,7 +41,7 @@ pnpm publish:pages --dry-run
 
 The underlying command is `node scripts/publish.mjs --dry-run`. It clones the exact local source commit into a new temporary directory, checks the pinned runtime versions, runs `pnpm install --frozen-lockfile`, then runs the committed `check` pipeline (data validation, typecheck, tests and production build). It removes any `dist/` in that owned clone before building and never reads or deletes the workspace's existing `dist/`. Changed source files, a changed HEAD or a changed publishing destination stop the run.
 
-Successful output prints a temporary `site/` directory for inspection. It contains only approved build files, an empty `.nojekyll`, and `release.json` with the full `sourceCommit`. The temporary source clone is removed; the prepared site remains available for review. Dry run performs no Git remote reads, deployment commits or pushes. Dependency installation may use the package registry. Preview the prepared site under `/latent-threads/` and check its hash-route links before the release checkpoint.
+Successful output prints a temporary `site/` directory for inspection. It contains only approved build files, an empty `.nojekyll`, and `release.json` with the full `sourceCommit`. The temporary source clone is removed; the prepared site remains available for review. Dry run does not read or update the project's GitHub remote or create a project deployment commit. Dependency installation may use the package registry; regression tests use temporary local Git repositories. Preview the prepared site under `/latent-threads/` and check its hash-route links before the release checkpoint.
 
 After reviewing and committing the release, publish it with:
 
