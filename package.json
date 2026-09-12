@@ -15,7 +15,8 @@
     "validate:data": "node scripts/build-data.mjs",
     "build": "node scripts/build-data.mjs && vite build",
     "check": "pnpm validate:data && pnpm typecheck && pnpm test && vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "publish:pages": "node scripts/publish.mjs"
   },
   "dependencies": {
     "react": "19.3.0",
