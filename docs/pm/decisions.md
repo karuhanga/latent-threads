@@ -30,3 +30,7 @@ On 12 September 2026 Lincoln explicitly set the bounded goal: complete, test and
 ## 2026-09-12 — Discovery ranking with multiple verticals
 
 The six-domain browser review showed a broad “coffee” query placing the coffee endeavor below the first eight partial matches. Rank exact entity labels first, exact aliases second, then partial matches alphabetically. This makes curated domain aliases useful entry points while preserving an exact tool/role query. Show practical learning prerequisites in the resource summary when they affect choosing the next step; hidden source notes are not the place for required setup.
+
+## 2026-09-12 — Content depth and education authorized
+
+User accepted the proposed depth/education wave with “Go ahead /goal”. Deliver all six current domains, starting with music/housing, then coffee/clothing and diagnostics/software. PM approved the minimal v0.3 contract in Wave 3: optional structured explanations/examples; existing knowledge hierarchy; typed resource curriculum/prerequisite relationships; practical learning setup visible by default. Credentials remain optional sourced metadata. Static architecture and bounded builders continue.

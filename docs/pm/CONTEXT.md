@@ -28,7 +28,7 @@ All 68 tests, type/data validation and production build pass, including from the
 
 The user's accepted five-vertical expansion and active “let’s go” goal supersede the earlier song-only stop. LT-021–027 are Done in Notion, confirmed by a live board query. Each links to repository completion evidence. LT-014 bookmarks remains deferred Backlog and is outside this release. Both bounded builders handed off and are idle. Checkpoint one (coffee/housing) and checkpoint two (clothing/diagnostics) were shown and deployed; final software checkpoint was shown locally and the six-domain release is now hosted.
 
-Next: await user review. The full authorized outcome is complete. Stop for review; implementation and tracking have no remaining blockers. No recurring automation exists. Do not begin future Rabbit Hole, bookmarks, accounts, editing, assessments or deep organization/geography work.
+Active goal: complete/test/deploy [Wave 3 content depth and education](../product/wave-3.md), explicitly accepted with “Go ahead /goal”. Enrich all six current domains; music/housing prototype checkpoint first, coffee/clothing second, diagnostics/software final. LT-028–036 scoped; platform and music builders active. [Wave 3 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c). PM owns reader UI, shared data and integration. New v0.3 contract is approved in Wave 3. Next: implement schema and first music/housing checkpoint, then carry through full release. No access blockers or recurring automation. Future features outside Wave 3 remain deferred.
 
 ## Canonical references and execution rules
 

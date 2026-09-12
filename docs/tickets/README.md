@@ -31,3 +31,13 @@ These files hold versioned scope and acceptance criteria. Use the [Notion kanban
 - [LT-025 — Curate diagnostic testing exploration](LT-025.md) (Wave 2)
 - [LT-026 — Curate mobile app development exploration](LT-026.md) (Wave 2)
 - [LT-027 — Review and deploy the six-domain catalog](LT-027.md) (Wave 2)
+
+- [LT-028 — Support content depth and education contract](LT-028.md) (Wave 3)
+- [LT-029 — Build readable detail pages and education exploration](LT-029.md) (Wave 3)
+- [LT-030 — Enrich music and prototype education](LT-030.md) (Wave 3)
+- [LT-031 — Enrich housing and practical education](LT-031.md) (Wave 3)
+- [LT-032 — Enrich coffee and learning](LT-032.md) (Wave 3)
+- [LT-033 — Enrich clothing and learning](LT-033.md) (Wave 3)
+- [LT-034 — Enrich diagnostics and learning](LT-034.md) (Wave 3)
+- [LT-035 — Enrich software and learning](LT-035.md) (Wave 3)
+- [LT-036 — Review and deploy enriched six-domain education catalog](LT-036.md) (Wave 3)

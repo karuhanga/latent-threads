@@ -2,9 +2,10 @@
 
 An interactive map of how people get things done. Explore endeavors, the roles and contributions behind them, the knowledge and tools involved, and something worth learning next.
 
-**Stage:** Wave 2 deployed — six domains ready for review — [open the demo](https://karuhanga.github.io/latent-threads/).
+**Stage:** Wave 2 deployed; Wave 3 depth and education in progress — [open the demo](https://karuhanga.github.io/latent-threads/).
 
 - [Project HQ](https://www.notion.so/3d907031acb58172be89cad68e89e362)
+- [Wave 3 scope](docs/product/wave-3.md) and [kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c)
 - [Wave 2 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb5815ca00e000cc3c1a19b)
 - [Wave 2 scope](docs/product/wave-2.md) and [checkpoint evidence](docs/pm/wave-2-review.md)
 - [Wave 1 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb581ad800e000c9778c18b)
