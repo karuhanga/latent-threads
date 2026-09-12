@@ -1,0 +1,194 @@
+[
+  {
+    "id": "relation:song-output",
+    "type": "produces",
+    "fromId": "endeavor:song-release",
+    "toId": "artifact:song-recording",
+    "summary": "This journey follows the work behind a recording.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:write-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:song-write",
+    "toId": "capability:songwriting",
+    "summary": "Developing the song calls on songwriting.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:songwriting-harmony",
+    "type": "draws_on",
+    "fromId": "capability:songwriting",
+    "toId": "knowledge:chords-and-harmony",
+    "summary": "Harmony is one source of musical choices.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:arrange-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:song-arrange",
+    "toId": "capability:arranging",
+    "summary": "These choices are the work of arranging.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:arranging-harmony",
+    "type": "draws_on",
+    "fromId": "capability:arranging",
+    "toId": "knowledge:chords-and-harmony",
+    "summary": "Changing the harmony can reshape a composition.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:arranging-tempo",
+    "type": "draws_on",
+    "fromId": "capability:arranging",
+    "toId": "knowledge:rhythm-and-tempo",
+    "summary": "Tempo is one choice available to an arranger.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:producer-arranging",
+    "type": "requires_capability",
+    "fromId": "contribution:song-produce",
+    "toId": "capability:arranging",
+    "summary": "Understanding arrangements can inform the recording direction.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:record-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:song-record",
+    "toId": "capability:audio-recording",
+    "summary": "Capturing the takes calls on recording ability.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:record-microphone",
+    "type": "uses",
+    "fromId": "contribution:song-record",
+    "toId": "tool:microphone",
+    "summary": "Microphones capture the performed sound.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:record-daw",
+    "type": "uses",
+    "fromId": "contribution:song-record",
+    "toId": "tool:daw",
+    "summary": "A digital workspace can hold the recorded takes.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:record-acoustics",
+    "type": "draws_on",
+    "fromId": "contribution:song-record",
+    "toId": "knowledge:sound-waves",
+    "summary": "Understanding sound supports recording choices.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:performance-output",
+    "type": "produces",
+    "fromId": "contribution:song-perform",
+    "toId": "artifact:song-recording",
+    "summary": "The played part becomes part of the recording.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:mix-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:song-mix",
+    "toId": "capability:audio-mixing",
+    "summary": "Combining the parts calls on mixing ability.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:mix-daw",
+    "type": "uses",
+    "fromId": "contribution:song-mix",
+    "toId": "tool:daw",
+    "summary": "The mix can be assembled and adjusted in a DAW.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:mix-processing",
+    "type": "draws_on",
+    "fromId": "contribution:song-mix",
+    "toId": "knowledge:audio-signal-processing",
+    "summary": "EQ and compression can shape individual tracks.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:mixing-sound",
+    "type": "draws_on",
+    "fromId": "capability:audio-mixing",
+    "toId": "knowledge:sound-waves",
+    "summary": "Frequency and amplitude help explain tone and level choices.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:master-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:song-master",
+    "toId": "capability:audio-mastering",
+    "summary": "Preparing the final sound calls on mastering ability.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:master-processing",
+    "type": "draws_on",
+    "fromId": "contribution:song-master",
+    "toId": "knowledge:audio-signal-processing",
+    "summary": "Processing can refine the mixed recording as a whole.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:mix-to-master",
+    "type": "hands_off_to",
+    "fromId": "contribution:song-mix",
+    "toId": "contribution:song-master",
+    "summary": "The mixed track is the material taken into mastering.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:release-metadata",
+    "type": "draws_on",
+    "fromId": "contribution:song-release",
+    "toId": "knowledge:release-metadata",
+    "summary": "Accurate release details help the music appear correctly.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:learn-rhythm",
+    "type": "teaches",
+    "fromId": "resource:ableton-learning-music",
+    "toId": "knowledge:rhythm-and-tempo",
+    "summary": "Try beat and tempo patterns in the lessons.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:learn-harmony",
+    "type": "teaches",
+    "fromId": "resource:ableton-learning-music",
+    "toId": "knowledge:chords-and-harmony",
+    "summary": "Try combining pitches into chords.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:learn-sound",
+    "type": "teaches",
+    "fromId": "resource:openlearn-sound",
+    "toId": "knowledge:sound-waves",
+    "summary": "Explore the physical behavior of sound.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:learn-recording",
+    "type": "teaches",
+    "fromId": "resource:openlearn-recording",
+    "toId": "capability:audio-recording",
+    "summary": "Explore practical recording and microphone placement.",
+    "editorialStatus": "published"
+  }
+]

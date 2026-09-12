@@ -1,0 +1,32 @@
+[
+  {
+    "id": "place:world",
+    "label": "World",
+    "kind": "world",
+    "parentIds": []
+  },
+  {
+    "id": "place:africa",
+    "label": "Africa",
+    "kind": "continent",
+    "parentIds": [
+      "place:world"
+    ]
+  },
+  {
+    "id": "place:kenya",
+    "label": "Kenya",
+    "kind": "country",
+    "parentIds": [
+      "place:africa"
+    ]
+  },
+  {
+    "id": "place:uganda",
+    "label": "Uganda",
+    "kind": "country",
+    "parentIds": [
+      "place:africa"
+    ]
+  }
+]

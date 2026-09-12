@@ -1,0 +1,273 @@
+[
+  {
+    "id": "source:song-editorial",
+    "title": "Song journey editorial framing and review",
+    "kind": "internal_editorial",
+    "locator": "docs/content/song-review.md",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "publisher": "Latent Threads",
+    "pinpoint": "Editorial framing",
+    "notes": "Original project wording; supports navigation groupings and scope only. No third-party assets are redistributed."
+  },
+  {
+    "id": "source:berklee-songwriter",
+    "title": "Performing Songwriter",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/performing-songwriter",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Performing Songwriter do?; Career Path; Professional Skills",
+    "notes": "Used for songwriting and independent release roles; no salary, degree or local-market claims are imported."
+  },
+  {
+    "id": "source:berklee-arranger",
+    "title": "Arranger",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/arranger",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does an Arranger do?; Professional Skills"
+  },
+  {
+    "id": "source:berklee-producer",
+    "title": "Music Producer",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/music-producer",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Music Producer do?; Professional Skills",
+    "notes": "Responsibilities depend on the project; the card describes one contribution, not exclusive ownership."
+  },
+  {
+    "id": "source:berklee-session",
+    "title": "Session Musician",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/session-instrumentalist",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Session Musician do?",
+    "notes": "Retains the instrumental session context; no claim that every recording uses hired musicians."
+  },
+  {
+    "id": "source:berklee-recording",
+    "title": "Recording Engineer",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/recording-engineer",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Recording Engineer do?; Professional Skills",
+    "notes": "Uses role activities and basic acoustics only, not career-entry generalizations."
+  },
+  {
+    "id": "source:berklee-mixing",
+    "title": "Mixing Engineer",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/mixing-engineer",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Mixing Engineer do?; Professional Skills"
+  },
+  {
+    "id": "source:berklee-mastering",
+    "title": "Mastering Engineer",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/mastering-engineer",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Mastering Engineer do?; Professional Skills"
+  },
+  {
+    "id": "source:izotope-mix-master",
+    "title": "What is the difference between mixing and mastering?",
+    "kind": "external",
+    "locator": "https://www.izotope.com/community/blog/what-is-the-difference-between-mixing-and-mastering",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "iZotope",
+    "pinpoint": "Common questions; What is mixing?; What is mastering?",
+    "notes": "Manufacturer-authored technical explanation. No product recommendation, mandatory loudness target or guarantee is inferred."
+  },
+  {
+    "id": "source:izotope-eq-compression",
+    "title": "Which Comes First: EQ or Compressor?",
+    "kind": "external",
+    "locator": "https://www.izotope.com/community/blog/eq-before-or-after-compression",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "iZotope",
+    "pinpoint": "What is EQ?; What is compression?",
+    "notes": "Used for the functions of processing; no fixed processing order is asserted."
+  },
+  {
+    "id": "source:spotify-release",
+    "title": "Get started — Spotify for Artists",
+    "kind": "external",
+    "locator": "https://artists.spotify.com/get-started",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Spotify",
+    "pinpoint": "Choose a distributor; Upload your music",
+    "notes": "One platform-specific release route, not a universal requirement or recommendation. Distributor terms and fees are outside this pack."
+  },
+  {
+    "id": "source:spotify-metadata",
+    "title": "Music metadata guidelines",
+    "kind": "external",
+    "locator": "https://support.spotify.com/us/artists/article/metadata-formatting-guidelines/",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Spotify",
+    "pinpoint": "Introduction; Artist names; Artist roles; Live dates",
+    "notes": "Describes delivery/display on Spotify. No country availability or legal entitlement is inferred."
+  },
+  {
+    "id": "source:ableton-learning",
+    "title": "Learning Music — Get started",
+    "kind": "external",
+    "locator": "https://learningmusic.ableton.com/",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Ableton",
+    "pinpoint": "Get started making music; chapter navigation",
+    "notes": "Landing page and beat/chord lessons opened; interactive playback was not audited. No reuse license was established."
+  },
+  {
+    "id": "source:ableton-learning-free",
+    "title": "Learn Music for Free in Your Browser",
+    "kind": "external",
+    "locator": "https://www.ableton.com/en/blog/learn-music-in-your-browser/",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Ableton",
+    "pinpoint": "Main announcement, including free browser access",
+    "notes": "Provider announcement dated 13 September 2017; linked lesson pages were rechecked on the retrieval date."
+  },
+  {
+    "id": "source:ableton-beat",
+    "title": "Learning Music — Beat and tempo",
+    "kind": "external",
+    "locator": "https://learningmusic.ableton.com/make-beats/beat-and-tempo.html",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Ableton",
+    "pinpoint": "What is a beat?; Tempo"
+  },
+  {
+    "id": "source:ableton-chords",
+    "title": "Learning Music — Make some chords",
+    "kind": "external",
+    "locator": "https://learningmusic.ableton.com/chords/chords.html",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Ableton",
+    "pinpoint": "Make some chords",
+    "notes": "Supports the introductory chord component of harmony, not a complete theory of harmony."
+  },
+  {
+    "id": "source:ableton-live",
+    "title": "Live Concepts — Ableton Reference Manual Version 12",
+    "kind": "external",
+    "locator": "https://www.ableton.com/en/manual/live-concepts/",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Ableton",
+    "pinpoint": "3.11 Devices; 3.14 The Mixer; 3.17 Recording New Clips",
+    "notes": "An example DAW implementation; generic category wording does not promise every DAW has identical features."
+  },
+  {
+    "id": "source:shure-microphone",
+    "title": "Mic Basics: What Are Transducers?",
+    "kind": "external",
+    "locator": "https://www.shure.com/en-ASIA/insights/mic-basics-transducers",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "Shure",
+    "pinpoint": "Edited Transcript, opening paragraph",
+    "notes": "Uses the basic transduction explanation only; no equipment purchase or model recommendation."
+  },
+  {
+    "id": "source:openlearn-recording",
+    "title": "Recording music and sound",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-0",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Course description; course contents; About this free course; Copyright information",
+    "notes": "Intermediate course. Historical sections are part of the course, not imported into the graph."
+  },
+  {
+    "id": "source:openlearn-recording-roles",
+    "title": "Recording music and sound — Recording roles",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-1.1",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "1.1 Recording roles",
+    "notes": "Example is western art music; used only to support recording takes and possible role overlap, not a universal production workflow."
+  },
+  {
+    "id": "source:openlearn-sound",
+    "title": "Sound for music technology: An introduction",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Course description; learning outcomes; About this free course; Copyright information",
+    "notes": "Introductory course includes technical graphs and calculations. Some activities require a free account."
+  },
+  {
+    "id": "source:openlearn-pressure",
+    "title": "Sound for music technology — Pressure in the atmosphere",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-2.2",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "2.2 Pressure in the atmosphere",
+    "notes": "Supports sound in air, not a claim that all sound propagation uses air."
+  },
+  {
+    "id": "source:openlearn-license",
+    "title": "OpenLearn frequently asked questions",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Copyright & intellectual property: What can I do with OpenLearn materials?",
+    "notes": "Default CC BY-NC-SA 4.0 applies to eligible OU-owned course material; acknowledged exceptions remain. We link rather than import."
+  },
+  {
+    "id": "source:openlearn-recording-credits",
+    "title": "Recording music and sound — Acknowledgements",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section---acknowledgements",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Acknowledgements",
+    "notes": "Contains excluded third-party material; the course is not uniformly reusable."
+  },
+  {
+    "id": "source:openlearn-sound-credits",
+    "title": "Sound for music technology — Acknowledgements",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section---acknowledgements",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Acknowledgements",
+    "notes": "Contains exceptions to the default course license; do not extract third-party media."
+  }
+]

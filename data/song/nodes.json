@@ -1,0 +1,272 @@
+[
+  {
+    "id": "endeavor:song-release",
+    "type": "endeavor",
+    "label": "Produce and release a song",
+    "summary": "Follow a musical idea into a recording and out to listeners. Write, shape, record, mix, master and release: one way to break this down, with roles that can overlap.",
+    "editorialStatus": "published",
+    "aliases": [
+      "song",
+      "music production",
+      "make a song"
+    ]
+  },
+  {
+    "id": "artifact:song-recording",
+    "type": "artifact",
+    "label": "Song recording",
+    "summary": "A captured musical performance that can be played back. Explore the work behind the recording, from creating its parts to preparing it for listeners.",
+    "editorialStatus": "published",
+    "notes": "A general output concept, not a particular song or playable audio file."
+  },
+  {
+    "id": "stage:song-writing",
+    "type": "stage",
+    "label": "Write the song",
+    "summary": "Explore the choices behind the words and melody.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:song-release",
+    "displayOrder": 1
+  },
+  {
+    "id": "stage:song-shaping",
+    "type": "stage",
+    "label": "Shape the sound",
+    "summary": "Explore the arrangement and the direction of the recording.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:song-release",
+    "displayOrder": 2
+  },
+  {
+    "id": "stage:song-recording",
+    "type": "stage",
+    "label": "Capture the performance",
+    "summary": "Explore the performed parts and how they are recorded.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:song-release",
+    "displayOrder": 3
+  },
+  {
+    "id": "stage:song-mixing",
+    "type": "stage",
+    "label": "Mix the tracks",
+    "summary": "Explore how separate recorded parts become a balanced whole.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:song-release",
+    "displayOrder": 4
+  },
+  {
+    "id": "stage:song-mastering",
+    "type": "stage",
+    "label": "Prepare the master",
+    "summary": "Explore the final attention given to the mixed recording.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:song-release",
+    "displayOrder": 5
+  },
+  {
+    "id": "stage:song-release",
+    "type": "stage",
+    "label": "Release to listeners",
+    "summary": "Explore the work of getting a finished recording to an audience.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:song-release",
+    "displayOrder": 6
+  },
+  {
+    "id": "role:songwriter",
+    "type": "role",
+    "label": "Songwriter",
+    "summary": "Develops the words and musical ideas of a song, including its melody.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:arranger",
+    "type": "role",
+    "label": "Arranger",
+    "summary": "Reworks how a composition is expressed through instruments, harmonies, tempo and other musical choices.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:music-producer",
+    "type": "role",
+    "label": "Music producer",
+    "summary": "Helps shape a recording project’s creative direction and guides its execution.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:session-musician",
+    "type": "role",
+    "label": "Session musician",
+    "summary": "Performs instrumental parts for recording sessions and adapts them to the project’s needs.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:recording-engineer",
+    "type": "role",
+    "label": "Recording engineer",
+    "summary": "Sets up recording equipment and captures sound during a session.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:mixing-engineer",
+    "type": "role",
+    "label": "Mixing engineer",
+    "summary": "Combines recorded parts into a mix whose balance supports the music.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:mastering-engineer",
+    "type": "role",
+    "label": "Mastering engineer",
+    "summary": "Refines the finished mix and prepares its sound for release and playback.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:independent-artist",
+    "type": "role",
+    "label": "Independent artist",
+    "summary": "An artist who can release and promote their own recordings while retaining creative independence.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:songwriting",
+    "type": "capability",
+    "label": "Songwriting",
+    "summary": "Creating and revising melodies and words for a song.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:arranging",
+    "type": "capability",
+    "label": "Arranging",
+    "summary": "Adapting a composition through choices about its instruments, harmony and tempo.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:audio-recording",
+    "type": "capability",
+    "label": "Audio recording",
+    "summary": "Setting up and capturing sound as recorded material.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:audio-mixing",
+    "type": "capability",
+    "label": "Audio mixing",
+    "summary": "Balancing separate recorded tracks so they work together as a musical whole.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:audio-mastering",
+    "type": "capability",
+    "label": "Audio mastering",
+    "summary": "Refining the overall sound of a mix for its release.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "knowledge:rhythm-and-tempo",
+    "type": "knowledge",
+    "label": "Rhythm and tempo",
+    "summary": "Rhythm concerns musical patterns in time; tempo describes how quickly the underlying pulse moves.",
+    "editorialStatus": "published",
+    "kind": "topic"
+  },
+  {
+    "id": "knowledge:chords-and-harmony",
+    "type": "knowledge",
+    "label": "Chords and harmony",
+    "summary": "Explore notes sounding together. A chord combines several pitches at once, one starting point for understanding harmony.",
+    "editorialStatus": "published",
+    "kind": "topic"
+  },
+  {
+    "id": "knowledge:sound-waves",
+    "type": "knowledge",
+    "label": "Sound waves",
+    "summary": "In air, sound travels through changing pressure. Frequency and amplitude help describe a sound’s physical behavior.",
+    "editorialStatus": "published",
+    "kind": "topic"
+  },
+  {
+    "id": "knowledge:audio-signal-processing",
+    "type": "knowledge",
+    "label": "Audio signal processing",
+    "summary": "Changing an audio signal: EQ adjusts frequency balance, while compression can reduce its dynamic range.",
+    "editorialStatus": "published",
+    "kind": "topic"
+  },
+  {
+    "id": "knowledge:release-metadata",
+    "type": "knowledge",
+    "label": "Release metadata",
+    "summary": "Names, credits and release details travel with music. On Spotify, delivered metadata affects how a recording appears.",
+    "editorialStatus": "published",
+    "kind": "topic"
+  },
+  {
+    "id": "tool:microphone",
+    "type": "tool",
+    "label": "Microphone",
+    "summary": "Turns sound into an electrical signal that can be recorded or amplified.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:daw",
+    "type": "tool",
+    "label": "Digital audio workstation",
+    "summary": "A software workspace for capturing, arranging and processing recorded sound. A DAW can also hold a track’s mix.",
+    "editorialStatus": "published",
+    "aliases": [
+      "DAW",
+      "recording software"
+    ]
+  },
+  {
+    "id": "resource:ableton-learning-music",
+    "type": "learning_resource",
+    "label": "Learning Music",
+    "summary": "Make small musical patterns in your browser, then explore beats, chords and song structure. No prior music experience is needed.",
+    "editorialStatus": "published",
+    "url": "https://learningmusic.ableton.com/",
+    "provider": "Ableton",
+    "format": "interactive lessons",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "learnerLevel": "beginner",
+    "notes": "Free browser lessons. Reuse permission for lessons and media has not been established; follow the links rather than copying assets."
+  },
+  {
+    "id": "resource:openlearn-sound",
+    "type": "learning_resource",
+    "label": "Sound for music technology: An introduction",
+    "summary": "Explore sound waves, frequency and amplitude through introductory explanations and activities.",
+    "editorialStatus": "published",
+    "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction",
+    "provider": "The Open University / OpenLearn",
+    "format": "course",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+    "accessReviewedAt": "2026-09-12",
+    "learnerLevel": "beginner",
+    "notes": "Introductory, with graphs and calculations. Reading is free without sign-up; some activities require a free account. Eligible OU material uses CC BY-NC-SA 4.0; third-party exceptions remain."
+  },
+  {
+    "id": "resource:openlearn-recording",
+    "type": "learning_resource",
+    "label": "Recording music and sound",
+    "summary": "Explore recording practice, microphones and the development of recording techniques.",
+    "editorialStatus": "published",
+    "url": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-0",
+    "provider": "The Open University / OpenLearn",
+    "format": "course",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+    "accessReviewedAt": "2026-09-12",
+    "learnerLevel": "intermediate",
+    "notes": "Free course reading; a free account unlocks progress tracking and some activities. Eligible OU material uses CC BY-NC-SA 4.0; acknowledged third-party materials are excluded."
+  }
+]

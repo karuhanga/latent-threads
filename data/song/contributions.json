@@ -1,0 +1,66 @@
+[
+  {
+    "id": "contribution:song-write",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-writing",
+    "roleId": "role:songwriter",
+    "action": "Develop and revise a melody and words that give the song its identity.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-arrange",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-shaping",
+    "roleId": "role:arranger",
+    "action": "Choose instruments, harmonies and tempo to give the composition a particular musical character.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-produce",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-shaping",
+    "roleId": "role:music-producer",
+    "action": "Develop the arrangement and plan recording sessions so the project has a shared creative direction.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-perform",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-recording",
+    "roleId": "role:session-musician",
+    "action": "Play and adapt instrumental parts to give the recording the performance it needs.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-record",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-recording",
+    "roleId": "role:recording-engineer",
+    "action": "Position microphones and capture takes so musical performances become recorded material.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-mix",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-mixing",
+    "roleId": "role:mixing-engineer",
+    "action": "Balance the recorded parts into a coherent mix so the musical focus is clear.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-master",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-mastering",
+    "roleId": "role:mastering-engineer",
+    "action": "Refine the mix’s overall balance so it is prepared for release and different playback settings.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:song-release",
+    "endeavorId": "endeavor:song-release",
+    "stageId": "stage:song-release",
+    "roleId": "role:independent-artist",
+    "action": "Prepare audio, credits and artwork for a distributor to deliver the release to Spotify listeners.",
+    "editorialStatus": "published"
+  }
+]

@@ -1,0 +1,711 @@
+[
+  {
+    "id": "evidence:endeavor-song-release-song-editorial",
+    "subjectId": "endeavor:song-release",
+    "sourceId": "source:song-editorial",
+    "claim": "The six groups are a curated navigation route, not a mandatory workflow.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:artifact-song-recording-openlearn-recording-roles",
+    "subjectId": "artifact:song-recording",
+    "sourceId": "source:openlearn-recording-roles",
+    "claim": "Recording sessions capture performances as takes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:stage-song-writing-song-editorial",
+    "subjectId": "stage:song-writing",
+    "sourceId": "source:song-editorial",
+    "claim": "Editorial group 1: Write the song. The order guides exploration; it is not a prerequisite claim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:stage-song-shaping-song-editorial",
+    "subjectId": "stage:song-shaping",
+    "sourceId": "source:song-editorial",
+    "claim": "Editorial group 2: Shape the sound. The order guides exploration; it is not a prerequisite claim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:stage-song-recording-song-editorial",
+    "subjectId": "stage:song-recording",
+    "sourceId": "source:song-editorial",
+    "claim": "Editorial group 3: Capture the performance. The order guides exploration; it is not a prerequisite claim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:stage-song-mixing-song-editorial",
+    "subjectId": "stage:song-mixing",
+    "sourceId": "source:song-editorial",
+    "claim": "Editorial group 4: Mix the tracks. The order guides exploration; it is not a prerequisite claim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:stage-song-mastering-song-editorial",
+    "subjectId": "stage:song-mastering",
+    "sourceId": "source:song-editorial",
+    "claim": "Editorial group 5: Prepare the master. The order guides exploration; it is not a prerequisite claim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:stage-song-release-song-editorial",
+    "subjectId": "stage:song-release",
+    "sourceId": "source:song-editorial",
+    "claim": "Editorial group 6: Release to listeners. The order guides exploration; it is not a prerequisite claim.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-songwriter-berklee-songwriter",
+    "subjectId": "role:songwriter",
+    "sourceId": "source:berklee-songwriter",
+    "claim": "The profile identifies lyric, melody and harmony work.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-arranger-berklee-arranger",
+    "subjectId": "role:arranger",
+    "sourceId": "source:berklee-arranger",
+    "claim": "Arrangers adapt instrumentation, harmony and tempo.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-music-producer-berklee-producer",
+    "subjectId": "role:music-producer",
+    "sourceId": "source:berklee-producer",
+    "claim": "The producer guides a recording project’s direction and execution.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-session-musician-berklee-session",
+    "subjectId": "role:session-musician",
+    "sourceId": "source:berklee-session",
+    "claim": "Session players learn and adjust parts for recordings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-recording-engineer-berklee-recording",
+    "subjectId": "role:recording-engineer",
+    "sourceId": "source:berklee-recording",
+    "claim": "Recording engineers prepare equipment and capture sound.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-mixing-engineer-berklee-mixing",
+    "subjectId": "role:mixing-engineer",
+    "sourceId": "source:berklee-mixing",
+    "claim": "Mixing engineers combine multitrack material into a coherent mix.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-mastering-engineer-berklee-mastering",
+    "subjectId": "role:mastering-engineer",
+    "sourceId": "source:berklee-mastering",
+    "claim": "Mastering addresses overall balance and playback presentation before release.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:role-independent-artist-berklee-songwriter",
+    "subjectId": "role:independent-artist",
+    "sourceId": "source:berklee-songwriter",
+    "claim": "Independent performing songwriters can release and promote their own records.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:capability-songwriting-berklee-songwriter",
+    "subjectId": "capability:songwriting",
+    "sourceId": "source:berklee-songwriter",
+    "claim": "Melody and lyric writing are identified songwriting skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:capability-arranging-berklee-arranger",
+    "subjectId": "capability:arranging",
+    "sourceId": "source:berklee-arranger",
+    "claim": "Arranging changes musical elements of an existing composition.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:capability-audio-recording-berklee-recording",
+    "subjectId": "capability:audio-recording",
+    "sourceId": "source:berklee-recording",
+    "claim": "Recording work includes setup and sound capture.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:capability-audio-mixing-berklee-mixing",
+    "subjectId": "capability:audio-mixing",
+    "sourceId": "source:berklee-mixing",
+    "claim": "Mixing assembles multitrack material into a unified result.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:capability-audio-mastering-berklee-mastering",
+    "subjectId": "capability:audio-mastering",
+    "sourceId": "source:berklee-mastering",
+    "claim": "Mastering refines the recording’s overall balance before release.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:knowledge-rhythm-and-tempo-ableton-beat",
+    "subjectId": "knowledge:rhythm-and-tempo",
+    "sourceId": "source:ableton-beat",
+    "claim": "The lesson distinguishes a rhythmic pattern, underlying beat and tempo.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:knowledge-chords-and-harmony-ableton-chords",
+    "subjectId": "knowledge:chords-and-harmony",
+    "sourceId": "source:ableton-chords",
+    "claim": "The lesson introduces chords as simultaneous pitches.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:knowledge-sound-waves-openlearn-pressure",
+    "subjectId": "knowledge:sound-waves",
+    "sourceId": "source:openlearn-pressure",
+    "claim": "The section explains sound through pressure variations in air.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:knowledge-audio-signal-processing-izotope-eq-compression",
+    "subjectId": "knowledge:audio-signal-processing",
+    "sourceId": "source:izotope-eq-compression",
+    "claim": "EQ shapes frequency content; compression reduces dynamic range.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:knowledge-release-metadata-spotify-metadata",
+    "subjectId": "knowledge:release-metadata",
+    "sourceId": "source:spotify-metadata",
+    "claim": "Metadata controls Spotify display and includes artist identities, roles and live dates.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:tool-microphone-shure-microphone",
+    "subjectId": "tool:microphone",
+    "sourceId": "source:shure-microphone",
+    "claim": "A microphone’s transducer converts sound into an electrical signal.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:tool-daw-ableton-live",
+    "subjectId": "tool:daw",
+    "sourceId": "source:ableton-live",
+    "claim": "Live illustrates recording tracks, signal-processing devices and a mixer.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:knowledge-sound-waves-openlearn-sound",
+    "subjectId": "knowledge:sound-waves",
+    "sourceId": "source:openlearn-sound",
+    "claim": "The learning outcomes cover frequency and amplitude alongside pressure waves.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-ableton-learning-music-ableton-learning",
+    "subjectId": "resource:ableton-learning-music",
+    "sourceId": "source:ableton-learning",
+    "claim": "The lessons introduce music making without prior experience or equipment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-ableton-learning-music-ableton-learning-free",
+    "subjectId": "resource:ableton-learning-music",
+    "sourceId": "source:ableton-learning-free",
+    "claim": "Ableton explicitly offers Learning Music free in the browser.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-openlearn-sound-openlearn-sound",
+    "subjectId": "resource:openlearn-sound",
+    "sourceId": "source:openlearn-sound",
+    "claim": "The free course is marked Level 1: Introductory and covers pressure waves, frequency and amplitude.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-openlearn-recording-openlearn-recording",
+    "subjectId": "resource:openlearn-recording",
+    "sourceId": "source:openlearn-recording",
+    "claim": "The free course is marked Level 2: Intermediate and includes practical recording and microphone placement.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-openlearn-sound-openlearn-license",
+    "subjectId": "resource:openlearn-sound",
+    "sourceId": "source:openlearn-license",
+    "claim": "The default license for eligible OU-owned course content is CC BY-NC-SA 4.0; exceptions apply.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-openlearn-sound-openlearn-sound-credits",
+    "subjectId": "resource:openlearn-sound",
+    "sourceId": "source:openlearn-sound-credits",
+    "claim": "The course acknowledges third-party material with separate reuse restrictions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-openlearn-recording-openlearn-license",
+    "subjectId": "resource:openlearn-recording",
+    "sourceId": "source:openlearn-license",
+    "claim": "The default license for eligible OU-owned course content is CC BY-NC-SA 4.0; exceptions apply.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:resource-openlearn-recording-openlearn-recording-credits",
+    "subjectId": "resource:openlearn-recording",
+    "sourceId": "source:openlearn-recording-credits",
+    "claim": "The course acknowledges third-party material with separate reuse restrictions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-write-berklee-songwriter",
+    "subjectId": "contribution:song-write",
+    "sourceId": "source:berklee-songwriter",
+    "claim": "Songwriting includes developing and revising musical and lyrical material.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-arrange-berklee-arranger",
+    "subjectId": "contribution:song-arrange",
+    "sourceId": "source:berklee-arranger",
+    "claim": "Arrangers adapt these elements of a composition.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-produce-berklee-producer",
+    "subjectId": "contribution:song-produce",
+    "sourceId": "source:berklee-producer",
+    "claim": "Producers may develop arrangements and plan sessions to support creative direction.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "This contribution selects part of a producer’s possible responsibilities; it is not the whole role."
+  },
+  {
+    "id": "evidence:contribution-song-perform-berklee-session",
+    "subjectId": "contribution:song-perform",
+    "sourceId": "source:berklee-session",
+    "claim": "Session musicians perform parts and adjust to an artist or producer’s direction.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-record-berklee-recording",
+    "subjectId": "contribution:song-record",
+    "sourceId": "source:berklee-recording",
+    "claim": "Engineers select and position microphones and capture studio sound.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-mix-berklee-mixing",
+    "subjectId": "contribution:song-mix",
+    "sourceId": "source:berklee-mixing",
+    "claim": "Mixing combines recorded parts and supports musical clarity.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-master-berklee-mastering",
+    "subjectId": "contribution:song-master",
+    "sourceId": "source:berklee-mastering",
+    "claim": "Mastering refines the recording’s overall sound with playback in mind.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:contribution-song-release-spotify-release",
+    "subjectId": "contribution:song-release",
+    "sourceId": "source:spotify-release",
+    "claim": "Spotify asks artists to provide release-ready audio, metadata and artwork through a distributor.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "This is a Spotify example, not the only way to release music. The artist may delegate these tasks."
+  },
+  {
+    "id": "evidence:relation-song-output-song-editorial",
+    "subjectId": "relation:song-output",
+    "sourceId": "source:song-editorial",
+    "claim": "The endeavor’s chosen output is the recording concept.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-write-skill-berklee-songwriter",
+    "subjectId": "relation:write-skill",
+    "sourceId": "source:berklee-songwriter",
+    "claim": "The described writing activity uses lyric and melody writing skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-songwriting-harmony-berklee-songwriter",
+    "subjectId": "relation:songwriting-harmony",
+    "sourceId": "source:berklee-songwriter",
+    "claim": "Harmony is included among songwriting skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-arrange-skill-berklee-arranger",
+    "subjectId": "relation:arrange-skill",
+    "sourceId": "source:berklee-arranger",
+    "claim": "Adapting the composition’s musical elements is arranging.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-arranging-harmony-berklee-arranger",
+    "subjectId": "relation:arranging-harmony",
+    "sourceId": "source:berklee-arranger",
+    "claim": "Arrangers can alter harmony and choose chords.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-arranging-tempo-berklee-arranger",
+    "subjectId": "relation:arranging-tempo",
+    "sourceId": "source:berklee-arranger",
+    "claim": "Arrangers may change a composition’s tempo.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-producer-arranging-berklee-producer",
+    "subjectId": "relation:producer-arranging",
+    "sourceId": "source:berklee-producer",
+    "claim": "The producer profile lists arranging and developing arrangements.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "This curated contribution uses arranging as part of its creative direction; not every producer personally arranges every track."
+  },
+  {
+    "id": "evidence:relation-record-skill-berklee-recording",
+    "subjectId": "relation:record-skill",
+    "sourceId": "source:berklee-recording",
+    "claim": "Recording is a core activity and skill of the role.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-record-microphone-berklee-recording",
+    "subjectId": "relation:record-microphone",
+    "sourceId": "source:berklee-recording",
+    "claim": "Engineers choose and position microphones for recording.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-record-daw-ableton-live",
+    "subjectId": "relation:record-daw",
+    "sourceId": "source:ableton-live",
+    "claim": "Audio tracks in Live can record input as clips.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "A DAW is the digital method represented here; tape and other methods also exist."
+  },
+  {
+    "id": "evidence:relation-record-acoustics-berklee-recording",
+    "subjectId": "relation:record-acoustics",
+    "sourceId": "source:berklee-recording",
+    "claim": "The profile includes basic acoustics among recording skills.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "Sound-wave basics are a selected foundation within acoustics, not a formal prerequisite or qualification."
+  },
+  {
+    "id": "evidence:relation-performance-output-berklee-session",
+    "subjectId": "relation:performance-output",
+    "sourceId": "source:berklee-session",
+    "claim": "Session musicians supply instrumental performances for recordings.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "The contribution produces a part of the collective output, not the entire recording alone."
+  },
+  {
+    "id": "evidence:relation-mix-skill-berklee-mixing",
+    "subjectId": "relation:mix-skill",
+    "sourceId": "source:berklee-mixing",
+    "claim": "The role’s central activity is studio mixing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-mix-daw-izotope-mix-master",
+    "subjectId": "relation:mix-daw",
+    "sourceId": "source:izotope-mix-master",
+    "claim": "The source describes DAW-based mixing tools.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-mix-processing-izotope-eq-compression",
+    "subjectId": "relation:mix-processing",
+    "sourceId": "source:izotope-eq-compression",
+    "claim": "EQ and compression are used on signals while mixing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-mixing-sound-izotope-eq-compression",
+    "subjectId": "relation:mixing-sound",
+    "sourceId": "source:izotope-eq-compression",
+    "claim": "Mix EQ manipulates frequencies; compression controls signal level.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "This is an explanatory learning connection from processing behavior to sound basics, not a claim that mixers need formal physics training."
+  },
+  {
+    "id": "evidence:relation-mixing-sound-openlearn-sound",
+    "subjectId": "relation:mixing-sound",
+    "sourceId": "source:openlearn-sound",
+    "claim": "The course relates frequency and amplitude to sound waves.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "Together with the processing source, this supports the conceptual bridge into sound basics."
+  },
+  {
+    "id": "evidence:relation-master-skill-berklee-mastering",
+    "subjectId": "relation:master-skill",
+    "sourceId": "source:berklee-mastering",
+    "claim": "Audio mastering is central to the role.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-master-processing-izotope-mix-master",
+    "subjectId": "relation:master-processing",
+    "sourceId": "source:izotope-mix-master",
+    "claim": "Mastering can use EQ and limiting on the finished mix.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-mix-to-master-izotope-mix-master",
+    "subjectId": "relation:mix-to-master",
+    "sourceId": "source:izotope-mix-master",
+    "claim": "Mastering works on the mixed track prepared for distribution.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "Models a workflow handoff, not necessarily two people; the same engineer may do both."
+  },
+  {
+    "id": "evidence:relation-release-metadata-spotify-metadata",
+    "subjectId": "relation:release-metadata",
+    "sourceId": "source:spotify-metadata",
+    "claim": "Metadata delivered by the label or distributor determines Spotify display.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-learn-rhythm-ableton-beat",
+    "subjectId": "relation:learn-rhythm",
+    "sourceId": "source:ableton-beat",
+    "claim": "The Learning Music lesson explains beat and tempo.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-learn-harmony-ableton-chords",
+    "subjectId": "relation:learn-harmony",
+    "sourceId": "source:ableton-chords",
+    "claim": "The Learning Music chord lesson introduces simultaneous pitches.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-learn-sound-openlearn-sound",
+    "subjectId": "relation:learn-sound",
+    "sourceId": "source:openlearn-sound",
+    "claim": "Sound-wave properties are explicit course learning outcomes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:relation-learn-recording-openlearn-recording",
+    "subjectId": "relation:learn-recording",
+    "sourceId": "source:openlearn-recording",
+    "claim": "Practical recording and microphone placement are course sections.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  }
+]

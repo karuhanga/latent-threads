@@ -97,6 +97,8 @@ accessReviewedAt?: YYYY-MM-DD
 
 “Openly licensed” requires a verified license; “Free access” requires current access evidence and says nothing about reuse. Use `mixed` when parts differ and explain the distinction. A public URL alone establishes neither free course access nor open licensing. Level and duration are optional sourced metadata. Credentials and certificate fees are not inferred from course access.
 
+The Wave 1 implementation names optional level metadata `learnerLevel` and uses `notes` for access/license exceptions. Sources may use `publisher`, `pinpoint` and `notes`. The source manifest has `schemaVersion` and a `files` map naming bare-array JSON files. `pnpm validate:data` checks these records and generates an ignored application bundle. Author data under `data/song/`, never `src/generated/`.
+
 ## Geography and unknowns
 
 Start with this explicit place structure:
