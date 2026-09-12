@@ -35,3 +35,15 @@ test('home entry points are valid and unknown entity IDs remain a data-layer con
     entityId: 'role:future-role',
   });
 });
+
+test('a contribution context round-trips and malformed context queries recover safely', () => {
+  const route = { kind: 'explore', entityId: 'knowledge:sound-waves', contextContributionId: 'contribution:song-mix' };
+  assert.deepEqual(parseHashRoute(routeToHash(route)), route);
+  for (const hash of [
+    '#/explore/tool:daw?via=',
+    '#/explore/tool:daw?via=%',
+    '#/explore/tool:daw?via=contribution%3Asong%2Fmix',
+    '#/explore/tool:daw?via=one&via=two',
+    '#/explore/tool:daw?unrelated=one',
+  ]) assert.equal(parseHashRoute(hash), null, hash);
+});

@@ -2,7 +2,7 @@
 
 An interactive map of how people get things done. Explore endeavors, the roles and contributions behind them, the knowledge and tools involved, and something worth learning next.
 
-**Stage:** playable sourced song exploration; discovery, trails and learning details are next.
+**Stage:** Wave 1 complete in local review; final hosted build verification is underway.
 
 - [Project HQ](https://www.notion.so/3d907031acb58172be89cad68e89e362)
 - [Wave 1 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb581ad800e000c9778c18b)
@@ -22,7 +22,7 @@ Lincoln confirmed song first, Ugandan coffee second. Wave 1 has three visible ch
 2. A sourced song journey connecting stages, contextual contributions, roles and concepts.
 3. Mixed discovery, search, exploration trails, learning links and a verified demo.
 
-The planned stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. Pages branch publishing remains to be verified. Local previews come first.
+The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The song checkpoint is live at https://karuhanga.github.io/latent-threads/. Discovery and learning enhancements are still in delivery.
 
 ## Technical context
 
@@ -46,7 +46,7 @@ The dev URL is `http://127.0.0.1:5173/latent-threads/`. Package caches stay in i
 On this Codex machine, the verified bundled runtime can be used when Node is absent from the shell path:
 
 ```sh
-export PATH="/Users/karuhanga/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/Users/karuhanga/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:$PATH"
+export PATH="/Users/karuhanga/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/usr/bin:/bin:/Users/karuhanga/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:$PATH"
 pnpm install --frozen-lockfile
 ```
 

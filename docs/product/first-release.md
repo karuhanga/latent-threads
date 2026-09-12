@@ -11,7 +11,7 @@ Wave 1 is a complete song journey. Coffee from Uganda to a European café follow
 - Re-center a bounded neighborhood as the learner follows a connection; keep orientation through a visible trail, back/home and focus state.
 - Read a concise description of what someone does in context and why a connection exists. Surface source links alongside substantive claims.
 - Open at least three relevant, checked learning resources across at least two concepts. Label access separately from reuse license; include beginner relevance.
-- Refresh a deep link and restore the selected node. A local production preview must work before deployment.
+- Refresh a deep link and restore the selected node. An optional `?via=` contribution in the focal hash preserves context; a bounded 30-entry session trail lives in browser history state. Copied URLs do not serialize the full trail. A local production preview must work before deployment.
 ## Content budget
 One sourced endeavor; target 5–7 stages, 6–10 roles and 8–12 related knowledge/skill/tool entries, keeping the whole release roughly 30–50 browsable entities. These are scope ceilings and useful coverage targets, not quotas that justify invented content. Every displayed stage has at least one contextual contribution. At least one cross-connection supports an interesting multi-hop trail.
 No seed salary numbers, local-presence claims or historical chronologies are to be copied from illustrative ideation examples. Geography and time have schema support in Wave 1; their user-facing lenses follow when sourced content exists.
