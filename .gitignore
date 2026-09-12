@@ -1,6 +1,7 @@
 .idea/
 .DS_Store
 node_modules/
+.pnpm-store/
 dist/
 coverage/
 playwright-report/

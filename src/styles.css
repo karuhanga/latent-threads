@@ -1,0 +1,17 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #f4f5f7;
+  background: #15171c;
+  line-height: 1.6;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 48rem; margin: 0 auto; padding: 3rem 1.25rem; }
+h1, h2 { line-height: 1.15; }
+h1 { font-size: clamp(2rem, 7vw, 3.5rem); font-weight: 400; }
+.eyebrow { color: #b9bec9; }
+a { color: #82ddff; text-underline-offset: 0.2em; }
+a:focus-visible { outline: 3px solid #ffe08a; outline-offset: 5px; }
+code { overflow-wrap: anywhere; }

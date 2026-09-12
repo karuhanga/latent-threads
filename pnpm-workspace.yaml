@@ -1,0 +1,5 @@
+engineStrict: true
+saveExact: true
+storeDir: .local/pnpm-store
+cacheDir: .local/pnpm-cache
+stateDir: .local/pnpm-state
