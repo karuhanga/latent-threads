@@ -22,7 +22,7 @@ Lincoln confirmed song first, Ugandan coffee second. Wave 1 has three visible ch
 2. A sourced song journey connecting stages, contextual contributions, roles and concepts.
 3. Mixed discovery, search, exploration trails, learning links and a verified demo.
 
-The planned stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git remote reads are verified. GitHub Actions will deploy `dist/` to GitHub Pages once the app and workflow exist. Local previews come first.
+The planned stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. Pages branch publishing remains to be verified. Local previews come first.
 
 ## Technical context
 
