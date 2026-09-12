@@ -4,7 +4,7 @@ import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, 
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { collectOutput, inspectSource, prepareRelease, stageDeployment } from '../scripts/publish.mjs';
+import { collectOutput, inspectSource, prepareRelease, stageDeployment, pushDeployment } from '../scripts/publish.mjs';
 
 function git(cwd, ...args) {
   const result = spawnSync('git', args, { cwd, encoding: 'utf8' });
@@ -127,4 +127,22 @@ test('existing deployment with unexpected user files is not cleared', t => {
   assert.throws(() => stageDeployment({ siteDirectory: site, deploymentDirectory: next, remoteUrl: remote, sourceCommit, identity }), /Unexpected output file: CNAME/);
   assert.equal(readFileSync(join(next, 'CNAME'), 'utf8'), 'custom.invalid');
   assert.equal(git(remote, 'show', 'gh-pages:CNAME'), 'custom.invalid');
+});
+
+test('publication reuses the source checkout without changing HEAD, worktree or FETCH_HEAD', t => {
+  const { dir, source } = sourceFixture(t);
+  const remote = join(dir, 'remote.git'); git(dir, 'init', '--quiet', '--bare', remote);
+  git(source, 'remote', 'set-url', 'origin', remote);
+  const sourceCommit = git(source, 'rev-parse', 'HEAD');
+  writeFileSync(join(source, '.git', 'FETCH_HEAD'), 'preserved fetch state\n');
+  const site = join(dir, 'site'); mkdirSync(site);
+  writeFileSync(join(site, 'index.html'), '<html>reviewed</html>'); writeFileSync(join(site, '.nojekyll'), '');
+  writeFileSync(join(site, 'release.json'), JSON.stringify({ sourceCommit }));
+  const deployment = stageDeployment({ siteDirectory: site, deploymentDirectory: join(dir, 'deployment'), remoteUrl: remote, sourceCommit, identity });
+  pushDeployment(source, deployment);
+  assert.equal(git(remote, 'rev-parse', 'gh-pages'), deployment.deploymentCommit);
+  assert.equal(git(source, 'rev-parse', 'HEAD'), sourceCommit);
+  assert.equal(git(source, 'status', '--porcelain'), '');
+  assert.equal(readFileSync(join(source, '.git', 'FETCH_HEAD'), 'utf8'), 'preserved fetch state\n');
+  assert.equal(git(source, 'for-each-ref', '--format=%(refname)', 'refs/latent-threads/'), '');
 });

@@ -3,6 +3,7 @@ import { copyFileSync, existsSync, lstatSync, mkdirSync, mkdtempSync, readFileSy
 import { tmpdir } from 'node:os';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { randomUUID } from 'node:crypto';
 
 const approvedOrigins = new Set([
   'https://github.com/karuhanga/latent-threads.git',
@@ -148,6 +149,19 @@ export function stageDeployment({ siteDirectory, deploymentDirectory, remoteUrl,
   return { deploymentDirectory, deploymentCommit: git(deploymentDirectory, ['rev-parse', 'HEAD']).output, changed: !unchanged };
 }
 
+/** Push through the source checkout so its existing scoped Git authentication is reused. */
+export function pushDeployment(root, deployment) {
+  const ref = `refs/latent-threads/publish-${randomUUID()}`;
+  git(root, ['fetch', '--quiet', '--no-tags', '--no-write-fetch-head', '--no-recurse-submodules', deployment.deploymentDirectory, `${deployment.deploymentCommit}:${ref}`]);
+  try {
+    if (git(root, ['rev-parse', `${ref}^{commit}`]).output !== deployment.deploymentCommit) throw new Error('Imported deployment commit did not match.');
+    git(root, ['push', '--porcelain', 'origin', `${deployment.deploymentCommit}:${branchRef}`], { capture: false });
+  } finally {
+    try { git(root, ['update-ref', '-d', ref, deployment.deploymentCommit]); }
+    catch { console.warn(`Temporary ref cleanup needs review: ${ref}. This does not change the reported push result.`); }
+  }
+}
+
 function main() {
   const args = process.argv.slice(2);
   if (args.some(arg => arg !== '--dry-run') || args.length > 1) throw new Error('Usage: node scripts/publish.mjs [--dry-run]');
@@ -164,7 +178,7 @@ function main() {
   if (current.remoteUrl !== release.remoteUrl) throw new Error('origin changed before publication.');
   if (deployment.changed) {
     // Ordinary push preserves history; concurrent remote advancement causes rejection.
-    git(deployment.deploymentDirectory, ['push', '--porcelain', 'origin', `HEAD:${branchRef}`], { capture: false });
+    pushDeployment(release.root, deployment);
   }
   console.log(`${deployment.changed ? 'Pushed' : 'Already published'} deployment ${deployment.deploymentCommit} from source ${release.sourceCommit}.`);
   console.log('Verify the GitHub Pages result and a refreshed deep link before marking the release complete.');
