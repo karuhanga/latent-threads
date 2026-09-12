@@ -12,11 +12,13 @@ The song manifest uses `schemaVersion: "0.1"` and a `files` map naming bare-arra
 
 ## Checkpoint evidence
 
+Foundation accepted at `d18a95a`; catalog/validator accepted at `5da60d1`. Local fresh locked install/check and browser refresh/recovery passed. [GitHub App checks](https://github.com/karuhanga/latent-threads/actions/runs/34671559465) also passed on `5da60d1` in 22 seconds, covering a hosted locked install, data validation, typecheck, 15 tests and build. This is app-check evidence, not deployment.
+
 Each checkpoint records the exact reviewed source commit, preview URL, checks and screenshots when available. Pending work below is not verification evidence.
 
 | Checkpoint | Required demonstration | Result |
 |---|---|---|
-| A: visual foundation | Home and explorer composition; desktop and 360px; keyboard focus; fixture label; reduced motion | Pending |
+| A: visual foundation | Home and explorer composition; desktop and 360px; keyboard focus; fixture label; reduced motion | Accepted: real Chrome/in-app previews, screenshots shown in task. Width/scrollWidth 1280/1280 and 360/360. Tab/Enter stage traversal and visible focus passed. Reduced-motion CSS inspected; runtime preference QA follows. |
 | B: follow a song | Two distinct sourced contribution paths; stage/context preserved; labeled connections; back/home | Pending |
 | C: discover and learn | Alias/partial/empty search; multi-hop trail; browser history; refreshed deep link; three learning cards; source/access/license review | Pending |
 | Hosted release | Same reviewed build on Pages; real home and refreshed deep link; correct subpath assets; source/deployment commit recorded | Pending |

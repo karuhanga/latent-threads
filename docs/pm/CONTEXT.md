@@ -54,6 +54,6 @@ At each checkpoint or handoff, update this snapshot with the actual completed re
 
 ## Next action and unresolved facts
 
-**Next action:** inspect LT-004 visual shell at desktop/360px and show Checkpoint A, then dispatch LT-007 to integrate accepted song data. PM can prepare LT-011 publishing after data acceptance. Current data API is `src/data/index.ts` graph, with bounded neighborhood, structural contribution context, search, evidence and unknown-presence fallback. Live dependencies were checked before dispatch; at most two builders are active.
+**Next action:** Checkpoint A shown and accepted: in-app desktop/360px screenshots, no horizontal overflow, keyboard stage traversal and focus passed. Dispatch LT-007 real-data integration to deployment_review. ontology_first_slice is implementing LT-011 local publisher, with no remote publication until PM review. PM owns preview server session 69716 on port4179; rebuild then reload for new output. Current data API is `src/data/index.ts` graph, with bounded neighborhood, structural contribution context, search, evidence and unknown-presence fallback. At most two builders are active.
 
 Pages configuration, actual build/deployment permissions and a live URL remain to be verified under the accepted goal. Content sources and learning-resource access/licensing are being curated. Latent Threads is the working name; brand/domain diligence and the proposed tagline are not finalized. Ask only for genuine blockers, paid purchases or material scope changes; routine reversible implementation decisions belong to PM.
