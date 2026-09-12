@@ -2,10 +2,10 @@
 
 An interactive map of how people get things done. Explore endeavors, the roles and contributions behind them, the knowledge and tools involved, and something worth learning next.
 
-**Stage:** Wave 2 deployed; Wave 3 depth and education in progress — [open the demo](https://karuhanga.github.io/latent-threads/).
+**Stage:** Wave 3 depth and education deployed and ready for review — [open the demo](https://karuhanga.github.io/latent-threads/).
 
 - [Project HQ](https://www.notion.so/3d907031acb58172be89cad68e89e362)
-- [Wave 3 scope](docs/product/wave-3.md) and [kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c)
+- [Wave 3 scope](docs/product/wave-3.md), [release evidence](docs/pm/wave-3-review.md) and [kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c)
 - [Wave 2 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb5815ca00e000cc3c1a19b)
 - [Wave 2 scope](docs/product/wave-2.md) and [checkpoint evidence](docs/pm/wave-2-review.md)
 - [Wave 1 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb581ad800e000c9778c18b)
@@ -25,7 +25,7 @@ Lincoln confirmed song first, Ugandan coffee second. Wave 1 has three visible ch
 2. A sourced song journey connecting stages, contextual contributions, roles and concepts.
 3. Global discovery, catalog search, learning links and a verified demo.
 
-The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The catalog now opens with a randomized tile wall and optional automatic shuffle. Search and Surprise me cover every published item. Skills, concepts, tools and roles have independent connections; process stages belong to endeavors. A discreet Settings control enables sources and detailed information, hidden by default. Browser Back remains available without a visible trail. The enabled catalog covers music, coffee, housing, clothing, diagnostic testing and mobile apps. Measurement and Project planning connect work across domains; three activity examples connect coffee to Uganda. [Original release review](docs/pm/wave-1-review.md) and [LT-020 review](docs/pm/lt-020-review.md) record verification and limits.
+The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The catalog now opens with a randomized tile wall and optional automatic shuffle. Search and Surprise me cover every published item. Skills, concepts, tools and roles have independent connections; process stages belong to endeavors. A discreet Settings control enables Sources and attribution, hidden by default. Browser Back remains available without a visible trail. The enabled catalog covers music, coffee, housing, clothing, diagnostic testing and mobile apps. All 222 pages include richer explanations and original examples. Subjects, specializations and 20 learning resources—including courses and modules—connect knowledge to practical next steps. Measurement and Project planning connect work across domains; three activity examples connect coffee to Uganda. [Original release review](docs/pm/wave-1-review.md) and [LT-020 review](docs/pm/lt-020-review.md) record verification and limits.
 
 ## Technical context
 

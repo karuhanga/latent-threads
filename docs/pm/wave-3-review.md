@@ -1,5 +1,7 @@
 # Wave 3 review and delivery
 
+**Final status: deployed and ready for user review, 12 September 2026.** The sections below retain checkpoint evidence in order; the final verified release supersedes their earlier pending states.
+
 ## Foundation checkpoint — 12 September 2026
 
 Authorized outcome and acceptance: [Wave 3](../product/wave-3.md). LT-028–036 tracked on the [Wave 3 board](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c). Planning source bcbb7ea pushed. No Wave 3 application deployment yet.
@@ -66,3 +68,17 @@ The production JavaScript bundle is approximately **183 kB gzip**. Vite warns ab
 Both builders completed read-only reviews of the other builder's three domains with no material blockers. The housing/clothing/software reviewer independently sampled OpenLearn Energy in buildings, USU Designer Pillowcase and Android Unit 1. The music/coffee/diagnostics reviewer independently sampled OpenLearn Sound, UCDA 2019 processing/storage pages and CDC QMS. Each also read the current copy, learning setup and hierarchy evidence. Their limited samples agreed with the displayed claims; authenticated exercises and unsampled source passages remain outside those spot checks.
 
 PM corrected six minor indefinite-article errors in music examples (A engineer/artist/arranger → An). No semantic claims changed. All agent writes are stopped. The complete wave is accepted for exact-source publication; all 94 checks will run again inside the publisher.
+
+## Final verified release — 12 September 2026
+
+The complete wave is live at https://karuhanga.github.io/latent-threads/.
+
+- Reviewed source: `63a3d646daabb3519c653538ce9d6c8dad3a9098`.
+- Deployment: `bb4b07b36881f8969cdb72477a1dfc13caf4c4df`.
+- [Exact-source CI succeeded](https://github.com/karuhanga/latent-threads/actions/runs/34710304656).
+- [Pages build and deployment succeeded](https://github.com/karuhanga/latent-threads/actions/runs/34710325851).
+- The publisher installed from the locked, isolated committed snapshot and passed all 94 tests, type/data validation and production build. Deployment contains app assets, index.html, .nojekyll and release.json only, preserving gh-pages history.
+- The public release.json returned the exact source commit above. PM refreshed the public Android course deep link and verified explanation, example, outcomes, preparation, Unit 1 and teaching links. Public home displayed the updated catalog and controls. Global Surprise me opened Audio signal processing; following its Mixing link showed the enriched live activity page. The browser was left on Mixing for user review.
+- All nine Wave 3 tickets, LT-028–036, are Done in Notion, confirmed by a live board query. LT-036 moved through In review before PM acceptance. Both builders have finished; there are no remaining release blockers.
+
+The outcome authorized by the active goal is achieved. Documentation-only handoff updates do not change the deployed source. Stop here for user review; do not infer another implementation wave. An already-open app tab should be refreshed to load the current catalog.
