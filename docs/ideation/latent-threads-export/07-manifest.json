@@ -1,0 +1,45 @@
+{
+  "export_date": "2026-09-12",
+  "source_conversation_id": "6aa4ae4c-4f14-83eb-89bf-83298f75e810",
+  "verification": {
+    "turns": 9,
+    "messages": 17,
+    "user_messages": 9,
+    "assistant_messages": 8,
+    "unique_original_citations": 36,
+    "exact_transcript_body_comparison": "passed",
+    "citation_topic_coverage": "passed",
+    "json_parse": "passed",
+    "source_reader_has_more": false
+  },
+  "files": {
+    "01-conversation-transcript.md": {
+      "bytes": 65507,
+      "sha256": "0ff911c43f8721ca5efefb9455b1b8c729e58a4ae89b4a5115b21674d447a2fd"
+    },
+    "02-product-research-brief.md": {
+      "bytes": 20918,
+      "sha256": "28df86e39b2cd7771869e14d790dc4a664de9994d79aaaf9a407b4fa99c34117"
+    },
+    "03-sources.md": {
+      "bytes": 8603,
+      "sha256": "388de9e4024f1e3608829941b54edc1bc08b93e402c207a13b9ae33d3cc8ded1"
+    },
+    "04-project-snapshot.json": {
+      "bytes": 11474,
+      "sha256": "abbdc247290f301546d7621c6a207abaf931b882d396b8d0884048a8a079f4eb"
+    },
+    "05-export-request.md": {
+      "bytes": 1198,
+      "sha256": "5db5064fb6e39fc979d19b2b3c75286c040c82ca0a512d0071bc6f7e7c3a2f91"
+    },
+    "06-conversation-archive.json": {
+      "bytes": 140328,
+      "sha256": "21d9f9b3f094dc36fea79bdb457a0b758ec33867b9d2477b9e412bdd4ace6574"
+    },
+    "README.md": {
+      "bytes": 4209,
+      "sha256": "cde99d442dd548ba8268b85621b1f436959285e8bc4e5835f859c1558544e16e"
+    }
+  }
+}

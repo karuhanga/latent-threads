@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "export_date": "2026-09-12",
+  "source": {
+    "conversation_id": "6aa4ae4c-4f14-83eb-89bf-83298f75e810",
+    "title": "Discuss Career Taxonomy App",
+    "retrieved_turns": 9,
+    "retrieved_messages": 17,
+    "has_more": false,
+    "original_citation_urls_available": false,
+    "attachments_returned": []
+  },
+  "project": {
+    "working_name": "Latent Threads",
+    "name_status": "user_selected_working_name",
+    "stage": "concept_and_pre_ontology",
+    "concept": "An interactive map of how the world gets things done, connecting endeavors with people, contributions, knowledge, capabilities, tools, organizations, learning, geography and history.",
+    "central_question": "How does X get done?",
+    "audiences": [
+      "User's high-school sisters",
+      "User",
+      "Curious learners"
+    ],
+    "tagline_candidates": [
+      {
+        "text": "See how the world gets done.",
+        "status": "leading_assistant_proposal"
+      },
+      {
+        "text": "Follow the threads behind anything.",
+        "status": "candidate"
+      },
+      {
+        "text": "Discover what makes the world work.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "Follow how things get done.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "Explore what lies behind everything.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "See the connections behind how things get done.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "See how things come together.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "How the world gets done.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "Explore how everything gets done.",
+        "status": "earlier_candidate"
+      },
+      {
+        "text": "See what it takes.",
+        "status": "earlier_candidate"
+      }
+    ],
+    "naming_caveat": "Existing Latent Threads clothing storefront and latentthreads.com; final domain and trademark diligence remains open."
+  },
+  "geography": {
+    "status": "latest_discussed_direction",
+    "model": "One global graph with geographic evidence for nodes and potentially edges.",
+    "lens_order": [
+      "World",
+      "Africa",
+      "Kenya",
+      "Uganda"
+    ],
+    "containment": [
+      {
+        "place": "Africa",
+        "parent": "World"
+      },
+      {
+        "place": "Kenya",
+        "parent": "Africa"
+      },
+      {
+        "place": "Uganda",
+        "parent": "Africa"
+      }
+    ],
+    "presence_states": [
+      "established",
+      "limited_or_emerging",
+      "no_verified_presence"
+    ],
+    "interaction": "Ghost nodes without verified local presence; retain explanation, stronger ecosystems and potential routes.",
+    "absence_semantics": "No verified presence does not establish nonexistence.",
+    "market_fields": [
+      "salary ranges",
+      "demand",
+      "outlook",
+      "licensing",
+      "education routes",
+      "credentials",
+      "employers",
+      "industries",
+      "working conditions",
+      "entry difficulty",
+      "entrepreneurship",
+      "mobility",
+      "international opportunities"
+    ],
+    "regional_view": [
+      "hubs",
+      "country-specific demand",
+      "representative market salaries",
+      "regional employers",
+      "mobility"
+    ],
+    "superseded_lenses": [
+      "US",
+      "Africa",
+      "Uganda"
+    ]
+  },
+  "ux": {
+    "status": "proposed_unimplemented",
+    "home": "Curiosity Wall with mixed color-coded concept cards, slow replacement/flipping, Shuffle and Surprise me.",
+    "search": "How does ______ get done? plus arbitrary node search and multiple discovery paths.",
+    "canvas": [
+      "focal neighborhood",
+      "semantic zoom",
+      "enter and rearrange",
+      "endeavor process landscapes",
+      "contextual supporting details"
+    ],
+    "lenses": [
+      "SYSTEM",
+      "TEAM",
+      "KNOWLEDGE",
+      "LEARN",
+      "WORLD",
+      "TIME"
+    ],
+    "trails": {
+      "visible": true,
+      "save_proposed": true,
+      "share_status": "later_idea"
+    },
+    "other_ideas": [
+      "show me the path",
+      "relationship filters",
+      "playful attribute-based queries",
+      "day in the life",
+      "salary and market cards",
+      "collaborators",
+      "specializations",
+      "excellent-work exemplars",
+      "curated articles and videos"
+    ],
+    "deferred": [
+      "visual history slider",
+      "trail sharing",
+      "advanced playful queries"
+    ]
+  },
+  "ontology": {
+    "status": "concepts_discussed_not_finalized",
+    "families": {
+      "accomplishment": [
+        "Endeavor",
+        "Stage",
+        "Process",
+        "Problem",
+        "Mission",
+        "Artifact",
+        "Service",
+        "Outcome",
+        "Output"
+      ],
+      "participants": [
+        "Role",
+        "Occupation",
+        "Specialization",
+        "Team",
+        "Organization",
+        "Industry",
+        "Practitioner",
+        "Employer",
+        "Professional Body"
+      ],
+      "doing": [
+        "Contribution",
+        "Activity",
+        "Capability",
+        "Skill",
+        "Tool",
+        "Technology"
+      ],
+      "knowing": [
+        "Knowledge",
+        "Subject",
+        "Topic",
+        "Field",
+        "Concept"
+      ],
+      "learning": [
+        "Pathway",
+        "Degree",
+        "Course",
+        "Certification",
+        "Training",
+        "Institution",
+        "Learning Resource"
+      ],
+      "context": [
+        "Place",
+        "Market Profile",
+        "Presence Evidence",
+        "Time",
+        "Source",
+        "Provenance",
+        "Confidence"
+      ]
+    },
+    "key_distinctions": [
+      "Artifact is the thing; Endeavor is producing or delivering it.",
+      "Role is broader than profession; Capability is an ability, not a substitute for role.",
+      "Activity is an action; Skill is a proficiency; Knowledge is conceptual grounding.",
+      "Collaboration is contextual to contributions within endeavors and stages."
+    ],
+    "relationship_candidates": [
+      "heavily_used_in",
+      "leads_to",
+      "uses",
+      "works_in",
+      "can_specialize_as",
+      "produces",
+      "contributes_to",
+      "designs_with",
+      "relies_on",
+      "hands_off_to",
+      "coordinates_with",
+      "accountable_to",
+      "approves",
+      "supervises",
+      "advises",
+      "supplies",
+      "depends_on",
+      "reviews",
+      "operates",
+      "serves"
+    ],
+    "historical_concepts": [
+      "emerged_at",
+      "predecessor_of",
+      "split_into",
+      "enabled_by",
+      "replaced_by"
+    ],
+    "edge_metadata": [
+      "weight",
+      "confidence",
+      "source"
+    ],
+    "contribution_model": {
+      "status": "user_endorsed_direction",
+      "description": "Roles perform specific activities in an endeavor/stage; collaboration can be derived from those contributions.",
+      "generic_works_with": "Earlier idea; avoid unconditional role-to-role assertions."
+    }
+  },
+  "data": {
+    "candidate_sources": [
+      "O*NET",
+      "CIP–SOC",
+      "BLS OOH",
+      "ESCO",
+      "UBOS",
+      "Uganda NCHE",
+      "curated content"
+    ],
+    "learning_sources": [
+      "MIT OpenCourseWare",
+      "OpenLearn",
+      "NPTEL",
+      "OpenStax"
+    ],
+    "learning_access_labels": [
+      "openly_licensed",
+      "free_access",
+      "audit_free",
+      "paid"
+    ],
+    "learning_requirement": "Link learning resources directly to concepts and distinguish free access from open licensing.",
+    "imports_completed": false,
+    "source_register": "03-sources.md"
+  },
+  "architecture": {
+    "status": "assistant_proposal_not_final_stack",
+    "database": "Postgres",
+    "initial_tables": [
+      "nodes",
+      "edges",
+      "market_profiles",
+      "resources"
+    ],
+    "frontend_candidate": "React Flow",
+    "pending_extensions": [
+      "contextual contributions",
+      "geographic presence",
+      "temporal data",
+      "provenance"
+    ],
+    "dedicated_graph_database": "Consider later if traversal requirements justify it."
+  },
+  "seed_endeavors": [
+    "Produce and release a song",
+    "Build a skyscraper",
+    "Deliver emergency medical care",
+    "Get Ugandan coffee from farm to a European café",
+    "Launch and operate a satellite",
+    "Build and operate a mobile app"
+  ],
+  "decisions": [
+    {
+      "topic": "working_name",
+      "status": "user_selected",
+      "source_turn": 8
+    },
+    {
+      "topic": "endeavor_centered_question",
+      "status": "user_endorsed",
+      "source_turn": 3
+    },
+    {
+      "topic": "contextual_contributions",
+      "status": "user_endorsed",
+      "source_turn": 4
+    },
+    {
+      "topic": "link_open_courses",
+      "status": "user_requested",
+      "source_turn": 3
+    },
+    {
+      "topic": "geographic_presence",
+      "status": "user_requested_with_assistant_refinement",
+      "source_turn": 2
+    },
+    {
+      "topic": "history",
+      "status": "user_requested_with_deferred_UI_proposal",
+      "source_turn": 2
+    },
+    {
+      "topic": "ontology_before_implementation",
+      "status": "user_requested",
+      "source_turn": 3
+    }
+  ],
+  "superseded": [
+    {
+      "idea": "Mathematics-only first vertical",
+      "replacement": "Diverse endeavor stress tests"
+    },
+    {
+      "idea": "Career Atlas / Workings / Invisible Workings",
+      "replacement": "Latent Threads"
+    },
+    {
+      "idea": "Universal works_with as primary collaboration model",
+      "replacement": "Contextual contributions"
+    },
+    {
+      "idea": "Geography as market-card toggle only",
+      "replacement": "Presence-sensitive graph lenses"
+    }
+  ],
+  "next_steps": [
+    {
+      "order": 1,
+      "task": "Define Ontology / Taxonomy v0.1: nodes, edges and distinctions",
+      "status": "pending"
+    },
+    {
+      "order": 2,
+      "task": "Define contextual contribution, geography/presence, temporal and provenance/confidence models",
+      "status": "pending"
+    },
+    {
+      "order": 3,
+      "task": "Build a song example graph and relational schema",
+      "status": "pending"
+    },
+    {
+      "order": 4,
+      "task": "Stress-test against the other five endeavors",
+      "status": "pending"
+    },
+    {
+      "order": 5,
+      "task": "Proceed with data/research and app implementation tracks, iterating ontology",
+      "status": "pending"
+    },
+    {
+      "order": 6,
+      "task": "Complete name/domain diligence before brand commitment",
+      "status": "pending"
+    }
+  ],
+  "open_questions": [
+    "Canonical entity versus attribute boundaries",
+    "Role/occupation/specialization mapping",
+    "Contribution cardinality and context",
+    "Evidence and refresh rules for presence",
+    "Source licensing and crosswalk reconciliation",
+    "Verified salary and geographic coverage",
+    "Temporal precision",
+    "MVP and UI implementation choices",
+    "Domain and final brand availability"
+  ],
+  "export_limitations": [
+    "Full retrieved visible user/assistant text is preserved; deleted branches and hidden tool/search outputs were not returned.",
+    "Original web citation markers are preserved, but their exact destination mapping was not returned.",
+    "Recovered source links are labelled as recovery candidates or entry points, not original citation metadata.",
+    "No attachments were returned.",
+    "Illustrative geography, salaries, weights and timelines are not verified product data."
+  ]
+}
