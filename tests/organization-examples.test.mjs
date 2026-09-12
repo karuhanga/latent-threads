@@ -8,7 +8,7 @@ const song = await loadCatalog(new URL('../data/song/', import.meta.url));
 // Synthetic validator fixtures only. These claims are never included in release data.
 function fixture() {
   const catalog = structuredClone(song);
-  catalog.schemaVersion = '0.2';
+  if (catalog.schemaVersion === '0.1') catalog.schemaVersion = '0.2';
   catalog.organizationExamples = [{
     id: 'example:recording-fixture', name: 'Synthetic recording organization',
     summary: 'A synthetic organization example for validation tests.', url: 'https://www.open.edu/',
@@ -22,7 +22,7 @@ function fixture() {
 const errors = catalog => validateCatalog(catalog, { today: '2026-09-12' });
 const hasError = (catalog, pattern) => assert.ok(errors(catalog).some(error => pattern.test(error)), `Expected ${pattern}: ${errors(catalog).join('\n')}`);
 
-test('reviewed organization examples validate without changing legacy catalogs', () => {
+test('reviewed organization examples validate while remaining optional', () => {
   assert.deepEqual(errors(song), []);
   const legacy = structuredClone(song); delete legacy.organizationExamples;
   assert.deepEqual(errors(legacy), []);

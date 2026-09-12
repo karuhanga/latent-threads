@@ -10,7 +10,14 @@
       "music production",
       "make a song",
       "Produce and release a song"
-    ]
+    ],
+    "details": {
+      "explanation": "A musical idea becomes a recording through choices at several scales. Writing develops the song's material; arrangement and performance give it a particular expression. Recorded parts can be combined into a mix, then reviewed as a complete master. Distribution adds another kind of work: delivering audio with artwork and identifying information. The six groups here are an editorial route through those connected decisions, and a project may combine responsibilities or return to an earlier choice.",
+      "example": {
+        "title": "A small first single",
+        "body": "A singer has a voice-and-guitar demo but wants a fuller chorus. An arranger adds parts, a guitarist performs one, and the recording team captures it. Before release, the singer reviews whether the mix still makes the words easy to follow."
+      }
+    }
   },
   {
     "id": "artifact:song-recording",
@@ -18,7 +25,14 @@
     "label": "Song recording",
     "summary": "A captured musical performance that can be played back. Explore the work behind the recording, from creating its parts to preparing it for listeners.",
     "editorialStatus": "published",
-    "notes": "A general output concept, not a particular song or playable audio file."
+    "notes": "A general output concept, not a particular song or playable audio file.",
+    "details": {
+      "explanation": "A recording preserves sound for later playback. In a DAW, audio clips refer to sound files, and the arrangement determines how those pieces are heard together. Here the artifact is the recorded result you are exploring; there is no playable song attached.",
+      "example": {
+        "title": "One song, two recorded versions",
+        "body": "Imagine a quiet guitar performance and a fuller band version of the same composition. They are two recordings with different performed and production choices."
+      }
+    }
   },
   {
     "id": "stage:song-writing",
@@ -30,7 +44,14 @@
     "displayOrder": 1,
     "aliases": [
       "Write the song"
-    ]
+    ],
+    "details": {
+      "explanation": "This group concerns the song's melodic and lyrical material. Writers develop ideas and revise them into something that can be demonstrated or performed; a written idea and its eventual recording are different outputs.",
+      "example": {
+        "title": "Changing the opening phrase",
+        "body": "A writer keeps a melody but replaces the first line because a shorter phrase expresses the intended idea more clearly."
+      }
+    }
   },
   {
     "id": "stage:song-shaping",
@@ -42,7 +63,14 @@
     "displayOrder": 2,
     "aliases": [
       "Shape the sound"
-    ]
+    ],
+    "details": {
+      "explanation": "Production brings a musical direction into practical choices. Arrangement can change the instruments or harmonies, while production work can organize sessions and guide performances. Our grouping lets you explore both kinds of decision.",
+      "example": {
+        "title": "A sparse verse",
+        "body": "A team imagines a restrained verse and a fuller chorus. The arranger changes the parts, and the producer plans the session around that contrast."
+      }
+    }
   },
   {
     "id": "stage:song-recording",
@@ -54,7 +82,14 @@
     "displayOrder": 3,
     "aliases": [
       "Capture the performance"
-    ]
+    ],
+    "details": {
+      "explanation": "Recording joins performance with sound capture. The engineer prepares the microphones and recording path, while musicians supply the played material. Microphone position affects the balance between the source and its surroundings, so trying positions and reviewing short recordings can be useful. Session notes preserve the context of the takes, giving later work something more useful than a folder of unexplained files.",
+      "example": {
+        "title": "A new guitar take",
+        "body": "A singer and guitarist rehearse while the engineer tries two microphone positions. The team listens back and notes which recording best balances the voice, guitar and room sound."
+      }
+    }
   },
   {
     "id": "stage:song-mixing",
@@ -66,7 +101,14 @@
     "displayOrder": 4,
     "aliases": [
       "Mix the tracks"
-    ]
+    ],
+    "details": {
+      "explanation": "Mixing shapes relationships between recorded parts. A track's volume affects its level, while panning places it within the left-to-right stereo field. Listening to a part alone can help examine it, but the combined mix is where the musical balance is heard. The useful question is what the listener should notice: a strong guitar sound on its own may need a different place alongside the voice.",
+      "example": {
+        "title": "Finding the vocal",
+        "body": "The guitar sounds appealing alone, but the singer's final words disappear when both play. Lowering the guitar slightly makes those words easier to follow while keeping its rhythmic part audible."
+      }
+    }
   },
   {
     "id": "stage:song-mastering",
@@ -78,7 +120,14 @@
     "displayOrder": 5,
     "aliases": [
       "Prepare the master"
-    ]
+    ],
+    "details": {
+      "explanation": "Mastering considers the overall sound of the mix as it is prepared for release. Attention turns to its tonal and dynamic balance and how the recording translates across playback situations.",
+      "example": {
+        "title": "Checking the complete song",
+        "body": "After approving the individual parts, an artist asks for a review of the full mix's balance on different playback systems."
+      }
+    }
   },
   {
     "id": "stage:song-release",
@@ -90,98 +139,197 @@
     "displayOrder": 6,
     "aliases": [
       "Release to listeners"
-    ]
+    ],
+    "details": {
+      "explanation": "On the Spotify route shown here, a distributor delivers the music. Preparation includes the audio file, artwork and release information, followed by checking that the supplied material is ready for delivery.",
+      "example": {
+        "title": "A missing credit",
+        "body": "Before submitting a single, the artist notices an omitted contributor and corrects the release information."
+      }
+    }
   },
   {
     "id": "role:songwriter",
     "type": "role",
     "label": "Songwriter",
     "summary": "Develops the words and musical ideas of a song, including its melody.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The songwriter develops words, melodies and harmonies that give a song its musical identity. A demo can communicate those ideas to performers or collaborators, and the writer may also perform their own work.",
+      "example": {
+        "title": "A demo for another singer",
+        "body": "A writer sends a rough vocal demo so a singer can hear the phrasing while preparing a new interpretation."
+      }
+    }
   },
   {
     "id": "role:arranger",
     "type": "role",
     "label": "Arranger",
     "summary": "Reworks how a composition is expressed through instruments, harmonies, tempo and other musical choices.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An arranger changes how a composition is presented, such as its instrumentation, harmony or tempo. A familiar melody can remain recognizable while the surrounding musical parts take a different shape.",
+      "example": {
+        "title": "Adapting for fewer players",
+        "body": "A song written for a large group is reworked for voice, keyboard and percussion. The arranger chooses which parts carry the essential material."
+      }
+    }
   },
   {
     "id": "role:music-producer",
     "type": "role",
     "label": "Music producer",
     "summary": "Helps shape a recording project’s creative direction and guides its execution.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A producer helps turn an artistic direction into a recording project. Responsibilities can include session planning, selecting collaborators and guiding performances; the exact remit varies with the project.",
+      "example": {
+        "title": "A shared reference point",
+        "body": "Before a session, a producer asks the artist to describe the feeling they want and uses that discussion to guide the arrangement."
+      }
+    }
   },
   {
     "id": "role:session-musician",
     "type": "role",
     "label": "Session musician",
     "summary": "Performs instrumental parts for recording sessions and adapts them to the project’s needs.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A session musician learns and performs parts for someone else's recording. The material may arrive as notation or a demo, or the session may call for adapting and improvising within an agreed musical direction.",
+      "example": {
+        "title": "Two ways to play a part",
+        "body": "A keyboard player prepares a supplied part, then offers a simpler variation when the artist requests more space."
+      }
+    }
   },
   {
     "id": "role:recording-engineer",
     "type": "role",
     "label": "Recording engineer",
     "summary": "Sets up recording equipment and captures sound during a session.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The recording engineer prepares the sound-capture system, including microphone choice and placement, cabling and recording software. Their responsibility is to make the session's performances available as recorded material.",
+      "example": {
+        "title": "Preparing the vocal channel",
+        "body": "A engineer sets up the microphone and recording path, then checks a brief take before the singer begins the main performance."
+      }
+    }
   },
   {
     "id": "role:mixing-engineer",
     "type": "role",
     "label": "Mixing engineer",
     "summary": "Combines recorded parts into a mix whose balance supports the music.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A mixing engineer turns multiple recordings into a coherent listening result. Parts can compete when their frequency ranges overlap; EQ offers one way to change that balance, while compression changes variation in level. The engineer chooses treatment in response to the music and checks the combined result. Their deliverable is a mix that communicates the intended sound and can be reviewed by the artist.",
+      "example": {
+        "title": "A chorus with a clear lead",
+        "body": "A low guitar part and the bass compete in a chorus. The engineer tries a change to the guitar's frequency balance, then listens to both together before deciding whether it helps."
+      }
+    }
   },
   {
     "id": "role:mastering-engineer",
     "type": "role",
     "label": "Mastering engineer",
     "summary": "Refines the finished mix and prepares its sound for release and playback.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A mastering engineer evaluates and refines the overall mix. Tonal balance, dynamics and consistency across playback are part of that final listening perspective, informed by the artist's intentions.",
+      "example": {
+        "title": "Preserving a quiet opening",
+        "body": "A engineer discusses how much contrast to retain between a soft introduction and the rest of the song."
+      }
+    }
   },
   {
     "id": "role:independent-artist",
     "type": "role",
     "label": "Independent artist",
     "summary": "An artist who can release and promote their own recordings while retaining creative independence.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An independent artist can make, release and promote their own recordings. For the Spotify example in this route, that includes arranging distribution and supplying the material needed to represent the release.",
+      "example": {
+        "title": "Preparing a self-release",
+        "body": "A artist reviews the final audio and gathers artwork and contributor information before working with a distributor."
+      }
+    }
   },
   {
     "id": "capability:songwriting",
     "type": "capability",
     "label": "Songwriting",
     "summary": "Creating and revising melodies and words for a song.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Songwriting involves developing melodic and lyrical ideas, assessing them and making revisions. The skill lies in turning an initial idea into material that can be shared and performed.",
+      "example": {
+        "title": "Comparing two endings",
+        "body": "Invent two short endings for a phrase of your own and consider which one better matches what you want the song to say."
+      },
+      "practice": "Write one sentence of your own, speak it in two different rhythms, and note which version you prefer."
+    }
   },
   {
     "id": "capability:arranging",
     "type": "capability",
     "label": "Arranging",
     "summary": "Adapting a composition through choices about its instruments, harmony and tempo.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Arranging is the ability to reshape a composition through musical choices such as instrumentation, harmony and tempo. It requires deciding which material to preserve and which parts to change.",
+      "example": {
+        "title": "A different accompaniment",
+        "body": "Imagine keeping the singer's melody while replacing a busy accompaniment with a single sustained keyboard part."
+      }
+    }
   },
   {
     "id": "capability:audio-recording",
     "type": "capability",
     "label": "Audio recording",
     "summary": "Setting up and capturing sound as recorded material.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Recording skill combines preparation with careful capture. Planning power and storage, then keeping a recording log, helps make the resulting material usable when the session is revisited.",
+      "example": {
+        "title": "Remembering the useful take",
+        "body": "A recordist writes a short note beside each take so the team can find the version they preferred the next day."
+      }
+    }
   },
   {
     "id": "capability:audio-mixing",
     "type": "capability",
     "label": "Audio mixing",
     "summary": "Balancing separate recorded tracks so they work together as a musical whole.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Mixing skill combines attentive listening with control of multiple recorded parts. In a DAW, volume, pan and effects routing provide ways to shape their relationships and the resulting whole.",
+      "example": {
+        "title": "Comparing a balance",
+        "body": "Imagine two versions of a mix with different voice-to-instrument levels. Choose the version that best serves the intended musical focus."
+      }
+    }
   },
   {
     "id": "capability:audio-mastering",
     "type": "capability",
     "label": "Audio mastering",
     "summary": "Refining the overall sound of a mix for its release.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Mastering skill requires hearing the mix as a complete result and making considered changes to its overall balance. It includes judging how much treatment supports the music's intended character.",
+      "example": {
+        "title": "Choosing restraint",
+        "body": "In a review, an artist and engineer prefer a modest overall adjustment after a stronger version changes the song's character too much."
+      }
+    }
   },
   {
     "id": "knowledge:rhythm-and-tempo",
@@ -189,7 +337,15 @@
     "label": "Rhythm and tempo",
     "summary": "Rhythm concerns musical patterns in time; tempo describes how quickly the underlying pulse moves.",
     "editorialStatus": "published",
-    "kind": "topic"
+    "kind": "topic",
+    "details": {
+      "explanation": "A beat can mean a drum pattern or the regular pulse beneath it. Tempo measures the speed of that pulse in beats per minute; the pattern and the playback speed are related but separate choices.",
+      "example": {
+        "title": "The same pattern, another pace",
+        "body": "Make up a short tapped pattern, then repeat it more slowly. Its sequence stays recognizable even though the pace changes."
+      },
+      "practice": "Use Ableton's beat lesson to keep a pattern fixed while changing its tempo. Describe the difference in your own words."
+    }
   },
   {
     "id": "knowledge:chords-and-harmony",
@@ -197,7 +353,15 @@
     "label": "Chords and harmony",
     "summary": "Explore notes sounding together. A chord combines several pitches at once, one starting point for understanding harmony.",
     "editorialStatus": "published",
-    "kind": "topic"
+    "kind": "topic",
+    "details": {
+      "explanation": "A chord brings several pitches together at once. Hearing and changing these combinations is one starting point for harmony; music theory also provides ways to describe their construction, including triads.",
+      "example": {
+        "title": "Changing one ingredient",
+        "body": "In a keyboard exercise, keep two notes and change a third. Listen for how that new combination affects the character you intended."
+      },
+      "practice": "Use the linked chord playground to compare two combinations of your own. No particular emotional response is a correct answer."
+    }
   },
   {
     "id": "knowledge:sound-waves",
@@ -205,7 +369,14 @@
     "label": "Sound waves",
     "summary": "In air, sound travels through changing pressure. Frequency and amplitude help describe a sound’s physical behavior.",
     "editorialStatus": "published",
-    "kind": "topic"
+    "kind": "topic",
+    "details": {
+      "explanation": "A vibrating source can create alternating pressure changes that travel through air. The wave transfers energy away from the source, while air particles move back and forth locally rather than travelling all the way to the listener. In a regular vibration, one cycle is a complete repeat of the motion. The tuning-fork and sine-wave models make these ideas easier to study; ordinary musical instruments need not produce pure sine waves.",
+      "example": {
+        "title": "Following a repeated vibration",
+        "body": "Picture a repeating vibration and draw the nearby air alternately bunching together and spreading out. Track one particle locally while the pressure pattern moves onward: the particle's movement and the travelling wave are different things."
+      }
+    }
   },
   {
     "id": "knowledge:audio-signal-processing",
@@ -213,7 +384,14 @@
     "label": "Audio signal processing",
     "summary": "Changing an audio signal: EQ adjusts frequency balance, while compression can reduce its dynamic range.",
     "editorialStatus": "published",
-    "kind": "topic"
+    "kind": "topic",
+    "details": {
+      "explanation": "EQ changes the relative level of selected frequency ranges. Compression reduces differences in signal level. Because both affect level, their order can change the result; processing is a choice made for a particular sound.",
+      "example": {
+        "title": "Two processing orders",
+        "body": "For a vocal mix, an engineer compares EQ before compression with the reverse order, then chooses the result that supports the voice."
+      }
+    }
   },
   {
     "id": "knowledge:release-metadata",
@@ -221,14 +399,28 @@
     "label": "Release metadata",
     "summary": "Names, credits and release details travel with music. On Spotify, delivered metadata affects how a recording appears.",
     "editorialStatus": "published",
-    "kind": "topic"
+    "kind": "topic",
+    "details": {
+      "explanation": "Metadata describes the recording and its contributors. On Spotify, artist names and roles influence how a release appears; corrections must be delivered by the label or distributor rather than changing the audio itself.",
+      "example": {
+        "title": "A name entered two ways",
+        "body": "A artist finds inconsistent spelling between releases and asks the distributor to deliver corrected information."
+      }
+    }
   },
   {
     "id": "tool:microphone",
     "type": "tool",
     "label": "Microphone",
     "summary": "Turns sound into an electrical signal that can be recorded or amplified.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Inside a microphone, a transducer converts sound into an electrical signal. Dynamic and condenser designs do this differently; a condenser also needs a power source, so microphone choice involves the recording setup as well as its sound.",
+      "example": {
+        "title": "Choosing a workable setup",
+        "body": "A recordist compares two available microphones and checks the recording equipment before choosing the one to use."
+      }
+    }
   },
   {
     "id": "tool:daw",
@@ -239,7 +431,14 @@
     "aliases": [
       "DAW",
       "recording software"
-    ]
+    ],
+    "details": {
+      "explanation": "A DAW organizes recorded audio and musical instructions into tracks. In Ableton Live, clips can be arranged along a timeline, processed with effects and mixed; an audio file and MIDI instructions are different kinds of material.",
+      "example": {
+        "title": "Keeping the parts separate",
+        "body": "A project places a recorded voice and a software instrument on different tracks so their timing and balance can be developed."
+      }
+    }
   },
   {
     "id": "resource:ableton-learning-music",
@@ -254,7 +453,21 @@
     "licenseStatus": "unknown",
     "accessReviewedAt": "2026-09-12",
     "learnerLevel": "beginner",
-    "notes": "Free browser lessons. Reuse permission for lessons and media has not been established; follow the links rather than copying assets."
+    "notes": "Free browser lessons. Reuse permission for lessons and media has not been established; follow the links rather than copying assets.",
+    "details": {
+      "explanation": "These browser lessons let you combine and change musical patterns while learning about beats, pitches, chords and structure. You can hear choices as you make them, without starting with an instrument or recording setup.",
+      "example": {
+        "title": "One change at a time",
+        "body": "Start a pattern, change its pace, then return to the original before changing a note. Keep a short note on what each change did."
+      },
+      "practice": "Open the first lesson and turn several pattern boxes on and off. Choose a combination you want to explore further."
+    },
+    "resourceKind": "tutorial",
+    "preparation": "Use a browser with JavaScript and audio playback. The provider says no prior music experience or extra equipment is required.",
+    "outcomes": [
+      "Build and change simple musical patterns.",
+      "Explore how beats, chords and song structure affect a pattern."
+    ]
   },
   {
     "id": "resource:openlearn-sound",
@@ -270,7 +483,23 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
     "accessReviewedAt": "2026-09-12",
     "learnerLevel": "beginner",
-    "notes": "Introductory, with graphs and calculations. Reading is free without sign-up; some activities require a free account. Eligible OU material uses CC BY-NC-SA 4.0; third-party exceptions remain."
+    "notes": "Introductory, with graphs and calculations. Reading is free without sign-up; some activities require a free account. Eligible OU material uses CC BY-NC-SA 4.0; third-party exceptions remain.",
+    "details": {
+      "explanation": "This introductory course builds a physical vocabulary for sound using listening, diagrams and calculations. Its published outcomes include interpreting pressure waves and working with frequency, period, amplitude and wavelength.",
+      "example": {
+        "title": "Explaining a studio word",
+        "body": "A learner encounters the word frequency while discussing a recording, then uses the course to connect that term to a wave model."
+      },
+      "practice": "Start with Sound basics, then explore the pressure-wave section. Keep a list of unfamiliar terms to revisit."
+    },
+    "resourceKind": "course",
+    "preparation": "Read free in a browser; audio playback is used in listening activities. Suggested preparation: be ready for simple graphs and calculations. A free account unlocks progress tracking and all activities.",
+    "effort": "20 hours of study, as estimated by OpenLearn.",
+    "credential": "A free Statement of Participation is available after enrolling and completing the course.",
+    "outcomes": [
+      "Describe sound using a pressure-wave model.",
+      "Interpret wave quantities and work out wavelength from a pressure-versus-distance graph."
+    ]
   },
   {
     "id": "resource:openlearn-recording",
@@ -286,6 +515,146 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
     "accessReviewedAt": "2026-09-12",
     "learnerLevel": "intermediate",
-    "notes": "Free course reading; a free account unlocks progress tracking and some activities. Eligible OU material uses CC BY-NC-SA 4.0; acknowledged third-party materials are excluded."
+    "notes": "Free course reading; a free account unlocks progress tracking and some activities. Eligible OU material uses CC BY-NC-SA 4.0; acknowledged third-party materials are excluded.",
+    "details": {
+      "explanation": "The course connects the development of recording with practical choices such as microphone placement and keeping session notes. Its practical section explains that owning a recorder is optional for understanding the material.",
+      "example": {
+        "title": "Planning before recording",
+        "body": "A learner reads the practical section and drafts a recording log for a future session before deciding whether to try a recording."
+      },
+      "practice": "Read the recording-log section and sketch a log for a session you could realistically organize."
+    },
+    "resourceKind": "course",
+    "preparation": "Read free in a browser. A portable recorder is optional for trying your own recording; it is not needed to understand the course. A free account unlocks progress tracking and all activities.",
+    "effort": "8 hours of study, as estimated by OpenLearn.",
+    "credential": "A free Statement of Participation is available after enrolling and completing the course.",
+    "outcomes": [
+      "Recognize how recording work and technology have developed.",
+      "Consider microphone placement and plan practical recordings."
+    ]
+  },
+  {
+    "id": "knowledge:music",
+    "type": "knowledge",
+    "kind": "field",
+    "label": "Music",
+    "summary": "A field of making and understanding music, connecting musical ideas, structures and practical musicianship.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Studying music can connect listening and musical structures with practical musicianship. This branch gives a broad entry into the theory and technology used in this song journey, rather than defining one occupation or musical tradition.",
+      "example": {
+        "title": "Following an interest",
+        "body": "A listener becomes curious about a song's repeating pattern and follows that question into rhythm, theory and practical music making."
+      }
+    }
+  },
+  {
+    "id": "knowledge:music-theory",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Music theory",
+    "summary": "Ways to describe musical pitch, rhythm and harmony, including notation and the relationships between notes.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Music theory gives language and notation for examining how music is organized. Rhythm, pitch and harmony are examples of its topics; the introductory source used here focuses on Western notation and triads.",
+      "example": {
+        "title": "Describing a pattern",
+        "body": "A learner invents a short repeated rhythm and then tries to describe its timing so someone else can reproduce the idea."
+      }
+    }
+  },
+  {
+    "id": "knowledge:music-technology",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Music technology",
+    "summary": "How instruments and technical systems help create, change, store and reproduce musical sound.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Music technology includes instruments as well as recording and playback systems. It concerns producing, manipulating, storing and reproducing sound, drawing on technical knowledge while serving musical choices.",
+      "example": {
+        "title": "From vibration to playback",
+        "body": "A musician traces a performed note through a microphone, a recording system and later playback to identify where technology participates."
+      }
+    }
+  },
+  {
+    "id": "role:topline-songwriter",
+    "type": "role",
+    "label": "Top-line songwriter",
+    "summary": "Writes vocal melodies and lyrics for an existing instrumental track.",
+    "aliases": [
+      "topliner",
+      "top-line writer",
+      "topline songwriter"
+    ],
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A top-line songwriter starts with an existing instrumental production and develops its vocal melody and lyrics. Hooks, phrasing and demo vocals help fit the writing to the track and intended performer.",
+      "example": {
+        "title": "Writing above an existing track",
+        "body": "A producer supplies an instrumental loop. The top-line writer tries two vocal melodies and records a rough demonstration of the preferred one."
+      }
+    }
+  },
+  {
+    "id": "resource:openlearn-sound-basics",
+    "type": "learning_resource",
+    "label": "Sound basics",
+    "summary": "Start with music technology, listening descriptions and the difference between sound as a sensation and a physical event.",
+    "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-1.1",
+    "provider": "The Open University / OpenLearn",
+    "resourceKind": "module",
+    "format": "course section",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+    "accessReviewedAt": "2026-09-12",
+    "learnerLevel": "beginner",
+    "preparation": "Read in a browser and use audio playback for the listening activities. Suggested preparation: start here if the technical vocabulary is new. A free account enables all course activities.",
+    "outcomes": [
+      "Recognize how technology participates in making and reproducing music.",
+      "Distinguish descriptions of what is heard from the physical stimulus that produces it."
+    ],
+    "notes": "OpenLearn names this section 1 of Sound for music technology: An introduction. Module is our curriculum category for that published section, not a separate award. Eligible OU material uses CC BY-NC-SA 4.0; third-party exceptions remain.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "This named opening section considers music technology and ways of describing sound. Its listening activities lead toward the distinction between a heard sensation and the physical event studied in acoustics.",
+      "example": {
+        "title": "Naming what you hear",
+        "body": "A learner first describes a sound by its source, then tries a description of the experience itself. Both descriptions become material for reflection."
+      },
+      "practice": "Try the section's listening activity and compare your own descriptions with the discussion."
+    }
+  },
+  {
+    "id": "resource:openlearn-sinusoidal-waves",
+    "type": "learning_resource",
+    "label": "Sinusoidal pressure waves",
+    "summary": "Explore a simple model of sound through pressure patterns, cycles, period and wavelength.",
+    "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-2.1",
+    "provider": "The Open University / OpenLearn",
+    "resourceKind": "module",
+    "format": "course section",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+    "accessReviewedAt": "2026-09-12",
+    "learnerLevel": "beginner",
+    "preparation": "Read in a browser. Suggested preparation: be ready to interpret simple graphs; the section introduces its wave vocabulary. A free account enables all course activities.",
+    "outcomes": [
+      "Explain how a vibrating source produces pressure changes in air.",
+      "Recognize a repeating cycle and relate it to the course's wave model."
+    ],
+    "notes": "OpenLearn names this section 2 of Sound for music technology: An introduction. Module is our curriculum category for that published section, not a separate award. Eligible OU material uses CC BY-NC-SA 4.0; third-party exceptions remain.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "This named section introduces sine waves as a simple model, then examines pressure changes, cycles, period and wavelength. A vibrating tuning fork provides the course's worked illustration of a travelling pressure wave.",
+      "example": {
+        "title": "Reading a wave model",
+        "body": "A learner marks one complete repeating movement in a sketch, then checks the section's explanation of a cycle."
+      },
+      "practice": "Read Pressure waves and cycles and try its self-assessment before viewing the answer."
+    }
   }
 ]

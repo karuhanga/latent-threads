@@ -243,3 +243,7 @@ Contributions may carry an optional nonempty `label` for their conventional acti
 
 ## Wave 2 extension
 [Wave 2](wave-2.md) specifies v0.2: optional contextual organization example records and aggregate pack loading. Existing node/relation semantics remain. This supersedes only the blanket organization-example deferral; full organization/facility profiles remain deferred.
+
+## Wave 3 extension
+
+[Wave 3](wave-3.md) is the accepted v0.3 extension for structured explanatory depth, learning-resource kinds and curriculum/prerequisite relationships. It activates existing field/subject knowledge hierarchy and retains distinct role specialization. The original v0.1 contract remains the historical baseline; current schema and source validation support legacy packs plus this explicit extension.

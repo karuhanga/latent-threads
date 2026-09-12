@@ -2,19 +2,28 @@ export type NodeType = 'endeavor' | 'stage' | 'artifact' | 'service' | 'role' | 
 export type EditorialStatus = 'draft' | 'illustrative' | 'published';
 export type TimeBound = { value: string; precision: 'year' | 'month' | 'day'; qualifier: 'exact' | 'approximate' };
 export type ValidTime = { start?: TimeBound | null; end?: TimeBound | null };
+export interface ContentDetails {
+  explanation: string;
+  example: { title: string; body: string };
+  inputs?: string; outputs?: string; decision?: string; practice?: string;
+}
+export type ResourceKind = 'program' | 'course' | 'module' | 'tutorial' | 'guide' | 'article' | 'workshop' | 'apprenticeship';
 export interface Node {
   id: string; type: NodeType; label: string; summary: string; editorialStatus: EditorialStatus;
   aliases?: string[]; kind?: string; notes?: string; validTime?: ValidTime;
+  details?: ContentDetails;
   endeavorId?: string; displayOrder?: number;
   url?: string; provider?: string; format?: string; learnerLevel?: string;
+  resourceKind?: ResourceKind; preparation?: string; effort?: string; credential?: string; outcomes?: string[];
   access?: 'free' | 'audit_free' | 'paid' | 'mixed' | 'unknown';
   licenseStatus?: 'open' | 'restricted' | 'unknown'; licenseUrl?: string; accessReviewedAt?: string;
 }
 export interface Contribution {
   id: string; endeavorId: string; stageId: string; roleId: string; action: string; label?: string;
   editorialStatus: EditorialStatus; notes?: string; validTime?: ValidTime;
+  details?: ContentDetails;
 }
-export type RelationType = 'produces' | 'depends_on' | 'uses' | 'requires_capability' | 'draws_on' | 'teaches' | 'hands_off_to' | 'coordinates_with' | 'specializes' | 'part_of';
+export type RelationType = 'produces' | 'depends_on' | 'uses' | 'requires_capability' | 'draws_on' | 'teaches' | 'hands_off_to' | 'coordinates_with' | 'specializes' | 'part_of' | 'curriculum_part_of' | 'learning_requires';
 export interface Relation {
   id: string; type: RelationType; fromId: string; toId: string; editorialStatus: EditorialStatus;
   summary?: string; validTime?: ValidTime;
@@ -43,7 +52,7 @@ export interface OrganizationExample {
   contributionId: string; placeId: string; placeContext: string; editorialStatus: EditorialStatus;
 }
 export interface Catalog {
-  schemaVersion: '0.1' | '0.2'; nodes: Node[]; contributions: Contribution[]; relations: Relation[];
+  schemaVersion: '0.1' | '0.2' | '0.3'; nodes: Node[]; contributions: Contribution[]; relations: Relation[];
   sources: Source[]; evidence: Evidence[]; places: Place[];
   presenceAssessments: PresenceAssessment[]; taxonomyMappings: TaxonomyMapping[];
   organizationExamples?: OrganizationExample[];

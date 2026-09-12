@@ -88,5 +88,95 @@
     "retrievedAt": "2026-09-12",
     "reuseStatus": "unreviewed",
     "pinpoint": "Six overlapping areas of work, not a complete construction specification"
+  },
+  {
+    "id": "source:housing-wave3-editorial",
+    "title": "Housing depth and example rationale",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-housing.md",
+    "publisher": "Latent Threads",
+    "pinpoint": "Internal scenario design and claim map",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed"
+  },
+  {
+    "id": "source:housing-ncarb",
+    "title": "Why Architecture",
+    "kind": "external",
+    "locator": "https://www.ncarb.org/become-architect/why-architecture",
+    "publisher": "National Council of Architectural Registration Boards",
+    "pinpoint": "What architects do; breadth of architecture",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-whole-house",
+    "title": "How to Design for Performance",
+    "kind": "external",
+    "locator": "https://bsesc.energy.gov/energy-basics/how-design-performance",
+    "publisher": "U.S. Department of Energy · Building Science Education",
+    "pinpoint": "What? and How?; interaction of building components and design choices",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-onet-carpenter",
+    "title": "Carpenters — tasks",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/47-2031.00",
+    "publisher": "O*NET OnLine · U.S. Department of Labor",
+    "pinpoint": "Tasks: layout, dimensions, materials, frameworks and fixtures",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-onet-surveyor",
+    "title": "Surveyors — tasks",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/17-1022.00",
+    "publisher": "O*NET OnLine · U.S. Department of Labor",
+    "pinpoint": "Tasks: field records, calculations, verification, maps and reports",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-cad",
+    "title": "CAD software",
+    "kind": "external",
+    "locator": "https://www.autodesk.com/solutions/cad-software",
+    "publisher": "Autodesk",
+    "pinpoint": "What is CAD software?; documentation, dimensioning and drawing modification",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-level",
+    "title": "Type 70 spirit level",
+    "kind": "external",
+    "locator": "https://www.stabila.com/en/products/details/type-70-spirit-level.html",
+    "publisher": "STABILA",
+    "pinpoint": "Product description and equipment: horizontal/vertical vials and measuring surface; no product recommendation",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-trades-catalog",
+    "title": "Read Drawings and Specifications — publisher record",
+    "kind": "external",
+    "locator": "https://collection.bccampus.ca/textbook/yxJ3AwTa/",
+    "publisher": "BCcampus",
+    "pinpoint": "About, author, 2015 publication, entry-level purpose and license",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:housing-trades-drawings",
+    "title": "Read Drawings and Specifications",
+    "kind": "external",
+    "locator": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/415/5/D3.pdf",
+    "publisher": "Camosun College · BCcampus; copy hosted by eCampusOntario",
+    "pinpoint": "2015 edition: printed pp.2–8 copyright/limits/objectives; pp.25–40 lines/dimensions; pp.45–50 scales; pp.57–64 drawing views",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
   }
 ]

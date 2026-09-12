@@ -5,8 +5,18 @@
     "stageId": "stage:housing-design",
     "roleId": "role:architect",
     "label": "Architectural design",
-    "action": "Translate the client\u2019s requirements into building plans and drawings.",
-    "editorialStatus": "published"
+    "action": "Translate the client’s requirements into building plans and drawings.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Architectural design develops a client’s requirements into drawings and specifications. The proposal makes spatial choices concrete enough to discuss and revise. Its output gives construction work a defined intention, rather than leaving every decision to the site.",
+      "example": {
+        "title": "Moving a doorway",
+        "body": "The client asks for a doorway closer to the kitchen. The architect explores the change in the plan before presenting the revised arrangement for discussion."
+      },
+      "inputs": "The client’s requirements and information about the planned building.",
+      "outputs": "A proposal expressed through drawings and specifications.",
+      "decision": "Which arrangement best addresses the client’s requirements?"
+    }
   },
   {
     "id": "contribution:housing-survey",
@@ -15,7 +25,17 @@
     "roleId": "role:land-surveyor",
     "label": "Land surveying",
     "action": "Measure the site and record its features and boundaries.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Land surveying gathers and checks information about the plot. Field measurements are interpreted alongside records, then communicated as a map or report. The value of the activity lies in making the site description dependable enough to inform the next discussion.",
+      "example": {
+        "title": "Checking a surprising reading",
+        "body": "One recorded corner appears inconsistent with the other site measurements. The surveyor checks the data before including that position in the report used for planning."
+      },
+      "inputs": "Survey objectives, existing records and observations of the site.",
+      "outputs": "Checked measurements and a documented site description.",
+      "decision": "Does a surprising result need further checking before it is reported?"
+    }
   },
   {
     "id": "contribution:housing-masonry",
@@ -24,7 +44,17 @@
     "roleId": "role:mason",
     "label": "Masonry",
     "action": "Build and align masonry walls from the plans.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Masonry work interprets the planned layout, prepares the needed units and builds the wall. Alignment checks connect the growing structure with that intention. The activity combines material work with repeated comparison against the plan.",
+      "example": {
+        "title": "Keeping an opening in view",
+        "body": "Masonry work approaches a doorway shown on the plan. The mason uses the layout to continue the wall while retaining the opening specified by the design."
+      },
+      "inputs": "The wall layout and specified masonry materials.",
+      "outputs": "Masonry formed and checked against the planned arrangement.",
+      "decision": "Which layout information must be checked before continuing this portion of the wall?"
+    }
   },
   {
     "id": "contribution:housing-framing",
@@ -33,7 +63,17 @@
     "roleId": "role:carpenter",
     "label": "Framing",
     "action": "Measure, shape and assemble the building framework.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Framing translates the building plans into measured and assembled components. Interpreting dimensions and preparing materials connect the proposed layout with the framework on site. Checking the assembly helps reveal differences that need attention.",
+      "example": {
+        "title": "A frame for a planned opening",
+        "body": "A doorway is taking shape in the home’s framework. The carpenter checks its intended dimensions in the plan and compares the assembled opening with that information."
+      },
+      "inputs": "Building plans, dimensions and selected framing materials.",
+      "outputs": "An assembled framework checked against the plan.",
+      "decision": "Does the prepared assembly match the intended dimensions?"
+    }
   },
   {
     "id": "contribution:housing-electrical",
@@ -42,7 +82,17 @@
     "roleId": "role:electrician",
     "label": "Electrical installation",
     "action": "Install and inspect wiring and lighting systems.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Electrical installation uses diagrams to place and connect the planned system. Inspection and testing investigate whether the components perform as intended. The activity includes resolving problems, not simply fitting visible switches and lights.",
+      "example": {
+        "title": "A changed light position",
+        "body": "A revised kitchen plan moves a light. The electrician refers to the updated technical information and checks the resulting installation rather than treating the old position as authoritative."
+      },
+      "inputs": "Electrical diagrams and the components specified for the installation.",
+      "outputs": "Installed electrical work with inspection or testing findings.",
+      "decision": "Do the diagrams and observed installation agree, or is clarification needed?"
+    }
   },
   {
     "id": "contribution:housing-plumbing",
@@ -51,7 +101,17 @@
     "roleId": "role:plumber",
     "label": "Plumbing installation",
     "action": "Install pipes and fixtures and test the installed system.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Plumbing installation combines the planned fixture arrangement with suitable piping materials. After installation, inspection and testing check the system. A useful result includes understanding and addressing problems found during those checks.",
+      "example": {
+        "title": "A connection that needs attention",
+        "body": "A check reveals a problem after the kitchen sink’s pipework is installed. The plumber investigates and addresses the finding instead of considering the visible installation complete."
+      },
+      "inputs": "The plumbing layout, fixtures and selected piping materials.",
+      "outputs": "Installed pipework and fixtures, with findings from checks addressed.",
+      "decision": "What do the inspection or test findings indicate needs attention?"
+    }
   },
   {
     "id": "contribution:housing-joinery",
@@ -60,7 +120,17 @@
     "roleId": "role:carpenter",
     "label": "Interior joinery",
     "action": "Fit interior fixtures such as cabinets and molding.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Interior joinery fits elements such as cabinets and trim into their intended positions. Reading dimensions and checking the real space connect the design with fabrication and installation. The visible result depends on how the pieces meet both the room and one another.",
+      "example": {
+        "title": "A cabinet beside a doorway",
+        "body": "A kitchen cabinet is positioned next to a doorway. The carpenter checks the specified dimensions and actual space before fitting the cabinet into that part of the room."
+      },
+      "inputs": "Fixture drawings, dimensions, prepared parts and the installation space.",
+      "outputs": "Interior fixtures fitted into their intended positions.",
+      "decision": "Do the prepared parts and actual space agree with the planned fit?"
+    }
   },
   {
     "id": "contribution:housing-manage",
@@ -69,6 +139,16 @@
     "roleId": "role:construction-manager",
     "label": "Construction management",
     "action": "Coordinate trades, schedules and budgets as the project progresses.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Construction management compares site progress with the timetable and budget. Coordination and reporting make changes visible to the people responsible for the project. When a delay appears, the plan needs reconsideration in light of the work still to do.",
+      "example": {
+        "title": "The delivery date changes",
+        "body": "A later delivery date arrives for the cabinets. The manager examines the affected work, revises the timetable where needed and explains the implications to the client."
+      },
+      "inputs": "The project plan, budget and current progress information.",
+      "outputs": "An updated work timetable and communicated progress decisions.",
+      "decision": "What should change when a delay affects the planned work?"
+    }
   }
 ]

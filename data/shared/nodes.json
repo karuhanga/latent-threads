@@ -5,15 +5,31 @@
     "label": "Measurement",
     "summary": "Expressing a quantity using a number and a reference unit, so values can be compared.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "A number becomes useful when you know what was measured and which unit expresses it. Length, mass and time describe different quantities; their units let another person interpret a recorded value. The same object can have different numerical values when expressed in different units. Keeping the number and unit together makes comparisons meaningful.",
+      "example": {
+        "title": "Thirty of what?",
+        "body": "Imagine a drawing that labels a shelf “30”. Someone reading it still needs to know whether that means centimetres or millimetres. Writing the quantity and unit makes the intended size understandable."
+      },
+      "practice": "Measure the width of a notebook. Record the value with its unit, then express the same width in another compatible unit."
+    }
   },
   {
     "id": "capability:project-planning",
     "type": "capability",
     "label": "Project planning",
-    "summary": "Defining the work and organizing tasks and resources to meet a project\u2019s requirements.",
+    "summary": "Defining the work and organizing tasks and resources to meet a project’s requirements.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Planning turns an intended result into a definition of the work and the resources it needs. It includes identifying deliverables, considering risks and keeping people informed. A plan can change as the team learns: some projects begin with stable requirements, while others need repeated adjustments. The useful question is what must happen next for this particular outcome.",
+      "example": {
+        "title": "A small exhibition",
+        "body": "Imagine preparing an exhibition with three friends. You agree what visitors should see, list the things to prepare and decide who handles each task. If a display arrives late, you revisit the plan together instead of assuming the opening date alone organizes the work."
+      },
+      "practice": "Choose a small project. Write its intended result, three deliverables and one uncertainty that might change your plan."
+    }
   },
   {
     "id": "resource:nist-si-units",
@@ -27,6 +43,19 @@
     "learnerLevel": "Introductory",
     "access": "free",
     "licenseStatus": "unknown",
-    "accessReviewedAt": "2026-09-12"
+    "accessReviewedAt": "2026-09-12",
+    "resourceKind": "article",
+    "preparation": "A browser is enough to read the page. The optional estimation activities use everyday objects.",
+    "outcomes": [
+      "Distinguish a quantity, its numerical value and its unit.",
+      "Recognize the structure of base units, derived units and prefixes."
+    ],
+    "details": {
+      "explanation": "This NIST introduction explains the structure of the International System of Units. Start with the useful definitions, then explore the base units and prefixes. Linked student activities provide another way to practise reading and estimating measurements.",
+      "example": {
+        "title": "Read a measurement carefully",
+        "body": "Use a measurement from an everyday label as a reading exercise. Identify its number and unit, then use the page to explain what quantity it represents."
+      }
+    }
   }
 ]

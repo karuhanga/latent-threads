@@ -6,7 +6,17 @@
     "roleId": "role:songwriter",
     "action": "Develop and revise a melody and words that give the song its identity.",
     "editorialStatus": "published",
-    "label": "Songwriting"
+    "label": "Songwriting",
+    "details": {
+      "explanation": "The writer develops and revises musical and verbal ideas, then makes them shareable. In this route, the useful result is a song idea that another person can hear or perform.",
+      "example": {
+        "title": "A clearer chorus",
+        "body": "A writer records two rough versions of a chorus and keeps the one whose phrasing best expresses the intended idea."
+      },
+      "inputs": "A starting melody, words or another musical idea.",
+      "outputs": "Revised song material, which may be demonstrated in a rough demo.",
+      "decision": "Which version of the melody and words best communicates the intended song?"
+    }
   },
   {
     "id": "contribution:song-arrange",
@@ -15,7 +25,17 @@
     "roleId": "role:arranger",
     "action": "Choose instruments, harmonies and tempo to give the composition a particular musical character.",
     "editorialStatus": "published",
-    "label": "Arrangement"
+    "label": "Arrangement",
+    "details": {
+      "explanation": "Arrangement turns an existing composition toward a particular musical setting. Choices about parts, instruments, harmony and tempo determine how that composition will be expressed in this recording.",
+      "example": {
+        "title": "Making room in the verse",
+        "body": "A arranger removes a repeated keyboard figure from the verse and brings it back for the chorus to create a contrast."
+      },
+      "inputs": "An existing composition and an intended musical setting.",
+      "outputs": "An adapted set of musical parts or an arrangement for performers.",
+      "decision": "Which parts and instruments should carry the composition's important material?"
+    }
   },
   {
     "id": "contribution:song-produce",
@@ -24,7 +44,17 @@
     "roleId": "role:music-producer",
     "action": "Develop the arrangement and plan recording sessions so the project has a shared creative direction.",
     "editorialStatus": "published",
-    "label": "Production"
+    "label": "Production",
+    "details": {
+      "explanation": "Production connects the artist's direction to decisions about the recording work. Session planning and guidance of performances help turn that direction into a project people can carry out.",
+      "example": {
+        "title": "Planning a focused session",
+        "body": "A producer and artist decide to develop the vocal performance before adding more instruments, then organize the session around that priority."
+      },
+      "inputs": "The artist's musical direction and the material being developed.",
+      "outputs": "A session plan and creative guidance for the recording work.",
+      "decision": "Which recording choices and session priorities best serve the intended result?"
+    }
   },
   {
     "id": "contribution:song-perform",
@@ -33,7 +63,17 @@
     "roleId": "role:session-musician",
     "action": "Play and adapt instrumental parts to give the recording the performance it needs.",
     "editorialStatus": "published",
-    "label": "Performance"
+    "label": "Performance",
+    "details": {
+      "explanation": "The player prepares or develops a part and responds to the session's musical direction. A supplied chart can guide the work, while another session may call for an improvised interpretation.",
+      "example": {
+        "title": "Responding to a new direction",
+        "body": "A guitarist plays a written part, then tries a simpler variation after the artist asks for a less busy accompaniment."
+      },
+      "inputs": "A chart, demo or musical direction from the session.",
+      "outputs": "A performed instrumental part available to be captured in the recording.",
+      "decision": "How closely should this performance follow the supplied part or adapt to the requested feel?"
+    }
   },
   {
     "id": "contribution:song-record",
@@ -42,7 +82,17 @@
     "roleId": "role:recording-engineer",
     "action": "Position microphones and capture takes so musical performances become recorded material.",
     "editorialStatus": "published",
-    "label": "Recording"
+    "label": "Recording",
+    "details": {
+      "explanation": "The engineer turns a performance into recorded takes by preparing the equipment and choosing microphone positions. Position is a musical as well as a practical choice: it influences the balance between the performers and the space around them. Short trial recordings can help compare positions. Keeping clear notes with the takes preserves what was captured and why a version was preferred.",
+      "example": {
+        "title": "Finding the chosen take",
+        "body": "A voice-and-guitar take has more room sound than the team wants. The engineer changes the microphone position, records a comparison and notes the preferred setup beside the take."
+      },
+      "inputs": "Performers, recording equipment and the intended sound to capture.",
+      "outputs": "Recorded takes and session notes for later review.",
+      "decision": "Which microphone setup and captured take give the session usable material?"
+    }
   },
   {
     "id": "contribution:song-mix",
@@ -51,7 +101,17 @@
     "roleId": "role:mixing-engineer",
     "action": "Balance the recorded parts into a coherent mix so the musical focus is clear.",
     "editorialStatus": "published",
-    "label": "Mixing"
+    "label": "Mixing",
+    "details": {
+      "explanation": "The engineer starts from separate recorded parts and listens for how they work together. Volume and pan controls shape their balance and stereo placement; muting or soloing a track helps examine what it contributes. These controls serve a musical decision rather than a fixed recipe. The result is a combined mix the artist can review against the song's intended focus.",
+      "example": {
+        "title": "Comparing the chorus",
+        "body": "The chorus has voice, drums, bass and two guitars. The engineer lowers one guitar and moves the other away from the centre, then checks whether the vocal is clearer without losing the chorus's energy."
+      },
+      "inputs": "Separate recorded parts and the intended sound of the song.",
+      "outputs": "A combined mix for listening and review.",
+      "decision": "What should hold the listener's attention, and how should the other parts support it?"
+    }
   },
   {
     "id": "contribution:song-master",
@@ -60,7 +120,17 @@
     "roleId": "role:mastering-engineer",
     "action": "Refine the mix’s overall balance so it is prepared for release and different playback settings.",
     "editorialStatus": "published",
-    "label": "Mastering"
+    "label": "Mastering",
+    "details": {
+      "explanation": "The completed mix is assessed at the overall level and refined for release. The work considers tonal and dynamic balance while preserving the intended character of the recording.",
+      "example": {
+        "title": "Keeping the contrast",
+        "body": "In a review, a stronger treatment reduces a contrast the artist values. The engineer compares a more restrained version before choosing the result."
+      },
+      "inputs": "The mixed recording and the artist's intentions for its finished sound.",
+      "outputs": "A refined master prepared for its intended release.",
+      "decision": "How much overall adjustment improves the result while preserving the musical intention?"
+    }
   },
   {
     "id": "contribution:song-release",
@@ -69,6 +139,16 @@
     "roleId": "role:independent-artist",
     "action": "Prepare audio, credits and artwork for a distributor to deliver the release to Spotify listeners.",
     "editorialStatus": "published",
-    "label": "Distribution"
+    "label": "Distribution",
+    "details": {
+      "explanation": "The artist gathers the release material and follows a distributor's delivery requirements. This route uses Spotify as its concrete destination; its release information travels with the audio and artwork.",
+      "example": {
+        "title": "Checking the package",
+        "body": "A artist reviews the uploaded audio, cover and credits together before submitting the release through a distributor."
+      },
+      "inputs": "Release-ready audio, artwork and the information identifying the release and contributors.",
+      "outputs": "A prepared submission for the distributor to deliver to Spotify.",
+      "decision": "Is the audio and accompanying information ready to represent this release?"
+    }
   }
 ]

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
-import { typeLabels, type Graph } from '../data/graph.ts';
+import { entityTypeLabel, type Graph } from '../data/graph.ts';
 import { discoveryPool, makeDiscoveryWall, pickDiscovery, runWallTransition, searchDiscovery, type WallPhase } from '../discovery.ts';
 import { usePreferences } from '../preferences.tsx';
 import { routeToHash } from '../routing.ts';
@@ -101,7 +101,7 @@ export function DiscoveryHome({ graph, query, onQueryChange, onSurprise }: {
             {query && <button className="search-clear" type="button" onClick={clearQuery}>Clear</button>}
             <button className="search-submit" type="submit" aria-label="Go to catalog search results"><Arrow /></button>
           </div>
-          <p id="search-hint" className="search-hint">Endeavors, activities, roles, skills, concepts and tools</p>
+          <p id="search-hint" className="search-hint">Endeavors, activities, roles, subjects, skills, tools and courses</p>
         </form>
         <div className="catalog-controls">
           <div className="discovery-actions"><button type="button" className="discovery-action" onClick={() => { updateQuery(''); shuffle(true); }}>Shuffle <span aria-hidden="true">↻</span></button><button type="button" className="discovery-action surprise-action" onClick={surprise}>Surprise me <Arrow diagonal /></button></div>
@@ -114,7 +114,7 @@ export function DiscoveryHome({ graph, query, onQueryChange, onSurprise }: {
         {hasQuery && (results.length ? <>
           <ul className="search-results">{results.slice(0, resultLimit).map((entity, index) => <li key={entity.id}>
             <a ref={index === 0 ? firstResult : undefined} href={entityHref(entity.id)}>
-              <span className={`result-type result-type-${entity.type}`}>{typeLabels[entity.type]}</span>
+              <span className={`result-type result-type-${entity.type}`}>{entityTypeLabel(entity)}</span>
               <div><h2>{entity.label}</h2><p>{entity.summary}</p></div><Arrow diagonal />
             </a>
           </li>)}</ul>
@@ -129,9 +129,9 @@ export function DiscoveryHome({ graph, query, onQueryChange, onSurprise }: {
             const entity = graph.getNode(tile.entityId);
             if (!entity) return null;
             return <li key={tile.slot} className={`catalog-tile-slot tile-size-${tile.size}`} style={{ gridArea: tile.slot, '--tile-delay': `${index * 30}ms` } as CSSProperties}>
-              <a className={`catalog-tile catalog-tile-${entity.type}`} href={entityHref(entity.id)} aria-label={`${typeLabels[entity.type]}: ${entity.label}`}>
+              <a className={`catalog-tile catalog-tile-${entity.type}`} href={entityHref(entity.id)} aria-label={`${entityTypeLabel(entity)}: ${entity.label}`}>
                 <div className="catalog-tile-face">
-                  <div className="catalog-tile-top"><span>{typeLabels[entity.type]}</span><Arrow diagonal /></div>
+                  <div className="catalog-tile-top"><span>{entityTypeLabel(entity)}</span><Arrow diagonal /></div>
                   <h2>{entity.label}</h2>
                   {tile.size === 'large' && <p>{entity.summary}</p>}
                   <div className="catalog-tile-mark" aria-hidden="true"><i /><i /><i /></div>

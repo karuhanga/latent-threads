@@ -110,5 +110,29 @@
     "toId": "knowledge:building-heat-loss",
     "editorialStatus": "published",
     "summary": "Heat loss is a useful consideration when exploring building design."
+  },
+  {
+    "id": "relation:housing-building-design-field",
+    "type": "part_of",
+    "fromId": "knowledge:housing-building-design",
+    "toId": "knowledge:housing-architecture",
+    "summary": "Building design is an area within architecture.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:housing-drawing-design",
+    "type": "draws_on",
+    "fromId": "capability:architectural-drawing",
+    "toId": "knowledge:housing-building-design",
+    "summary": "Architectural drawing communicates decisions about a building design.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:housing-trades-learning",
+    "type": "teaches",
+    "fromId": "resource:housing-trades-drawings",
+    "toId": "capability:blueprint-reading",
+    "summary": "The textbook develops drawing interpretation through dimensions, scales and views.",
+    "editorialStatus": "published"
   }
 ]

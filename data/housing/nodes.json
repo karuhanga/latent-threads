@@ -10,7 +10,14 @@
       "build a house",
       "construction"
     ],
-    "notes": "A compact exploration of selected contributions. The stages overlap and do not prescribe a complete building method or jurisdiction-specific requirements."
+    "notes": "A compact exploration of selected contributions. The stages overlap and do not prescribe a complete building method or jurisdiction-specific requirements.",
+    "details": {
+      "explanation": "A home emerges from decisions about living spaces, a measured site, materials and installed systems. Choices in one area affect others: the building enclosure and its services work together. These six work areas offer a way to explore those connections; they can overlap as a design develops.",
+      "example": {
+        "title": "A compact home, many decisions",
+        "body": "A small home has a kitchen beside a living room. Follow its drawings into the site survey, structure, services and fitted cabinets, noticing how each contribution helps make the rooms usable."
+      }
+    }
   },
   {
     "id": "artifact:home",
@@ -21,7 +28,14 @@
     "aliases": [
       "house",
       "housing"
-    ]
+    ],
+    "details": {
+      "explanation": "A home brings spaces and building systems together around everyday life. Its usefulness depends on more than the outline of its rooms: windows, insulation, lighting and water heating affect how the building performs. The finished building is the outcome; designing and constructing it are the work behind that outcome.",
+      "example": {
+        "title": "Look beyond the walls",
+        "body": "On a cold evening in the example home, the kitchen needs its fitted fixtures and services, while the enclosing building helps maintain an indoor environment for the people living there."
+      }
+    }
   },
   {
     "id": "stage:housing-design",
@@ -30,7 +44,14 @@
     "summary": "Plan the spaces and requirements.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:home-building",
-    "displayOrder": 0
+    "displayOrder": 0,
+    "details": {
+      "explanation": "Design begins with what the client needs and turns those requirements into a proposal others can discuss. Drawings and specifications communicate spaces and construction information. Cost and timing also enter the conversation as the proposal becomes more definite.",
+      "example": {
+        "title": "Space for a shared meal",
+        "body": "The residents want a kitchen where two people can prepare food. The design discussion tests possible layouts before one arrangement is developed into drawings."
+      }
+    }
   },
   {
     "id": "stage:housing-site",
@@ -39,7 +60,14 @@
     "summary": "Understand the site through measurements.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:home-building",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "details": {
+      "explanation": "A site survey turns observations of land into recorded information. Positions, dimensions and changes in elevation help describe the place where work is planned. Checking the measurements and documenting the results are as important as collecting readings outdoors.",
+      "example": {
+        "title": "A garden that is not flat",
+        "body": "The rear corner of a plot sits higher than its entrance. The survey records that difference so the design discussion starts with a measured description of the land."
+      }
+    }
   },
   {
     "id": "stage:housing-structure",
@@ -48,7 +76,14 @@
     "summary": "Build the walls and supporting framework.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:home-building",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "details": {
+      "explanation": "This area focuses on the walls and framework shown in the building plans. Masonry and carpentry offer different kinds of construction work; a particular design determines which are used. Workers translate dimensions and material information into physical assemblies and check the resulting work.",
+      "example": {
+        "title": "From lines to an opening",
+        "body": "An opening marked on a drawing must become a real opening in the home’s structure. The people building that portion use the specified layout rather than choosing its size by eye."
+      }
+    }
   },
   {
     "id": "stage:housing-services",
@@ -57,7 +92,14 @@
     "summary": "Install electrical and plumbing systems.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:home-building",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "details": {
+      "explanation": "Building services make activities such as lighting a room or using a sink possible. This route highlights electrical and plumbing installation. Their drawings identify equipment and routes within the building, and inspection or testing checks the installed work.",
+      "example": {
+        "title": "A kitchen becomes usable",
+        "body": "The kitchen walls are complete but the sink and lights are still being installed. Following the service activities reveals the separate work needed before those features function."
+      }
+    }
   },
   {
     "id": "stage:housing-finishing",
@@ -66,7 +108,14 @@
     "summary": "Fit the details that make spaces usable.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:home-building",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "details": {
+      "explanation": "Finishing brings attention to fixtures and the visible fit of a room. Here, interior joinery represents that work through cabinets and molding. Dimensions in the design must be reconciled with the space where the fixtures will actually be installed.",
+      "example": {
+        "title": "The last cabinet",
+        "body": "A cabinet will fit into a corner of the kitchen. Its intended position is clear on paper; checking the real space helps the carpenter prepare a fixture that fits that position."
+      }
+    }
   },
   {
     "id": "stage:housing-coordination",
@@ -75,56 +124,112 @@
     "summary": "Organize people, budgets and schedules throughout the build.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:home-building",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "details": {
+      "explanation": "Coordination continues while the other work areas change. It connects the timetable, budget and progress on site. When delivery or work is delayed, someone must assess the consequences and update the plan rather than assuming the original dates still describe the project.",
+      "example": {
+        "title": "A delayed delivery",
+        "body": "The selected cabinets will arrive later than planned. The construction manager revisits the work timetable and explains the change to the client while checking what other work can proceed."
+      }
+    }
   },
   {
     "id": "role:architect",
     "type": "role",
     "label": "Architect",
     "summary": "Plans spaces and prepares drawings for buildings.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An architect develops a building proposal from a client’s objectives and requirements. The work includes drawings and specifications, with attention to cost and construction information. Site visits can check how construction relates to the plans; the design work continues beyond making an attractive image.",
+      "example": {
+        "title": "A request that needs a drawing",
+        "body": "A client asks to move a bedroom door. The architect considers the request in the layout and develops the drawing changes needed to communicate the proposal."
+      }
+    }
   },
   {
     "id": "role:land-surveyor",
     "type": "role",
     "label": "Land surveyor",
     "summary": "Measures land features and documents boundaries.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A land surveyor combines measurement with existing records to describe a site and its boundaries. Field readings become checked maps, plots or reports. This work distinguishes a visible feature, such as a fence, from the documented information needed to understand a boundary.",
+      "example": {
+        "title": "An uncertain fence",
+        "body": "A fence does not seem to match an old site drawing. The surveyor investigates the records and measurements instead of treating the fence alone as the answer."
+      }
+    }
   },
   {
     "id": "role:mason",
     "type": "role",
     "label": "Mason",
     "summary": "Builds structures from brick, block, stone or concrete.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A mason forms structures using materials such as brick, block or stone. Plans guide layout and material requirements. Alignment matters as the work develops, so the role includes checking the structure as well as placing its components.",
+      "example": {
+        "title": "Following a wall layout",
+        "body": "The home’s planned wall takes shape through masonry work. Its drawing identifies the arrangement, while checks during construction help compare the emerging wall with that intended layout."
+      }
+    }
   },
   {
     "id": "role:carpenter",
     "type": "role",
     "label": "Carpenter",
     "summary": "Builds and fits frameworks, structures and fixtures.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A carpenter measures, shapes and assembles structures or fixtures from wood and other materials. Work can range from framing to fitting interior elements. Reading plans and checking the finished fit connect the drawing to a physical result.",
+      "example": {
+        "title": "One role, two contributions",
+        "body": "A carpenter helps build a room’s framework and later fits its interior molding. These are different activities, even when the same person contributes to both parts of the home."
+      }
+    }
   },
   {
     "id": "role:electrician",
     "type": "role",
     "label": "Electrician",
     "summary": "Installs and maintains electrical systems in buildings.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An electrician works with power, lighting and control systems. Reading technical diagrams, installing components and investigating faults require different kinds of attention. The role includes checking the system, rather than assuming that a fixture’s appearance proves it works correctly.",
+      "example": {
+        "title": "A light that needs investigation",
+        "body": "A newly fitted light does not behave as expected. The electrician compares the installation with its diagram and uses appropriate testing to investigate the problem."
+      }
+    }
   },
   {
     "id": "role:plumber",
     "type": "role",
     "label": "Plumber",
     "summary": "Installs and tests pipes and plumbing fixtures.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A plumber works on piping and the fixtures connected to it. The job includes interpreting plans, selecting required materials, installation and testing. A connection must perform its intended job; completing the visible arrangement is only part of the work.",
+      "example": {
+        "title": "A sink and its hidden connections",
+        "body": "A kitchen sink is ready to fit into a cabinet. The plumber’s contribution includes the pipework and checks that make the fixture useful, not just its visible bowl and taps."
+      }
+    }
   },
   {
     "id": "role:construction-manager",
     "type": "role",
     "label": "Construction manager",
     "summary": "Coordinates construction work, schedules and budgets.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A construction manager connects the project’s timetable and budget with work on site. Monitoring progress and reporting changes are part of that responsibility. The role calls for decisions when actual costs or delays diverge from the plan.",
+      "example": {
+        "title": "A choice with a schedule cost",
+        "body": "A client requests a different cabinet after orders are placed. The manager examines the effect on cost and timing so the decision is made with those consequences visible."
+      }
+    }
   },
   {
     "id": "capability:architectural-drawing",
@@ -132,21 +237,42 @@
     "label": "Architectural drawing",
     "summary": "Representing a building design with scaled drawings.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Architectural drawing communicates a proposed building so other people can understand the design. Drawings work with written instructions to turn an idea into information about construction. The skill includes deciding what another reader needs to see, rather than only making an appealing image.",
+      "example": {
+        "title": "A doorway on paper",
+        "body": "The kitchen doorway needs to appear in the home’s drawings. Its position and intended dimensions must be clear enough for another reader to understand the proposal."
+      }
+    }
   },
   {
     "id": "tool:cad",
     "type": "tool",
     "label": "CAD software",
     "summary": "Software used to produce designs and technical drawings.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "CAD software supports the creation and revision of digital drawings or models. Dimensions and annotations turn geometry into technical documentation. The software helps represent a proposal, while the operator still decides what the design should communicate.",
+      "example": {
+        "title": "Revising the kitchen layout",
+        "body": "Moving a cabinet in a digital plan also means updating its dimensions and notes. The useful result is a clearer revised proposal, not simply a different picture on screen."
+      }
+    }
   },
   {
     "id": "tool:total-station",
     "type": "tool",
     "label": "Total station",
     "summary": "A surveying instrument used to determine positions on a site.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A total station is one of the instruments used in surveying to determine positions. Robotic versions automate telescope positioning. Its readings enter a larger workflow of recording and verification; choosing and interpreting measurements remain part of the surveyor’s work.",
+      "example": {
+        "title": "Turning points into a site record",
+        "body": "The surveyor observes selected points around the plot. Readings from the instrument contribute to the site record, which is checked before the findings are presented."
+      }
+    }
   },
   {
     "id": "capability:bricklaying",
@@ -154,14 +280,28 @@
     "label": "Bricklaying",
     "summary": "Placing and aligning bricks to form masonry structures.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Bricklaying turns a planned arrangement into masonry by placing units and checking how they align. It combines interpreting the layout with control of the emerging work. The skill belongs to a specific construction task, not a universal recipe for every wall.",
+      "example": {
+        "title": "A pattern continued around a corner",
+        "body": "The design shows a brick arrangement that continues around a corner. The bricklayer follows that layout and checks how the two portions of the work meet."
+      }
+    }
   },
   {
     "id": "tool:spirit-level",
     "type": "tool",
     "label": "Level",
     "summary": "A tool used to check alignment during construction.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A spirit level provides a reference for checking horizontal or vertical alignment. Different vials serve those orientations; the measuring surface relates the tool to the work. A level answers an alignment question, while the drawing supplies the intended layout and dimensions.",
+      "example": {
+        "title": "Two different questions",
+        "body": "A wall’s position follows the drawing, but its alignment still needs checking. A level helps with that second question; its reading does not establish the wall’s intended location."
+      }
+    }
   },
   {
     "id": "capability:blueprint-reading",
@@ -169,7 +309,14 @@
     "label": "Reading construction drawings",
     "summary": "Interpreting building plans to guide construction work.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Reading construction drawings means connecting lines, symbols, dimensions and views with the intended object. A view may reveal information another view cannot. Scale and written dimensions help the reader move from a small representation to the proposed physical size.",
+      "example": {
+        "title": "Recognizing the same object twice",
+        "body": "A cabinet appears in a front view and a view from above. Use the dimensions and matching features to explain how both pictures describe one object."
+      }
+    }
   },
   {
     "id": "knowledge:building-heat-loss",
@@ -177,7 +324,14 @@
     "label": "Heat loss in buildings",
     "summary": "Understanding how heat escapes a building and how insulation can reduce the loss.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "A heated home can lose energy through its enclosing materials and through ventilation. Insulation and the performance of windows affect the first route; air movement affects the second. Separating those routes makes it easier to understand what a proposed change is meant to improve.",
+      "example": {
+        "title": "Similar rooms, different heat loss",
+        "body": "Two otherwise similar rooms have different windows. Exploring their heat-loss routes helps frame a question about the windows’ performance without claiming a numerical saving from appearance alone."
+      }
+    }
   },
   {
     "id": "resource:openlearn-building-energy",
@@ -192,6 +346,79 @@
     "access": "free",
     "licenseStatus": "unknown",
     "accessReviewedAt": "2026-09-12",
-    "notes": "UK examples; course content can be read without signing in. Registration is used to track progress. No professional qualification is implied."
+    "notes": "UK examples; course content can be read without signing in. Registration is used to track progress. No professional qualification is implied.",
+    "resourceKind": "course",
+    "preparation": "Advanced, with calculations and UK examples. Read without an account; sign in free for all activities. Suggested preparation: units and algebra.",
+    "effort": "10 hours, as estimated by the provider.",
+    "outcomes": [
+      "Explain routes of heat loss through a home.",
+      "Explore calculations involving insulation and heating efficiency."
+    ],
+    "details": {
+      "explanation": "This structured course examines heat loss, heating systems and electricity use in buildings. Its worked calculations make it a deeper step after introductory measurement and energy concepts. Follow the sections on the provider’s site to see how a building’s energy use can be analyzed.",
+      "example": {
+        "title": "A question to take into the course",
+        "body": "Compare two proposals for insulating a room as a study exercise. Use the course to identify which properties and measurements an analysis would need before comparing the proposals."
+      }
+    }
+  },
+  {
+    "id": "knowledge:housing-architecture",
+    "type": "knowledge",
+    "label": "Architecture",
+    "summary": "The field concerned with designing buildings and the spaces people use.",
+    "editorialStatus": "published",
+    "kind": "field",
+    "details": {
+      "explanation": "Architecture brings design, technical problem solving and people’s needs into the study of buildings and spaces. Its scope extends beyond appearance. Building design is one subject within that field, linking an intended experience with information that can guide construction.",
+      "example": {
+        "title": "A home with a purpose",
+        "body": "The home’s future resident cooks for friends every weekend. Architecture invites questions about how the kitchen and living spaces support that use, alongside how the proposal can be built."
+      }
+    }
+  },
+  {
+    "id": "knowledge:housing-building-design",
+    "type": "knowledge",
+    "label": "Building design",
+    "summary": "Developing a building proposal around people, spaces and technical requirements.",
+    "editorialStatus": "published",
+    "kind": "subject",
+    "details": {
+      "explanation": "Building design develops the proposal for a particular arrangement of spaces and building features. Requirements become options that can be drawn and discussed. It sits within architecture, while drawing skills help communicate the decisions made during that design work.",
+      "example": {
+        "title": "Two layouts for one brief",
+        "body": "Compare a kitchen separated from the living room with a more connected arrangement. Drawings let the client discuss how each proposal might serve the same daily activities."
+      }
+    }
+  },
+  {
+    "id": "resource:housing-trades-drawings",
+    "type": "learning_resource",
+    "label": "Read Drawings and Specifications",
+    "summary": "Practise interpreting drawings, dimensions and views with an introductory trades textbook.",
+    "editorialStatus": "published",
+    "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/415/5/D3.pdf",
+    "provider": "Camosun College · BCcampus",
+    "format": "PDF textbook and drawing exercises",
+    "resourceKind": "guide",
+    "learnerLevel": "Introductory trades",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "accessReviewedAt": "2026-09-12",
+    "preparation": "A PDF reader; paper and drafting tools for selected exercises. This 2015 British Columbia resource is useful for drawing literacy, not current local code or safety requirements.",
+    "outcomes": [
+      "Recognize drawing symbols and dimensions.",
+      "Interpret scaled views and make simple sketches."
+    ],
+    "notes": "Original textbook hosted by eCampusOntario. Text is CC BY 4.0 except noted material; BC Industry Training Authority images use CC BY-NC-SA 4.0, and other credits have their own terms. Publisher lists Undergraduate and describes entry-level trades use. No enrollment or credential is represented.",
+    "details": {
+      "explanation": "This introductory trades book combines explanations with drawing exercises and self-tests. It covers conventions, dimensions, scales and different views. Use it to practise extracting information from a drawing and representing a simple object; it is a reading-and-sketching resource rather than an enrollment pathway.",
+      "example": {
+        "title": "A small object as a study exercise",
+        "body": "Choose a simple box as an imagined design object. Compare how its top and front views communicate different dimensions, then use the textbook to check your interpretation."
+      }
+    }
   }
 ]

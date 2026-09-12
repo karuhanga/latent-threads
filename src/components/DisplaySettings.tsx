@@ -24,7 +24,7 @@ export function DisplaySettings() {
     {open && <section className="settings-panel" id="display-settings-panel" aria-label="Display settings">
       <h2>Display</h2>
       <label><input type="checkbox" checked={autoShuffle} onChange={event => setAutoShuffle(event.target.checked)} /><span>Automatic shuffle</span></label>
-      <label><input type="checkbox" checked={showDetails} onChange={event => setShowDetails(event.target.checked)} /><span>Sources and detailed information</span></label>
+      <label><input type="checkbox" checked={showDetails} onChange={event => setShowDetails(event.target.checked)} /><span>Sources and attribution</span></label>
     </section>}
   </div>;
 }

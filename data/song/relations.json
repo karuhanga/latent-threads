@@ -190,5 +190,77 @@
     "toId": "capability:audio-recording",
     "summary": "Explore practical recording and microphone placement.",
     "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-theory-music",
+    "type": "part_of",
+    "fromId": "knowledge:music-theory",
+    "toId": "knowledge:music",
+    "summary": "Music theory is one subject within the broader study of music.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-rhythm-theory",
+    "type": "part_of",
+    "fromId": "knowledge:rhythm-and-tempo",
+    "toId": "knowledge:music-theory",
+    "summary": "Rhythm and tempo sit within this music-theory branch.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-harmony-theory",
+    "type": "part_of",
+    "fromId": "knowledge:chords-and-harmony",
+    "toId": "knowledge:music-theory",
+    "summary": "Chords and harmony sit within this music-theory branch.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-technology-music",
+    "type": "part_of",
+    "fromId": "knowledge:music-technology",
+    "toId": "knowledge:music",
+    "summary": "Music technology connects technical systems to musical practice.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-topline-specialization",
+    "type": "specializes",
+    "fromId": "role:topline-songwriter",
+    "toId": "role:songwriter",
+    "summary": "Top-line writing specializes in vocal material for an existing instrumental production.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-basics-course",
+    "type": "curriculum_part_of",
+    "fromId": "resource:openlearn-sound-basics",
+    "toId": "resource:openlearn-sound",
+    "summary": "Sound basics is section 1 of this OpenLearn course.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-waves-course",
+    "type": "curriculum_part_of",
+    "fromId": "resource:openlearn-sinusoidal-waves",
+    "toId": "resource:openlearn-sound",
+    "summary": "Sinusoidal pressure waves is section 2 of this OpenLearn course.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-basics-teaches-technology",
+    "type": "teaches",
+    "fromId": "resource:openlearn-sound-basics",
+    "toId": "knowledge:music-technology",
+    "summary": "The opening section explains how technology participates in making and reproducing music.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:song-waves-teaches-sound",
+    "type": "teaches",
+    "fromId": "resource:openlearn-sinusoidal-waves",
+    "toId": "knowledge:sound-waves",
+    "summary": "The section models sound using pressure changes and cycles.",
+    "editorialStatus": "published"
   }
 ]

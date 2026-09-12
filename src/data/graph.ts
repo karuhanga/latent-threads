@@ -1,4 +1,4 @@
-import type { Catalog, Contribution, Entity, RelationType } from './types.ts';
+import type { Catalog, Contribution, Entity, RelationType, ResourceKind } from './types.ts';
 
 export interface Connection { entity: Entity; label: string; evidenceId: string; relationId?: string }
 export interface Neighborhood { items: Connection[]; total: number; offset: number; limit: number }
@@ -6,12 +6,27 @@ export const typeLabels: Record<Entity['type'], string> = {
   endeavor: 'Endeavor', stage: 'Stage', artifact: 'Artifact', service: 'Service', role: 'Role',
   contribution: 'Activity', capability: 'Skill', knowledge: 'Concept', tool: 'Tool', learning_resource: 'Learning resource',
 };
+const resourceLabels: Record<ResourceKind, string> = {
+  program: 'Program', course: 'Course', module: 'Module', tutorial: 'Tutorial',
+  guide: 'Guide', article: 'Article', workshop: 'Workshop', apprenticeship: 'Apprenticeship',
+};
+export function entityTypeLabel(entity: Entity): string {
+  if (entity.type === 'knowledge') {
+    const labels: Record<string, string> = { field: 'Field of study', subject: 'Subject', topic: 'Topic', concept: 'Concept' };
+    return labels[entity.kind ?? 'concept'] ?? typeLabels.knowledge;
+  }
+  if (entity.type === 'learning_resource' && entity.resourceKind) return resourceLabels[entity.resourceKind] ?? typeLabels.learning_resource;
+  if (entity.type === 'capability' && entity.kind === 'capability') return 'Capability';
+  return typeLabels[entity.type];
+}
 const wording: Record<RelationType, [string, string]> = {
   produces: ['Produces', 'Made through'], depends_on: ['Depends on', 'Supports'],
   uses: ['Uses', 'Used in'], requires_capability: ['Uses skill', 'Applied in'],
   draws_on: ['Draws on', 'Helps explain'], teaches: ['Teaches', 'Learn this with'],
   hands_off_to: ['Hands work to', 'Receives work from'], coordinates_with: ['Coordinates in this endeavor with', 'Coordinates in this endeavor with'],
-  specializes: ['A more specific role than', 'A more specific role'], part_of: ['Part of', 'Includes'],
+  specializes: ['A more specific role than', 'A more specific role'], part_of: ['Within broader area', 'Includes narrower area'],
+  curriculum_part_of: ['Part of curriculum', 'Includes learning unit'],
+  learning_requires: ['Requires prior learning', 'Preparation for'],
 };
 
 export function createGraph(catalog: Catalog) {

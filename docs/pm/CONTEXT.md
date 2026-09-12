@@ -1,6 +1,6 @@
 # Durable project handoff
 
-**Snapshot: 12 September 2026.** Repo documents are authoritative; check live Git and [Wave 2 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb5815ca00e000cc3c1a19b) when resuming.
+**Snapshot: 12 September 2026.** Repo documents are authoritative; check live Git and [Wave 3 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c) when resuming.
 
 ## Confirmed direction
 
@@ -12,7 +12,7 @@
 
 ## Implemented architecture
 
-Node 24.19.0, pnpm 11.19.0, React/TypeScript/Vite, curated normalized JSON bundled into a static app. No backend or SQLite needed. Seven explicit packs in data/catalog.json use the minimal v0.2 extension; standalone v0.1 loading remains supported. Shared entities are defined once. Claims have reviewed evidence; schema validity alone is not fact-checking.
+Node 24.19.0, pnpm 11.19.0, React/TypeScript/Vite, curated normalized JSON bundled into a static app. No backend or SQLite needed. Seven explicit packs in data/catalog.json now support the reviewed v0.3 depth/education extension; legacy v0.1/v0.2 loading remains supported. Shared entities are defined once. Claims have reviewed evidence; schema validity alone is not fact-checking.
 
 Public origin: https://github.com/karuhanga/latent-threads.git. Publish with `pnpm publish:pages`: isolated committed snapshot, locked install, checks/build, dist plus .nojekyll and release.json to gh-pages root. Preserve branch history and original tracked ideation. Keep .local ignored. Use README's pinned runtime PATH with /usr/bin ahead of bundled fallback Git; system Git authentication works. Billing blocker resolved. No additional account permission or paid service needed.
 
@@ -28,7 +28,7 @@ All 68 tests, type/data validation and production build pass, including from the
 
 The user's accepted five-vertical expansion and active “let’s go” goal supersede the earlier song-only stop. LT-021–027 are Done in Notion, confirmed by a live board query. Each links to repository completion evidence. LT-014 bookmarks remains deferred Backlog and is outside this release. Both bounded builders handed off and are idle. Checkpoint one (coffee/housing) and checkpoint two (clothing/diagnostics) were shown and deployed; final software checkpoint was shown locally and the six-domain release is now hosted.
 
-Active goal: complete/test/deploy [Wave 3 content depth and education](../product/wave-3.md), explicitly accepted with “Go ahead /goal”. Enrich all six current domains; music/housing prototype checkpoint first, coffee/clothing second, diagnostics/software final. LT-028–036 scoped; platform and music builders active. [Wave 3 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c). PM owns reader UI, shared data and integration. New v0.3 contract is approved in Wave 3. Next: implement schema and first music/housing checkpoint, then carry through full release. No access blockers or recurring automation. Future features outside Wave 3 remain deferred.
+Active goal: complete/test/deploy [Wave 3 content depth and education](../product/wave-3.md), explicitly accepted with “Go ahead /goal”. Enrich all six current domains; music/housing prototype checkpoint first, coffee/clothing second, diagnostics/software final. LT-028–036 scoped; LT-028 platform and LT-029–031 music/housing reader prototype accepted. [Wave 3 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c). PM owns reader UI, shared data and integration. New v0.3 contract is approved in Wave 3. Reader UI and shared content implemented; desktop/mobile and source-preference behavior reviewed. Music/housing prototype shown locally and passes all 86 tests, type/data checks and build; PM verified course/module/subject keyboard navigation and desktop/mobile reading. Next: finish builder research handoffs, commit the prototype and start coffee/clothing, then diagnostics/software. Final depth test gate must explicitly include all seven packs before completion. No access blockers or recurring automation. Future features outside Wave 3 remain deferred.
 
 ## Canonical references and execution rules
 

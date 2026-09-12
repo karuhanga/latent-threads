@@ -1,6 +1,7 @@
 import { lstat, readFile, realpath } from 'node:fs/promises';
 import { dirname, isAbsolute, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { catalogVersionErrors } from '../src/data/validate.ts';
 
 const requiredCollections = ['nodes', 'contributions', 'relations', 'sources', 'evidence', 'places', 'presenceAssessments', 'taxonomyMappings'];
 const collections = [...requiredCollections, 'organizationExamples'];
@@ -35,7 +36,7 @@ async function loadPack(directory) {
   const stat = await lstat(directory);
   if (stat.isSymbolicLink() || !stat.isDirectory()) throw new Error(`Pack must be a real directory: ${directory}`);
   const manifest = await readJson(join(directory, 'manifest.json'));
-  if (!object(manifest) || !['0.1', '0.2'].includes(manifest.schemaVersion)) throw new Error(`Unsupported pack schemaVersion: ${directory}`);
+  if (!object(manifest) || !['0.1', '0.2', '0.3'].includes(manifest.schemaVersion)) throw new Error(`Unsupported pack schemaVersion: ${directory}`);
   if (!object(manifest.files)) throw new Error(`Invalid pack files map: ${directory}`);
   const catalog = { schemaVersion: manifest.schemaVersion };
   for (const key of collections) {
@@ -45,7 +46,8 @@ async function loadPack(directory) {
     catalog[key] = await readJson(join(directory, file));
     if (!Array.isArray(catalog[key])) throw new Error(`Expected array: ${key} in ${directory}`);
   }
-  if (catalog.schemaVersion === '0.1' && catalog.organizationExamples.length) throw new Error(`organizationExamples requires schemaVersion 0.2: ${directory}`);
+  const errors = catalogVersionErrors(catalog);
+  if (errors.length) throw new Error(`Invalid pack version in ${directory}: ${errors.join('; ')}`);
   return catalog;
 }
 
@@ -53,7 +55,7 @@ async function loadPack(directory) {
 export async function loadCatalogManifest(input = new URL('../data/catalog.json', import.meta.url)) {
   const file = localPath(input);
   const manifest = await readJson(file);
-  if (!object(manifest) || manifest.schemaVersion !== '0.2') throw new Error('Aggregate catalog requires schemaVersion 0.2');
+  if (!object(manifest) || !['0.2', '0.3'].includes(manifest.schemaVersion)) throw new Error('Aggregate catalog requires schemaVersion 0.2 or 0.3');
   if (!Array.isArray(manifest.packs) || !manifest.packs.length || !manifest.packs.every(name => typeof name === 'string' && /^[a-z][a-z0-9-]*$/.test(name))) throw new Error('Catalog packs must be a nonempty list of safe directory names');
   if (new Set(manifest.packs).size !== manifest.packs.length) throw new Error('Duplicate enabled pack');
   const root = await realpath(dirname(file));
@@ -62,11 +64,13 @@ export async function loadCatalogManifest(input = new URL('../data/catalog.json'
     const actual = await realpath(directory);
     const location = relative(root, actual);
     if (!location || location === '..' || location.startsWith(`..${sep}`) || isAbsolute(location)) throw new Error(`Pack escapes catalog directory: ${name}`);
-    return { name, catalog: await loadPack(directory) };
+    const catalog = await loadPack(directory);
+    if (catalog.schemaVersion === '0.3' && manifest.schemaVersion !== '0.3') throw new Error(`Pack ${name} requires aggregate schemaVersion 0.3`);
+    return { name, catalog };
   }));
   rejectDuplicateIds(packs);
   return Object.fromEntries([
-    ['schemaVersion', '0.2'],
+    ['schemaVersion', manifest.schemaVersion],
     ...collections.map(key => [key, packs.flatMap(pack => pack.catalog[key])]),
   ]);
 }

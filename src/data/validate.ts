@@ -4,6 +4,9 @@ type Row = Record<string, unknown>;
 const collections = ['nodes', 'contributions', 'relations', 'sources', 'evidence', 'places', 'presenceAssessments', 'taxonomyMappings', 'organizationExamples'] as const;
 const nodeTypes = ['endeavor', 'stage', 'artifact', 'service', 'role', 'capability', 'knowledge', 'tool', 'learning_resource'];
 const statuses = ['draft', 'illustrative', 'published'];
+const resourceKinds = ['program', 'course', 'module', 'tutorial', 'guide', 'article', 'workshop', 'apprenticeship'];
+const resourceFields = ['resourceKind', 'preparation', 'effort', 'credential', 'outcomes'];
+const educationRelations = ['curriculum_part_of', 'learning_requires'];
 const pairs: Record<string, string[]> = {
   produces: ['endeavor:artifact', 'endeavor:service', 'contribution:artifact', 'contribution:service'],
   depends_on: ['stage:stage', 'contribution:contribution'], uses: ['contribution:tool'],
@@ -11,9 +14,30 @@ const pairs: Record<string, string[]> = {
   teaches: ['learning_resource:knowledge', 'learning_resource:capability'],
   hands_off_to: ['contribution:contribution'], coordinates_with: ['contribution:contribution'],
   specializes: ['role:role'], part_of: ['knowledge:knowledge'],
+  curriculum_part_of: ['learning_resource:learning_resource'],
+  learning_requires: ['learning_resource:learning_resource', 'learning_resource:knowledge', 'learning_resource:capability'],
 };
 const obj = (x: unknown): x is Row => !!x && typeof x === 'object' && !Array.isArray(x);
 const nonempty = (x: unknown): x is string => typeof x === 'string' && x.trim().length > 0;
+
+/** Shared with the pack loader so merging cannot disguise features authored under an older version. */
+export function catalogVersionErrors(input: unknown): string[] {
+  if (!obj(input)) return ['catalog: expected an object'];
+  const errors: string[] = [];
+  if (!['0.1', '0.2', '0.3'].includes(String(input.schemaVersion)) || typeof input.schemaVersion !== 'string') errors.push('catalog: unsupported schemaVersion');
+  if (input.schemaVersion === '0.1' && Array.isArray(input.organizationExamples) && input.organizationExamples.length) errors.push('organizationExamples: requires schemaVersion 0.2 or later');
+  if (input.schemaVersion !== '0.3') {
+    for (const key of ['nodes', 'contributions', 'relations']) {
+      const values = input[key];
+      if (!Array.isArray(values)) continue;
+      for (const row of values.filter(obj)) {
+        const fields = ['details', ...resourceFields].filter(field => field in row);
+        if (fields.length || (typeof row.type === 'string' && educationRelations.includes(row.type))) errors.push(`${String(row.id ?? key)}: education/depth features require schemaVersion 0.3`);
+      }
+    }
+  }
+  return errors;
+}
 function date(x: unknown): boolean {
   if (typeof x !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(x)) return false;
   const parsed = new Date(`${x}T00:00:00Z`);
@@ -49,7 +73,7 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
   const errors: string[] = [];
   const fail = (r: Row | string, reason: string) => errors.push(`${typeof r === 'string' ? r : String(r.id ?? '(missing id)')}: ${reason}`);
   if (!obj(input)) return ['catalog: expected an object'];
-  if (input.schemaVersion !== '0.1' && input.schemaVersion !== '0.2') fail('catalog', 'unsupported schemaVersion');
+  errors.push(...catalogVersionErrors(input));
   const rows = {} as Record<(typeof collections)[number], Row[]>;
   for (const key of collections) {
     const value = key === 'organizationExamples' && input[key] === undefined ? [] : input[key];
@@ -57,7 +81,6 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     rows[key] = value.filter(obj);
     if (rows[key].length !== value.length) fail(key, 'records must be objects');
   }
-  if (input.schemaVersion === '0.1' && rows.organizationExamples.length) fail('organizationExamples', 'requires schemaVersion 0.2');
   const all = new Map<string, Row>(); const category = new Map<string, string>();
   for (const key of collections) for (const row of rows[key]) {
     if (!nonempty(row.id) || !/^[a-z_]+:[a-z0-9][a-z0-9-]*$/.test(row.id)) { fail(row, 'invalid namespaced ID'); continue; }
@@ -72,6 +95,18 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     else if (allowed && !allowed.includes(category.get(id)!)) fail(r, `${key} has wrong endpoint type`);
   }
   function timestamp(r: Row, key: string, optional = false) { if ((!optional || r[key] !== undefined) && !date(r[key])) fail(r, `invalid ${key} date`); }
+  function details(r: Row) {
+    if (r.details === undefined) return;
+    const value = r.details;
+    if (!obj(value)) { fail(r, 'details must be an object'); return; }
+    const fields = ['explanation', 'example', 'inputs', 'outputs', 'decision', 'practice'];
+    for (const key of Object.keys(value)) if (!fields.includes(key)) fail(r, `unknown details field: ${key}`);
+    if (!nonempty(value.explanation)) fail(r, 'details.explanation must be nonempty text');
+    for (const key of ['inputs', 'outputs', 'decision', 'practice']) if (value[key] !== undefined && !nonempty(value[key])) fail(r, `details.${key} must be nonempty text`);
+    if (!obj(value.example)) { fail(r, 'details.example must be an object'); return; }
+    for (const key of Object.keys(value.example)) if (!['title', 'body'].includes(key)) fail(r, `unknown details.example field: ${key}`);
+    for (const key of ['title', 'body']) if (!nonempty(value.example[key])) fail(r, `details.example.${key} must be nonempty text`);
+  }
   function temporal(r: Row) {
     if (r.validTime === undefined) return;
     if (!obj(r.validTime)) { fail(r, 'invalid validTime'); return; }
@@ -98,6 +133,8 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
   }
   for (const n of rows.nodes) {
     required(n, ['label', 'summary']); oneOf(n, 'type', nodeTypes);
+    details(n);
+    if (n.type !== 'learning_resource' && resourceFields.some(key => key in n)) fail(n, 'education metadata is only supported on learning resources');
     if (n.aliases !== undefined && (!Array.isArray(n.aliases) || !n.aliases.every(nonempty))) fail(n, 'aliases must be nonempty strings');
     if (n.kind !== undefined) {
       if (n.type === 'capability') oneOf(n, 'kind', ['capability', 'skill']);
@@ -111,6 +148,9 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     }
     if (n.type === 'endeavor' && n.editorialStatus === 'published' && !rows.nodes.some(s => s.type === 'stage' && s.endeavorId === n.id && s.editorialStatus === 'published')) fail(n, 'published endeavor needs a stage');
     if (n.type === 'learning_resource') {
+      if (n.resourceKind !== undefined) oneOf(n, 'resourceKind', resourceKinds);
+      for (const key of ['preparation', 'effort', 'credential']) if (n[key] !== undefined && !nonempty(n[key])) fail(n, `${key} must be nonempty text`);
+      if (n.outcomes !== undefined && (!Array.isArray(n.outcomes) || !n.outcomes.length || !n.outcomes.every(nonempty))) fail(n, 'outcomes must be a nonempty array of nonempty strings');
       required(n, ['provider', 'format']); if (!url(n.url, release)) fail(n, 'invalid or placeholder resource URL');
       oneOf(n, 'access', ['free', 'audit_free', 'paid', 'mixed', 'unknown']);
       oneOf(n, 'licenseStatus', ['open', 'restricted', 'unknown']);
@@ -120,6 +160,8 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     }
   }
   for (const c of rows.contributions) {
+    details(c);
+    if (resourceFields.some(key => key in c)) fail(c, 'education metadata is only supported on learning resources');
     required(c, ['action']); if (c.label !== undefined) required(c, ['label']); reference(c, 'endeavorId', ['endeavor']); reference(c, 'stageId', ['stage']); reference(c, 'roleId', ['role']);
     if (all.get(String(c.stageId))?.endeavorId !== c.endeavorId) fail(c, 'stage/endeavor context mismatch');
   }
@@ -135,11 +177,13 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
   }
   const assertions = new Set<string>();
   for (const r of rows.relations) {
+    if ('details' in r || resourceFields.some(key => key in r)) fail(r, 'details/education metadata are not supported on relations');
     oneOf(r, 'type', Object.keys(pairs));
     reference(r, 'fromId'); reference(r, 'toId');
     const from = String(r.fromId), to = String(r.toId), type = String(r.type);
     if (!pairs[type]?.includes(`${category.get(from)}:${category.get(to)}`)) fail(r, 'invalid relation endpoint pair');
     if (from === to) fail(r, 'self relation');
+    if (type === 'curriculum_part_of' && (!['module', 'course'].includes(String(all.get(from)?.resourceKind)) || !['course', 'program'].includes(String(all.get(to)?.resourceKind)))) fail(r, 'curriculum requires a module/course child and a course/program parent');
     const signature = `${type}/${from}/${to}`;
     if (assertions.has(signature)) fail(r, 'duplicate relation'); assertions.add(signature);
     if (type === 'coordinates_with' && from >= to) fail(r, 'symmetric relation must use canonical ID order');
@@ -156,7 +200,7 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     }
     for (const id of adj.keys()) visit(id);
   }
-  for (const type of ['specializes', 'part_of', 'depends_on']) checkCycles(rows.relations.filter(r => r.type === type).map(r => [String(r.fromId), String(r.toId)]), type);
+  for (const type of ['specializes', 'part_of', 'depends_on', ...educationRelations]) checkCycles(rows.relations.filter(r => r.type === type).map(r => [String(r.fromId), String(r.toId)]), type);
   for (const p of rows.places) {
     required(p, ['label']); oneOf(p, 'kind', ['world', 'continent', 'country', 'region', 'city']);
     if (!Array.isArray(p.parentIds) || !p.parentIds.every(nonempty)) { fail(p, 'invalid place parents'); continue; }
@@ -190,6 +234,11 @@ export function validateCatalog(input: unknown, options: { release?: boolean; to
     // Editorial process framing may use an internal rationale; external claims cannot.
     const structuralEditorial = ['stage', 'endeavor'].includes(String(r.type)) || (r.type === 'produces' && category.get(String(r.fromId)) === 'endeavor');
     covered(r, !structuralEditorial);
+    if (r.details !== undefined) {
+      covered(r, true);
+      if (!rows.evidence.some(e => e.subjectId === r.id && e.reviewStatus === 'reviewed' && e.support !== 'illustrative' && all.get(String(e.sourceId))?.kind === 'internal_editorial')) fail(r, 'details example needs reviewed editorial evidence');
+    }
+    if (educationRelations.includes(String(r.type)) && !rows.evidence.some(e => e.subjectId === r.id && e.reviewStatus === 'reviewed' && e.support === 'direct' && all.get(String(e.sourceId))?.kind === 'external')) fail(r, 'education relation needs reviewed direct external evidence');
   }
   for (const example of rows.organizationExamples) if (example.editorialStatus === 'published') covered(example, true);
   const assessments = new Set<string>();

@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { typeLabels, type Graph, type Connection } from '../data/graph.ts';
+import { typeLabels, entityTypeLabel, type Graph, type Connection } from '../data/graph.ts';
 import type { Entity, Contribution } from '../data/types.ts';
 import { routeToHash } from '../routing.ts';
 import { Arrow } from './VisualMarks.tsx';
+import { EntityStory } from './EntityStory.tsx';
 import { DetailPanel } from './DetailPanel.tsx';
 import { ClaimQualifier, SourceEvidence } from './SourceEvidence.tsx';
 import './explorer.css';
@@ -31,7 +32,7 @@ function ConnectionCard({ connection, graph }: { connection: Connection; graph: 
     <li>
       <p className="connection-label">{label}<ClaimQualifier subjectId={connection.evidenceId} graph={graph} /></p>
       <a className={`neighbor-card neighbor-${entity.type}`} href={href(entity.id)}>
-        <div className="tile-top"><span className="eyebrow">{typeLabels[entity.type].toUpperCase()}</span><Arrow diagonal /></div>
+        <div className="tile-top"><span className="eyebrow">{entityTypeLabel(entity).toUpperCase()}</span><Arrow diagonal /></div>
         <h4>{entity.label}</h4>
         {entity.type === 'contribution' && <p className="neighbor-action">{entity.action}</p>}
       </a>
@@ -74,12 +75,13 @@ export function GraphExplorer({ entity, graph }: { entity: Entity; graph: Graph;
     <>
       <section className="explorer-heading catalog-explorer-heading" aria-labelledby="explorer-title">
         <div>
-          <p className="eyebrow blue-text">{typeLabels[entity.type].toUpperCase()}</p>
+          <p className="eyebrow blue-text">{entityTypeLabel(entity).toUpperCase()}</p>
           {endeavor?.type === 'endeavor' && endeavor.id !== entity.id && <a className="process-parent" href={href(endeavor.id)}>{endeavor.label}</a>}
           <h1 id="explorer-title">{entity.label}</h1>
           <ClaimQualifier subjectId={entity.id} graph={graph} />
         </div>
       </section>
+      <EntityStory entity={entity} />
       <div className="explorer-layout">
         <section className="exploration-canvas" aria-labelledby="canvas-heading">
           <div className="canvas-toolbar"><h2 id="canvas-heading">Connections</h2></div>
@@ -92,7 +94,7 @@ export function GraphExplorer({ entity, graph }: { entity: Entity; graph: Graph;
             {view === 'connections' ? (
               <>
                 <article className="focus-node">
-                  <div className="tile-top"><span className="eyebrow">{typeLabels[entity.type].toUpperCase()}</span></div>
+                  <div className="tile-top"><span className="eyebrow">{entityTypeLabel(entity).toUpperCase()}</span></div>
                   <h3>{entity.label}</h3>
                 </article>
                 {neighborhood.items.length > 0 ? <><div className={`branch-lines branches-${neighborhood.items.length}`} aria-hidden="true"><i /><i /><i /></div><ul className={`neighbor-grid live-neighbors neighbor-count-${neighborhood.items.length}`} aria-label={`Connections from ${entity.label}`}>{neighborhood.items.map((connection, index) => <ConnectionCard key={`${entity.id}:${connection.entity.id}:${index}`} connection={connection} graph={graph} />)}</ul></> : <p className="empty-connections">No connections have been added yet. <a href="#/">Explore the catalog.</a></p>}

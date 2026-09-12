@@ -21,12 +21,20 @@
   },
   {
     "id": "source:shared-ableton-meters",
-    "title": "Mixing \u2014 Ableton Live Manual",
+    "title": "Mixing — Ableton Live Manual",
     "kind": "external",
     "locator": "https://www.ableton.com/en/manual/mixing/",
     "publisher": "Ableton",
     "retrievedAt": "2026-09-12",
     "reuseStatus": "link_only",
     "pinpoint": "18.1 mixer meters and 18.1.1 decibel scale"
+  },
+  {
+    "id": "source:shared-depth-editorial",
+    "title": "Shared concept examples and editorial rationale",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-shared.md",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed"
   }
 ]

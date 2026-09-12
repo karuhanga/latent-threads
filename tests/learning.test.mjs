@@ -5,7 +5,7 @@ import { accessLabels, evidenceLabels, learningFor, licenseLabels, safeExternalU
 
 const catalog = await loadCatalog(new URL('../data/song/', import.meta.url));
 
-test('curated learning cards follow teaching relations across the three checked resources', () => {
+test('curated learning cards include checked resources through explicit teaching relations', () => {
   const expected = [
     ['knowledge:chords-and-harmony', 'resource:ableton-learning-music'],
     ['knowledge:sound-waves', 'resource:openlearn-sound'],
@@ -13,14 +13,15 @@ test('curated learning cards follow teaching relations across the three checked 
   ];
   for (const [concept, resource] of expected) {
     const cards = learningFor(catalog, concept);
-    assert.deepEqual(cards.map(card => card.resource.id), [resource]);
-    assert.ok(cards[0].connections.every(relation => relation.toId === concept && relation.type === 'teaches'));
-    assert.ok(cards[0].resource.accessReviewedAt);
+    const card = cards.find(item => item.resource.id === resource);
+    assert.ok(card, `Missing checked resource: ${resource}`);
+    assert.ok(cards.every(item => item.connections.every(relation => relation.toId === concept && relation.type === 'teaches')));
+    assert.ok(card.resource.accessReviewedAt);
   }
   assert.deepEqual(learningFor(catalog, 'role:mixing-engineer'), []);
   assert.equal(accessLabels.free, 'Free access');
   assert.match(licenseLabels.unknown, /Unknown/);
-  assert.equal(learningFor(catalog, expected[0][0])[0].resource.licenseStatus, 'unknown');
+  assert.equal(learningFor(catalog, expected[0][0]).find(card => card.resource.id === expected[0][1]).resource.licenseStatus, 'unknown');
 });
 
 test('nearby, reversed and draft connections cannot become learning recommendations', () => {

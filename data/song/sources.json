@@ -269,5 +269,126 @@
     "publisher": "The Open University / OpenLearn",
     "pinpoint": "Acknowledgements",
     "notes": "Contains exceptions to the default course license; do not extract third-party media."
+  },
+  {
+    "id": "source:berklee-topline",
+    "title": "Top-Line Songwriter",
+    "kind": "external",
+    "locator": "https://www.berklee.edu/careers/roles/top-line-songwritervocal-producer",
+    "publisher": "Berklee",
+    "pinpoint": "What does a Top-Line Songwriter do?",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:ou-understanding-music",
+    "title": "Understanding music (A234)",
+    "kind": "external",
+    "locator": "https://www.open.ac.uk/courses/qualifications/details/a234/",
+    "publisher": "The Open University",
+    "pinpoint": "Module description; fundamentals, structure, practical musicianship and music theory",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-music-theory",
+    "title": "An introduction to music theory",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/music/an-introduction-music-theory",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Course description; contents: rhythm and metre, pitch, harmony",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-sound-basics",
+    "title": "Sound basics: Music and technology",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-1.1",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 1 heading and 1.1 Music and technology",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-describing-sound",
+    "title": "Describing sound",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-1.3",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 1.3: perception and the physical stimulus",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-sine-waves",
+    "title": "Sinusoidal pressure waves: The importance of sine waves",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-2.1",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 2 heading, contents and 2.1",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-pressure-cycles",
+    "title": "Pressure waves and cycles",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/sound-music-technology-an-introduction/content-section-2.3",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 2.3: travelling pressure changes, particle motion and cycles",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-practical-recording",
+    "title": "Practical recording",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-4",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 4: optional recorder, planning, power and storage",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-recording-log",
+    "title": "Recording log",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-5",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 5: preserving session context through notes",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:wave3-song-editorial",
+    "title": "Wave 3 music explanations and editorial examples",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-song.md",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "publisher": "Latent Threads",
+    "pinpoint": "Editorial method and source-to-content review",
+    "notes": "Original scenarios displayed under the interface's Example label, plus suggested practice. Editorial provenance remains in evidence rather than repeated in reading copy."
+  },
+  {
+    "id": "source:song-ableton-mixer-depth",
+    "title": "Mixing — Ableton Live reference manual",
+    "kind": "external",
+    "locator": "https://www.ableton.com/en/manual/mixing/",
+    "publisher": "Ableton",
+    "pinpoint": "18.1 The Live Mixer: volume, pan, activator and solo",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:openlearn-microphone-placement",
+    "title": "Microphone placement",
+    "kind": "external",
+    "locator": "https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-6",
+    "publisher": "The Open University / OpenLearn",
+    "pinpoint": "Section 6: position, performers/space balance, comparing recordings and notes",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
   }
 ]

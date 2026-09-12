@@ -8,8 +8,18 @@ import { loadCatalog, loadCatalogManifest } from '../scripts/load-catalog.mjs';
 import { validateCatalog } from '../src/data/validate.ts';
 
 const keys = ['nodes', 'contributions', 'relations', 'sources', 'evidence', 'places', 'presenceAssessments', 'taxonomyMappings'];
-const song = await loadCatalog(new URL('../data/song/', import.meta.url));
 const empty = (schemaVersion = '0.2') => ({ schemaVersion, ...Object.fromEntries(keys.map(key => [key, []])) });
+// Fixed synthetic fixture: legacy compatibility must survive changes to authored song content.
+const song = {
+  ...empty('0.1'),
+  nodes: [
+    { id: 'knowledge:sound-waves', type: 'knowledge', label: 'Sound waves', summary: 'Legacy fixture concept.', editorialStatus: 'published' },
+    { id: 'resource:fixture', type: 'learning_resource', label: 'Fixture lesson', summary: 'Legacy fixture resource.', editorialStatus: 'published', url: 'https://www.open.edu/openlearn/', provider: 'Fixture provider', format: 'lesson', access: 'unknown', licenseStatus: 'unknown', accessReviewedAt: '2026-09-12' },
+  ],
+  relations: [{ id: 'relation:fixture-teaches', type: 'teaches', fromId: 'resource:fixture', toId: 'knowledge:sound-waves', editorialStatus: 'published' }],
+  sources: [{ id: 'source:fixture', title: 'Synthetic structural-test source', kind: 'external', locator: 'https://www.open.edu/openlearn/', retrievedAt: '2026-09-12', reuseStatus: 'link_only' }],
+  evidence: ['knowledge:sound-waves', 'resource:fixture', 'relation:fixture-teaches'].map((subjectId, i) => ({ id: `evidence:fixture-${i}`, subjectId, sourceId: 'source:fixture', claim: 'Synthetic test coverage, not reviewed release content.', support: 'direct', reviewStatus: 'reviewed', reviewedAt: '2026-09-12', reviewer: 'test' })),
+};
 async function temporary(t) {
   const root = await mkdtemp(join(tmpdir(), 'latent-threads-packs-'));
   t.after(() => rm(root, { recursive: true, force: true }));
@@ -66,7 +76,7 @@ test('duplicate records reject across packs and collections instead of silently 
   const root = await temporary(t);
   await pack(root, 'song', song);
   await pack(root, 'duplicate', { ...empty(), sources: [{ id: song.nodes[0].id }] });
-  await assert.rejects(loadCatalogManifest(await manifest(root, ['song', 'duplicate'])), /Duplicate ID endeavor:song-release/);
+  await assert.rejects(loadCatalogManifest(await manifest(root, ['song', 'duplicate'])), /Duplicate ID knowledge:sound-waves/);
   const directory = await pack(root, 'within', { ...empty(), nodes: [{ id: 'knowledge:repeat' }, { id: 'knowledge:repeat' }] });
   await assert.rejects(loadCatalog(directory), /Duplicate ID knowledge:repeat/);
 });
@@ -79,7 +89,7 @@ test('catalog manifests reject unsafe, duplicate and incompatible pack declarati
   await assert.rejects(loadCatalogManifest(await manifest(root, [])), /nonempty/);
   await assert.rejects(loadCatalogManifest(await manifest(root, ['song', 'song'])), /Duplicate enabled pack/);
   await assert.rejects(loadCatalogManifest(await manifest(root, ['song'], '0.1')), /requires schemaVersion 0.2/);
-  const directory = await pack(root, 'future', empty('0.3'));
+  const directory = await pack(root, 'future', empty('0.4'));
   await assert.rejects(loadCatalog(directory), /Unsupported pack schemaVersion/);
   await pack(root, 'future', { ...empty('0.1'), organizationExamples: [{ id: 'example:future' }] });
   await assert.rejects(loadCatalog(directory), /requires schemaVersion 0.2/);
@@ -112,7 +122,40 @@ test('manifest file traversal and non-array data fail before graph construction'
 
 test('default loading uses the reviewed aggregate and it passes release validation', async () => {
   const configured = await loadCatalog();
-  assert.equal(configured.schemaVersion, '0.2');
+  const enabled = JSON.parse(await readFile(new URL('../data/catalog.json', import.meta.url)));
+  assert.equal(configured.schemaVersion, enabled.schemaVersion);
   assert.deepEqual(configured, await loadCatalogManifest());
   assert.deepEqual(validateCatalog(configured), []);
+});
+
+test('v0.3 mixes legacy packs without upgrading their authored versions', async t => {
+  const root = await temporary(t);
+  await pack(root, 'legacy', song);
+  await pack(root, 'middle', empty('0.2'));
+  const education = { ...empty('0.3'), nodes: [{ id: 'knowledge:education', type: 'knowledge', label: 'Education fixture', summary: 'Test subject.', editorialStatus: 'draft', kind: 'field', details: { explanation: 'Explanation.', example: { title: 'Example', body: 'Scenario.' } } }] };
+  const directory = await pack(root, 'education', education);
+  const file = await manifest(root, ['legacy', 'middle', 'education'], '0.3');
+  const merged = await loadCatalogManifest(file);
+  assert.equal(merged.schemaVersion, '0.3');
+  assert.deepEqual(merged.nodes.at(-1), education.nodes[0]);
+  assert.deepEqual(validateCatalog(merged, { release: false }), []);
+  assert.equal((await loadCatalog(directory)).schemaVersion, '0.3');
+  assert.equal((await loadCatalog(join(root, 'legacy'))).schemaVersion, '0.1');
+  await manifest(root, ['legacy', 'education'], '0.2');
+  await assert.rejects(loadCatalogManifest(file), /requires aggregate schemaVersion 0.3/);
+});
+
+test('aggregate merging cannot disguise new features authored in a legacy pack', async t => {
+  const root = await temporary(t);
+  for (const version of ['0.1', '0.2']) for (const feature of [
+    { nodes: [{ id: 'knowledge:new', details: { explanation: 'Text', example: { title: 'Title', body: 'Body' } } }] },
+    { nodes: [{ id: 'resource:new', resourceKind: 'course' }] },
+    { contributions: [{ id: 'contribution:new', details: {} }] },
+    { relations: [{ id: 'relation:new', type: 'curriculum_part_of' }] },
+    { relations: [{ id: 'relation:new', type: 'learning_requires' }] },
+  ]) {
+    const directory = await pack(root, 'legacy', { ...empty(version), ...feature });
+    await assert.rejects(loadCatalog(directory), /require schemaVersion 0.3/);
+    await assert.rejects(loadCatalogManifest(await manifest(root, ['legacy'], '0.3')), /require schemaVersion 0.3/);
+  }
 });

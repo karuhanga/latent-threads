@@ -1,0 +1,26 @@
+.entity-story { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(240px, 1fr); gap: clamp(28px, 5vw, 76px); padding: 0 0 42px; border-bottom: 1px solid var(--line); margin-bottom: 0; }
+.story-explanation { max-width: 68ch; }
+.story-explanation > p { font-size: 16px; line-height: 1.75; margin: 0 0 18px; }
+.story-explanation .story-summary { font-size: clamp(20px, 2vw, 25px); line-height: 1.45; letter-spacing: -.02em; margin-bottom: 22px; }
+.story-work { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding-top: 18px; margin: 22px 0 0; border-top: 1px solid var(--line); }
+.story-work dt { font: 10px/1.5 var(--mono); color: var(--muted); margin-bottom: 8px; }
+.story-work dd { margin: 0; font-size: 14px; line-height: 1.65; }
+.story-decision { margin-top: 23px; }
+.story-decision h2, .story-practice h2 { font-size: 16px; line-height: 1.4; font-weight: 400; letter-spacing: -.015em; margin-bottom: 9px; }
+.story-decision p, .story-practice p { font-size: 14px; line-height: 1.7; }
+.story-example { padding: 25px 27px 28px; background: #e8e6f5; }
+.story-example > .eyebrow { color: var(--blue); margin-bottom: 25px; }
+.story-example h2 { font-size: clamp(24px, 2.7vw, 34px); line-height: 1.15; font-weight: 300; letter-spacing: -.035em; margin-bottom: 18px; }
+.story-example > p:last-child { font-size: 15px; line-height: 1.7; }
+.story-practice { padding: 23px 0 0; }
+.entity-story p, .entity-story dd { overflow-wrap: anywhere; }
+.learning-card h4 a { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
+.learning-card h4 a:hover { color: var(--blue); }
+.learning-preparation { font-size: 13px; line-height: 1.65; margin-top: 18px; }
+.learning-preparation strong { display: block; font-size: 11px; font-weight: 400; color: var(--muted); margin-bottom: 4px; }
+.learning-outcomes { margin-top: 21px; }
+.learning-outcomes h4 { font-size: 14px; font-weight: 400; margin-bottom: 9px; }
+.learning-outcomes ul { padding-left: 19px; font-size: 13px; line-height: 1.65; }
+.learning-outcomes li + li { margin-top: 6px; }
+@media (max-width: 800px) { .entity-story { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-bottom: 30px; } .story-explanation { max-width: none; } .story-aside { max-width: 68ch; } }
+@media (max-width: 480px) { .story-work { grid-template-columns: minmax(0, 1fr); gap: 16px; } .story-example { padding: 23px 21px; } .story-explanation > p { font-size: 15px; } .story-explanation .story-summary { font-size: 22px; } }

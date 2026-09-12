@@ -31,3 +31,7 @@ Support schemaVersion 0.3 in pack/aggregate loaders while preserving legacy 0.1/
 LT-028 platform contract/validator/graph; LT-029 PM reader UI; LT-030 music; LT-031 housing; LT-032 coffee; LT-033 clothing; LT-034 diagnostics; LT-035 software; LT-036 final review/deployment. At most two builders alongside PM. Data builders own only their domain pack and its wave-3 research note; PM owns data/shared, aggregate manifest, UI, docs integration and release. Shared node additions require coordination. No commits/pushes by builders.
 
 Continue static implementation and existing Pages publication. No new verticals, backend, accounts, institution directory, enrollment, licensing engine, assessments or Rabbit Hole feature. Source-review quality and readable examples matter more than volume. Real desktop/mobile/keyboard and source-preference inspection, semantic negative tests, existing regression suite and exact hosted provenance required.
+
+## Editorial acceptance guardrails
+
+Every enriched node/activity, including newly added education nodes, has details. Activities include inputs, outputs and decision. Learning resources include resourceKind, preparation and outcomes. Lightweight automated checks reject explanations below 20 words and examples below 15 words as likely omissions; these are lower guardrails, not writing targets or substitutes for editorial review. PM may record a justified exception when shorter copy communicates better.

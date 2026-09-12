@@ -163,7 +163,7 @@
     "id": "evidence:contribution-housing-design",
     "subjectId": "contribution:housing-design",
     "sourceId": "source:housing-architect",
-    "claim": "Translate the client\u2019s requirements into building plans and drawings.",
+    "claim": "Translate the client’s requirements into building plans and drawings.",
     "support": "direct",
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-09-12",
@@ -448,6 +448,757 @@
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-09-12",
     "reviewer": "Codex PM",
-    "notes": "Editorial connection from the course\u2019s building-energy topics to the design activity; not a claim that every architect performs the same energy analysis."
+    "notes": "Editorial connection from the course’s building-energy topics to the design activity; not a claim that every architect performs the same energy analysis."
+  },
+  {
+    "id": "evidence:housing-w3-endeavor-home-building-depth",
+    "subjectId": "endeavor:home-building",
+    "sourceId": "source:housing-whole-house",
+    "claim": "Building components interact; design considers site, enclosure and services.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-endeavor-home-building-example",
+    "subjectId": "endeavor:home-building",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A compact home, many decisions. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-artifact-home-depth",
+    "subjectId": "artifact:home",
+    "sourceId": "source:housing-whole-house",
+    "claim": "Whole-house design considers interacting enclosure, lighting, appliances and heating systems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-artifact-home-example",
+    "subjectId": "artifact:home",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Look beyond the walls. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-design-depth",
+    "subjectId": "stage:housing-design",
+    "sourceId": "source:housing-architect",
+    "claim": "Architects discuss requirements, estimate cost/time and prepare drawings and specifications.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-design-example",
+    "subjectId": "stage:housing-design",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Space for a shared meal. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-site-depth",
+    "subjectId": "stage:housing-site",
+    "sourceId": "source:housing-onet-surveyor",
+    "claim": "Survey work records terrain and elevations, checks measurements and prepares documentation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-site-example",
+    "subjectId": "stage:housing-site",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A garden that is not flat. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-structure-depth",
+    "subjectId": "stage:housing-structure",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Carpenters follow plans, construct frameworks and check work; masonry uses other materials.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-structure-example",
+    "subjectId": "stage:housing-structure",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: From lines to an opening. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-services-depth",
+    "subjectId": "stage:housing-services",
+    "sourceId": "source:housing-electrician",
+    "claim": "Electrical work uses diagrams and includes installation, inspection and testing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-services-example",
+    "subjectId": "stage:housing-services",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A kitchen becomes usable. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-finishing-depth",
+    "subjectId": "stage:housing-finishing",
+    "sourceId": "source:housing-onet-carpenter",
+    "claim": "Carpenters interpret dimensions and install cabinets, trim and other fixtures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-finishing-example",
+    "subjectId": "stage:housing-finishing",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: The last cabinet. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-coordination-depth",
+    "subjectId": "stage:housing-coordination",
+    "sourceId": "source:housing-manager",
+    "claim": "Managers coordinate schedules/budgets, monitor progress and respond to delays.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-coordination-example",
+    "subjectId": "stage:housing-coordination",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A delayed delivery. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-architect-depth",
+    "subjectId": "role:architect",
+    "sourceId": "source:housing-architect",
+    "claim": "Architect duties include client requirements, drawings, specifications and site visits.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-architect-example",
+    "subjectId": "role:architect",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A request that needs a drawing. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-land-surveyor-depth",
+    "subjectId": "role:land-surveyor",
+    "sourceId": "source:housing-surveyor",
+    "claim": "Surveyors investigate records, measure features, verify data and prepare maps/reports.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-land-surveyor-example",
+    "subjectId": "role:land-surveyor",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: An uncertain fence. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-mason-depth",
+    "subjectId": "role:mason",
+    "sourceId": "source:housing-mason",
+    "claim": "Masonry duties include plans, materials, layout, construction and alignment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-mason-example",
+    "subjectId": "role:mason",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Following a wall layout. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-carpenter-depth",
+    "subjectId": "role:carpenter",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Carpenters build frameworks and install fixtures using measurements and plans.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-carpenter-example",
+    "subjectId": "role:carpenter",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: One role, two contributions. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-electrician-depth",
+    "subjectId": "role:electrician",
+    "sourceId": "source:housing-electrician",
+    "claim": "Electricians read diagrams, install systems and diagnose problems with testing devices.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-electrician-example",
+    "subjectId": "role:electrician",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A light that needs investigation. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-plumber-depth",
+    "subjectId": "role:plumber",
+    "sourceId": "source:housing-plumber",
+    "claim": "Plumbers determine materials, install pipes/fixtures and inspect/test the system.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-plumber-example",
+    "subjectId": "role:plumber",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A sink and its hidden connections. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-construction-manager-depth",
+    "subjectId": "role:construction-manager",
+    "sourceId": "source:housing-manager",
+    "claim": "Construction managers monitor/report budget and progress, coordinate work and handle delays.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-role-construction-manager-example",
+    "subjectId": "role:construction-manager",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A choice with a schedule cost. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-capability-architectural-drawing-depth",
+    "subjectId": "capability:architectural-drawing",
+    "sourceId": "source:housing-ncarb",
+    "claim": "Architects prepare drawings and instructions that communicate building designs.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-capability-architectural-drawing-example",
+    "subjectId": "capability:architectural-drawing",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A doorway on paper. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-tool-cad-depth",
+    "subjectId": "tool:cad",
+    "sourceId": "source:housing-cad",
+    "claim": "CAD creates/modifies drawings and supports dimensions, annotations and documentation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-tool-cad-example",
+    "subjectId": "tool:cad",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Revising the kitchen layout. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-tool-total-station-depth",
+    "subjectId": "tool:total-station",
+    "sourceId": "source:housing-surveyor",
+    "claim": "Surveyors use robotic total stations and interpret/verify collected measurements.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-tool-total-station-example",
+    "subjectId": "tool:total-station",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Turning points into a site record. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-capability-bricklaying-depth",
+    "subjectId": "capability:bricklaying",
+    "sourceId": "source:housing-mason",
+    "claim": "Bricklayers construct masonry according to layout and alignment requirements.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-capability-bricklaying-example",
+    "subjectId": "capability:bricklaying",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A pattern continued around a corner. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-tool-spirit-level-depth",
+    "subjectId": "tool:spirit-level",
+    "sourceId": "source:housing-level",
+    "claim": "The reviewed spirit level has horizontal/vertical vials and a measuring surface.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-tool-spirit-level-example",
+    "subjectId": "tool:spirit-level",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Two different questions. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-capability-blueprint-reading-depth",
+    "subjectId": "capability:blueprint-reading",
+    "sourceId": "source:housing-trades-drawings",
+    "claim": "The textbook teaches drawing conventions, dimensions, scales and projections.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-capability-blueprint-reading-example",
+    "subjectId": "capability:blueprint-reading",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Recognizing the same object twice. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-knowledge-building-heat-loss-depth",
+    "subjectId": "knowledge:building-heat-loss",
+    "sourceId": "source:housing-energy",
+    "claim": "Course contents distinguish fabric losses, insulation/windows and ventilation losses.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-knowledge-building-heat-loss-example",
+    "subjectId": "knowledge:building-heat-loss",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Similar rooms, different heat loss. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-resource-openlearn-building-energy-depth",
+    "subjectId": "resource:openlearn-building-energy",
+    "sourceId": "source:housing-energy",
+    "claim": "Advanced course covers heat loss, insulation calculations, heating and electricity use.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-resource-openlearn-building-energy-example",
+    "subjectId": "resource:openlearn-building-energy",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A question to take into the course. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-knowledge-housing-architecture-depth",
+    "subjectId": "knowledge:housing-architecture",
+    "sourceId": "source:housing-ncarb",
+    "claim": "Architecture combines understanding people, design, technical problems and building documentation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-knowledge-housing-architecture-example",
+    "subjectId": "knowledge:housing-architecture",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A home with a purpose. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-knowledge-housing-building-design-depth",
+    "subjectId": "knowledge:housing-building-design",
+    "sourceId": "source:housing-ncarb",
+    "claim": "Architectural work develops building solutions and drawings from users’ needs.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-knowledge-housing-building-design-example",
+    "subjectId": "knowledge:housing-building-design",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Two layouts for one brief. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-resource-housing-trades-drawings-depth",
+    "subjectId": "resource:housing-trades-drawings",
+    "sourceId": "source:housing-trades-catalog",
+    "claim": "Entry-level trades textbook supports drawing interpretation and includes exercises/self-tests.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-resource-housing-trades-drawings-example",
+    "subjectId": "resource:housing-trades-drawings",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A small object as a study exercise. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-design-depth",
+    "subjectId": "contribution:housing-design",
+    "sourceId": "source:housing-architect",
+    "claim": "Client requirements are developed into drawings/specifications.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-design-example",
+    "subjectId": "contribution:housing-design",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Moving a doorway. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-survey-depth",
+    "subjectId": "contribution:housing-survey",
+    "sourceId": "source:housing-onet-surveyor",
+    "claim": "Survey tasks include measurements, record research, verification and documented findings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-survey-example",
+    "subjectId": "contribution:housing-survey",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Checking a surprising reading. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-masonry-depth",
+    "subjectId": "contribution:housing-masonry",
+    "sourceId": "source:housing-mason",
+    "claim": "Masonry includes planned layout, preparation of units, wall construction and alignment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-masonry-example",
+    "subjectId": "contribution:housing-masonry",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: Keeping an opening in view. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-framing-depth",
+    "subjectId": "contribution:housing-framing",
+    "sourceId": "source:housing-carpenter",
+    "claim": "Carpenters follow plans, measure/shape materials, assemble frameworks and check work.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-framing-example",
+    "subjectId": "contribution:housing-framing",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A frame for a planned opening. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-electrical-depth",
+    "subjectId": "contribution:housing-electrical",
+    "sourceId": "source:housing-electrician",
+    "claim": "Electrical installation follows diagrams and includes inspection and diagnostic testing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-electrical-example",
+    "subjectId": "contribution:housing-electrical",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A changed light position. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-plumbing-depth",
+    "subjectId": "contribution:housing-plumbing",
+    "sourceId": "source:housing-plumber",
+    "claim": "Plumbing work includes material selection, installation, inspection and testing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-plumbing-example",
+    "subjectId": "contribution:housing-plumbing",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A connection that needs attention. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-joinery-depth",
+    "subjectId": "contribution:housing-joinery",
+    "sourceId": "source:housing-onet-carpenter",
+    "claim": "Carpenters use plans/dimensions and install cabinets, trim and fixtures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-joinery-example",
+    "subjectId": "contribution:housing-joinery",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: A cabinet beside a doorway. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-manage-depth",
+    "subjectId": "contribution:housing-manage",
+    "sourceId": "source:housing-manager",
+    "claim": "Managers coordinate timetables, monitor budgets/progress and respond to delays.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-contribution-housing-manage-example",
+    "subjectId": "contribution:housing-manage",
+    "sourceId": "source:housing-wave3-editorial",
+    "claim": "Original example: The delivery date changes. This scenario is not a documented building project.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-structure-masonry",
+    "subjectId": "stage:housing-structure",
+    "sourceId": "source:housing-mason",
+    "claim": "Masonry walls use brick, block or stone and follow plans.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-stage-housing-services-plumbing",
+    "subjectId": "stage:housing-services",
+    "sourceId": "source:housing-plumber",
+    "claim": "Plumbing includes installing and testing piping and fixtures.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-resource-housing-trades-drawings-access",
+    "subjectId": "resource:housing-trades-drawings",
+    "sourceId": "source:housing-trades-drawings",
+    "claim": "Public PDF provides objectives, drawing tasks and self-tests; 2015 text with stated license exceptions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-resource-openlearn-building-energy-metadata",
+    "subjectId": "resource:openlearn-building-energy",
+    "sourceId": "source:housing-energy",
+    "claim": "Provider labels this course Advanced and estimates 10 hours; reading is free and full activities use an account.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-relation-housing-building-design-field-relation",
+    "subjectId": "relation:housing-building-design-field",
+    "sourceId": "source:housing-ncarb",
+    "claim": "Building design and documentation are part of architectural practice.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:housing-w3-relation-housing-drawing-design-relation",
+    "subjectId": "relation:housing-drawing-design",
+    "sourceId": "source:housing-architect",
+    "claim": "Architects design buildings and prepare scaled drawings.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice",
+    "notes": "Mapping drawing to its design subject is editorial: the cited tasks connect design and drawing, rather than defining this taxonomy."
+  },
+  {
+    "id": "evidence:housing-w3-relation-housing-trades-learning-relation",
+    "subjectId": "relation:housing-trades-learning",
+    "sourceId": "source:housing-trades-drawings",
+    "claim": "Objectives include recognizing drawing conventions and reading dimensions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
   }
 ]
