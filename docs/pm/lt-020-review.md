@@ -20,4 +20,10 @@ The published catalog still contains one endeavor and its sourced connections. A
 
 ## Publication
 
-Pending exact-source release verification. Update this section after publication.
+Published application source `d84d0c45821e7335bebc0d608357cd74fbf41284`, deployment `12c0bb28c503f49cd15c87d26a1b7cd3d9584198`. The publisher rebuilt the clean committed snapshot with a frozen lockfile and passed all 45 tests, data/type checks and production build. Only app assets, index, .nojekyll and release.json were published.
+
+- [Exact-source CI success](https://github.com/karuhanga/latent-threads/actions/runs/34675446217)
+- [Pages deployment success](https://github.com/karuhanga/latent-threads/actions/runs/34675466833)
+- [Live demo](https://karuhanga.github.io/latent-threads/)
+
+PM opened the hosted revised home, used global Surprise to reach the independent Songwriting skill, and refreshed that deep link successfully. Public release.json returned the exact application source above. The live home is left open for review. Later documentation-only handoff commits do not alter this deployed application.

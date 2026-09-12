@@ -41,11 +41,11 @@ User requested global catalog framing, a randomly arranged large/small tile wall
 
 ## Last verified progress and access
 
-- **Wave 1 complete and deployed, stopped for user review.** Live demo: https://karuhanga.github.io/latent-threads/. Reviewed application source `8ded5ff250f890bd534ac8ea9d1268aa0a4a1bb0`; deployment `3cb2bcf19d52f724b0052ad79dc6ee3a8141aaa6`. Later docs-only commits record release evidence and do not change the app.
-- LT-001–LT-011 accepted by PM. Visual checkpoint A `847e7fb`, sourced exploration B `15d6ea2`, discovery/learning C `8ded5ff`. User’s actual feedback: “loving the direction”; no additional user testing is claimed.
-- Release: 31 nodes + 8 contextual contributions, 6 stages, 24 relations, 70 evidence records and 3 checked learning resources. All 36 tests, data/type checks, reproducible build and exact-source CI passed. PM mobile/desktop, keyboard, reduced motion, history/context, search, external learning and hosted deep-link/provenance checks passed. Detailed evidence/limits: [wave-1-review.md](wave-1-review.md).
-- Public origin is https://github.com/karuhanga/latent-threads.git. Git pushes/browser work; gh CLI authentication is unnecessary. Billing issue resolved. Publisher works end to end with system Git ahead of bundled fallback tools in README PATH; no credentials were copied. Pages uses gh-pages root, .nojekyll, no runtime backend.
-- Repo docs/specs remain authoritative; Notion tracking is updated to completion. No builder is active and no recurring automation exists. User-authorized goal ends when deployed demo is ready for review; do not automatically begin Wave 2.
+- **Wave 1 and review revision LT-020 deployed, ready for user review.** Live demo: https://karuhanga.github.io/latent-threads/. Reviewed application source `d84d0c45821e7335bebc0d608357cd74fbf41284`; deployment `12c0bb28c503f49cd15c87d26a1b7cd3d9584198`. Later docs-only commits record release evidence and do not change the app.
+- LT-001–LT-011 and LT-020 accepted by PM. Original visual checkpoint A `847e7fb`, sourced exploration B `15d6ea2`, discovery/learning C `8ded5ff`; user review revision `d84d0c4`. User feedback informed the revision; no subsequent user acceptance is claimed.
+- Data: 31 nodes + 8 contextual contributions, 6 stages, 24 relations, 70 evidence records and 3 learning resources. All 45 tests, data/type checks, reproducible build and exact-source CI passed. Revised desktop/mobile, keyboard, automatic/manual movement, preference persistence, catalog search and independent entity views were reviewed. Hosted home, global Surprise, refreshed skill deep link and exact release provenance verified. Detailed evidence/limits: [LT-020 review](lt-020-review.md); historical [Wave 1 review](wave-1-review.md).
+- Public origin is https://github.com/karuhanga/latent-threads.git. Git pushes/browser work; gh CLI authentication is unnecessary. Billing issue resolved. Publisher works with system Git ahead of bundled fallback tools in README PATH. Pages uses gh-pages root, .nojekyll, no runtime backend.
+- Repo docs/specs remain authoritative; Notion LT-020 tracking is complete. Both builders handed off and no recurring automation exists. Do not automatically begin Wave 2 or Rabbit Hole.
 
 ## Agent dispatch and truth protocol
 
@@ -57,4 +57,4 @@ At each checkpoint or handoff, update this snapshot with the actual completed re
 
 ## Next action and unresolved facts
 
-**Next action:** Publish the reviewed LT-020 revision. Both builders have handed off; PM integration checks pass all 45 tests, data validation, typecheck and production build. Browser review verified manual/automatic shuffle, stable focused tiles, user pause, mobile catalog search and independent skill navigation. Previous Wave 1 deployment is still the hosted baseline until the new release is verified. Coffee content remains separate.
+**Next action:** Await Lincoln’s review of the deployed LT-020 revision. No implementation blocker or account action remains. Coffee/local relevance and the separately recorded Rabbit Hole idea remain future scope.
