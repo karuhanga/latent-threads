@@ -13,7 +13,7 @@
 
 ## Architecture and scope baseline
 
-Node **24**, **React + TypeScript + Vite**, curated normalized **JSON in Git**, build-time validation and in-memory traversal are the current implementation baseline. Keep renderer and storage access separate. Add SQLite or a backend only when concrete needs justify them. Following Lincoln's simpler deployment suggestion, build/check locally and publish dist contents plus .nojekyll to the existing repository's gh-pages branch; retain source/docs on main. Custom Actions builds are optional later automation. Pages branch publication is verified for Checkpoint B; final Wave 1 publication remains pending.
+Node **24**, **React + TypeScript + Vite**, curated normalized **JSON in Git**, build-time validation and in-memory traversal are the current implementation baseline. Keep renderer and storage access separate. Add SQLite or a backend only when concrete needs justify them. Following Lincoln's simpler deployment suggestion, build/check locally and publish dist contents plus .nojekyll to the existing repository's gh-pages branch; retain source/docs on main. Custom Actions builds are optional later automation. Full Wave 1 Pages publication is verified.
 
 Wave 1 is one sourced song journey, approximately 30–50 browsable entities: 5–7 stages, 6–10 roles and 8–12 capabilities/concepts/tools, plus at least three checked learning resources across two concepts. These are coverage targets, never permission to invent data. The three review checkpoints are:
 
@@ -37,11 +37,11 @@ The first-release, delivery-plan, deployment, decision log and LT-001–LT-019 s
 
 ## Last verified progress and access
 
-- Public `karuhanga/latent-threads`, main, origin HTTPS. User's initial `a35d282` includes ideation; preserve it. Git pushes and signed-in browser work. `gh` is unauthenticated but is not needed. Account billing blocker is resolved; hosted runner and app checks passed.
-- LT-001–LT-006 accepted. Foundation `d18a95a`, visual shell `847e7fb`, validator and sourced catalog `5da60d1`: 31 nodes, 8 contributions, 24 relations, 70 evidence records. Source review is separate from schema validation.
-- Checkpoint B / LT-007 accepted by PM: actual data powers six stages, System/Team and bounded connections. PM walked mixing → audio mixing → sound waves and songwriting → harmony → Ableton, with contribution context retained; interpretation/source notes visible. Mobile width/scrollWidth 360/360. All 21 tests, data validation, typecheck and production build passed. Lincoln said “loving the direction”; preserve the visual approach.
-- Publisher code through `22e8988` has clean-source guards, isolated reproducible builds, allowlisted output and history-preserving publication. First remote attempt failed temporary-checkout authentication; publication now uses the authenticated source checkout. Actual root cause was PATH selecting fallback/git. System Git pushed the checked deployment `40458a3` from source `15d6ea2`; Pages run 34672533908 passed, live home and refreshed deep link verified at https://karuhanga.github.io/latent-threads/. README now orders system Git before fallback tools. Final publisher run must verify corrected PATH end to end. No current user action is required.
-- Active user-authorized goal: finish/test/deploy Wave 1 with bounded subagents and visible checkpoints, then stop for review. No recurring automation. PM owns acceptance, docs, tracking and publication.
+- **Wave 1 complete and deployed, stopped for user review.** Live demo: https://karuhanga.github.io/latent-threads/. Reviewed application source `8ded5ff250f890bd534ac8ea9d1268aa0a4a1bb0`; deployment `3cb2bcf19d52f724b0052ad79dc6ee3a8141aaa6`. Later docs-only commits record release evidence and do not change the app.
+- LT-001–LT-011 accepted by PM. Visual checkpoint A `847e7fb`, sourced exploration B `15d6ea2`, discovery/learning C `8ded5ff`. User’s actual feedback: “loving the direction”; no additional user testing is claimed.
+- Release: 31 nodes + 8 contextual contributions, 6 stages, 24 relations, 70 evidence records and 3 checked learning resources. All 36 tests, data/type checks, reproducible build and exact-source CI passed. PM mobile/desktop, keyboard, reduced motion, history/context, search, external learning and hosted deep-link/provenance checks passed. Detailed evidence/limits: [wave-1-review.md](wave-1-review.md).
+- Public origin is https://github.com/karuhanga/latent-threads.git. Git pushes/browser work; gh CLI authentication is unnecessary. Billing issue resolved. Publisher works end to end with system Git ahead of bundled fallback tools in README PATH; no credentials were copied. Pages uses gh-pages root, .nojekyll, no runtime backend.
+- Repo docs/specs remain authoritative; Notion tracking is updated to completion. No builder is active and no recurring automation exists. User-authorized goal ends when deployed demo is ready for review; do not automatically begin Wave 2.
 
 ## Agent dispatch and truth protocol
 
@@ -53,6 +53,4 @@ At each checkpoint or handoff, update this snapshot with the actual completed re
 
 ## Next action and unresolved facts
 
-**Next action:** LT-008 and LT-009 passed PM acceptance, including 360px learning cards, real search/history/refresh and external lesson return. Independent navigation review found and fixed repeated-trail keyboard focus loss; PM confirmed main focus and following Tab. All 36 tests/build/type/data checks pass. Publish the clean combined Wave 1 revision with corrected system-Git PATH, verify live source/Pages/deep link, close LT-010/LT-011 and stop for user review. Detailed QA is in `wave-1-review.md`. No builders are editing files now. Local production preview remains port4179 (session69716); agent development preview port4181 (session59243) can be stopped at completion.
-
-Checkpoint B source15d6ea2/deployment40458a3 is currently hosted at https://karuhanga.github.io/latent-threads/. Full Wave 1 hosted verification is still pending. No user input is needed.
+**Next action:** Wait for Lincoln’s review of the deployed demo. Suggested walkthrough and known boundaries are in wave-1-review.md. No blockers or requested account actions remain. Coffee/local relevance is next planned scope, not started work.

@@ -4,8 +4,8 @@ Goal accepted 12 September 2026: complete, test and deploy the first playable so
 
 ## Ownership and integration
 
-- LT-003: deployment_review owns scaffold/configuration, routing entry, package scripts and setup instructions. PM reviews before LT-004/LT-005 begin.
-- LT-006: ontology_first_slice owns `data/song/*.json` and `docs/content/song-review.md`. PM reviews source support and runs the eventual release validator before integration.
+- Completed: deployment_review delivered scaffold, visual shell, real-data exploration, discovery and trails.
+- Completed: ontology_first_slice delivered sourced content, publishing preparation and contextual learning, plus independent schema/navigation reviews.
 - PM owns shared specifications, decisions, context, kanban status, acceptance and publication. At most two builders are active. Agents do not commit or push shared changes independently.
 
 The song manifest uses `schemaVersion: "0.1"` and a `files` map naming bare-array JSON files for nodes, contributions, relations, sources, evidence, places, presenceAssessments and taxonomyMappings. Root endeavor ID is `endeavor:song-release`. This is the file layout for the existing normalized ontology, not a second data model.
@@ -21,7 +21,7 @@ Each checkpoint records the exact reviewed source commit, preview URL, checks an
 | A: visual foundation | Home and explorer composition; desktop and 360px; keyboard focus; fixture label; reduced motion | Accepted: real Chrome/in-app previews, screenshots shown in task. Width/scrollWidth 1280/1280 and 360/360. Tab/Enter stage traversal and visible focus passed. Reduced-motion CSS inspected; runtime preference QA follows. |
 | B: follow a song | Two distinct sourced contribution paths; stage/context preserved; labeled connections; back/home | Accepted: PM walked mixing → audio mixing → sound waves and songwriter → songwriting → harmony → Ableton. Context and sourced inference notes visible. Team shows scoped actions; 360px has no horizontal overflow. 21 tests/typecheck/validation/build pass. |
 | C: discover and learn | Alias/partial/empty search; multi-hop trail; browser history; refreshed deep link; three learning cards; source/access/license review | Accepted locally; 36 tests and PM browser review passed. See wave-1-review.md for evidence and measured limits. |
-| Hosted release | Same reviewed build on Pages; real home and refreshed deep link; correct subpath assets; source/deployment commit recorded | B verified: source 15d6ea2, deployment 40458a3, Pages run 34672533908 passed. Live home and refreshed sound-waves link work. C/final release pending. |
+| Hosted release | Same reviewed build on Pages; real home and refreshed deep link; correct subpath assets; source/deployment commit recorded | Full Wave 1 verified: source 8ded5ff, deployment 3cb2bcf, Pages run 34673341278 passed. Hosted search, refreshed harmony/context and release provenance passed. |
 
 ## Release review cases
 

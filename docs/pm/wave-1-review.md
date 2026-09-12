@@ -2,7 +2,7 @@
 
 ## Outcome
 
-PM accepted Checkpoint C locally: one sourced song process with six stages, eight contextual contributions, mixed discovery, label/alias search, manual shuffle and Surprise me, recoverable exploration trail, and three contextual learning resources. Full hosted release verification is the final step; the previous Checkpoint B is already live.
+PM accepted Checkpoint C locally: one sourced song process with six stages, eight contextual contributions, mixed discovery, label/alias search, manual shuffle and Surprise me, recoverable exploration trail, and three contextual learning resources. The complete release is deployed and ready for Lincoln’s review.
 
 ## Verification evidence
 
@@ -29,3 +29,14 @@ This is a curated explanation of producing and releasing a song, with learning l
 ## Suggested five-minute review
 
 Start with Follow a song, choose Mix the tracks, follow the mixing contribution to audio mixing and sound waves, and expand a connection explanation. Open its OpenLearn resource and return. Then explore songwriting through harmony into Ableton. Try DAW search, Shuffle, and an earlier trail entry. Lincoln’s actual feedback so far is “loving the direction”; no additional user testing is claimed.
+
+## Hosted release evidence
+
+- Live demo: https://karuhanga.github.io/latent-threads/
+- Reviewed source: `8ded5ff250f890bd534ac8ea9d1268aa0a4a1bb0`. Deployment commit: `3cb2bcf19d52f724b0052ad79dc6ee3a8141aaa6`, a child of the earlier deployment, preserving history.
+- Corrected system-Git PATH allowed `pnpm publish:pages` to complete end to end: fresh frozen install, validation, typecheck, all 36 tests, production build, output inspection and ordinary push. No manual final-push workaround was needed.
+- [App checks passed on the exact source](https://github.com/karuhanga/latent-threads/actions/runs/34673314312). [Pages build and deployment passed](https://github.com/karuhanga/latent-threads/actions/runs/34673341278).
+- Public release.json returned the exact source hash. PM opened the live home, searched DAW successfully, refreshed harmony with `?via=contribution%3Asong-write`, confirmed songwriter/stage context and the complete Ableton card. Script and stylesheet resolve under /latent-threads/assets/ with the reviewed output filenames.
+- Post-deployment documentation commits record this evidence; the deployed application source remains the immutable revision above. No paid services, accounts, new credentials or custom domain were introduced.
+
+PM release acceptance: Wave 1 complete. Stop implementation and wait for Lincoln’s review before further scope.
