@@ -1,0 +1,554 @@
+[
+  {
+    "id": "evidence:software-endeavor-software-mobile-app-publishing",
+    "subjectId": "endeavor:software-mobile-app",
+    "sourceId": "source:software-publishing",
+    "claim": "Android apps are prepared and released for people to install and use.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-endeavor-software-mobile-app-editorial",
+    "subjectId": "endeavor:software-mobile-app",
+    "sourceId": "source:software-editorial",
+    "claim": "Six groups connect a practical Android example with broader service research, design and support work.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-artifact-software-mobile-app-publishing",
+    "subjectId": "artifact:software-mobile-app",
+    "sourceId": "source:software-publishing",
+    "claim": "Released Android applications can be downloaded and installed on mobile devices.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-research-research-planning",
+    "subjectId": "stage:software-research",
+    "sourceId": "source:software-research-planning",
+    "claim": "Research planning defines questions, participants and activities.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-research-editorial",
+    "subjectId": "stage:software-research",
+    "sourceId": "source:software-editorial",
+    "claim": "Reading group 1: Research and planning. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-design-prototypes",
+    "subjectId": "stage:software-design",
+    "sourceId": "source:software-prototypes",
+    "claim": "Prototypes help teams explore and test design ideas.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-design-editorial",
+    "subjectId": "stage:software-design",
+    "sourceId": "source:software-editorial",
+    "claim": "Reading group 2: Interaction design. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-development-first-app",
+    "subjectId": "stage:software-development",
+    "sourceId": "source:software-first-app",
+    "claim": "The codelab builds an Android interface using Kotlin and Compose.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-development-editorial",
+    "subjectId": "stage:software-development",
+    "sourceId": "source:software-editorial",
+    "claim": "Reading group 3: Development. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-testing-testing",
+    "subjectId": "stage:software-testing",
+    "sourceId": "source:software-testing",
+    "claim": "Tests check app correctness, behavior and usability.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-testing-editorial",
+    "subjectId": "stage:software-testing",
+    "sourceId": "source:software-editorial",
+    "claim": "Reading group 4: Testing. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-distribution-publishing",
+    "subjectId": "stage:software-distribution",
+    "sourceId": "source:software-publishing",
+    "claim": "Publishing includes preparation and distribution of a release version.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-distribution-editorial",
+    "subjectId": "stage:software-distribution",
+    "sourceId": "source:software-editorial",
+    "claim": "Reading group 5: Distribution. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-support-reviews",
+    "subjectId": "stage:software-support",
+    "sourceId": "source:software-reviews",
+    "claim": "Developer replies can help resolve users’ app problems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-stage-software-support-editorial",
+    "subjectId": "stage:software-support",
+    "sourceId": "source:software-editorial",
+    "claim": "Reading group 6: Support. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-role-software-user-researcher-user-needs",
+    "subjectId": "role:software-user-researcher",
+    "sourceId": "source:software-user-needs",
+    "claim": "User research includes interviews and observation of likely users.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-role-software-interaction-designer-prototypes",
+    "subjectId": "role:software-interaction-designer",
+    "sourceId": "source:software-prototypes",
+    "claim": "Design work uses prototypes to explore and test interactions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-role-software-app-developer-first-program",
+    "subjectId": "role:software-app-developer",
+    "sourceId": "source:software-first-program",
+    "claim": "The course introduces writing code to build Android apps.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-role-software-tester-testing",
+    "subjectId": "role:software-tester",
+    "sourceId": "source:software-testing",
+    "claim": "App testing exercises flows and checks behavior in different environments.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-role-software-publisher-publishing",
+    "subjectId": "role:software-publisher",
+    "sourceId": "source:software-publishing",
+    "claim": "Publishing includes preparing a build, materials and distribution.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-role-software-support-specialist-reviews",
+    "subjectId": "role:software-support-specialist",
+    "sourceId": "source:software-reviews",
+    "claim": "The developer-response feature supports resolving problems with users.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-capability-software-user-research-user-needs",
+    "subjectId": "capability:software-user-research",
+    "sourceId": "source:software-user-needs",
+    "claim": "Research uses interviews and observation to investigate users’ needs.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-capability-software-prototyping-prototypes",
+    "subjectId": "capability:software-prototyping",
+    "sourceId": "source:software-prototypes",
+    "claim": "Prototypes can be sketches or interactive code used to test designs.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-capability-software-android-development-first-app",
+    "subjectId": "capability:software-android-development",
+    "sourceId": "source:software-first-app",
+    "claim": "The first-app codelab teaches Kotlin and Compose interface changes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-capability-software-app-testing-testing",
+    "subjectId": "capability:software-app-testing",
+    "sourceId": "source:software-testing",
+    "claim": "Testing includes manual flows and repeatable automated checks.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-knowledge-software-user-needs-user-needs",
+    "subjectId": "knowledge:software-user-needs",
+    "sourceId": "source:software-user-needs",
+    "claim": "User needs describe what a service must satisfy for users’ outcomes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-knowledge-software-functions-first-program",
+    "subjectId": "knowledge:software-functions",
+    "sourceId": "source:software-first-program",
+    "claim": "The codelab explains defining and calling functions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-knowledge-software-functional-testing-testing",
+    "subjectId": "knowledge:software-functional-testing",
+    "sourceId": "source:software-testing",
+    "claim": "Functional testing asks whether the app does what it should.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-tool-software-android-studio-first-app",
+    "subjectId": "tool:software-android-studio",
+    "sourceId": "source:software-first-app",
+    "claim": "Android Studio provides the project, code editor and preview.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-tool-software-android-test-device-testing",
+    "subjectId": "tool:software-android-test-device",
+    "sourceId": "source:software-testing",
+    "claim": "Instrumented tests run on physical or emulated Android devices.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-tool-software-play-console-reviews",
+    "subjectId": "tool:software-play-console",
+    "sourceId": "source:software-reviews",
+    "claim": "Play Console displays app reviews and supports developer replies.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-resource-software-first-kotlin-program-first-program",
+    "subjectId": "resource:software-first-kotlin-program",
+    "sourceId": "source:software-first-program",
+    "claim": "The public codelab introduces Kotlin using a browser playground.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-resource-software-first-android-app-first-app",
+    "subjectId": "resource:software-first-android-app",
+    "sourceId": "source:software-first-app",
+    "claim": "The public codelab guides creation and preview of a first app.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-research-user-needs",
+    "subjectId": "contribution:software-research",
+    "sourceId": "source:software-user-needs",
+    "claim": "Research uses interviews to understand what users are trying to achieve.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-research-research-planning",
+    "subjectId": "contribution:software-research",
+    "sourceId": "source:software-research-planning",
+    "claim": "Research rounds organize questions, user groups, activities and practical arrangements.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-prototype-prototypes",
+    "subjectId": "contribution:software-prototype",
+    "sourceId": "source:software-prototypes",
+    "claim": "Prototypes are made and tested to explore service designs.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-develop-first-app",
+    "subjectId": "contribution:software-develop",
+    "sourceId": "source:software-first-app",
+    "claim": "The codelab implements an interface in Kotlin and previews changes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-test-testing",
+    "subjectId": "contribution:software-test",
+    "sourceId": "source:software-testing",
+    "claim": "Testing combines manual navigation with automated checks in different environments.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-publish-publishing",
+    "subjectId": "contribution:software-publish",
+    "sourceId": "source:software-publishing",
+    "claim": "Publication includes signed releases, promotional materials and distribution channels.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-contribution-software-support-reviews",
+    "subjectId": "contribution:software-support",
+    "sourceId": "source:software-reviews",
+    "claim": "Play Console supports review analysis and responses intended to resolve problems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-output-first-app",
+    "subjectId": "relation:software-output",
+    "sourceId": "source:software-first-app",
+    "claim": "The tutorial’s development work creates an Android app.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-develop-output-first-app",
+    "subjectId": "relation:software-develop-output",
+    "sourceId": "source:software-first-app",
+    "claim": "Writing and building the project produces the app.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-research-skill-user-needs",
+    "subjectId": "relation:software-research-skill",
+    "sourceId": "source:software-user-needs",
+    "claim": "The work uses interviews and observation to understand users.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-research-needs-user-needs",
+    "subjectId": "relation:software-research-needs",
+    "sourceId": "source:software-user-needs",
+    "claim": "Research investigates what people need to reach their goals.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-research-planning-research-planning",
+    "subjectId": "relation:software-research-planning",
+    "sourceId": "source:software-research-planning",
+    "claim": "Research planning organizes objectives, activities, participants and required arrangements.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review",
+    "notes": "These documented planning tasks apply the shared skill of defining work and organizing tasks and resources. This is a specific research-planning application, not a claim that all researchers manage the entire app project."
+  },
+  {
+    "id": "evidence:software-relation-software-prototype-skill-prototypes",
+    "subjectId": "relation:software-prototype-skill",
+    "sourceId": "source:software-prototypes",
+    "claim": "Design exploration uses prototype creation and testing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-development-skill-first-app",
+    "subjectId": "relation:software-development-skill",
+    "sourceId": "source:software-first-app",
+    "claim": "The implementation uses Kotlin and Compose development skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-development-studio-first-app",
+    "subjectId": "relation:software-development-studio",
+    "sourceId": "source:software-first-app",
+    "claim": "The codelab uses Android Studio to create and preview the app.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-development-functions-first-program",
+    "subjectId": "relation:software-development-functions",
+    "sourceId": "source:software-first-program",
+    "claim": "Programming foundations include defining and calling functions before app creation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-testing-skill-testing",
+    "subjectId": "relation:software-testing-skill",
+    "sourceId": "source:software-testing",
+    "claim": "App verification uses manual and automated testing approaches.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-testing-devices-testing",
+    "subjectId": "relation:software-testing-devices",
+    "sourceId": "source:software-testing",
+    "claim": "App checks can run on physical or emulated devices.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-testing-functions-testing",
+    "subjectId": "relation:software-testing-functions",
+    "sourceId": "source:software-testing",
+    "claim": "Functional checks compare app behavior with its intended purpose.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-support-console-reviews",
+    "subjectId": "relation:software-support-console",
+    "sourceId": "source:software-reviews",
+    "claim": "Review responses and analysis are available in Play Console.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-learn-functions-first-program",
+    "subjectId": "relation:software-learn-functions",
+    "sourceId": "source:software-first-program",
+    "claim": "The codelab explains function definitions, calls and bodies.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-relation-software-learn-android-first-app",
+    "subjectId": "relation:software-learn-android",
+    "sourceId": "source:software-first-app",
+    "claim": "The codelab teaches creation and customization of an Android interface.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  }
+]
+

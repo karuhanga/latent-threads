@@ -1,0 +1,241 @@
+[
+  {
+    "id": "endeavor:software-mobile-app",
+    "type": "endeavor",
+    "label": "Mobile app development",
+    "summary": "Explore the work behind researching, designing, building and supporting a mobile app.",
+    "editorialStatus": "published",
+    "aliases": [
+      "software",
+      "mobile application",
+      "app development",
+      "build an app",
+      "Android"
+    ],
+    "notes": "A selected native Android route, with Google Play as one distribution and support example. Research, design and testing recur; this is not a prescribed sequence or the only mobile technology stack."
+  },
+  {
+    "id": "artifact:software-mobile-app",
+    "type": "artifact",
+    "label": "Mobile app",
+    "summary": "An installable mobile application, represented here by an Android app.",
+    "editorialStatus": "published",
+    "aliases": [
+      "app",
+      "Android application"
+    ]
+  },
+  {
+    "id": "stage:software-research",
+    "type": "stage",
+    "label": "Research and planning",
+    "summary": "Understand users and organize research around important questions.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:software-mobile-app",
+    "displayOrder": 1
+  },
+  {
+    "id": "stage:software-design",
+    "type": "stage",
+    "label": "Interaction design",
+    "summary": "Explore interface ideas through prototypes and feedback.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:software-mobile-app",
+    "displayOrder": 2
+  },
+  {
+    "id": "stage:software-development",
+    "type": "stage",
+    "label": "Development",
+    "summary": "Write and build the app’s code and interface.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:software-mobile-app",
+    "displayOrder": 3
+  },
+  {
+    "id": "stage:software-testing",
+    "type": "stage",
+    "label": "Testing",
+    "summary": "Check whether the app behaves as intended.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:software-mobile-app",
+    "displayOrder": 4
+  },
+  {
+    "id": "stage:software-distribution",
+    "type": "stage",
+    "label": "Distribution",
+    "summary": "Prepare a release and make it available to users.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:software-mobile-app",
+    "displayOrder": 5
+  },
+  {
+    "id": "stage:software-support",
+    "type": "stage",
+    "label": "Support",
+    "summary": "Respond to users’ feedback and reported problems.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:software-mobile-app",
+    "displayOrder": 6
+  },
+  {
+    "id": "role:software-user-researcher",
+    "type": "role",
+    "label": "User researcher",
+    "summary": "Investigates users’ tasks, experiences and needs.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:software-interaction-designer",
+    "type": "role",
+    "label": "Interaction designer",
+    "summary": "Explores and tests how people will interact with a service.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:software-app-developer",
+    "type": "role",
+    "label": "Mobile app developer",
+    "summary": "Writes and changes code that implements an app.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:software-tester",
+    "type": "role",
+    "label": "Software tester",
+    "summary": "Checks app behavior across scenarios, devices and configurations.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:software-publisher",
+    "type": "role",
+    "label": "App publisher",
+    "summary": "Prepares release materials and makes an app available to users.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:software-support-specialist",
+    "type": "role",
+    "label": "App support specialist",
+    "summary": "Reviews feedback and helps users with reported app problems.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:software-user-research",
+    "type": "capability",
+    "label": "User research",
+    "summary": "Interview and observe people to understand their goals and difficulties.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:software-prototyping",
+    "type": "capability",
+    "label": "Interface prototyping",
+    "summary": "Make and test rough versions of an interface to explore ideas.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:software-android-development",
+    "type": "capability",
+    "label": "Android app development",
+    "summary": "Use Kotlin and Jetpack Compose to build an Android interface.",
+    "editorialStatus": "published",
+    "kind": "skill",
+    "aliases": [
+      "Android programming",
+      "Kotlin app development"
+    ]
+  },
+  {
+    "id": "capability:software-app-testing",
+    "type": "capability",
+    "label": "App testing",
+    "summary": "Choose and run checks of an app’s behavior and usability.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "knowledge:software-user-needs",
+    "type": "knowledge",
+    "label": "User needs",
+    "summary": "What people need from a service to achieve their intended outcome.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "knowledge:software-functions",
+    "type": "knowledge",
+    "label": "Programming functions",
+    "summary": "Units of code that perform a task when called.",
+    "editorialStatus": "published",
+    "kind": "concept",
+    "aliases": [
+      "functions",
+      "code functions"
+    ]
+  },
+  {
+    "id": "knowledge:software-functional-testing",
+    "type": "knowledge",
+    "label": "Functional testing",
+    "summary": "Checking whether an app does what it is intended to do.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "tool:software-android-studio",
+    "type": "tool",
+    "label": "Android Studio",
+    "summary": "A development workspace for editing, building and previewing Android apps.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:software-android-test-device",
+    "type": "tool",
+    "label": "Android test device",
+    "summary": "A physical or emulated Android device used to run app checks.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:software-play-console",
+    "type": "tool",
+    "label": "Play Console",
+    "summary": "A developer dashboard for examining app feedback and replying to users.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "resource:software-first-kotlin-program",
+    "type": "learning_resource",
+    "label": "Your first Kotlin program",
+    "summary": "Write, run and change a small program in a browser.",
+    "editorialStatus": "published",
+    "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-program",
+    "provider": "Google, Android Developers",
+    "format": "Hands-on codelab",
+    "learnerLevel": "Beginner",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "Requires an internet-connected computer and browser. This introduces programming, not a complete Android app. Page text is CC BY 4.0 unless otherwise noted; code examples use Apache 2.0."
+  },
+  {
+    "id": "resource:software-first-android-app",
+    "type": "learning_resource",
+    "label": "Create your first Android app",
+    "summary": "Build and customize a simple Android greeting app using Android Studio. Basic Kotlin knowledge required.",
+    "editorialStatus": "published",
+    "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
+    "provider": "Google, Android Developers",
+    "format": "Hands-on codelab",
+    "learnerLevel": "Beginner — basic Kotlin needed",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "Basic Kotlin and Android Studio required. Text uses CC BY 4.0 unless otherwise noted; code samples use Apache 2.0."
+  }
+]

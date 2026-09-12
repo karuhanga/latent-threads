@@ -28,9 +28,11 @@ export function shuffleDiscovery(graph: Graph, current: string[], random = Math.
 export function searchDiscovery(graph: Graph, query: string): Entity[] {
   const term = query.trim().toLocaleLowerCase();
   if (!term) return [];
+  const rank = (entity: Entity) => entity.label.toLocaleLowerCase() === term ? 2
+    : 'aliases' in entity && entity.aliases?.some(alias => alias.toLocaleLowerCase() === term) ? 1 : 0;
   return discoveryPool(graph).filter((entity) => [entity.label, ...('aliases' in entity ? entity.aliases ?? [] : [])]
     .some((label) => label.toLocaleLowerCase().includes(term)))
-    .sort((a, b) => Number(b.label.toLocaleLowerCase() === term) - Number(a.label.toLocaleLowerCase() === term)
+    .sort((a, b) => rank(b) - rank(a)
       || a.label.localeCompare(b.label) || a.id.localeCompare(b.id));
 }
 

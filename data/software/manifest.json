@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "0.2",
+  "files": {
+    "nodes": "nodes.json",
+    "contributions": "contributions.json",
+    "relations": "relations.json",
+    "sources": "sources.json",
+    "evidence": "evidence.json",
+    "places": "places.json",
+    "presenceAssessments": "presenceAssessments.json",
+    "taxonomyMappings": "taxonomyMappings.json",
+    "organizationExamples": "organizationExamples.json"
+  }
+}
+

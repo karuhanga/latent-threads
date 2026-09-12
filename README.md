@@ -2,7 +2,7 @@
 
 An interactive map of how people get things done. Explore endeavors, the roles and contributions behind them, the knowledge and tools involved, and something worth learning next.
 
-**Stage:** Wave 1 deployed; Wave 2 expansion in progress — [open the demo](https://karuhanga.github.io/latent-threads/).
+**Stage:** Wave 2 final candidate reviewed; publication in progress — [open the demo](https://karuhanga.github.io/latent-threads/).
 
 - [Project HQ](https://www.notion.so/3d907031acb58172be89cad68e89e362)
 - [Wave 2 kanban](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb5815ca00e000cc3c1a19b)
@@ -24,7 +24,7 @@ Lincoln confirmed song first, Ugandan coffee second. Wave 1 has three visible ch
 2. A sourced song journey connecting stages, contextual contributions, roles and concepts.
 3. Global discovery, catalog search, learning links and a verified demo.
 
-The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The catalog now opens with a randomized tile wall and optional automatic shuffle. Search and Surprise me cover every published item. Skills, concepts, tools and roles have independent connections; process stages belong to endeavors. A discreet Settings control enables sources and detailed information, hidden by default. Browser Back remains available without a visible trail. The enabled catalog covers music, coffee, housing, clothing and diagnostic testing. Mobile apps complete Wave 2. [Original release review](docs/pm/wave-1-review.md) and [LT-020 review](docs/pm/lt-020-review.md) record verification and limits.
+The stack is React, TypeScript and Vite with validated JSON data bundled into a static app. The public repository is `karuhanga/latent-threads`; browser access and Git pushes are verified. Build and check locally, then publish only the contents of `dist/` plus `.nojekyll` to a `gh-pages` branch in the same repository. The catalog now opens with a randomized tile wall and optional automatic shuffle. Search and Surprise me cover every published item. Skills, concepts, tools and roles have independent connections; process stages belong to endeavors. A discreet Settings control enables sources and detailed information, hidden by default. Browser Back remains available without a visible trail. The enabled catalog covers music, coffee, housing, clothing, diagnostic testing and mobile apps. Measurement and Project planning connect work across domains; three activity examples connect coffee to Uganda. [Original release review](docs/pm/wave-1-review.md) and [LT-020 review](docs/pm/lt-020-review.md) record verification and limits.
 
 ## Technical context
 

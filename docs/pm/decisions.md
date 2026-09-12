@@ -26,3 +26,7 @@ On 12 September 2026 Lincoln explicitly set the bounded goal: complete, test and
 - 12 September organization scope clarification: Lincoln wants organizations kept high level, as concrete examples linking exploration to country context. Do not deepen into organization profiles or a company directory. PM scope interpretation: name, brief description, relevant activity, evidenced place connection and official link are sufficient initially. Schema implementation remains to be scoped with coffee; no builder dispatch follows from this discussion alone.
 
 - User accepted five-vertical expansion with “let’s go”: coffee + housing, clothing + diagnostic testing, then mobile apps and cross-domain integration, alongside music. Wave 2 defines full completion. PM approved minimal v0.2 organization example records and explicit multi-pack loading; full organization nodes/profiles and broad country UI remain deferred.
+
+## 2026-09-12 — Discovery ranking with multiple verticals
+
+The six-domain browser review showed a broad “coffee” query placing the coffee endeavor below the first eight partial matches. Rank exact entity labels first, exact aliases second, then partial matches alphabetically. This makes curated domain aliases useful entry points while preserving an exact tool/role query. Show practical learning prerequisites in the resource summary when they affect choosing the next step; hidden source notes are not the place for required setup.

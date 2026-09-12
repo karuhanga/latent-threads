@@ -14,6 +14,14 @@ const domains = await Promise.all(manifest.packs.filter(name => name !== 'shared
   name, pack: await loadCatalog(new URL(`../data/${name}/`, import.meta.url)),
 })));
 
+test('Wave 2 release includes all six agreed verticals', () => {
+  assert.deepEqual([...manifest.packs].sort(), ['song', 'shared', 'housing', 'coffee', 'clothing', 'diagnostics', 'software'].sort());
+  assert.deepEqual(catalog.nodes.filter(node => node.type === 'endeavor').map(node => node.id).sort(), [
+    'endeavor:song-release', 'endeavor:home-building', 'endeavor:coffee-cup',
+    'endeavor:clothing-tshirt', 'endeavor:laboratory-testing', 'endeavor:software-mobile-app',
+  ].sort());
+});
+
 function neighbors(id) {
   const result = [];
   for (let offset = 0; ; offset += 24) {
@@ -72,6 +80,12 @@ test('every enabled endeavor can appear in catalog search, global Surprise and t
   for (const endeavor of endeavors) assert.ok(shown.has(endeavor.id), `Never shown: ${endeavor.label}`);
 });
 
+test('broad exact aliases lead to the journey before partial catalog matches', () => {
+  assert.equal(searchDiscovery(graph, 'coffee')[0].id, 'endeavor:coffee-cup');
+  assert.equal(searchDiscovery(graph, 'software')[0].id, 'endeavor:software-mobile-app');
+  assert.equal(searchDiscovery(graph, 'coffee grinder')[0].id, 'tool:coffee-grinder');
+});
+
 test('Uganda examples remain connected to their reviewed activities and never leak onto independent concepts', () => {
   assert.equal(catalog.organizationExamples.length, 3);
   for (const example of catalog.organizationExamples) {
@@ -84,4 +98,34 @@ test('Uganda examples remain connected to their reviewed activities and never le
       assert.deepEqual(graph.getOrganizationExamples(node.id), []);
     }
   }
+});
+
+test('reviewed shared concepts and skills create at least two bridges across endeavors', () => {
+  const bridges = new Map();
+  for (const edge of catalog.relations) {
+    if (!['draws_on', 'requires_capability'].includes(edge.type)) continue;
+    const activity = graph.getNode(edge.fromId);
+    const concept = graph.getNode(edge.toId);
+    if (activity?.type !== 'contribution' || !['knowledge', 'capability'].includes(concept?.type)) continue;
+    const supported = graph.getEvidence(edge.id).some(item => item.source.kind === 'external'
+      && item.reviewStatus === 'reviewed' && item.support === 'direct');
+    if (!supported) continue;
+    const endeavors = bridges.get(concept.id) ?? new Set();
+    endeavors.add(activity.endeavorId);
+    bridges.set(concept.id, endeavors);
+  }
+  assert.ok([...bridges.values()].filter(endeavors => endeavors.size >= 2).length >= 2);
+  for (const [concept, activities] of [
+    ['knowledge:measurement', ['contribution:song-mix', 'contribution:coffee-brew', 'contribution:housing-survey', 'contribution:clothing-cut', 'contribution:diagnostics-analysis']],
+    ['capability:project-planning', ['contribution:housing-manage', 'contribution:diagnostics-quality']],
+  ]) for (const activity of activities) {
+    assert.ok(neighbors(concept).some(node => node.id === activity), `Reviewed path missing: ${activity} → ${concept}`);
+  }
+  const endeavors = catalog.nodes.filter(node => node.type === 'endeavor');
+  const reached = new Set([endeavors[0].id]);
+  const pending = [...reached];
+  while (pending.length) for (const node of neighbors(pending.shift())) {
+    if (!reached.has(node.id)) { reached.add(node.id); pending.push(node.id); }
+  }
+  for (const endeavor of endeavors) assert.ok(reached.has(endeavor.id), `Isolated domain: ${endeavor.label}`);
 });

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "source:software-user-needs",
+    "title": "Learning about users and their needs",
+    "kind": "external",
+    "locator": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+    "publisher": "Government Digital Service, GOV.UK",
+    "pinpoint": "Understanding user needs; Researching users and their needs.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-research-planning",
+    "title": "Plan user research for your service",
+    "kind": "external",
+    "locator": "https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service",
+    "publisher": "Government Digital Service, GOV.UK",
+    "pinpoint": "Objectives and approach; rounds, participants, booking ahead and team involvement.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-prototypes",
+    "title": "Making prototypes",
+    "kind": "external",
+    "locator": "https://www.gov.uk/service-manual/design/making-prototypes",
+    "publisher": "Government Digital Service, GOV.UK",
+    "pinpoint": "When to use prototypes; Types of prototype; introductory rationale.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-first-app",
+    "title": "Create your first Android app",
+    "kind": "external",
+    "locator": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Prerequisites and learning objectives; creating a project; code and preview; content license footer.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-first-program",
+    "title": "Your first program in Kotlin",
+    "kind": "external",
+    "locator": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-program",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Before you begin; browser editor; Parts of a function; content license footer.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-testing",
+    "title": "Fundamentals of testing Android apps",
+    "kind": "external",
+    "locator": "https://developer.android.com/training/testing/fundamentals",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Benefits of testing; test subjects and scopes; instrumented versus local tests.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-publishing",
+    "title": "Publish your app",
+    "kind": "external",
+    "locator": "https://developer.android.com/studio/publish",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Preparation, release builds, distribution channels and promotional materials.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-reviews",
+    "title": "View and analyze your app’s ratings and reviews",
+    "kind": "external",
+    "locator": "https://support.google.com/googleplay/android-developer/answer/138230?hl=en",
+    "publisher": "Google Play Console Help",
+    "pinpoint": "Review analysis; Reply to reviews; stated purpose of developer responses.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-editorial",
+    "title": "Software pack research and editorial review",
+    "kind": "internal_editorial",
+    "locator": "docs/research/software.md",
+    "publisher": "Latent Threads",
+    "pinpoint": "Scope, framing and review limits.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed"
+  }
+]
+

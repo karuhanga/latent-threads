@@ -1,0 +1,57 @@
+[
+  {
+    "id": "contribution:software-research",
+    "label": "User research",
+    "endeavorId": "endeavor:software-mobile-app",
+    "stageId": "stage:software-research",
+    "roleId": "role:software-user-researcher",
+    "action": "Plan research rounds and interview likely users to understand their goals and difficulties.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:software-prototype",
+    "label": "Interface prototyping",
+    "endeavorId": "endeavor:software-mobile-app",
+    "stageId": "stage:software-design",
+    "roleId": "role:software-interaction-designer",
+    "action": "Create and test interface prototypes to compare design ideas before implementation.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:software-develop",
+    "label": "App development",
+    "endeavorId": "endeavor:software-mobile-app",
+    "stageId": "stage:software-development",
+    "roleId": "role:software-app-developer",
+    "action": "Write Kotlin code and use Jetpack Compose to build and preview the Android interface.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:software-test",
+    "label": "App testing",
+    "endeavorId": "endeavor:software-mobile-app",
+    "stageId": "stage:software-testing",
+    "roleId": "role:software-tester",
+    "action": "Run manual and automated checks of behavior, including user flows on devices or emulators.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:software-publish",
+    "label": "App distribution",
+    "endeavorId": "endeavor:software-mobile-app",
+    "stageId": "stage:software-distribution",
+    "roleId": "role:software-publisher",
+    "action": "Prepare a signed release and store materials, then distribute the app through a chosen channel.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:software-support",
+    "label": "User support",
+    "endeavorId": "endeavor:software-mobile-app",
+    "stageId": "stage:software-support",
+    "roleId": "role:software-support-specialist",
+    "action": "Review app feedback and reply to users to help resolve their reported problems.",
+    "editorialStatus": "published"
+  }
+]
+

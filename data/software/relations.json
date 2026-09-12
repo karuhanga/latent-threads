@@ -1,0 +1,108 @@
+[
+  {
+    "id": "relation:software-output",
+    "type": "produces",
+    "fromId": "endeavor:software-mobile-app",
+    "toId": "artifact:software-mobile-app",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-develop-output",
+    "type": "produces",
+    "fromId": "contribution:software-develop",
+    "toId": "artifact:software-mobile-app",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-research-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:software-research",
+    "toId": "capability:software-user-research",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-research-needs",
+    "type": "draws_on",
+    "fromId": "capability:software-user-research",
+    "toId": "knowledge:software-user-needs",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-research-planning",
+    "type": "requires_capability",
+    "fromId": "contribution:software-research",
+    "toId": "capability:project-planning",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-prototype-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:software-prototype",
+    "toId": "capability:software-prototyping",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-development-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:software-develop",
+    "toId": "capability:software-android-development",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-development-studio",
+    "type": "uses",
+    "fromId": "contribution:software-develop",
+    "toId": "tool:software-android-studio",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-development-functions",
+    "type": "draws_on",
+    "fromId": "capability:software-android-development",
+    "toId": "knowledge:software-functions",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-testing-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:software-test",
+    "toId": "capability:software-app-testing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-testing-devices",
+    "type": "uses",
+    "fromId": "contribution:software-test",
+    "toId": "tool:software-android-test-device",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-testing-functions",
+    "type": "draws_on",
+    "fromId": "capability:software-app-testing",
+    "toId": "knowledge:software-functional-testing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-support-console",
+    "type": "uses",
+    "fromId": "contribution:software-support",
+    "toId": "tool:software-play-console",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-learn-functions",
+    "type": "teaches",
+    "fromId": "resource:software-first-kotlin-program",
+    "toId": "knowledge:software-functions",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-learn-android",
+    "type": "teaches",
+    "fromId": "resource:software-first-android-app",
+    "toId": "capability:software-android-development",
+    "editorialStatus": "published"
+  }
+]
+
