@@ -12,7 +12,14 @@
       "build an app",
       "Android"
     ],
-    "notes": "A selected native Android route, with Google Play as one distribution and support example. Research, design and testing recur; this is not a prescribed sequence or the only mobile technology stack."
+    "notes": "A selected native Android route, with Google Play as one distribution and support example. Research, design and testing recur; this is not a prescribed sequence or the only mobile technology stack.",
+    "details": {
+      "explanation": "An app starts with an intended outcome for people and develops through design, code, testing and continued improvement. This route uses native Android as a concrete example. Research and feedback can change the plan, so the six stages describe kinds of work that may be revisited.",
+      "example": {
+        "title": "Keep a reading list close at hand",
+        "body": "A small team wants readers to save book titles for later. Early conversations reveal that finding a saved title matters more than adding decorative reading statistics."
+      }
+    }
   },
   {
     "id": "artifact:software-mobile-app",
@@ -23,7 +30,14 @@
     "aliases": [
       "app",
       "Android application"
-    ]
+    ],
+    "details": {
+      "explanation": "The app is the software people install and use on a mobile device. The version made available to them is a release built from the project. Distinguishing that version from a preview helps make conversations about faults and changes more precise.",
+      "example": {
+        "title": "Which version has the change?",
+        "body": "A reader still sees the old list heading on their phone while the developer sees new text in a preview. They compare versions before diagnosing the report."
+      }
+    }
   },
   {
     "id": "stage:software-research",
@@ -32,7 +46,14 @@
     "summary": "Understand users and organize research around important questions.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:software-mobile-app",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "details": {
+      "explanation": "Research and planning turn uncertainty into questions that can be investigated. Choosing participants and methods depends on what the team needs to learn. Findings can then change which questions deserve attention and how the next research round is organised.",
+      "example": {
+        "title": "Test the assumption first",
+        "body": "The team assumes readers remember book titles exactly. It makes that a research question and asks people to show how they currently find a recommendation."
+      }
+    }
   },
   {
     "id": "stage:software-design",
@@ -41,7 +62,14 @@
     "summary": "Explore interface ideas through prototypes and feedback.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:software-mobile-app",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "details": {
+      "explanation": "Interaction design explores the steps and controls people encounter while using an app. A prototype makes an idea tangible enough to compare and test. Its level of detail should fit the question, from a quick sketch to a realistic interaction.",
+      "example": {
+        "title": "Two ways to add a title",
+        "body": "One prototype opens a separate form; another adds an entry directly in the list. The team compares how readers discover and use the two approaches."
+      }
+    }
   },
   {
     "id": "stage:software-development",
@@ -50,7 +78,14 @@
     "summary": "Write and build the app’s code and interface.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:software-mobile-app",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "details": {
+      "explanation": "Development turns the chosen behaviour into a project that can be built and run. In the Android example, Kotlin code and Compose describe the interface, while Android Studio brings editing, preview and building into the same workspace. Changes can be inspected as the app takes shape.",
+      "example": {
+        "title": "From a sketch to visible text",
+        "body": "The developer creates the reading-list screen and changes its heading in code. A preview helps check that small interface change before they work on adding entries."
+      }
+    }
   },
   {
     "id": "stage:software-testing",
@@ -59,7 +94,14 @@
     "summary": "Check whether the app behaves as intended.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:software-mobile-app",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "details": {
+      "explanation": "Testing compares observed behaviour with an expectation. A small check may isolate one piece of logic, while a wider check follows a whole user task. Different checks reveal different problems, so their result needs to be understood within the scenario that was exercised.",
+      "example": {
+        "title": "A list with no entries yet",
+        "body": "A tester opens the reading-list app before any books have been added. The empty screen is a separate scenario from the populated list used during development."
+      }
+    }
   },
   {
     "id": "stage:software-distribution",
@@ -68,7 +110,14 @@
     "summary": "Prepare a release and make it available to users.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:software-mobile-app",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "details": {
+      "explanation": "Distribution makes a prepared version available to users. Release preparation includes building, signing and checking that version; the chosen channel also needs suitable release materials. Those tasks connect the app on the developer’s machine with the version people can obtain.",
+      "example": {
+        "title": "Check the version being released",
+        "body": "The publisher prepares a release of the reading-list app, then checks its screenshots against that version. An outdated image is replaced before the release is distributed."
+      }
+    }
   },
   {
     "id": "stage:software-support",
@@ -77,49 +126,98 @@
     "summary": "Respond to users’ feedback and reported problems.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:software-mobile-app",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "details": {
+      "explanation": "Support begins with what users report after trying the app. Reviews can reveal a specific difficulty that needs a relevant response. Looking across reports also helps the team distinguish a recurring problem from an isolated question.",
+      "example": {
+        "title": "Several readers mention the same button",
+        "body": "Three reviews say the add button is hard to find. The support person gathers those reports and gives readers a clear explanation while the design is reviewed."
+      }
+    }
   },
   {
     "id": "role:software-user-researcher",
     "type": "role",
     "label": "User researcher",
     "summary": "Investigates users’ tasks, experiences and needs.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A user researcher investigates the circumstances behind people’s tasks. Interviews and observation help uncover how something is done today and where difficulties arise. The responsibility is to make those experiences understandable enough to inform decisions about the service.",
+      "example": {
+        "title": "Ask about the last recommendation",
+        "body": "A researcher asks a reader what happened the last time someone recommended a book. The account reveals a title lost among messages, which a general preference question had missed."
+      }
+    }
   },
   {
     "id": "role:software-interaction-designer",
     "type": "role",
     "label": "Interaction designer",
     "summary": "Explores and tests how people will interact with a service.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The interaction designer makes alternative ways of using the app concrete. A prototype lets colleagues and users respond to something they can see or try. The designer can revise or discard that approach before committing it to the released product.",
+      "example": {
+        "title": "Keep the useful part",
+        "body": "Readers understand the prototype’s add control but misread its save label. The designer retains the clear control and changes the wording for the next comparison."
+      }
+    }
   },
   {
     "id": "role:software-app-developer",
     "type": "role",
     "label": "Mobile app developer",
     "summary": "Writes and changes code that implements an app.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The developer connects the app’s intended behaviour with the code and components that implement it. Work includes understanding requirements, changing the software and leaving information that supports later maintenance. The mobile platform supplies the particular tools and constraints for that implementation.",
+      "example": {
+        "title": "Leave the reason with the change",
+        "body": "After correcting the list’s ordering, the developer records the intended behaviour alongside the change. A future maintainer can understand why recently added titles appear first."
+      }
+    }
   },
   {
     "id": "role:software-tester",
     "type": "role",
     "label": "Software tester",
     "summary": "Checks app behavior across scenarios, devices and configurations.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A tester designs scenarios, runs checks and records what happened. A useful report identifies the observed problem well enough for others to investigate it. Tests also provide feedback on usability and functionality as changes are made.",
+      "example": {
+        "title": "A reproducible list problem",
+        "body": "The tester records that deleting the second of three titles removes the wrong row. They include the starting list and steps so the developer can recreate the fault."
+      }
+    }
   },
   {
     "id": "role:software-publisher",
     "type": "role",
     "label": "App publisher",
     "summary": "Prepares release materials and makes an app available to users.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The publisher brings together the release build, its distribution settings and the materials users will see. This role is about preparing and making a particular version available. In the selected route, an app marketplace is one possible channel.",
+      "example": {
+        "title": "Match the description to the release",
+        "body": "The reading-list release supports adding and removing titles. The publisher removes a sentence promising reminders because that feature is absent from the version being offered."
+      }
+    }
   },
   {
     "id": "role:software-support-specialist",
     "type": "role",
     "label": "App support specialist",
     "summary": "Reviews feedback and helps users with reported app problems.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The support specialist reads app feedback and responds to the user’s actual problem. A useful reply gives clear, relevant information that can help resolve the difficulty. Some reports also need investigation by people who can change the app.",
+      "example": {
+        "title": "Explain the next useful step",
+        "body": "A reader cannot find a title they saved. The support specialist answers the reported difficulty and records the unresolved behaviour for the team to investigate."
+      }
+    }
   },
   {
     "id": "capability:software-user-research",
@@ -127,7 +225,15 @@
     "label": "User research",
     "summary": "Interview and observe people to understand their goals and difficulties.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "User research requires listening for what actually happens in a person’s task. Open questions and follow-ups can reveal details that a proposed solution hides. Planning the discussion around research questions helps turn a conversation into useful evidence.",
+      "example": {
+        "title": "Follow the interruption",
+        "body": "A reader mentions abandoning a search when a message arrived. The interviewer asks what they did next and discovers how they tried to recover the missing book title."
+      },
+      "practice": "Write one neutral question about how someone keeps track of books today, then a follow-up that asks for a recent example."
+    }
   },
   {
     "id": "capability:software-prototyping",
@@ -135,7 +241,15 @@
     "label": "Interface prototyping",
     "summary": "Make and test rough versions of an interface to explore ideas.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Prototyping makes an interaction testable before all of its underlying software exists. A sketch can clarify a layout choice; a more realistic prototype can explore how a person moves through the task. The useful level of detail follows the question being asked.",
+      "example": {
+        "title": "Test a transition on paper",
+        "body": "A learner draws a list screen and an add-title screen. Swapping the sheets while walking through the task reveals that the route back to the list is unclear."
+      },
+      "practice": "Sketch two screens for adding a book. Walk through the intended actions and mark any step whose result is unclear."
+    }
   },
   {
     "id": "capability:software-android-development",
@@ -147,7 +261,14 @@
     "aliases": [
       "Android programming",
       "Kotlin app development"
-    ]
+    ],
+    "details": {
+      "explanation": "This skill combines Kotlin programming with Android interface building. Compose lets a developer describe interface elements in code, and a preview helps inspect changes. Building fluency involves understanding what a change does, then checking its visible result.",
+      "example": {
+        "title": "Change one thing and inspect it",
+        "body": "A learner edits the heading on a practice screen and compares the preview before and after. They explain which code caused the visible change before moving on."
+      }
+    }
   },
   {
     "id": "capability:software-app-testing",
@@ -155,7 +276,14 @@
     "label": "App testing",
     "summary": "Choose and run checks of an app’s behavior and usability.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "App testing involves choosing meaningful situations and comparing results with what should happen. Manual exploration can expose a confusing task, while automated checks can repeat a known scenario after changes. The choice depends on the behaviour and scope being examined.",
+      "example": {
+        "title": "Check the old behaviour after a fix",
+        "body": "After fixing deletion, the team reruns the add-title check as well. It wants evidence that the change still lets a reader build the list normally."
+      }
+    }
   },
   {
     "id": "knowledge:software-user-needs",
@@ -163,7 +291,14 @@
     "label": "User needs",
     "summary": "What people need from a service to achieve their intended outcome.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "A user need describes the outcome someone is trying to achieve through a service. It is grounded in understanding their task and circumstances. Keeping the outcome clear leaves room to consider different interface ideas that might help them reach it.",
+      "example": {
+        "title": "The outcome behind the feature request",
+        "body": "A reader asks for a colourful favourites tab, then explains that recommended titles get lost. The team records the need to retrieve those titles and explores possible ways to meet it."
+      }
+    }
   },
   {
     "id": "knowledge:software-functions",
@@ -175,7 +310,15 @@
     "aliases": [
       "functions",
       "code functions"
-    ]
+    ],
+    "details": {
+      "explanation": "A function groups code into a named operation that can be called. Parameters let callers supply values, and a function may return a result. This makes the boundary of a small task explicit: what is supplied, and what the operation produces or does.",
+      "example": {
+        "title": "One title, one display label",
+        "body": "The reading-list code calls a function with a book title and receives the text for a row. A second call supplies a different title to the same operation."
+      },
+      "practice": "Describe a small operation in words: its name, a possible input and the result you expect. Keep the description independent of screen layout."
+    }
   },
   {
     "id": "knowledge:software-functional-testing",
@@ -183,28 +326,56 @@
     "label": "Functional testing",
     "summary": "Checking whether an app does what it is intended to do.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "Functional testing asks whether the app performs its intended behaviour. The expectation must be specific enough to compare with a result. Other questions, such as speed or accessibility, deserve their own checks even when the functional result is correct.",
+      "example": {
+        "title": "Saving a title means something observable",
+        "body": "The test expects a newly entered title to appear in the list. Seeing that row answers the functional question; it does not establish how quickly every device will display it."
+      }
+    }
   },
   {
     "id": "tool:software-android-studio",
     "type": "tool",
     "label": "Android Studio",
     "summary": "A development workspace for editing, building and previewing Android apps.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Android Studio brings source files, resources, build configuration and development tools into one workspace. Its project view helps locate the material being changed, while the build system turns the configured project into app output. Editing a file and producing a build are connected activities.",
+      "example": {
+        "title": "Find the right kind of file",
+        "body": "A learner sees code files beside image resources in the project. They locate the heading’s code instead of changing an unrelated image, then inspect the resulting build or preview."
+      }
+    }
   },
   {
     "id": "tool:software-android-test-device",
     "type": "tool",
     "label": "Android test device",
     "summary": "A physical or emulated Android device used to run app checks.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A test device provides an Android environment in which the app can run. It may be a physical device or an emulator configured with a device profile and Android version. That configuration matters when interpreting a result from a particular screen or interaction.",
+      "example": {
+        "title": "Try another screen shape",
+        "body": "The tester runs the reading-list screen in a phone-sized emulator and then a tablet profile. A layout issue appears in the wider version and is recorded with that configuration."
+      }
+    }
   },
   {
     "id": "tool:software-play-console",
     "type": "tool",
     "label": "Play Console",
     "summary": "A developer dashboard for examining app feedback and replying to users.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Play Console offers a place to inspect reviews and manage replies for an app. Filtering by characteristics such as app version or device helps examine a set of reports. Replying is an account permission, and the dashboard is a support tool rather than an automatic fix.",
+      "example": {
+        "title": "Look at reports from one version",
+        "body": "After a release, the support specialist filters reviews to that app version. They compare the reports about missing titles before deciding which question to investigate first."
+      }
+    }
   },
   {
     "id": "resource:software-first-kotlin-program",
@@ -220,7 +391,20 @@
     "licenseStatus": "open",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "accessReviewedAt": "2026-09-12",
-    "notes": "Requires an internet-connected computer and browser. This introduces programming, not a complete Android app. Page text is CC BY 4.0 unless otherwise noted; code examples use Apache 2.0."
+    "notes": "Requires an internet-connected computer and browser. This introduces programming, not a complete Android app. Page text is CC BY 4.0 unless otherwise noted; code examples use Apache 2.0.",
+    "resourceKind": "tutorial",
+    "preparation": "Use a computer with internet access and a web browser. The Kotlin Playground runs the exercise without installing Android Studio; it does not build an Android app.",
+    "outcomes": [
+      "Write and run a small Kotlin program.",
+      "Change text output and investigate simple code errors."
+    ],
+    "details": {
+      "explanation": "This browser exercise connects a small code change with the output of a running program. It also introduces reading and correcting simple errors. It is a useful starting point for programming before moving into the larger Android development workspace.",
+      "example": {
+        "title": "Make the message your own",
+        "body": "A learner changes a practice message to name the book they want to read. Running it again makes the relationship between the edited code and printed text visible."
+      }
+    }
   },
   {
     "id": "resource:software-first-android-app",
@@ -236,6 +420,117 @@
     "licenseStatus": "open",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "accessReviewedAt": "2026-09-12",
-    "notes": "Basic Kotlin and Android Studio required. Text uses CC BY 4.0 unless otherwise noted; code samples use Apache 2.0."
+    "notes": "Basic Kotlin and Android Studio required. Text uses CC BY 4.0 unless otherwise noted; code samples use Apache 2.0.",
+    "resourceKind": "tutorial",
+    "preparation": "Provider prerequisite: basic Kotlin knowledge. Use a computer with Android Studio installed and check its current system requirements. This codelab uses the Studio preview; running on a device follows in later lessons.",
+    "outcomes": [
+      "Create an Android project from a template.",
+      "Change text and a Compose interface, then inspect the preview."
+    ],
+    "details": {
+      "explanation": "This codelab starts from an Android Studio template and develops a small greeting interface. It connects code edits with the Compose preview. Use it to understand that first project; later lessons cover running on devices and building more involved behaviour.",
+      "example": {
+        "title": "A heading in a real project",
+        "body": "A learner personalises the tutorial’s greeting, then inspects the preview. They can identify the project and code behind the text before attempting their own reading-list screen."
+      }
+    }
+  },
+  {
+    "id": "knowledge:software-computer-science",
+    "type": "knowledge",
+    "kind": "field",
+    "label": "Computer science",
+    "summary": "Study computation, software and the systems that use them.",
+    "editorialStatus": "published",
+    "aliases": [
+      "computing science",
+      "CS"
+    ],
+    "details": {
+      "explanation": "Computer science brings together questions about computation, programs and the systems around them. Its study includes algorithms, software, data, human interaction and professional responsibilities. A mobile app is one practical setting in which several of those areas meet.",
+      "example": {
+        "title": "One app, several kinds of question",
+        "body": "A learner asks how the list is stored, how its entries are searched and how readers understand its controls. Those questions open different areas within computer science."
+      }
+    }
+  },
+  {
+    "id": "knowledge:software-development-fundamentals",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Software development fundamentals",
+    "summary": "Study the concepts and practices used to read, write and test programs.",
+    "editorialStatus": "published",
+    "aliases": [
+      "programming fundamentals",
+      "introductory programming"
+    ],
+    "details": {
+      "explanation": "This subject develops the ability to read, write and reason about programs. It combines core programming constructs with data structures, basic algorithms and development practices such as testing. Understanding a function is one entry point into that wider foundation.",
+      "example": {
+        "title": "Explain the code before extending it",
+        "body": "A learner traces how a small program changes a list before adding another feature. When the output differs from their prediction, they revisit the program’s flow."
+      }
+    }
+  },
+  {
+    "type": "learning_resource",
+    "editorialStatus": "published",
+    "provider": "Google, Android Developers",
+    "learnerLevel": "Beginner",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://developer.android.com/license",
+    "accessReviewedAt": "2026-09-12",
+    "id": "resource:software-compose-course",
+    "label": "Android Basics with Compose",
+    "summary": "A structured course from Kotlin foundations to building Android apps.",
+    "resourceKind": "course",
+    "format": "Self-paced online course with codelabs and videos",
+    "preparation": "Provider prerequisites: basic computer and maths skills, and a computer capable of running Android Studio. An Android device is optional. The course starts with programming basics.",
+    "outcomes": [
+      "Build basic Android apps with Kotlin and Jetpack Compose.",
+      "Develop layouts for different display sizes."
+    ],
+    "notes": "Course overview and selected learning pages opened without an account. Sign-in is offered but was not exercised. Android site licensing has exceptions for linked media and brand assets. Only the first unit is represented here; completion and credentials were not verified.",
+    "details": {
+      "explanation": "The course connects programming foundations with progressively more capable Android apps. Its codelabs and other activities give a structured route through Kotlin, Compose and app development. The first unit offers an entry point; the full provider course continues beyond the selected material shown here.",
+      "example": {
+        "title": "Choose a starting point",
+        "body": "A learner who has only changed browser output begins with the course’s first unit. They use its sequence to move toward a simple app before planning the reading-list project."
+      }
+    },
+    "url": "https://developer.android.com/courses/android-basics-compose/course"
+  },
+  {
+    "type": "learning_resource",
+    "editorialStatus": "published",
+    "provider": "Google, Android Developers",
+    "learnerLevel": "Beginner",
+    "access": "free",
+    "licenseStatus": "open",
+    "licenseUrl": "https://developer.android.com/license",
+    "accessReviewedAt": "2026-09-12",
+    "id": "resource:software-compose-unit-one",
+    "label": "Your first Android app — Unit 1",
+    "summary": "The course’s opening unit combines Kotlin basics, setup and a simple layout.",
+    "resourceKind": "module",
+    "format": "Course unit with three pathways",
+    "preparation": "Begin with basic computer and maths skills and a computer capable of running Android Studio. The unit includes installation; an Android device is optional because an emulator can be used.",
+    "outcomes": [
+      "Write simple Kotlin programs.",
+      "Set up Android Studio and create an app with text and images.",
+      "Run an app on a device or emulator."
+    ],
+    "effort": "Provider estimate: 10 hours for the unit.",
+    "notes": "One named unit of Android Basics with Compose, modelled as a curriculum module. Unit page and overview checked; videos, quizzes and exercises were not completed. Website content follows the Android content-license policy, with separate terms possible for linked materials.",
+    "details": {
+      "explanation": "The opening unit links three kinds of preparation: introductory Kotlin, setting up Android Studio and building a basic layout. That sequence connects code that prints text with an app interface that can run on a device or emulator.",
+      "example": {
+        "title": "From console text to an app screen",
+        "body": "A learner follows the unit from a small Kotlin program to a simple screen. The familiar text now appears inside an Android project with its own development setup."
+      }
+    },
+    "url": "https://developer.android.com/courses/android-basics-compose/unit-1"
   }
 ]

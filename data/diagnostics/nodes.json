@@ -11,7 +11,14 @@
       "blood tests",
       "lab testing"
     ],
-    "notes": "An educational overview. Blood collection is one example; tests, specimens and staffing vary. Maintenance and quality assurance recur throughout the work. No clinical instructions or individual result interpretation are provided."
+    "notes": "An educational overview. Blood collection is one example; tests, specimens and staffing vary. Maintenance and quality assurance recur throughout the work. No clinical instructions or individual result interpretation are provided.",
+    "details": {
+      "explanation": "Laboratory testing turns a collected specimen into recorded findings that can inform care. The examination is one part of that work: the sample must remain identifiable, the equipment must be dependable, and the information must reach the person who uses it. Quality management follows the whole path. Clinical interpretation then considers the findings alongside the person's history and examination.",
+      "example": {
+        "title": "Following the record",
+        "body": "A learner follows a training sample from its request form to a worksheet and report. A missing identifier interrupts the story even though the worksheet contains a result."
+      }
+    }
   },
   {
     "id": "artifact:lab-test-report",
@@ -23,7 +30,14 @@
       "diagnostic result",
       "test results",
       "blood test report"
-    ]
+    ],
+    "details": {
+      "explanation": "A report carries the laboratory's findings to someone who needs to use them. Its usefulness depends on clear identification, accurate recording and understandable communication. A numerical result also needs its measurement unit; the number alone does not communicate the full finding.",
+      "example": {
+        "title": "A number without its unit",
+        "body": "On a training report, a learner finds a numerical result but no unit. They mark the missing information and explain why the number cannot be understood on its own."
+      }
+    }
   },
   {
     "id": "stage:diagnostics-readiness",
@@ -32,7 +46,14 @@
     "summary": "Maintain equipment and organize quality work throughout testing.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:laboratory-testing",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "details": {
+      "explanation": "Readiness includes keeping equipment and supporting processes in working order. Maintenance schedules, assigned responsibilities and records help make that work visible. These arrangements continue while testing is underway; they are not completed once and then left behind.",
+      "example": {
+        "title": "An overdue check",
+        "body": "A team reviewing its equipment records notices a scheduled check has no completion entry. They investigate the gap before treating the record as evidence that the check happened."
+      }
+    }
   },
   {
     "id": "stage:diagnostics-collection",
@@ -41,7 +62,14 @@
     "summary": "Collect a sample and connect it to the correct person.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:laboratory-testing",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "details": {
+      "explanation": "Collection brings a specimen and its identifying information together. In the blood-sample example, confirming the person's identity, labelling the sample and recording its details are part of the work. The material and the record must remain connected as they move onward.",
+      "example": {
+        "title": "Two similar containers",
+        "body": "A learner sees two empty demonstration containers beside two request cards. The exercise asks them to explain how each label would keep its own record distinct."
+      }
+    }
   },
   {
     "id": "stage:diagnostics-preparation",
@@ -50,7 +78,14 @@
     "summary": "Receive and prepare specimens for laboratory work.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:laboratory-testing",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "details": {
+      "explanation": "Before examination, staff consider whether a received specimen is suitable for the requested test and whether its information is complete. Recording receipt and handling discrepancies are part of preparing the work. A specimen can arrive physically while its request still needs clarification.",
+      "example": {
+        "title": "The incomplete request",
+        "body": "A practice request card has an identifier but no requested test. The learner records what is missing instead of assuming which examination the card is meant to request."
+      }
+    }
   },
   {
     "id": "stage:diagnostics-analysis",
@@ -59,7 +94,14 @@
     "summary": "Examine samples using the methods suited to the requested test.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:laboratory-testing",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "details": {
+      "explanation": "Analysis is the part of the workflow in which the requested examination is performed and its findings recorded. Methods differ: some work uses direct observation, while other work uses automated instruments. The chosen method determines what kind of observation or measurement is produced.",
+      "example": {
+        "title": "Different questions, different methods",
+        "body": "A learner compares two task descriptions: examining a prepared image and reviewing an instrument's recorded output. Each produces information, but the activities are not interchangeable."
+      }
+    }
   },
   {
     "id": "stage:diagnostics-reporting",
@@ -68,7 +110,14 @@
     "summary": "Record findings for review and communication.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:laboratory-testing",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "details": {
+      "explanation": "Reporting takes recorded findings through review and communication. Authorisation and archiving belong to this later part of the laboratory workflow. The work therefore includes deciding that information is ready to communicate, as well as preserving the record of what was reported.",
+      "example": {
+        "title": "A completed worksheet",
+        "body": "A training worksheet contains findings, but its report-review step is still blank. The learner distinguishes having recorded information from having completed the reporting workflow."
+      }
+    }
   },
   {
     "id": "stage:diagnostics-interpretation",
@@ -77,14 +126,28 @@
     "summary": "Consider laboratory findings alongside other health information.",
     "editorialStatus": "published",
     "endeavorId": "endeavor:laboratory-testing",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "details": {
+      "explanation": "Interpretation connects laboratory findings with the question being investigated and the person's other health information. A report contributes evidence; history and examination contribute more. Understanding the work means following how those pieces are considered together, rather than reading a result as a complete account of health.",
+      "example": {
+        "title": "The question behind the test",
+        "body": "During a case discussion, a learner is given a report and then the reason the test was requested. They identify which additional context helps explain why the finding matters."
+      }
+    }
   },
   {
     "id": "role:phlebotomist",
     "type": "role",
     "label": "Phlebotomist",
     "summary": "Collects blood samples and maintains their identification.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A phlebotomist combines blood collection with communication and careful identification. Helping an anxious person understand the work is one responsibility; maintaining the link between the person, labelled sample and record is another. Both matter to the handoff into laboratory testing.",
+      "example": {
+        "title": "Explaining and identifying",
+        "body": "A phlebotomist explains what their work involves to an anxious visitor. The visit also includes checking identity and maintaining the sample record, rather than treating those tasks as separate paperwork."
+      }
+    }
   },
   {
     "id": "role:medical-laboratory-scientist",
@@ -95,7 +158,14 @@
     "aliases": [
       "clinical laboratory technologist",
       "medical laboratory technologist"
-    ]
+    ],
+    "details": {
+      "explanation": "A medical laboratory scientist connects specimen preparation, examination and recording. The work may involve detailed manual methods or automated equipment, depending on the test. Findings are documented and discussed with other healthcare professionals; equipment care and quality work also form part of laboratory responsibilities.",
+      "example": {
+        "title": "From examination to a finding",
+        "body": "A scientist reviews the work on a specimen and records the finding for communication. In a teaching discussion, they explain how that record relates to the examination performed."
+      }
+    }
   },
   {
     "id": "role:biomedical-equipment-technician",
@@ -106,7 +176,14 @@
     "aliases": [
       "medical equipment repairer"
     ],
-    "notes": "Titles and responsibilities vary. Laboratory staff also perform some routine equipment maintenance."
+    "notes": "Titles and responsibilities vary. Laboratory staff also perform some routine equipment maintenance.",
+    "details": {
+      "explanation": "The technician investigates equipment problems, carries out maintenance or repairs and records the work performed. Testing and technical documentation help connect a reported fault with an appropriate response. Their deliverable includes information about the equipment's condition, not just a replaced part.",
+      "example": {
+        "title": "A fault with a history",
+        "body": "A technician receives a report of an intermittent equipment problem. They review the service history and record their investigation so a later technician can understand what was examined."
+      }
+    }
   },
   {
     "id": "role:laboratory-quality-manager",
@@ -114,7 +191,14 @@
     "label": "Laboratory quality manager",
     "summary": "Oversees quality processes and coordinates their improvement.",
     "editorialStatus": "published",
-    "notes": "This responsibility can be combined with another laboratory role, depending on the organization."
+    "notes": "This responsibility can be combined with another laboratory role, depending on the organization.",
+    "details": {
+      "explanation": "The quality manager connects monitoring with improvement. Reviewing records, coordinating audits and investigating deficiencies help identify where work needs attention. Communicating those findings to laboratory leadership makes the next decision about responsibilities and resources possible, while staff continue carrying out quality policies in their daily work.",
+      "example": {
+        "title": "A pattern in the records",
+        "body": "A quality manager notices similar documentation gaps in several reviews. They bring the pattern to the laboratory's leadership and help organise a specific improvement rather than treating each gap in isolation."
+      }
+    }
   },
   {
     "id": "role:physician",
@@ -124,7 +208,14 @@
     "editorialStatus": "published",
     "aliases": [
       "doctor"
-    ]
+    ],
+    "details": {
+      "explanation": "A physician brings examination, medical history and test findings into the wider assessment of a person. Ordering and interpreting tests are connected to that clinical question. Discussing findings and answering questions are part of making the information useful in care.",
+      "example": {
+        "title": "Discussing a report",
+        "body": "A physician reviews a report during a consultation and asks about the person's recent history. The discussion connects the finding with the reason for seeking care."
+      }
+    }
   },
   {
     "id": "capability:sample-identification",
@@ -132,7 +223,14 @@
     "label": "Sample identification",
     "summary": "Keeping a collected sample linked to its recorded identity.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "This skill preserves the connection between a specimen and its recorded identity. Labelling and entering sample information are linked tasks, because later work must still refer to the same sample. Similar-looking containers make the record, rather than appearance, the basis for that connection.",
+      "example": {
+        "title": "Finding a mismatch on paper",
+        "body": "A learner compares labels with request cards in a training exercise. One identifier differs, so they mark the mismatch rather than deciding the cards probably describe the same sample."
+      }
+    }
   },
   {
     "id": "capability:specimen-preparation",
@@ -140,7 +238,14 @@
     "label": "Specimen preparation",
     "summary": "Preparing patient samples for laboratory examination.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Specimen preparation requires attention to the requested examination as well as the material received. It includes recognising whether the specimen and its information meet the laboratory's stated requirements. A suitable preparation begins with understanding what work the sample is meant to support.",
+      "example": {
+        "title": "Checking what the request needs",
+        "body": "A learner reviews a fictional specimen record and its request. They list the information needed to understand the intended examination before discussing the preparation work."
+      }
+    }
   },
   {
     "id": "capability:medical-equipment-maintenance",
@@ -148,7 +253,14 @@
     "label": "Medical equipment maintenance",
     "summary": "Inspecting, servicing and repairing equipment used in healthcare.",
     "editorialStatus": "published",
-    "kind": "skill"
+    "kind": "skill",
+    "details": {
+      "explanation": "Maintenance includes inspection, preventive work and corrective work. Inspection asks about current performance; preventive maintenance aims to reduce failures, while corrective work responds to a problem. Distinguishing these purposes helps explain why equipment support includes more than repairing a visibly broken device.",
+      "example": {
+        "title": "Three entries in a service plan",
+        "body": "A learner groups entries in a fictional service plan into inspection, prevention and repair. The exercise makes the different reasons for scheduling equipment work visible."
+      }
+    }
   },
   {
     "id": "knowledge:laboratory-quality-management",
@@ -156,7 +268,14 @@
     "label": "Laboratory quality management",
     "summary": "How connected processes support dependable laboratory work.",
     "editorialStatus": "published",
-    "kind": "concept"
+    "kind": "concept",
+    "details": {
+      "explanation": "Quality management considers how the laboratory's processes work together. Equipment, personnel and information handling all influence the dependable delivery of findings. A check at the instrument cannot, by itself, organise every other part of the work; responsibilities, records and improvement processes help connect those parts into a system.",
+      "example": {
+        "title": "A good instrument, a missing record",
+        "body": "A training scenario describes an instrument that is working correctly but a report that cannot be linked to its sample. The learner identifies the information process that also needs attention."
+      }
+    }
   },
   {
     "id": "knowledge:clinical-result-context",
@@ -165,21 +284,42 @@
     "summary": "How a test finding relates to examination findings and health history.",
     "editorialStatus": "published",
     "kind": "concept",
-    "notes": "A laboratory result alone does not describe the whole clinical picture."
+    "notes": "A laboratory result alone does not describe the whole clinical picture.",
+    "details": {
+      "explanation": "Clinical context is the information that helps explain what a finding means for a particular person. The reason for testing, health history and examination all matter. Even a result's position inside or outside a reference range does not independently establish the whole health picture; interpretation connects the report with that wider information.",
+      "example": {
+        "title": "A flag and a conversation",
+        "body": "Someone notices a flag on a report and writes down a question for their clinician. The conversation explores the finding alongside their history rather than treating the flag as a diagnosis."
+      }
+    }
   },
   {
     "id": "tool:laboratory-microscope",
     "type": "tool",
     "label": "Laboratory microscope",
     "summary": "An instrument for examining specimens at a small scale.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "A laboratory microscope supports examination of a specimen through a controlled field of view. Focusing, illumination and the condition of the instrument affect that examination. Understanding the tool includes recognising those parts of the viewing setup, as well as knowing what observation the examination calls for.",
+      "example": {
+        "title": "The viewing setup matters",
+        "body": "A learner looks at two teaching images of the same subject, one sharply focused and one blurred. They discuss why the viewing setup matters before interpreting the visible detail."
+      }
+    }
   },
   {
     "id": "tool:automated-cell-counter",
     "type": "tool",
     "label": "Automated cell counter",
     "summary": "Laboratory equipment for counting cells in samples.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "An automated cell counter is one instrument used in laboratory examination. It supports obtaining cell-count information from a sample, while laboratory staff operate the equipment and record the findings. Automation changes how part of the analysis is performed; the result still enters a broader reporting workflow.",
+      "example": {
+        "title": "The instrument output and the report",
+        "body": "A learner is shown a simulated cell-counter output beside a report template. They trace where the recorded finding belongs without drawing a clinical conclusion from it."
+      }
+    }
   },
   {
     "id": "resource:medlineplus-lab-results",
@@ -194,6 +334,107 @@
     "access": "free",
     "licenseStatus": "unknown",
     "accessReviewedAt": "2026-09-12",
-    "notes": "Written for the public and readable without an account. This learning link does not qualify readers to perform tests or make clinical decisions. Reuse permission was not established."
+    "notes": "Written for the public and readable without an account. This learning link does not qualify readers to perform tests or make clinical decisions. Reuse permission was not established.",
+    "details": {
+      "explanation": "This public article explains the parts and limits of laboratory results, including measurement units and reference ranges. It is a starting point for understanding a report's language and preparing questions. Its explanations connect laboratory information with the wider clinical picture rather than providing a rule for diagnosing from a number.",
+      "example": {
+        "title": "Preparing a question",
+        "body": "After reading the article, a learner writes a question about a report's measurement unit and another about the role of health history in interpretation."
+      }
+    },
+    "resourceKind": "article",
+    "preparation": "Read the public page in a browser. Start with its explanation of a laboratory test; use a fictional report if you want to discuss examples.",
+    "outcomes": [
+      "Recognise units and reference ranges as parts of a report.",
+      "Explain why laboratory findings need clinical context."
+    ]
+  },
+  {
+    "id": "knowledge:medical-laboratory-science",
+    "type": "knowledge",
+    "kind": "field",
+    "label": "Medical laboratory science",
+    "summary": "Study specimens, examination methods and the systems that support laboratory findings.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Medical laboratory science connects knowledge about biological samples with methods for examining them. Chemistry, biology and the study of blood sit alongside laboratory skills and management. This field helps explain both the scientific questions behind a test and the organised work needed to produce its findings.",
+      "example": {
+        "title": "More than one kind of question",
+        "body": "A learner comparing laboratory careers notices questions about samples, instruments and records. Exploring the field shows how scientific knowledge and organised laboratory work meet."
+      }
+    }
+  },
+  {
+    "id": "knowledge:laboratory-information-management",
+    "type": "knowledge",
+    "kind": "subject",
+    "label": "Laboratory information management",
+    "summary": "Study how laboratory data stays identifiable, accurate and available through the work.",
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Information management follows data into, through and out of the laboratory. Identifiers keep samples and records connected; checks help preserve accuracy during transfer. These principles apply to paper records as well as computer systems, and sit alongside protection and timely communication of the information.",
+      "example": {
+        "title": "Tracing three records",
+        "body": "A learner draws a request card, worksheet and report with one made-up sample identifier. They trace the links and mark where a copying mistake could break the connection."
+      }
+    }
+  },
+  {
+    "id": "resource:who-laboratory-information-guide",
+    "type": "learning_resource",
+    "label": "Laboratory information management: content sheets",
+    "summary": "A public guide to sample identifiers, records and reporting in laboratory information systems.",
+    "editorialStatus": "published",
+    "url": "https://extranet.who.int/hslp/who-hslp-download/package/501/material/313",
+    "provider": "World Health Organization",
+    "format": "training content sheets (PDF)",
+    "resourceKind": "guide",
+    "learnerLevel": "Introductory professional reading",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "preparation": "Open the PDF and start with pages 1–4. For the suggested exercise, use paper and made-up identifiers; no patient records are needed.",
+    "outcomes": [
+      "Explain how identifiers connect samples with their records.",
+      "Identify where transcription checks support accurate reporting."
+    ],
+    "notes": "Public content sheets from the LQMS training toolkit, selected as a standalone reading guide. Introductory reading and the paper exercise are editorial suggestions. Historical standards references are not presented as current requirements; no credential or open reuse permission verified.",
+    "details": {
+      "explanation": "These content sheets explain laboratory information systems using both paper and electronic examples. The opening pages connect identifiers, recording and reporting. They provide a useful foundation for examining how a piece of information can stay connected to its source as it moves through several records.",
+      "example": {
+        "title": "A paper information system",
+        "body": "You sketch a request card, a worksheet and a report. With a made-up identifier on each, you explain where a check could catch a transcription difference."
+      },
+      "practice": "Draw a request, worksheet and report for a fictional sample. Change one character in the copied identifier, then mark where comparing the records would reveal it."
+    }
+  },
+  {
+    "id": "resource:cdc-quality-management",
+    "type": "learning_resource",
+    "label": "Fundamentals of Quality Management Systems",
+    "summary": "A basic course on laboratory quality systems, implementation and staff responsibilities.",
+    "editorialStatus": "published",
+    "url": "https://reach.cdc.gov/course/fundamentals-quality-management-systems",
+    "provider": "CDC · OneLab REACH",
+    "format": "online course",
+    "resourceKind": "course",
+    "learnerLevel": "Basic; clinical and public health laboratory professionals",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "preparation": "Use a browser and sign in to a OneLab REACH account to launch the course. It is intended for clinical and public health laboratory professionals.",
+    "effort": "1 hour, as listed by the provider.",
+    "outcomes": [
+      "Recognise the main elements of a laboratory quality system.",
+      "Describe implementation and a team member's responsibilities."
+    ],
+    "notes": "Public course description, objectives, duration, free-course policy and account requirement verified. Course content behind sign-in was not launched. The page's CME/CEU instructions have an August 1, 2026 deadline, so no current credit or credential is promised.",
+    "details": {
+      "explanation": "This basic course introduces the elements of a laboratory quality management system and how a team implements it. Its objectives connect the overall system with staff responsibilities. It offers a structured next step after a general overview of laboratory work, especially for readers working in a laboratory setting.",
+      "example": {
+        "title": "A question about responsibilities",
+        "body": "A laboratory team member starts the course with a question about where their daily records fit. They use the objectives to connect that task with the wider quality system."
+      }
+    }
   }
 ]

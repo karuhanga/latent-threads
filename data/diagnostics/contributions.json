@@ -7,7 +7,17 @@
     "label": "Equipment maintenance",
     "action": "Service and repair diagnostic equipment within the technician’s area of competence.",
     "editorialStatus": "published",
-    "notes": "The selected technical contribution complements routine checks by laboratory staff; responsibilities depend on the equipment and setting."
+    "notes": "The selected technical contribution complements routine checks by laboratory staff; responsibilities depend on the equipment and setting.",
+    "details": {
+      "explanation": "Equipment maintenance connects a reported problem or scheduled task with inspection, servicing and a record of the outcome. The technician investigates what needs attention and works within the equipment's technical requirements. Documentation helps others understand what was checked or repaired and what questions remain.",
+      "example": {
+        "title": "A service record for the next visit",
+        "body": "A technician records an intermittent fault and the checks performed during a service visit. The next person reviewing the equipment can distinguish the reported problem from the work already completed."
+      },
+      "inputs": "Equipment, its technical documentation and a service request or maintenance schedule.",
+      "outputs": "A record of inspection, servicing or repair and the equipment's assessed condition.",
+      "decision": "What work the fault or schedule calls for, within the technician's competence."
+    }
   },
   {
     "id": "contribution:diagnostics-quality",
@@ -16,7 +26,17 @@
     "roleId": "role:laboratory-quality-manager",
     "label": "Quality assurance",
     "action": "Plan improvements and review the laboratory’s quality records.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Quality assurance connects observations about current work with a plan for improvement. Reviewing records can reveal gaps; deciding who will address them, with what resources and by when makes the response concrete. Monitoring then helps the laboratory assess whether the intended change has been carried out.",
+      "example": {
+        "title": "An improvement with an owner",
+        "body": "A team finds repeated gaps in a fictional review log. Its proposed improvement assigns a responsible person, a completion date and a way to review whether the new approach is being used."
+      },
+      "inputs": "Quality records, review findings and available resources.",
+      "outputs": "An improvement plan and records of its follow-up.",
+      "decision": "Which gap to address first and how to assign responsibility and resources."
+    }
   },
   {
     "id": "contribution:diagnostics-collection",
@@ -26,7 +46,17 @@
     "label": "Blood sample collection",
     "action": "Collect and label blood for the requested laboratory testing.",
     "editorialStatus": "published",
-    "notes": "Blood is the collection example here; other tests use other specimen types and collection roles."
+    "notes": "Blood is the collection example here; other tests use other specimen types and collection roles.",
+    "details": {
+      "explanation": "In this blood-collection example, the phlebotomist maintains the connection between a person, the collected sample and its record. Communication and identity checks accompany collection and labelling. The work produces both a specimen for testing and the information needed to recognise it later.",
+      "example": {
+        "title": "Keeping the record connected",
+        "body": "In a teaching scenario, a phlebotomist completes a collection record and checks that it refers to the labelled sample. The learner follows that connection into the next stage."
+      },
+      "inputs": "The requested blood test and the person's identifying information.",
+      "outputs": "A collected, labelled blood sample with its recorded identity.",
+      "decision": "Whether the sample's identification and record consistently refer to the intended person."
+    }
   },
   {
     "id": "contribution:diagnostics-preparation",
@@ -35,7 +65,17 @@
     "roleId": "role:medical-laboratory-scientist",
     "label": "Specimen preparation",
     "action": "Prepare received patient specimens for examination.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Preparing a received specimen begins with the requested test and the condition of the sample and its information. Staff record receipt and address discrepancies through the laboratory's procedures. That establishes the basis for subsequent examination rather than assuming that arrival alone makes a sample ready.",
+      "example": {
+        "title": "A request that needs clarification",
+        "body": "A learner reviewing a training record finds that the requested examination is missing. They identify the gap and the need for clarification before describing how preparation could proceed."
+      },
+      "inputs": "A received specimen, its identification and the test request.",
+      "outputs": "A recorded specimen prepared for examination, or a documented issue needing resolution.",
+      "decision": "Whether the specimen and request meet the laboratory's requirements for the intended examination."
+    }
   },
   {
     "id": "contribution:diagnostics-analysis",
@@ -45,7 +85,17 @@
     "label": "Laboratory analysis",
     "action": "Examine samples using laboratory instruments and record the findings.",
     "editorialStatus": "published",
-    "notes": "Microscopy and cell counting are examples; a test does not necessarily use both."
+    "notes": "Microscopy and cell counting are examples; a test does not necessarily use both.",
+    "details": {
+      "explanation": "The scientist examines the prepared sample using the method relevant to the requested test. Manual observation and automated equipment are different ways to produce findings. Recording those findings makes them available for later review and reporting, while quality checks monitor the process that produced them.",
+      "example": {
+        "title": "Recording what was observed",
+        "body": "A scientist's teaching worksheet separates the examination requested from the finding recorded. A learner explains how that distinction keeps the work performed visible when the record is reviewed."
+      },
+      "inputs": "A prepared, identified specimen and the requested examination.",
+      "outputs": "Recorded findings from the laboratory examination.",
+      "decision": "Whether the examination and its quality checks support moving the findings into review."
+    }
   },
   {
     "id": "contribution:diagnostics-reporting",
@@ -55,7 +105,17 @@
     "label": "Result recording",
     "action": "Record test findings in the patient’s medical record.",
     "editorialStatus": "published",
-    "notes": "WHO describes authorization and reporting as post-analytical work; local responsibilities and review arrangements vary."
+    "notes": "WHO describes authorization and reporting as post-analytical work; local responsibilities and review arrangements vary.",
+    "details": {
+      "explanation": "Recording a result preserves both the finding and its connection to the sample. Transferring information from a worksheet into a report creates a point where a copying error can occur. Checking that transfer supports clear communication and preserves the information that later review depends on.",
+      "example": {
+        "title": "A copied identifier",
+        "body": "In a fictional worksheet-to-report exercise, one character in an identifier changes during copying. The learner compares the two records and marks the discrepancy before discussing the report."
+      },
+      "inputs": "Recorded findings and the sample information needed for reporting.",
+      "outputs": "A result record prepared for the laboratory's review and communication process.",
+      "decision": "Whether the recorded finding and identifying information have been transferred accurately."
+    }
   },
   {
     "id": "contribution:diagnostics-interpretation",
@@ -64,6 +124,16 @@
     "roleId": "role:physician",
     "label": "Clinical interpretation",
     "action": "Interpret test findings with the patient’s history and examination.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "Clinical interpretation brings a laboratory finding into a wider assessment. The physician considers it alongside the history and examination, then discusses what it contributes to the clinical question. The work concerns the relationship among those pieces of information, rather than reading the report in isolation.",
+      "example": {
+        "title": "Connecting the report to the visit",
+        "body": "During a consultation, a physician reviews a report and asks about the reason for the visit. The discussion connects the finding with the person's history and examination."
+      },
+      "inputs": "Laboratory findings together with the person's history and examination.",
+      "outputs": "A clinical assessment that considers the laboratory findings in context.",
+      "decision": "How the findings fit the clinical question and other available information."
+    }
   }
 ]

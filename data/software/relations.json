@@ -103,6 +103,40 @@
     "fromId": "resource:software-first-android-app",
     "toId": "capability:software-android-development",
     "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-fundamentals-computer-science",
+    "type": "part_of",
+    "fromId": "knowledge:software-development-fundamentals",
+    "toId": "knowledge:software-computer-science",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-functions-fundamentals",
+    "type": "part_of",
+    "fromId": "knowledge:software-functions",
+    "toId": "knowledge:software-development-fundamentals",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-unit-one-course",
+    "type": "curriculum_part_of",
+    "fromId": "resource:software-compose-unit-one",
+    "toId": "resource:software-compose-course",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-course-teaches-android",
+    "type": "teaches",
+    "fromId": "resource:software-compose-course",
+    "toId": "capability:software-android-development",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:software-unit-one-teaches-android",
+    "type": "teaches",
+    "fromId": "resource:software-compose-unit-one",
+    "toId": "capability:software-android-development",
+    "editorialStatus": "published"
   }
 ]
-

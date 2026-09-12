@@ -94,5 +94,54 @@
     "toId": "knowledge:clinical-result-context",
     "summary": "Explains why laboratory findings need clinical context.",
     "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-information-field",
+    "type": "part_of",
+    "fromId": "knowledge:laboratory-information-management",
+    "toId": "knowledge:medical-laboratory-science",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-quality-field",
+    "type": "part_of",
+    "fromId": "knowledge:laboratory-quality-management",
+    "toId": "knowledge:medical-laboratory-science",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-records-information",
+    "type": "draws_on",
+    "fromId": "contribution:diagnostics-reporting",
+    "toId": "knowledge:laboratory-information-management",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-identification-information",
+    "type": "draws_on",
+    "fromId": "capability:sample-identification",
+    "toId": "knowledge:laboratory-information-management",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-guide-information",
+    "type": "teaches",
+    "fromId": "resource:who-laboratory-information-guide",
+    "toId": "knowledge:laboratory-information-management",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-guide-identification",
+    "type": "teaches",
+    "fromId": "resource:who-laboratory-information-guide",
+    "toId": "capability:sample-identification",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-course-quality",
+    "type": "teaches",
+    "fromId": "resource:cdc-quality-management",
+    "toId": "knowledge:laboratory-quality-management",
+    "editorialStatus": "published"
   }
 ]

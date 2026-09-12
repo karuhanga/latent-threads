@@ -107,5 +107,75 @@
     "retrievedAt": "2026-09-12",
     "reuseStatus": "unreviewed",
     "pinpoint": "Six reading areas and scope limits"
+  },
+  {
+    "id": "source:diagnostics-sample-management",
+    "title": "Laboratory Quality Management System: Sample Management content sheets",
+    "kind": "external",
+    "locator": "https://extranet.who.int/hslp/who-hslp-download/package/501/material/179",
+    "publisher": "World Health Organization",
+    "pinpoint": "Content sheets 5-1 to 5-4, particularly PDF pages 6–8: suitability, request information, registration and tracking. Used for high-level work, not collection, handling or rejection instructions.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:diagnostics-information",
+    "title": "Laboratory Quality Management System: Information Management content sheets",
+    "kind": "external",
+    "locator": "https://extranet.who.int/hslp/who-hslp-download/package/501/material/313",
+    "publisher": "World Health Organization",
+    "pinpoint": "PDF pages 1–4: identifiers, records, transcription checks and reporting in paper/electronic systems. Historical standards and numerical example are not adopted.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:diagnostics-microscopy",
+    "title": "Basic Microscopy",
+    "kind": "external",
+    "locator": "https://www.cdc.gov/lab-training/php/courses/basic-microscopy.html",
+    "publisher": "Centers for Disease Control and Prevention",
+    "pinpoint": "Overview and objectives concerning microscope components, focusing, illumination and maintenance. No operating steps or credential claims used.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:diagnostics-cdc-qms",
+    "title": "Fundamentals of Quality Management Systems",
+    "kind": "external",
+    "locator": "https://reach.cdc.gov/course/fundamentals-quality-management-systems",
+    "publisher": "CDC · OneLab REACH",
+    "pinpoint": "Public course description, audience, objectives and one-hour duration. No claim to have launched sign-in content. The listed CME/CEU deadline is August 1, 2026; current credit is not promised.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:diagnostics-cdc-faq",
+    "title": "OneLab REACH Technical Support FAQs",
+    "kind": "external",
+    "locator": "https://reach.cdc.gov/faqs",
+    "publisher": "Centers for Disease Control and Prevention",
+    "pinpoint": "How do I launch a course? Sign-in is required to access the Launch Course button.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:diagnostics-cdc-education",
+    "title": "Educational Materials for Public Health and Clinical Laboratories",
+    "kind": "external",
+    "locator": "https://www.cdc.gov/laboratory-systems/php/educational-materials/index.html",
+    "publisher": "Centers for Disease Control and Prevention",
+    "pinpoint": "About: DLS training courses and materials are free.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:wave3-diagnostics-editorial",
+    "title": "Wave 3 diagnostics depth: examples and source review",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-diagnostics.md",
+    "publisher": "Latent Threads",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "pinpoint": "Original scenario rationale, suggested preparation and study hierarchy."
   }
 ]

@@ -549,6 +549,855 @@
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-09-12",
     "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:software-depth-endeavor-software-mobile-app-developer-tester",
+    "subjectId": "endeavor:software-mobile-app",
+    "sourceId": "source:software-developer-tester",
+    "claim": "Software development connects user needs, implementation, testing and maintenance.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-endeavor-software-mobile-app-user-needs",
+    "subjectId": "endeavor:software-mobile-app",
+    "sourceId": "source:software-user-needs",
+    "claim": "Research continues as understanding of users and their goals improves.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-endeavor-software-mobile-app-depth-editorial",
+    "subjectId": "endeavor:software-mobile-app",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Keep a reading list close at hand. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-artifact-software-mobile-app-publishing",
+    "subjectId": "artifact:software-mobile-app",
+    "sourceId": "source:software-publishing",
+    "claim": "Publishing prepares and distributes a release version for users to install.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-artifact-software-mobile-app-first-app",
+    "subjectId": "artifact:software-mobile-app",
+    "sourceId": "source:software-first-app",
+    "claim": "Studio previews show the interface during app development.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-artifact-software-mobile-app-depth-editorial",
+    "subjectId": "artifact:software-mobile-app",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Which version has the change?. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-research-research-planning",
+    "subjectId": "stage:software-research",
+    "sourceId": "source:software-research-planning",
+    "claim": "Research plans identify questions, user groups and methods and change with learning.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-research-depth-editorial",
+    "subjectId": "stage:software-research",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Test the assumption first. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-design-prototypes",
+    "subjectId": "stage:software-design",
+    "sourceId": "source:software-prototypes",
+    "claim": "Prototypes vary in fidelity and support comparison and testing of design ideas.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-design-depth-editorial",
+    "subjectId": "stage:software-design",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Two ways to add a title. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-development-first-app",
+    "subjectId": "stage:software-development",
+    "sourceId": "source:software-first-app",
+    "claim": "Kotlin and Compose customise an Android project and its preview.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-development-studio-overview",
+    "subjectId": "stage:software-development",
+    "sourceId": "source:software-studio-overview",
+    "claim": "Studio integrates editing and building with development tools.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-development-depth-editorial",
+    "subjectId": "stage:software-development",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: From a sketch to visible text. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-testing-testing",
+    "subjectId": "stage:software-testing",
+    "sourceId": "source:software-testing",
+    "claim": "Tests differ by subject and scope, from isolated logic to whole user flows.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-testing-depth-editorial",
+    "subjectId": "stage:software-testing",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: A list with no entries yet. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-distribution-publishing",
+    "subjectId": "stage:software-distribution",
+    "sourceId": "source:software-publishing",
+    "claim": "Release preparation includes signing, testing and distribution materials.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-distribution-depth-editorial",
+    "subjectId": "stage:software-distribution",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Check the version being released. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-support-reviews",
+    "subjectId": "stage:software-support",
+    "sourceId": "source:software-reviews",
+    "claim": "Reviews can be searched and analysed by topic; replies address user problems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-stage-software-support-depth-editorial",
+    "subjectId": "stage:software-support",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Several readers mention the same button. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-user-researcher-user-needs",
+    "subjectId": "role:software-user-researcher",
+    "sourceId": "source:software-user-needs",
+    "claim": "Interviews and observation explore users, current approaches and frustrations.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-user-researcher-interviews",
+    "subjectId": "role:software-user-researcher",
+    "sourceId": "source:software-interviews",
+    "claim": "Interview guidance favours real examples and follow-up questions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-user-researcher-depth-editorial",
+    "subjectId": "role:software-user-researcher",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Ask about the last recommendation. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-interaction-designer-prototypes",
+    "subjectId": "role:software-interaction-designer",
+    "sourceId": "source:software-prototypes",
+    "claim": "Prototyping supports shared understanding, testing, revision and discarding weak approaches.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-interaction-designer-depth-editorial",
+    "subjectId": "role:software-interaction-designer",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Keep the useful part. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-app-developer-developer-tester",
+    "subjectId": "role:software-app-developer",
+    "sourceId": "source:software-developer-tester",
+    "claim": "Developers analyse needs, implement or direct code, document software and maintain it.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-app-developer-depth-editorial",
+    "subjectId": "role:software-app-developer",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Leave the reason with the change. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-tester-developer-tester",
+    "subjectId": "role:software-tester",
+    "sourceId": "source:software-developer-tester",
+    "claim": "Testers create scenarios, evaluate results and document defects and usability findings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-tester-depth-editorial",
+    "subjectId": "role:software-tester",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: A reproducible list problem. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-publisher-publishing",
+    "subjectId": "role:software-publisher",
+    "sourceId": "source:software-publishing",
+    "claim": "Publishing combines a prepared release with channel settings and promotional materials.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-publisher-depth-editorial",
+    "subjectId": "role:software-publisher",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Match the description to the release. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-support-specialist-reviews",
+    "subjectId": "role:software-support-specialist",
+    "sourceId": "source:software-reviews",
+    "claim": "Developer replies are intended to resolve app problems with relevant, truthful information.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-role-software-support-specialist-depth-editorial",
+    "subjectId": "role:software-support-specialist",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Explain the next useful step. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-user-research-interviews",
+    "subjectId": "capability:software-user-research",
+    "sourceId": "source:software-interviews",
+    "claim": "Discussion guides, open questions and concrete stories support useful interviews.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-user-research-depth-editorial",
+    "subjectId": "capability:software-user-research",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Follow the interruption. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-prototyping-prototypes",
+    "subjectId": "capability:software-prototyping",
+    "sourceId": "source:software-prototypes",
+    "claim": "Sketches and realistic prototypes support different design questions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-prototyping-depth-editorial",
+    "subjectId": "capability:software-prototyping",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Test a transition on paper. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-android-development-first-app",
+    "subjectId": "capability:software-android-development",
+    "sourceId": "source:software-first-app",
+    "claim": "The codelab connects Kotlin and Compose edits with interface previews.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-android-development-depth-editorial",
+    "subjectId": "capability:software-android-development",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Change one thing and inspect it. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-app-testing-testing",
+    "subjectId": "capability:software-app-testing",
+    "sourceId": "source:software-testing",
+    "claim": "Manual and automated testing complement checks of behaviour and regressions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-capability-software-app-testing-depth-editorial",
+    "subjectId": "capability:software-app-testing",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Check the old behaviour after a fix. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-user-needs-user-needs",
+    "subjectId": "knowledge:software-user-needs",
+    "sourceId": "source:software-user-needs",
+    "claim": "User needs concern the outcome a service must help people achieve.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-user-needs-depth-editorial",
+    "subjectId": "knowledge:software-user-needs",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: The outcome behind the feature request. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-functions-kotlin-functions",
+    "subjectId": "knowledge:software-functions",
+    "sourceId": "source:software-kotlin-functions",
+    "claim": "Functions have declarations, parameters, calls and optional return values.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-functions-depth-editorial",
+    "subjectId": "knowledge:software-functions",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: One title, one display label. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-functional-testing-testing",
+    "subjectId": "knowledge:software-functional-testing",
+    "sourceId": "source:software-testing",
+    "claim": "Functional behaviour is distinct from performance, accessibility and compatibility test subjects.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-functional-testing-depth-editorial",
+    "subjectId": "knowledge:software-functional-testing",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Saving a title means something observable. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-tool-software-android-studio-studio-overview",
+    "subjectId": "tool:software-android-studio",
+    "sourceId": "source:software-studio-overview",
+    "claim": "Studio organises source/resources and integrates the Gradle build system.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-tool-software-android-studio-depth-editorial",
+    "subjectId": "tool:software-android-studio",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Find the right kind of file. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-tool-software-android-test-device-emulator",
+    "subjectId": "tool:software-android-test-device",
+    "sourceId": "source:software-emulator",
+    "claim": "Emulators model different devices and Android versions; physical devices are an alternative.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-tool-software-android-test-device-depth-editorial",
+    "subjectId": "tool:software-android-test-device",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Try another screen shape. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-tool-software-play-console-reviews",
+    "subjectId": "tool:software-play-console",
+    "sourceId": "source:software-reviews",
+    "claim": "Console review filters include app version/device; replies require the appropriate permission.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-tool-software-play-console-depth-editorial",
+    "subjectId": "tool:software-play-console",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Look at reports from one version. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-first-kotlin-program-first-program",
+    "subjectId": "resource:software-first-kotlin-program",
+    "sourceId": "source:software-first-program",
+    "claim": "The public codelab covers running, modifying and troubleshooting simple browser-based Kotlin programs.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-first-kotlin-program-depth-editorial",
+    "subjectId": "resource:software-first-kotlin-program",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Make the message your own. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-first-android-app-first-app",
+    "subjectId": "resource:software-first-android-app",
+    "sourceId": "source:software-first-app",
+    "claim": "The tutorial creates a template project, modifies a greeting and uses preview; device running follows later.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-first-android-app-depth-editorial",
+    "subjectId": "resource:software-first-android-app",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: A heading in a real project. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-computer-science-cs-curriculum",
+    "subjectId": "knowledge:software-computer-science",
+    "sourceId": "source:software-cs-curriculum",
+    "claim": "The knowledge model spans algorithms, data, software, human interaction and professional concerns.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-computer-science-depth-editorial",
+    "subjectId": "knowledge:software-computer-science",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: One app, several kinds of question. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-development-fundamentals-cs-curriculum",
+    "subjectId": "knowledge:software-development-fundamentals",
+    "sourceId": "source:software-cs-curriculum",
+    "claim": "SDF includes programming, data structures, algorithms, program understanding and testing practices.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-knowledge-software-development-fundamentals-depth-editorial",
+    "subjectId": "knowledge:software-development-fundamentals",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Explain the code before extending it. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-course-compose-course",
+    "subjectId": "resource:software-compose-course",
+    "sourceId": "source:software-compose-course",
+    "claim": "The self-paced course builds Kotlin/Compose foundations and Android development through structured units.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-course-depth-editorial",
+    "subjectId": "resource:software-compose-course",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Choose a starting point. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-unit-one-compose-unit-one",
+    "subjectId": "resource:software-compose-unit-one",
+    "sourceId": "source:software-compose-unit-one",
+    "claim": "Unit 1 has Kotlin, Studio setup and basic-layout pathways with device/emulator running.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-unit-one-depth-editorial",
+    "subjectId": "resource:software-compose-unit-one",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: From console text to an app screen. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-research-research-planning",
+    "subjectId": "contribution:software-research",
+    "sourceId": "source:software-research-planning",
+    "claim": "Research planning selects questions, user groups and methods and evolves with findings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-research-depth-editorial",
+    "subjectId": "contribution:software-research",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Recruit for the actual question. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-prototype-prototypes",
+    "subjectId": "contribution:software-prototype",
+    "sourceId": "source:software-prototypes",
+    "claim": "Prototypes let teams test and revise alternatives before full implementation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-prototype-depth-editorial",
+    "subjectId": "contribution:software-prototype",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Revise the confusing step. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-develop-first-app",
+    "subjectId": "contribution:software-develop",
+    "sourceId": "source:software-first-app",
+    "claim": "Kotlin/Compose changes can be checked through the Studio preview.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-develop-studio-overview",
+    "subjectId": "contribution:software-develop",
+    "sourceId": "source:software-studio-overview",
+    "claim": "Projects contain source/resources and use a build system.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-develop-depth-editorial",
+    "subjectId": "contribution:software-develop",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Build a small visible change. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-test-developer-tester",
+    "subjectId": "contribution:software-test",
+    "sourceId": "source:software-developer-tester",
+    "claim": "Test work includes scenario design, execution, evaluation and documented defects.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-test-depth-editorial",
+    "subjectId": "contribution:software-test",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Verify the corrected deletion. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-publish-publishing",
+    "subjectId": "contribution:software-publish",
+    "sourceId": "source:software-publishing",
+    "claim": "Publishing includes release preparation/testing and distribution materials.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-publish-depth-editorial",
+    "subjectId": "contribution:software-publish",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: Hold the mismatched release. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-support-reviews",
+    "subjectId": "contribution:software-support",
+    "sourceId": "source:software-reviews",
+    "claim": "Reviews support problem-focused responses and can be examined using contextual filters.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-contribution-software-support-depth-editorial",
+    "subjectId": "contribution:software-support",
+    "sourceId": "source:software-depth-editorial",
+    "claim": "Original scenario: A report with a useful detail. Research note distinguishes invented app behaviour and choices from the sourced explanation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-relation-software-fundamentals-computer-science-cs-curriculum",
+    "subjectId": "relation:software-fundamentals-computer-science",
+    "sourceId": "source:software-cs-curriculum",
+    "claim": "Software Development Fundamentals is a knowledge area within the computer-science curriculum.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-relation-software-functions-fundamentals-cs-curriculum",
+    "subjectId": "relation:software-functions-fundamentals",
+    "sourceId": "source:software-cs-curriculum",
+    "claim": "SDF-Fundamentals explicitly includes functions and parameter passing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-relation-software-unit-one-course-compose-course",
+    "subjectId": "relation:software-unit-one-course",
+    "sourceId": "source:software-compose-course",
+    "claim": "The course explicitly contains Unit 1: Your first Android app.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-relation-software-course-teaches-android-compose-course",
+    "subjectId": "relation:software-course-teaches-android",
+    "sourceId": "source:software-compose-course",
+    "claim": "Course goals include building Android apps with Kotlin and Compose.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-relation-software-unit-one-teaches-android-compose-unit-one",
+    "subjectId": "relation:software-unit-one-teaches-android",
+    "sourceId": "source:software-compose-unit-one",
+    "claim": "Unit pathways include creating an Android project and building a basic interface.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-course-content-license",
+    "subjectId": "resource:software-compose-course",
+    "sourceId": "source:software-content-license",
+    "claim": "Android site content has open terms with exceptions for linked material and brands; see the policy for the applicable content category.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-unit-one-content-license",
+    "subjectId": "resource:software-compose-unit-one",
+    "sourceId": "source:software-content-license",
+    "claim": "Android site content has open terms with exceptions for linked material and brands; see the policy for the applicable content category.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
+  },
+  {
+    "id": "evidence:software-depth-resource-software-compose-unit-one-compose-course",
+    "subjectId": "resource:software-compose-unit-one",
+    "sourceId": "source:software-compose-course",
+    "claim": "The course overview supplies its entry prerequisites and the 10-hour estimate for Unit 1.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:ontology_first_slice"
   }
 ]
-

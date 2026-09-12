@@ -1,6 +1,6 @@
 # Wave 3 review and delivery
 
-## Foundation in progress — 12 September 2026
+## Foundation checkpoint — 12 September 2026
 
 Authorized outcome and acceptance: [Wave 3](../product/wave-3.md). LT-028–036 tracked on the [Wave 3 board](https://www.notion.so/803ffa91974348c695efb98edde6300b?v=3d907031acb58189bfe0000c68abad8c). Planning source bcbb7ea pushed. No Wave 3 application deployment yet.
 
@@ -41,3 +41,28 @@ Coffee/clothing integration passes **90 tests**, type/data validation and produc
 Production preview: Moisture in coffee leads to Coffee processing and the UCDA learning guide. The guide renders its example/practice and useful starting-page instructions. Desktop Fabric cutting and coffee guide screenshots shown as checkpoint two. The reviewed depth gate now includes shared, music, housing, coffee and clothing; diagnostics/software remain required before release.
 
 Coffee export copy refinement complete, focused JSON/release validation and content-depth tests passed; organization-related files and existing IDs/relations/evidence preserved by builder comparison. All builder writes stopped. LT-032/033 accepted by PM after the shown checkpoint.
+
+## Final pair in progress
+
+Checkpoint two source `d699383` pushed; LT-032/033 are Done in Notion. Diagnostics and software builders now own their packs/research. PM's release depth gate explicitly includes all seven enabled packs, so the pending final pair cannot be omitted accidentally.
+
+PM independently reviewed MedlinePlus interpretation/context content and Google's Android course overview, Unit 1 and first-app codelab. Android overview confirms its computer/math preparation, Android Studio-capable computer, optional device, and named first unit with three pathways/10-hour provider estimate. Course/units remain linked to explicit learning claims, with tutorials retained separately. Final source/copy/UI acceptance is still pending.
+
+## Complete catalog and release review
+
+Final catalog: **181 nodes, 41 activities and 135 relations** across the seven enabled packs. All **222 pages** have explanations and original examples; every activity has input/output/decision fields. **20 learning resources** comprise five courses, three modules, three tutorials, five guides and four articles. Each domain has two or three nonmodule offerings. Shared content is included in the acceptance gate.
+
+PM read every new domain explanation/example and learning setup. The final pair passed `pnpm check`: **94 tests**, type/data validation and production build. Builders separately verified their final evidence records, original IDs/shared links and scope. The publisher will rerun checks against the exact committed release source.
+
+Production preview review after refreshing to the current build: Android course → Unit 1 keyboard navigation, explicit teaching links, the provider's 10-hour unit estimate and setup; CDC course at 360 × 800 with no horizontal overflow, account/audience conditions visible and no credential claim. Source preference remains checked across refresh; switching it off restores normal reading while retaining explanations, examples, preparation and outcomes. Viewport restored. The laboratory information subject screenshot shows the final checkpoint. Initial navigation in an already-loaded older preview correctly required a reload to load newly added IDs.
+
+LT-034/035 accepted by PM; LT-036 final release review is active. Both builders stopped writes and are performing read-only peer reviews of the other builder's three domains. Publication remains pending those results and the clean-source release.
+
+The production JavaScript bundle is approximately **183 kB gzip**. Vite warns about the uncompressed single chunk exceeding 500 kB. Current desktop/mobile preview checks found no loading issue; the static implementation remains appropriate for this catalog size. Provider exercises and authenticated course content were not executed. No real patient information or real-event examples were added.
+
+
+## Peer review accepted
+
+Both builders completed read-only reviews of the other builder's three domains with no material blockers. The housing/clothing/software reviewer independently sampled OpenLearn Energy in buildings, USU Designer Pillowcase and Android Unit 1. The music/coffee/diagnostics reviewer independently sampled OpenLearn Sound, UCDA 2019 processing/storage pages and CDC QMS. Each also read the current copy, learning setup and hierarchy evidence. Their limited samples agreed with the displayed claims; authenticated exercises and unsampled source passages remain outside those spot checks.
+
+PM corrected six minor indefinite-article errors in music examples (A engineer/artist/arranger → An). No semantic claims changed. All agent writes are stopped. The complete wave is accepted for exact-source publication; all 94 checks will run again inside the publisher.

@@ -30,7 +30,7 @@
       "explanation": "Arrangement turns an existing composition toward a particular musical setting. Choices about parts, instruments, harmony and tempo determine how that composition will be expressed in this recording.",
       "example": {
         "title": "Making room in the verse",
-        "body": "A arranger removes a repeated keyboard figure from the verse and brings it back for the chorus to create a contrast."
+        "body": "An arranger removes a repeated keyboard figure from the verse and brings it back for the chorus to create a contrast."
       },
       "inputs": "An existing composition and an intended musical setting.",
       "outputs": "An adapted set of musical parts or an arrangement for performers.",
@@ -144,7 +144,7 @@
       "explanation": "The artist gathers the release material and follows a distributor's delivery requirements. This route uses Spotify as its concrete destination; its release information travels with the audio and artwork.",
       "example": {
         "title": "Checking the package",
-        "body": "A artist reviews the uploaded audio, cover and credits together before submitting the release through a distributor."
+        "body": "An artist reviews the uploaded audio, cover and credits together before submitting the release through a distributor."
       },
       "inputs": "Release-ready audio, artwork and the information identifying the release and contributors.",
       "outputs": "A prepared submission for the distributor to deliver to Spotify.",

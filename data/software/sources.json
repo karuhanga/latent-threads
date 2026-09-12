@@ -88,6 +88,104 @@
     "pinpoint": "Scope, framing and review limits.",
     "retrievedAt": "2026-09-12",
     "reuseStatus": "unreviewed"
+  },
+  {
+    "id": "source:software-compose-course",
+    "title": "Android Basics with Compose",
+    "kind": "external",
+    "locator": "https://developer.android.com/courses/android-basics-compose/course",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Course goals, prerequisites and Unit 1 membership; only selected curriculum represented",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-compose-unit-one",
+    "title": "Unit 1: Your first Android app",
+    "kind": "external",
+    "locator": "https://developer.android.com/courses/android-basics-compose/unit-1",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Unit title, parent course and three named pathways",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-cs-curriculum",
+    "title": "Computer Science Curricula 2023",
+    "kind": "external",
+    "locator": "https://ieeecs-media.computer.org/media/education/reports/CS2023.pdf",
+    "publisher": "ACM, IEEE Computer Society and AAAI",
+    "pinpoint": "Software Development Fundamentals: printed pages 229–233, especially SDF-Fundamentals functions on page 231; knowledge-area model",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-developer-tester",
+    "title": "Software Developers, Quality Assurance Analysts, and Testers",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "pinpoint": "What They Do / Duties: needs, implementation, maintenance, test scenarios and defect reporting; no employment or credential claims",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-studio-overview",
+    "title": "Meet Android Studio",
+    "kind": "external",
+    "locator": "https://developer.android.com/studio/intro",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "IDE overview, project structure and build system",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-emulator",
+    "title": "Run apps on the Android Emulator",
+    "kind": "external",
+    "locator": "https://developer.android.com/studio/run/emulator",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Emulator introduction, physical-device alternative and virtual device configuration",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-interviews",
+    "title": "Using in-depth interviews",
+    "kind": "external",
+    "locator": "https://www.gov.uk/service-manual/user-research/using-in-depth-interviews",
+    "publisher": "Government Digital Service, GOV.UK",
+    "pinpoint": "Planning questions; open neutral questions; stories and real examples",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-kotlin-functions",
+    "title": "Functions",
+    "kind": "external",
+    "locator": "https://kotlinlang.org/docs/functions.html",
+    "publisher": "JetBrains, Kotlin documentation",
+    "pinpoint": "Function declarations, arguments and return values",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-content-license",
+    "title": "Content License",
+    "kind": "external",
+    "locator": "https://developer.android.com/license",
+    "publisher": "Google, Android Developers",
+    "pinpoint": "Documentation versus other site content; exceptions, linked content and brand restrictions",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:software-depth-editorial",
+    "title": "Wave 3 software editorial rationale",
+    "kind": "internal_editorial",
+    "locator": "docs/research/wave-3-software.md",
+    "pinpoint": "Original reading-list examples, expanded claims and education modelling",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed"
   }
 ]
-

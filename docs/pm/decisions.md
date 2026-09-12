@@ -34,3 +34,8 @@ The six-domain browser review showed a broad “coffee” query placing the coff
 ## 2026-09-12 — Content depth and education authorized
 
 User accepted the proposed depth/education wave with “Go ahead /goal”. Deliver all six current domains, starting with music/housing, then coffee/clothing and diagnostics/software. PM approved the minimal v0.3 contract in Wave 3: optional structured explanations/examples; existing knowledge hierarchy; typed resource curriculum/prerequisite relationships; practical learning setup visible by default. Credentials remain optional sourced metadata. Static architecture and bounded builders continue.
+
+
+## 12 September 2026 — Completed content wave remains statically bundled
+
+The enriched seven-pack catalog produces about 183 kB of gzipped JavaScript in the reviewed build. Desktop and mobile previews remain usable. Retain the existing bundled static implementation and Pages deployment for Wave 3; the uncompressed chunk advisory alone does not justify introducing a runtime service. Exact-source publication and all-seven-pack depth acceptance remain required. See [Wave 3 review](wave-3-review.md).

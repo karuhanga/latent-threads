@@ -6,7 +6,17 @@
     "stageId": "stage:software-research",
     "roleId": "role:software-user-researcher",
     "action": "Plan research rounds and interview likely users to understand their goals and difficulties.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The researcher plans a round around an important uncertainty, selects suitable participants and chooses how to investigate it. The findings help update the next questions. Here planning concerns the research work; responsibility for managing the whole app project is a separate matter.",
+      "example": {
+        "title": "Recruit for the actual question",
+        "body": "The team wants to understand lost recommendations, so the researcher seeks people who recently tried to retrieve one and plans a discussion about that experience."
+      },
+      "inputs": "An important uncertainty, existing evidence and access to likely users.",
+      "outputs": "Research observations and findings that inform the next decision.",
+      "decision": "Which question and participant group will make this research round most useful?"
+    }
   },
   {
     "id": "contribution:software-prototype",
@@ -15,7 +25,17 @@
     "stageId": "stage:software-design",
     "roleId": "role:software-interaction-designer",
     "action": "Create and test interface prototypes to compare design ideas before implementation.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The designer builds a representation of the proposed interaction and uses it to compare approaches. Feedback can justify a revision, another prototype or discarding the idea. The prototype is useful because the uncertain part can be explored before the full app is implemented.",
+      "example": {
+        "title": "Revise the confusing step",
+        "body": "Readers can add a title in the prototype but cannot tell whether it was saved. The designer changes the confirmation and tries the revised interaction again."
+      },
+      "inputs": "An interaction idea and the question it needs to answer.",
+      "outputs": "A prototype plus feedback on the proposed interaction.",
+      "decision": "Should this approach be revised, retained for further work or discarded?"
+    }
   },
   {
     "id": "contribution:software-develop",
@@ -24,7 +44,17 @@
     "stageId": "stage:software-development",
     "roleId": "role:software-app-developer",
     "action": "Write Kotlin code and use Jetpack Compose to build and preview the Android interface.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The developer makes an Android project implement the selected interface, using Kotlin and Compose. Code and resources are organised in the project and built with the development tools. Previewing a small change gives feedback during implementation while broader behaviour still needs testing.",
+      "example": {
+        "title": "Build a small visible change",
+        "body": "The developer adds the reading-list heading and inspects it in preview. They confirm that change before moving on to the controls that will alter the list."
+      },
+      "inputs": "The intended interface behaviour, project code and resources.",
+      "outputs": "Changed app code and a build or preview for inspection.",
+      "decision": "Does this implementation express the intended interface change clearly enough to continue?"
+    }
   },
   {
     "id": "contribution:software-test",
@@ -33,7 +63,17 @@
     "stageId": "stage:software-testing",
     "roleId": "role:software-tester",
     "action": "Run manual and automated checks of behavior, including user flows on devices or emulators.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The tester chooses scenarios and compares actual results with expected behaviour. Recording a defect includes enough context to investigate it, then the relevant checks can be repeated after a change. The output is evidence about the exercised scenarios and any problems found.",
+      "example": {
+        "title": "Verify the corrected deletion",
+        "body": "The tester recreates the three-title list that exposed the deletion fault. After the fix, they repeat the same action and check which row remains."
+      },
+      "inputs": "An app version, expected behaviour and selected test scenarios.",
+      "outputs": "Observed results and actionable defect reports where behaviour differs.",
+      "decision": "Does the result meet the expectation, or is further investigation needed?"
+    }
   },
   {
     "id": "contribution:software-publish",
@@ -42,7 +82,17 @@
     "stageId": "stage:software-distribution",
     "roleId": "role:software-publisher",
     "action": "Prepare a signed release and store materials, then distribute the app through a chosen channel.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The publisher prepares the release build and the information needed for the chosen distribution channel. Checking the actual release version matters because that is what users will receive. Readiness includes both the app package and the materials that describe it.",
+      "example": {
+        "title": "Hold the mismatched release",
+        "body": "The prepared screenshot shows a control missing from the release build. The publisher resolves the mismatch before making that version of the reading-list app available."
+      },
+      "inputs": "A release candidate, channel requirements and app description materials.",
+      "outputs": "A prepared release and its associated distribution materials.",
+      "decision": "Is this specific version and its description ready for the chosen channel?"
+    }
   },
   {
     "id": "contribution:software-support",
@@ -51,7 +101,16 @@
     "stageId": "stage:software-support",
     "roleId": "role:software-support-specialist",
     "action": "Review app feedback and reply to users to help resolve their reported problems.",
-    "editorialStatus": "published"
+    "editorialStatus": "published",
+    "details": {
+      "explanation": "The support person examines a report, checks relevant context and gives a clear response about the user’s difficulty. In the Google Play example, reviews and replies provide that communication channel. An unresolved report can become a concrete question for further investigation.",
+      "example": {
+        "title": "A report with a useful detail",
+        "body": "A reader says their title disappeared after removing another item. Support records that sequence and responds to the reported problem while the team investigates the behaviour."
+      },
+      "inputs": "A user report and relevant app/version information.",
+      "outputs": "A relevant response and a clear account of any unresolved issue.",
+      "decision": "Can the report be answered with known information, or does it need investigation?"
+    }
   }
 ]
-
