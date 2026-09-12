@@ -1,0 +1,103 @@
+[
+  {
+    "id": "source:clothing-knit-basics",
+    "title": "Knit Basics",
+    "kind": "external",
+    "locator": "https://cottonworks.com/learning-hub/knitting/knit-basics/",
+    "publisher": "Cotton Incorporated",
+    "pinpoint": "What are Knits?, Knit Properties and Weft Knitting.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-construction",
+    "title": "Garment Construction",
+    "kind": "external",
+    "locator": "https://cottonworks.com/learning-hub/garment-manufacturing/garment-construction/",
+    "publisher": "Cotton Incorporated",
+    "pinpoint": "T-Shirt Construction; Pattern Engineering; Marker Making; Cutting Methods.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-quality",
+    "title": "Garment Quality Control",
+    "kind": "external",
+    "locator": "https://cottonworks.com/learning-hub/garment-manufacturing/garment-quality-control/",
+    "publisher": "Cotton Incorporated",
+    "pinpoint": "Fabric Quality & Grading Systems; Inspection.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-knitting-operator",
+    "title": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/51-6063.00",
+    "publisher": "O*NET OnLine, National Center for O*NET Development",
+    "pinpoint": "Tasks: threading, machine setup, monitoring and adjustments.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-designer",
+    "title": "Fashion Designers",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/27-1022.00",
+    "publisher": "O*NET OnLine, National Center for O*NET Development",
+    "pinpoint": "Tasks: sketches, specifications, material selection and samples.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-cutter",
+    "title": "Cutters and Trimmers, Hand",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/51-9031.00",
+    "publisher": "O*NET OnLine, National Center for O*NET Development",
+    "pinpoint": "Tasks: textiles, templates, dimensions, cutting lines and tools.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-sewing-operator",
+    "title": "Sewing Machine Operators",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/51-6031.00",
+    "publisher": "O*NET OnLine, National Center for O*NET Development",
+    "pinpoint": "Tasks: joining garment parts, inspecting stitching and measuring finished articles.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-inspector",
+    "title": "Inspectors, Testers, Sorters, Samplers, and Weighers",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/51-9061.00",
+    "publisher": "O*NET OnLine, National Center for O*NET Development",
+    "pinpoint": "Tasks: dimensions, specifications, rejection and inspection records.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-retail",
+    "title": "Retail Salespersons",
+    "kind": "external",
+    "locator": "https://www.onetonline.org/link/summary/41-2031.00",
+    "publisher": "O*NET OnLine, National Center for O*NET Development",
+    "pinpoint": "Tasks: customer needs, merchandise advice, fitting and transactions.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only"
+  },
+  {
+    "id": "source:clothing-editorial",
+    "title": "Clothing pack research and editorial review",
+    "kind": "internal_editorial",
+    "locator": "docs/research/clothing.md",
+    "publisher": "Latent Threads",
+    "pinpoint": "Scope, framing and limits.",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed"
+  }
+]
+

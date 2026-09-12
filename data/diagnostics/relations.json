@@ -1,0 +1,98 @@
+[
+  {
+    "id": "relation:diagnostics-output",
+    "type": "produces",
+    "fromId": "endeavor:laboratory-testing",
+    "toId": "artifact:lab-test-report",
+    "summary": "The report is the outcome explored in this route.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-maintenance-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:diagnostics-maintenance",
+    "toId": "capability:medical-equipment-maintenance",
+    "summary": "Equipment technicians carry out maintenance work.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-quality-concept",
+    "type": "draws_on",
+    "fromId": "contribution:diagnostics-quality",
+    "toId": "knowledge:laboratory-quality-management",
+    "summary": "Quality assurance considers the laboratory’s connected processes.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-quality-planning",
+    "type": "requires_capability",
+    "fromId": "contribution:diagnostics-quality",
+    "toId": "capability:project-planning",
+    "summary": "Quality improvements need tasks, responsibilities, time and resources.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-collection-identification",
+    "type": "requires_capability",
+    "fromId": "contribution:diagnostics-collection",
+    "toId": "capability:sample-identification",
+    "summary": "Blood samples must remain linked to their recorded identity.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-preparation-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:diagnostics-preparation",
+    "toId": "capability:specimen-preparation",
+    "summary": "Preparing specimens is part of this activity.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-analysis-microscope",
+    "type": "uses",
+    "fromId": "contribution:diagnostics-analysis",
+    "toId": "tool:laboratory-microscope",
+    "summary": "Some examinations use microscopes.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-analysis-counter",
+    "type": "uses",
+    "fromId": "contribution:diagnostics-analysis",
+    "toId": "tool:automated-cell-counter",
+    "summary": "Some analyses use automated cell counters.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-analysis-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:diagnostics-analysis",
+    "toId": "knowledge:measurement",
+    "summary": "Some laboratory tests quantify substances in samples.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-report-output",
+    "type": "produces",
+    "fromId": "contribution:diagnostics-reporting",
+    "toId": "artifact:lab-test-report",
+    "summary": "Recording findings contributes to the laboratory report.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-interpretation-context",
+    "type": "draws_on",
+    "fromId": "contribution:diagnostics-interpretation",
+    "toId": "knowledge:clinical-result-context",
+    "summary": "Clinical interpretation considers more than a laboratory result.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:diagnostics-results-learning",
+    "type": "teaches",
+    "fromId": "resource:medlineplus-lab-results",
+    "toId": "knowledge:clinical-result-context",
+    "summary": "Explains why laboratory findings need clinical context.",
+    "editorialStatus": "published"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "relation:clothing-output",
+    "type": "produces",
+    "fromId": "endeavor:clothing-tshirt",
+    "toId": "artifact:clothing-tshirt",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-sewn-output",
+    "type": "produces",
+    "fromId": "contribution:clothing-sew",
+    "toId": "artifact:clothing-tshirt",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-knit-machine",
+    "type": "uses",
+    "fromId": "contribution:clothing-knit",
+    "toId": "tool:clothing-knitting-machine",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-knit-structure",
+    "type": "draws_on",
+    "fromId": "contribution:clothing-knit",
+    "toId": "knowledge:clothing-knit-structure",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-design-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:clothing-design",
+    "toId": "capability:clothing-garment-design",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-cut-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:clothing-cut",
+    "toId": "capability:clothing-pattern-cutting",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-cut-shears",
+    "type": "uses",
+    "fromId": "contribution:clothing-cut",
+    "toId": "tool:clothing-fabric-shears",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-cut-ruler",
+    "type": "uses",
+    "fromId": "contribution:clothing-cut",
+    "toId": "tool:clothing-ruler",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-cut-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:clothing-cut",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-cut-yield",
+    "type": "draws_on",
+    "fromId": "capability:clothing-pattern-cutting",
+    "toId": "knowledge:clothing-pattern-yield",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-sew-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:clothing-sew",
+    "toId": "capability:clothing-machine-sewing",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-sew-machine",
+    "type": "uses",
+    "fromId": "contribution:clothing-sew",
+    "toId": "tool:clothing-sewing-machine",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-inspect-skill",
+    "type": "requires_capability",
+    "fromId": "contribution:clothing-inspect",
+    "toId": "capability:clothing-quality-inspection",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-inspect-ruler",
+    "type": "uses",
+    "fromId": "contribution:clothing-inspect",
+    "toId": "tool:clothing-ruler",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-inspect-measurement",
+    "type": "draws_on",
+    "fromId": "contribution:clothing-inspect",
+    "toId": "knowledge:measurement",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-inspect-seams",
+    "type": "draws_on",
+    "fromId": "capability:clothing-quality-inspection",
+    "toId": "knowledge:clothing-seam-integrity",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-learn-knits",
+    "type": "teaches",
+    "fromId": "resource:clothing-knit-basics",
+    "toId": "knowledge:clothing-knit-structure",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-learn-cutting",
+    "type": "teaches",
+    "fromId": "resource:clothing-garment-construction",
+    "toId": "capability:clothing-pattern-cutting",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "relation:clothing-learn-yield",
+    "type": "teaches",
+    "fromId": "resource:clothing-garment-construction",
+    "toId": "knowledge:clothing-pattern-yield",
+    "editorialStatus": "published"
+  }
+]
+

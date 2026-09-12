@@ -1,0 +1,653 @@
+[
+  {
+    "id": "evidence:clothing-endeavor-clothing-tshirt-knit-basics",
+    "subjectId": "endeavor:clothing-tshirt",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "T-shirts are one application of knitted fabric.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-endeavor-clothing-tshirt-editorial",
+    "subjectId": "endeavor:clothing-tshirt",
+    "sourceId": "source:clothing-editorial",
+    "claim": "The route groups six kinds of work for exploration, not a universal production sequence.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-artifact-clothing-tshirt-construction",
+    "subjectId": "artifact:clothing-tshirt",
+    "sourceId": "source:clothing-construction",
+    "claim": "The page describes cutting and assembling T-shirt parts.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-fabric-knit-basics",
+    "subjectId": "stage:clothing-fabric",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "Knitting forms yarn into fabric.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-fabric-editorial",
+    "subjectId": "stage:clothing-fabric",
+    "sourceId": "source:clothing-editorial",
+    "claim": "Reading group 1: Fabric production. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-design-designer",
+    "subjectId": "stage:clothing-design",
+    "sourceId": "source:clothing-designer",
+    "claim": "Designers sketch apparel and specify its materials and construction.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-design-editorial",
+    "subjectId": "stage:clothing-design",
+    "sourceId": "source:clothing-editorial",
+    "claim": "Reading group 2: Design. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-cutting-construction",
+    "subjectId": "stage:clothing-cutting",
+    "sourceId": "source:clothing-construction",
+    "claim": "T-shirt bodies, sleeves and neck trim are cut.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-cutting-editorial",
+    "subjectId": "stage:clothing-cutting",
+    "sourceId": "source:clothing-editorial",
+    "claim": "Reading group 3: Cutting. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-sewing-construction",
+    "subjectId": "stage:clothing-sewing",
+    "sourceId": "source:clothing-construction",
+    "claim": "Cut T-shirt parts are assembled in the sewing room.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-sewing-editorial",
+    "subjectId": "stage:clothing-sewing",
+    "sourceId": "source:clothing-editorial",
+    "claim": "Reading group 4: Sewing. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-quality-quality",
+    "subjectId": "stage:clothing-quality",
+    "sourceId": "source:clothing-quality",
+    "claim": "Garment quality includes fit and seam integrity.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-quality-editorial",
+    "subjectId": "stage:clothing-quality",
+    "sourceId": "source:clothing-editorial",
+    "claim": "Reading group 5: Quality assessment. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-retail-retail",
+    "subjectId": "stage:clothing-retail",
+    "sourceId": "source:clothing-retail",
+    "claim": "Retail work includes selection, fitting and payment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-retail-editorial",
+    "subjectId": "stage:clothing-retail",
+    "sourceId": "source:clothing-editorial",
+    "claim": "Reading group 6: Retail. Its position is editorial, not a documented prerequisite.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-knitting-operator-knitting-operator",
+    "subjectId": "role:clothing-knitting-operator",
+    "sourceId": "source:clothing-knitting-operator",
+    "claim": "The profile covers knitting-machine setup, monitoring and adjustment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-designer-designer",
+    "subjectId": "role:clothing-designer",
+    "sourceId": "source:clothing-designer",
+    "claim": "Design work includes apparel sketches, materials and specifications.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-cutter-cutter",
+    "subjectId": "role:clothing-cutter",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutting work uses textiles, templates and hand or powered tools.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-sewing-operator-sewing-operator",
+    "subjectId": "role:clothing-sewing-operator",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Operators guide garment parts through machines to join them.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-quality-inspector-inspector",
+    "subjectId": "role:clothing-quality-inspector",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspectors compare products and measured dimensions with specifications.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-quality-inspector-quality",
+    "subjectId": "role:clothing-quality-inspector",
+    "sourceId": "source:clothing-quality",
+    "claim": "Garment evaluation includes fit and seam integrity.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-role-clothing-retail-salesperson-retail",
+    "subjectId": "role:clothing-retail-salesperson",
+    "sourceId": "source:clothing-retail",
+    "claim": "The role includes recommendations, product explanations and transactions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-capability-clothing-garment-design-designer",
+    "subjectId": "capability:clothing-garment-design",
+    "sourceId": "source:clothing-designer",
+    "claim": "Designers develop drawings and select materials.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-capability-clothing-pattern-cutting-cutter",
+    "subjectId": "capability:clothing-pattern-cutting",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutters use templates and marked lines to locate cuts.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-capability-clothing-machine-sewing-sewing-operator",
+    "subjectId": "capability:clothing-machine-sewing",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Operators match parts and guide them under machine needles.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-capability-clothing-quality-inspection-inspector",
+    "subjectId": "capability:clothing-quality-inspection",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspectors assess products against specifications and record problems.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-knowledge-clothing-knit-structure-knit-basics",
+    "subjectId": "knowledge:clothing-knit-structure",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "The loop structure helps knitted fabric stretch and change shape.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-knowledge-clothing-pattern-yield-construction",
+    "subjectId": "knowledge:clothing-pattern-yield",
+    "sourceId": "source:clothing-construction",
+    "claim": "Marker layout determines material utilization.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-knowledge-clothing-seam-integrity-quality",
+    "subjectId": "knowledge:clothing-seam-integrity",
+    "sourceId": "source:clothing-quality",
+    "claim": "Seam integrity is one criterion of garment quality.",
+    "support": "inference",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review",
+    "notes": "A plain-language explanation of the seam-integrity criterion named in the source; no numerical strength or universal test method is asserted."
+  },
+  {
+    "id": "evidence:clothing-tool-clothing-knitting-machine-knit-basics",
+    "subjectId": "tool:clothing-knitting-machine",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "Knitting machines form intermeshed loops using needles.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-tool-clothing-fabric-shears-cutter",
+    "subjectId": "tool:clothing-fabric-shears",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutters use scissors and other tools to shape textiles.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-tool-clothing-sewing-machine-sewing-operator",
+    "subjectId": "tool:clothing-sewing-machine",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Operators thread machines and guide parts under needles to sew.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-tool-clothing-ruler-cutter",
+    "subjectId": "tool:clothing-ruler",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutting locations and dimensions are determined using rules and templates.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-resource-clothing-knit-basics-knit-basics",
+    "subjectId": "resource:clothing-knit-basics",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "The public article explains knitting fundamentals with diagrams.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-resource-clothing-garment-construction-construction",
+    "subjectId": "resource:clothing-garment-construction",
+    "sourceId": "source:clothing-construction",
+    "claim": "The public article introduces garment assembly and marker layout.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-knit-knitting-operator",
+    "subjectId": "contribution:clothing-knit",
+    "sourceId": "source:clothing-knitting-operator",
+    "claim": "The role sets up textile machines and adjusts them for specified products.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-design-designer",
+    "subjectId": "contribution:clothing-design",
+    "sourceId": "source:clothing-designer",
+    "claim": "Designers create apparel sketches and material and construction specifications.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-cut-construction",
+    "subjectId": "contribution:clothing-cut",
+    "sourceId": "source:clothing-construction",
+    "claim": "T-shirt cutting prepares body, sleeve and neckline components.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-cut-cutter",
+    "subjectId": "contribution:clothing-cut",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutters position templates, measure cutting locations and shape textiles.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-sew-sewing-operator",
+    "subjectId": "contribution:clothing-sew",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Operators match parts, sew them and monitor stitch defects.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-inspect-inspector",
+    "subjectId": "contribution:clothing-inspect",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspection measures product dimensions and checks conformance.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-inspect-sewing-operator",
+    "subjectId": "contribution:clothing-inspect",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Garment work includes measuring finished articles with rulers and inspecting defects.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-inspect-quality",
+    "subjectId": "contribution:clothing-inspect",
+    "sourceId": "source:clothing-quality",
+    "claim": "Garment quality is evaluated through fit and seam integrity.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-contribution-clothing-sell-retail",
+    "subjectId": "contribution:clothing-sell",
+    "sourceId": "source:clothing-retail",
+    "claim": "Salespeople assist selection, explain merchandise and process payment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-output-construction",
+    "subjectId": "relation:clothing-output",
+    "sourceId": "source:clothing-construction",
+    "claim": "The described construction assembles a T-shirt.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-sewn-output-construction",
+    "subjectId": "relation:clothing-sewn-output",
+    "sourceId": "source:clothing-construction",
+    "claim": "Sewing assembles the cut T-shirt parts.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-knit-machine-knitting-operator",
+    "subjectId": "relation:clothing-knit-machine",
+    "sourceId": "source:clothing-knitting-operator",
+    "claim": "Fabric production uses knitting machines.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-knit-structure-knit-basics",
+    "subjectId": "relation:clothing-knit-structure",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "Machine knitting forms fabric through yarn loops.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-design-skill-designer",
+    "subjectId": "relation:clothing-design-skill",
+    "sourceId": "source:clothing-designer",
+    "claim": "Developing apparel uses drawing and material-selection skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-cut-skill-cutter",
+    "subjectId": "relation:clothing-cut-skill",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutters position templates and mark lines before cutting.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-cut-shears-cutter",
+    "subjectId": "relation:clothing-cut-shears",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Scissors are among the tools used to cut textiles.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-cut-ruler-cutter",
+    "subjectId": "relation:clothing-cut-ruler",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Rules help locate cuts and dimensions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-cut-measurement-cutter",
+    "subjectId": "relation:clothing-cut-measurement",
+    "sourceId": "source:clothing-cutter",
+    "claim": "Cutting work measures materials to locate specified cuts.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-cut-yield-construction",
+    "subjectId": "relation:clothing-cut-yield",
+    "sourceId": "source:clothing-construction",
+    "claim": "Efficient marker layouts reduce unused fabric.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-sew-skill-sewing-operator",
+    "subjectId": "relation:clothing-sew-skill",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Joining garment pieces uses machine-sewing skills.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-sew-machine-sewing-operator",
+    "subjectId": "relation:clothing-sew-machine",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Garment assembly uses sewing equipment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-inspect-skill-inspector",
+    "subjectId": "relation:clothing-inspect-skill",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspection compares products with their required characteristics.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-inspect-ruler-sewing-operator",
+    "subjectId": "relation:clothing-inspect-ruler",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Finished garment articles are checked using rulers.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-inspect-measurement-inspector",
+    "subjectId": "relation:clothing-inspect-measurement",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Product dimensions are measured to verify conformance.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-inspect-seams-quality",
+    "subjectId": "relation:clothing-inspect-seams",
+    "sourceId": "source:clothing-quality",
+    "claim": "Seam integrity is part of garment quality evaluation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-learn-knits-knit-basics",
+    "subjectId": "relation:clothing-learn-knits",
+    "sourceId": "source:clothing-knit-basics",
+    "claim": "The article introduces loop structure and knit properties.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-learn-cutting-construction",
+    "subjectId": "relation:clothing-learn-cutting",
+    "sourceId": "source:clothing-construction",
+    "claim": "The article introduces patterns, markers and cutting.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-relation-clothing-learn-yield-construction",
+    "subjectId": "relation:clothing-learn-yield",
+    "sourceId": "source:clothing-construction",
+    "claim": "Marker-making guidance explains fabric utilization.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-stage-clothing-quality-inspector",
+    "subjectId": "stage:clothing-quality",
+    "sourceId": "source:clothing-inspector",
+    "claim": "Inspection checks measured product dimensions against specifications.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  },
+  {
+    "id": "evidence:clothing-tool-clothing-ruler-sewing-operator",
+    "subjectId": "tool:clothing-ruler",
+    "sourceId": "source:clothing-sewing-operator",
+    "claim": "Rulers are used to verify finished garment dimensions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "agent:deployment_review"
+  }
+]

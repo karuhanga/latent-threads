@@ -1,0 +1,57 @@
+[
+  {
+    "id": "contribution:clothing-knit",
+    "label": "Fabric knitting",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "stageId": "stage:clothing-fabric",
+    "roleId": "role:clothing-knitting-operator",
+    "action": "Set up and monitor a knitting machine, adjusting it to produce the specified fabric.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:clothing-design",
+    "label": "Garment design",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "stageId": "stage:clothing-design",
+    "roleId": "role:clothing-designer",
+    "action": "Sketch the garment, choose materials and specify its construction.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:clothing-cut",
+    "label": "Fabric cutting",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "stageId": "stage:clothing-cutting",
+    "roleId": "role:clothing-cutter",
+    "action": "Arrange the fabric and cut the body, sleeve and trim pieces for the T-shirt.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:clothing-sew",
+    "label": "Garment sewing",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "stageId": "stage:clothing-sewing",
+    "roleId": "role:clothing-sewing-operator",
+    "action": "Match the garment pieces and sew them together, checking the stitching as work proceeds.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:clothing-inspect",
+    "label": "Garment inspection",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "stageId": "stage:clothing-quality",
+    "roleId": "role:clothing-quality-inspector",
+    "action": "Measure the finished garment against specifications and check its construction for defects.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:clothing-sell",
+    "label": "Clothing retail",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "stageId": "stage:clothing-retail",
+    "roleId": "role:clothing-retail-salesperson",
+    "action": "Help a customer select clothing, answer product questions and complete the purchase.",
+    "editorialStatus": "published"
+  }
+]
+

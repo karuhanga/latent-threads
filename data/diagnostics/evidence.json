@@ -1,0 +1,433 @@
+[
+  {
+    "id": "evidence:diagnostics-endeavor-laboratory-testing",
+    "subjectId": "endeavor:laboratory-testing",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Six reading areas connect selected diagnostic-laboratory contributions.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-artifact-lab-test-report",
+    "subjectId": "artifact:lab-test-report",
+    "sourceId": "source:diagnostics-workflow",
+    "claim": "Laboratory results are recorded, authorized and reported.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-stage-diagnostics-readiness",
+    "subjectId": "stage:diagnostics-readiness",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Editorial reading area: Laboratory readiness.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-stage-diagnostics-collection",
+    "subjectId": "stage:diagnostics-collection",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Editorial reading area: Sample collection.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-stage-diagnostics-preparation",
+    "subjectId": "stage:diagnostics-preparation",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Editorial reading area: Sample preparation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-stage-diagnostics-analysis",
+    "subjectId": "stage:diagnostics-analysis",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Editorial reading area: Laboratory analysis.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-stage-diagnostics-reporting",
+    "subjectId": "stage:diagnostics-reporting",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Editorial reading area: Result reporting.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-stage-diagnostics-interpretation",
+    "subjectId": "stage:diagnostics-interpretation",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "Editorial reading area: Clinical interpretation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-role-phlebotomist",
+    "subjectId": "role:phlebotomist",
+    "sourceId": "source:diagnostics-phlebotomy",
+    "claim": "Phlebotomists draw blood, verify identity and label samples.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-role-medical-laboratory-scientist",
+    "subjectId": "role:medical-laboratory-scientist",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Clinical laboratory technologists, also called medical laboratory scientists, perform laboratory tests.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-role-biomedical-equipment-technician",
+    "subjectId": "role:biomedical-equipment-technician",
+    "sourceId": "source:diagnostics-repair",
+    "claim": "Medical equipment repairers test, service and repair equipment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-role-laboratory-quality-manager",
+    "subjectId": "role:laboratory-quality-manager",
+    "sourceId": "source:diagnostics-organization",
+    "claim": "Quality managers help implement and monitor the laboratory quality system.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-role-physician",
+    "subjectId": "role:physician",
+    "sourceId": "source:diagnostics-physician",
+    "claim": "Physicians take histories, examine patients and interpret diagnostic tests.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-capability-sample-identification",
+    "subjectId": "capability:sample-identification",
+    "sourceId": "source:diagnostics-phlebotomy",
+    "claim": "Identity checks, labels and database entries keep blood samples identified.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-capability-specimen-preparation",
+    "subjectId": "capability:specimen-preparation",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Technologists prepare specimens for testing.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-capability-medical-equipment-maintenance",
+    "subjectId": "capability:medical-equipment-maintenance",
+    "sourceId": "source:diagnostics-maintenance",
+    "claim": "Medical-equipment maintenance includes inspection and preventive or corrective work.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-knowledge-laboratory-quality-management",
+    "subjectId": "knowledge:laboratory-quality-management",
+    "sourceId": "source:diagnostics-workflow",
+    "claim": "Quality management applies across laboratory processes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-knowledge-clinical-result-context",
+    "subjectId": "knowledge:clinical-result-context",
+    "sourceId": "source:diagnostics-results",
+    "claim": "Providers consider lab findings with other information about the person.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-tool-laboratory-microscope",
+    "subjectId": "tool:laboratory-microscope",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Cytotechnologists examine cell slides under microscopes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-tool-automated-cell-counter",
+    "subjectId": "tool:automated-cell-counter",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Clinical laboratory staff use automated cell counters.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-resource-medlineplus-lab-results",
+    "subjectId": "resource:medlineplus-lab-results",
+    "sourceId": "source:diagnostics-results",
+    "claim": "This public explainer covers lab results and their interpretation.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-maintenance",
+    "subjectId": "contribution:diagnostics-maintenance",
+    "sourceId": "source:diagnostics-repair",
+    "claim": "Equipment repairers perform servicing, repairs and preventive maintenance.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-maintenance-laboratory-context",
+    "subjectId": "contribution:diagnostics-maintenance",
+    "sourceId": "source:diagnostics-lab-maintenance",
+    "claim": "Laboratory diagnostic equipment needs maintenance and technical support.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-quality",
+    "subjectId": "contribution:diagnostics-quality",
+    "sourceId": "source:diagnostics-organization",
+    "claim": "Quality managers assist planning, review records and coordinate audits.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-collection",
+    "subjectId": "contribution:diagnostics-collection",
+    "sourceId": "source:diagnostics-phlebotomy",
+    "claim": "Blood collection and labeling are phlebotomist duties.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-preparation",
+    "subjectId": "contribution:diagnostics-preparation",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Technologists may prepare specimens and perform manual tests.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-analysis",
+    "subjectId": "contribution:diagnostics-analysis",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Laboratory staff test specimens using manual and automated equipment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-reporting",
+    "subjectId": "contribution:diagnostics-reporting",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Laboratory staff enter test results into patient records.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-contribution-diagnostics-interpretation",
+    "subjectId": "contribution:diagnostics-interpretation",
+    "sourceId": "source:diagnostics-physician",
+    "claim": "Physicians review results, examine patients and take medical histories.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-interpretation-context",
+    "subjectId": "contribution:diagnostics-interpretation",
+    "sourceId": "source:diagnostics-results",
+    "claim": "Clinical interpretation combines test findings with other health information.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-output",
+    "subjectId": "relation:diagnostics-output",
+    "sourceId": "source:diagnostics-editorial",
+    "claim": "The route centers on a laboratory report.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-maintenance-skill",
+    "subjectId": "relation:diagnostics-maintenance-skill",
+    "sourceId": "source:diagnostics-repair",
+    "claim": "Repairers inspect and service medical equipment.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-quality-concept",
+    "subjectId": "relation:diagnostics-quality-concept",
+    "sourceId": "source:diagnostics-workflow",
+    "claim": "Quality management encompasses the full laboratory process.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-quality-planning",
+    "subjectId": "relation:diagnostics-quality-planning",
+    "sourceId": "source:diagnostics-organization",
+    "claim": "Quality managers assist planning; quality-system plans specify tasks, timelines and resources.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-collection-identification",
+    "subjectId": "relation:diagnostics-collection-identification",
+    "sourceId": "source:diagnostics-phlebotomy",
+    "claim": "Phlebotomists verify identity and label collected blood.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-preparation-skill",
+    "subjectId": "relation:diagnostics-preparation-skill",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Technologists prepare specimens.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-analysis-microscope",
+    "subjectId": "relation:diagnostics-analysis-microscope",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Laboratory staff operate microscopes.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-analysis-counter",
+    "subjectId": "relation:diagnostics-analysis-counter",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Laboratory staff operate cell counters.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-analysis-measurement",
+    "subjectId": "relation:diagnostics-analysis-measurement",
+    "sourceId": "source:diagnostics-results",
+    "claim": "Some lab tests measure quantities, reported using units.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-report-output",
+    "subjectId": "relation:diagnostics-report-output",
+    "sourceId": "source:diagnostics-workflow",
+    "claim": "Results are recorded before authorization and reporting.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-interpretation-context",
+    "subjectId": "relation:diagnostics-interpretation-context",
+    "sourceId": "source:diagnostics-results",
+    "claim": "Providers combine results with history and examination findings.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-relation-diagnostics-results-learning",
+    "subjectId": "relation:diagnostics-results-learning",
+    "sourceId": "source:diagnostics-results",
+    "claim": "The article explains why results are considered alongside other health information.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent"
+  },
+  {
+    "id": "evidence:diagnostics-laboratory-routine-maintenance",
+    "subjectId": "role:biomedical-equipment-technician",
+    "sourceId": "source:diagnostics-laboratory",
+    "claim": "Laboratory technologists and technicians also maintain the equipment they use.",
+    "support": "direct",
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-09-12",
+    "reviewer": "Codex content agent",
+    "notes": "Supports the role card’s boundary note; equipment maintenance is not exclusive to this role."
+  }
+]

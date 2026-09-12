@@ -1,0 +1,111 @@
+[
+  {
+    "id": "source:diagnostics-phlebotomy",
+    "title": "Phlebotomists",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/healthcare/phlebotomists.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties: identity, labeling, sample records",
+    "notes": "General occupational duties only; no local licensing, pay or staffing claims."
+  },
+  {
+    "id": "source:diagnostics-laboratory",
+    "title": "Clinical Laboratory Technologists and Technicians",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties: specimens, equipment, records and technologist specialties",
+    "notes": "Role names and allocation vary. Microscopes and cell counters illustrate different methods, not a required sequence."
+  },
+  {
+    "id": "source:diagnostics-repair",
+    "title": "Medical Equipment Repairers",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/installation-maintenance-and-repair/medical-equipment-repairers.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties: testing, servicing, repair",
+    "notes": "General equipment duties; WHO separately supports the diagnostic-laboratory context."
+  },
+  {
+    "id": "source:diagnostics-physician",
+    "title": "Physicians and Surgeons",
+    "kind": "external",
+    "locator": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What They Do / Duties: history, examination and test interpretation",
+    "notes": "A physician is one interpretation role in this selected route."
+  },
+  {
+    "id": "source:diagnostics-workflow",
+    "title": "Quality Management — Laboratory Quality Stepwise Implementation",
+    "kind": "external",
+    "locator": "https://extranet.who.int/lqsi/node/336",
+    "publisher": "World Health Organization",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "Core process; quality-system essentials; equipment",
+    "notes": "Educational workflow model; no current accreditation or jurisdictional requirement is asserted. The website displays some server warnings but the content was readable."
+  },
+  {
+    "id": "source:diagnostics-organization",
+    "title": "Laboratory Quality Management System: Organization module",
+    "kind": "external",
+    "locator": "https://extranet.who.int/hslp/who-hslp-download/package/501/material/320",
+    "publisher": "World Health Organization",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "Content sheets 18-2 to 18-4, printed pages 3, 6–8: quality-manager responsibilities and planning",
+    "notes": "Older training material. Used for general organizational work, not current ISO requirements; quality responsibility may be combined with another role."
+  },
+  {
+    "id": "source:diagnostics-maintenance",
+    "title": "Medical equipment maintenance programme overview",
+    "kind": "external",
+    "locator": "https://www.who.int/publications/i/item/9789241501538",
+    "publisher": "World Health Organization",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "Publication-page overview of inspection, preventive and corrective maintenance",
+    "notes": "Only the publication overview supports the skill definition; no technical procedure is reproduced."
+  },
+  {
+    "id": "source:diagnostics-lab-maintenance",
+    "title": "Maintenance manual for laboratory equipment",
+    "kind": "external",
+    "locator": "https://www.who.int/publications/i/item/9789241596350",
+    "publisher": "World Health Organization",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "Publication-page overview: diagnostic laboratory equipment and technical support",
+    "notes": "Overview read for the laboratory context; no maintenance instructions are included in this catalog."
+  },
+  {
+    "id": "source:diagnostics-results",
+    "title": "How to Understand Your Lab Results",
+    "kind": "external",
+    "locator": "https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+    "publisher": "MedlinePlus · National Library of Medicine",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "link_only",
+    "pinpoint": "What is a laboratory test?; measurement units; interpreting results with other information",
+    "notes": "Public patient-education article; source includes clinical examples, but this catalog does not reproduce result thresholds or clinical recommendations."
+  },
+  {
+    "id": "source:diagnostics-editorial",
+    "title": "Diagnostic testing route editorial rationale",
+    "kind": "internal_editorial",
+    "locator": "docs/research/diagnostics.md",
+    "publisher": "Latent Threads",
+    "retrievedAt": "2026-09-12",
+    "reuseStatus": "unreviewed",
+    "pinpoint": "Six reading areas and scope limits"
+  }
+]

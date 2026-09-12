@@ -1,0 +1,248 @@
+[
+  {
+    "id": "endeavor:clothing-tshirt",
+    "type": "endeavor",
+    "label": "T-shirt production and retail",
+    "summary": "Explore knitted fabric, garment design, making and retail through a T-shirt.",
+    "editorialStatus": "published",
+    "aliases": [
+      "clothing",
+      "garments",
+      "apparel",
+      "t shirt",
+      "fashion",
+      "make a T-shirt"
+    ],
+    "notes": "A selected cut-and-sew route. Design and quality work can recur; no particular factory, country or supplier chain is represented."
+  },
+  {
+    "id": "artifact:clothing-tshirt",
+    "type": "artifact",
+    "label": "T-shirt",
+    "summary": "A garment represented here by a knitted, cut-and-sewn version.",
+    "editorialStatus": "published",
+    "aliases": [
+      "tee",
+      "tee shirt"
+    ]
+  },
+  {
+    "id": "stage:clothing-fabric",
+    "type": "stage",
+    "label": "Fabric production",
+    "summary": "Knit yarn into fabric.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "displayOrder": 1
+  },
+  {
+    "id": "stage:clothing-design",
+    "type": "stage",
+    "label": "Design",
+    "summary": "Develop the garment’s appearance, materials and construction details.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "displayOrder": 2
+  },
+  {
+    "id": "stage:clothing-cutting",
+    "type": "stage",
+    "label": "Cutting",
+    "summary": "Lay out and cut garment pieces.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "displayOrder": 3
+  },
+  {
+    "id": "stage:clothing-sewing",
+    "type": "stage",
+    "label": "Sewing",
+    "summary": "Join cut parts into the garment.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "displayOrder": 4
+  },
+  {
+    "id": "stage:clothing-quality",
+    "type": "stage",
+    "label": "Quality assessment",
+    "summary": "Check the garment’s dimensions, appearance and construction.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "displayOrder": 5
+  },
+  {
+    "id": "stage:clothing-retail",
+    "type": "stage",
+    "label": "Retail",
+    "summary": "Help customers choose and purchase clothing.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:clothing-tshirt",
+    "displayOrder": 6
+  },
+  {
+    "id": "role:clothing-knitting-operator",
+    "type": "role",
+    "label": "Textile knitting operator",
+    "summary": "Sets up, monitors and adjusts machines that knit fabric.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:clothing-designer",
+    "type": "role",
+    "label": "Fashion designer",
+    "summary": "Develops garment ideas, selects materials and specifies construction.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:clothing-cutter",
+    "type": "role",
+    "label": "Garment cutter",
+    "summary": "Cuts fabric to the required shapes using patterns and cutting tools.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:clothing-sewing-operator",
+    "type": "role",
+    "label": "Sewing machine operator",
+    "summary": "Uses a sewing machine to join and finish garment parts.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:clothing-quality-inspector",
+    "type": "role",
+    "label": "Garment quality inspector",
+    "summary": "Checks garments against dimensions and construction requirements.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:clothing-retail-salesperson",
+    "type": "role",
+    "label": "Retail salesperson",
+    "summary": "Helps customers choose merchandise and complete purchases.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "capability:clothing-garment-design",
+    "type": "capability",
+    "label": "Garment design",
+    "summary": "Translate an idea into apparel drawings and material choices.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:clothing-pattern-cutting",
+    "type": "capability",
+    "label": "Pattern cutting",
+    "summary": "Position a pattern, mark cutting lines and cut fabric accurately.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:clothing-machine-sewing",
+    "type": "capability",
+    "label": "Machine sewing",
+    "summary": "Align garment parts and guide them through a sewing machine.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:clothing-quality-inspection",
+    "type": "capability",
+    "label": "Garment inspection",
+    "summary": "Identify defects and compare a garment with its requirements.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "knowledge:clothing-knit-structure",
+    "type": "knowledge",
+    "label": "Knit structure",
+    "summary": "Interlocking yarn loops give knitted fabric its structure and stretch.",
+    "editorialStatus": "published",
+    "kind": "concept",
+    "aliases": [
+      "knitted fabric",
+      "jersey",
+      "knit loops"
+    ]
+  },
+  {
+    "id": "knowledge:clothing-pattern-yield",
+    "type": "knowledge",
+    "label": "Pattern yield",
+    "summary": "The share of fabric turned into garment pieces rather than offcuts.",
+    "editorialStatus": "published",
+    "kind": "concept",
+    "aliases": [
+      "fabric utilization",
+      "marker layout"
+    ]
+  },
+  {
+    "id": "knowledge:clothing-seam-integrity",
+    "type": "knowledge",
+    "label": "Seam integrity",
+    "summary": "How well a garment’s stitched joins hold together.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "tool:clothing-knitting-machine",
+    "type": "tool",
+    "label": "Knitting machine",
+    "summary": "Uses needles to form fabric from yarn loops.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:clothing-fabric-shears",
+    "type": "tool",
+    "label": "Fabric shears",
+    "summary": "A hand tool for cutting fabric along a shape or marked line.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:clothing-sewing-machine",
+    "type": "tool",
+    "label": "Sewing machine",
+    "summary": "Joins material with stitches formed by a needle and thread.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:clothing-ruler",
+    "type": "tool",
+    "label": "Ruler",
+    "summary": "Measures lengths for cutting and checking garment pieces.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "resource:clothing-knit-basics",
+    "type": "learning_resource",
+    "label": "Knit basics",
+    "summary": "An introduction to yarn loops, stitches and knitted fabric.",
+    "editorialStatus": "published",
+    "url": "https://cottonworks.com/learning-hub/knitting/knit-basics/",
+    "provider": "CottonWorks, Cotton Incorporated",
+    "format": "Illustrated article",
+    "learnerLevel": "Introductory",
+    "access": "free",
+    "licenseStatus": "restricted",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "Public reading was accessible without an account. The page reserves copyright; linked videos and equipment are separate."
+  },
+  {
+    "id": "resource:clothing-garment-construction",
+    "type": "learning_resource",
+    "label": "Garment construction",
+    "summary": "An overview of T-shirt assembly, patterns and cutting.",
+    "editorialStatus": "published",
+    "url": "https://cottonworks.com/learning-hub/garment-manufacturing/garment-construction/",
+    "provider": "CottonWorks, Cotton Incorporated",
+    "format": "Article and video links",
+    "learnerLevel": "Introductory",
+    "access": "free",
+    "licenseStatus": "restricted",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "Public reading was accessible without an account. The page reserves copyright; linked videos and equipment are separate."
+  }
+]

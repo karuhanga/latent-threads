@@ -1,0 +1,69 @@
+[
+  {
+    "id": "contribution:diagnostics-maintenance",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-readiness",
+    "roleId": "role:biomedical-equipment-technician",
+    "label": "Equipment maintenance",
+    "action": "Service and repair diagnostic equipment within the technician’s area of competence.",
+    "editorialStatus": "published",
+    "notes": "The selected technical contribution complements routine checks by laboratory staff; responsibilities depend on the equipment and setting."
+  },
+  {
+    "id": "contribution:diagnostics-quality",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-readiness",
+    "roleId": "role:laboratory-quality-manager",
+    "label": "Quality assurance",
+    "action": "Plan improvements and review the laboratory’s quality records.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:diagnostics-collection",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-collection",
+    "roleId": "role:phlebotomist",
+    "label": "Blood sample collection",
+    "action": "Collect and label blood for the requested laboratory testing.",
+    "editorialStatus": "published",
+    "notes": "Blood is the collection example here; other tests use other specimen types and collection roles."
+  },
+  {
+    "id": "contribution:diagnostics-preparation",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-preparation",
+    "roleId": "role:medical-laboratory-scientist",
+    "label": "Specimen preparation",
+    "action": "Prepare received patient specimens for examination.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "contribution:diagnostics-analysis",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-analysis",
+    "roleId": "role:medical-laboratory-scientist",
+    "label": "Laboratory analysis",
+    "action": "Examine samples using laboratory instruments and record the findings.",
+    "editorialStatus": "published",
+    "notes": "Microscopy and cell counting are examples; a test does not necessarily use both."
+  },
+  {
+    "id": "contribution:diagnostics-reporting",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-reporting",
+    "roleId": "role:medical-laboratory-scientist",
+    "label": "Result recording",
+    "action": "Record test findings in the patient’s medical record.",
+    "editorialStatus": "published",
+    "notes": "WHO describes authorization and reporting as post-analytical work; local responsibilities and review arrangements vary."
+  },
+  {
+    "id": "contribution:diagnostics-interpretation",
+    "endeavorId": "endeavor:laboratory-testing",
+    "stageId": "stage:diagnostics-interpretation",
+    "roleId": "role:physician",
+    "label": "Clinical interpretation",
+    "action": "Interpret test findings with the patient’s history and examination.",
+    "editorialStatus": "published"
+  }
+]

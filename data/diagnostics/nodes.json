@@ -1,0 +1,199 @@
+[
+  {
+    "id": "endeavor:laboratory-testing",
+    "type": "endeavor",
+    "label": "Laboratory diagnostic testing",
+    "summary": "Explore the work behind a laboratory result, from a collected sample to a report and clinical interpretation.",
+    "editorialStatus": "published",
+    "aliases": [
+      "diagnostics",
+      "medical tests",
+      "blood tests",
+      "lab testing"
+    ],
+    "notes": "An educational overview. Blood collection is one example; tests, specimens and staffing vary. Maintenance and quality assurance recur throughout the work. No clinical instructions or individual result interpretation are provided."
+  },
+  {
+    "id": "artifact:lab-test-report",
+    "type": "artifact",
+    "label": "Laboratory test report",
+    "summary": "A recorded account of laboratory findings from a patient sample.",
+    "editorialStatus": "published",
+    "aliases": [
+      "diagnostic result",
+      "test results",
+      "blood test report"
+    ]
+  },
+  {
+    "id": "stage:diagnostics-readiness",
+    "type": "stage",
+    "label": "Laboratory readiness",
+    "summary": "Maintain equipment and organize quality work throughout testing.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:laboratory-testing",
+    "displayOrder": 1
+  },
+  {
+    "id": "stage:diagnostics-collection",
+    "type": "stage",
+    "label": "Sample collection",
+    "summary": "Collect a sample and connect it to the correct person.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:laboratory-testing",
+    "displayOrder": 2
+  },
+  {
+    "id": "stage:diagnostics-preparation",
+    "type": "stage",
+    "label": "Sample preparation",
+    "summary": "Receive and prepare specimens for laboratory work.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:laboratory-testing",
+    "displayOrder": 3
+  },
+  {
+    "id": "stage:diagnostics-analysis",
+    "type": "stage",
+    "label": "Laboratory analysis",
+    "summary": "Examine samples using the methods suited to the requested test.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:laboratory-testing",
+    "displayOrder": 4
+  },
+  {
+    "id": "stage:diagnostics-reporting",
+    "type": "stage",
+    "label": "Result reporting",
+    "summary": "Record findings for review and communication.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:laboratory-testing",
+    "displayOrder": 5
+  },
+  {
+    "id": "stage:diagnostics-interpretation",
+    "type": "stage",
+    "label": "Clinical interpretation",
+    "summary": "Consider laboratory findings alongside other health information.",
+    "editorialStatus": "published",
+    "endeavorId": "endeavor:laboratory-testing",
+    "displayOrder": 6
+  },
+  {
+    "id": "role:phlebotomist",
+    "type": "role",
+    "label": "Phlebotomist",
+    "summary": "Collects blood samples and maintains their identification.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "role:medical-laboratory-scientist",
+    "type": "role",
+    "label": "Medical laboratory scientist",
+    "summary": "Examines patient specimens and records laboratory findings.",
+    "editorialStatus": "published",
+    "aliases": [
+      "clinical laboratory technologist",
+      "medical laboratory technologist"
+    ]
+  },
+  {
+    "id": "role:biomedical-equipment-technician",
+    "type": "role",
+    "label": "Biomedical equipment technician",
+    "summary": "Maintains and repairs medical equipment.",
+    "editorialStatus": "published",
+    "aliases": [
+      "medical equipment repairer"
+    ],
+    "notes": "Titles and responsibilities vary. Laboratory staff also perform some routine equipment maintenance."
+  },
+  {
+    "id": "role:laboratory-quality-manager",
+    "type": "role",
+    "label": "Laboratory quality manager",
+    "summary": "Oversees quality processes and coordinates their improvement.",
+    "editorialStatus": "published",
+    "notes": "This responsibility can be combined with another laboratory role, depending on the organization."
+  },
+  {
+    "id": "role:physician",
+    "type": "role",
+    "label": "Physician",
+    "summary": "Examines patients and interprets clinical information.",
+    "editorialStatus": "published",
+    "aliases": [
+      "doctor"
+    ]
+  },
+  {
+    "id": "capability:sample-identification",
+    "type": "capability",
+    "label": "Sample identification",
+    "summary": "Keeping a collected sample linked to its recorded identity.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:specimen-preparation",
+    "type": "capability",
+    "label": "Specimen preparation",
+    "summary": "Preparing patient samples for laboratory examination.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "capability:medical-equipment-maintenance",
+    "type": "capability",
+    "label": "Medical equipment maintenance",
+    "summary": "Inspecting, servicing and repairing equipment used in healthcare.",
+    "editorialStatus": "published",
+    "kind": "skill"
+  },
+  {
+    "id": "knowledge:laboratory-quality-management",
+    "type": "knowledge",
+    "label": "Laboratory quality management",
+    "summary": "How connected processes support dependable laboratory work.",
+    "editorialStatus": "published",
+    "kind": "concept"
+  },
+  {
+    "id": "knowledge:clinical-result-context",
+    "type": "knowledge",
+    "label": "Clinical context",
+    "summary": "How a test finding relates to examination findings and health history.",
+    "editorialStatus": "published",
+    "kind": "concept",
+    "notes": "A laboratory result alone does not describe the whole clinical picture."
+  },
+  {
+    "id": "tool:laboratory-microscope",
+    "type": "tool",
+    "label": "Laboratory microscope",
+    "summary": "An instrument for examining specimens at a small scale.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "tool:automated-cell-counter",
+    "type": "tool",
+    "label": "Automated cell counter",
+    "summary": "Laboratory equipment for counting cells in samples.",
+    "editorialStatus": "published"
+  },
+  {
+    "id": "resource:medlineplus-lab-results",
+    "type": "learning_resource",
+    "label": "How to Understand Your Lab Results",
+    "summary": "An introduction to lab reports, measurement units and the limits of isolated test findings.",
+    "editorialStatus": "published",
+    "url": "https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+    "provider": "MedlinePlus · National Library of Medicine",
+    "format": "article",
+    "learnerLevel": "Introductory",
+    "access": "free",
+    "licenseStatus": "unknown",
+    "accessReviewedAt": "2026-09-12",
+    "notes": "Written for the public and readable without an account. This learning link does not qualify readers to perform tests or make clinical decisions. Reuse permission was not established."
+  }
+]
